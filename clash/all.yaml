@@ -1,29 +1,20 @@
-# 自动生成于 2026-08-13 06:25:03 UTC
-# 来源数量: 57  节点数量: 7459
+# 自动生成于 2026-08-13 06:31:48 UTC
+# 来源: 54  节点: 7435
 
-port: 7890
-socks-port: 7891
+mixed-port: 7890
 allow-lan: true
 mode: rule
 log-level: info
 external-controller: 127.0.0.1:9090
 dns:
   enable: true
-  listen: 0.0.0.0:53
   enhanced-mode: fake-ip
   nameserver:
   - https://dns.alidns.com/dns-query
-  - https://doh.pub/dns-query
   - 223.5.5.5
   fallback:
   - https://1.1.1.1/dns-query
-  - https://dns.google/dns-query
   - 8.8.8.8
-  fallback-filter:
-    geoip: true
-    geoip-code: CN
-    ipcidr:
-    - 240.0.0.0/4
 proxies:
 - name: 🇺🇸 AceVPN-美国-洛杉矶-FREE01
   server: node-us-losangeles-free01.acegate.io
@@ -1572,21 +1563,6 @@ proxies:
   type: ss
   cipher: aes-256-cfb
   password: ^CT&zd7*Ra
-- name: CyberGuard-VPN-SS
-  server: v2ray.cool
-  port: 10086
-  type: ss
-  cipher: chacha20
-  password: 123456
-- name: CyberGuard-VPN-v2ray.cool
-  server: v2ray.cool
-  port: 10086
-  type: vmess
-  uuid: a3482e88-686a-4a58-8126-99c9df64b7bf
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
 - name: 西南-01
   server: 118.24.78.159
   port: 21572
@@ -4287,7 +4263,7 @@ proxies:
   skip-cert-verify: true
   reality-opts:
     public-key: bcm-lZf4xSBstvOUdVmXRI8PhYLJPACBGQ5TVBUJ5w4
-    short-id: '34277137'
+    short-id: 34277137
   servername: www.apple.com
   client-fingerprint: chrome
   network: tcp
@@ -4869,7 +4845,7 @@ proxies:
   skip-cert-verify: true
   reality-opts:
     public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8
-    short-id: '85'
+    short-id: 85
   servername: www.tesla.com
   client-fingerprint: edge
   network: tcp
@@ -4883,7 +4859,7 @@ proxies:
   skip-cert-verify: true
   reality-opts:
     public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8
-    short-id: '85'
+    short-id: 85
   servername: www.tesla.com
   client-fingerprint: safari
   network: tcp
@@ -4897,7 +4873,7 @@ proxies:
   skip-cert-verify: true
   reality-opts:
     public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8
-    short-id: '85'
+    short-id: 85
   servername: www.tesla.com
   client-fingerprint: qq
   network: tcp
@@ -4911,7 +4887,7 @@ proxies:
   skip-cert-verify: true
   reality-opts:
     public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8
-    short-id: '85'
+    short-id: 85
   servername: www.tesla.com
   client-fingerprint: firefox
   network: tcp
@@ -4925,7 +4901,7 @@ proxies:
   skip-cert-verify: true
   reality-opts:
     public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8
-    short-id: '85'
+    short-id: 85
   servername: www.tesla.com
   client-fingerprint: edge
   network: tcp
@@ -4939,7 +4915,7 @@ proxies:
   skip-cert-verify: true
   reality-opts:
     public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8
-    short-id: '85'
+    short-id: 85
   servername: www.tesla.com
   client-fingerprint: chrome
   network: tcp
@@ -4953,7 +4929,7 @@ proxies:
   skip-cert-verify: true
   reality-opts:
     public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8
-    short-id: '85'
+    short-id: 85
   servername: www.tesla.com
   client-fingerprint: firefox
   network: tcp
@@ -4967,7 +4943,7 @@ proxies:
   skip-cert-verify: true
   reality-opts:
     public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8
-    short-id: '85'
+    short-id: 85
   servername: www.tesla.com
   client-fingerprint: safari
   network: tcp
@@ -4981,7 +4957,7 @@ proxies:
   skip-cert-verify: true
   reality-opts:
     public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8
-    short-id: '85'
+    short-id: 85
   servername: www.tesla.com
   client-fingerprint: qq
   network: tcp
@@ -4995,7 +4971,7 @@ proxies:
   skip-cert-verify: true
   reality-opts:
     public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8
-    short-id: '85'
+    short-id: 85
   servername: www.tesla.com
   client-fingerprint: qq
   network: tcp
@@ -5009,7 +4985,7 @@ proxies:
   skip-cert-verify: true
   reality-opts:
     public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8
-    short-id: '85'
+    short-id: 85
   servername: www.tesla.com
   client-fingerprint: edge
   network: tcp
@@ -5023,7 +4999,7 @@ proxies:
   skip-cert-verify: true
   reality-opts:
     public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8
-    short-id: '85'
+    short-id: 85
   servername: www.tesla.com
   client-fingerprint: edge
   network: tcp
@@ -5037,7 +5013,7 @@ proxies:
   skip-cert-verify: true
   reality-opts:
     public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8
-    short-id: '85'
+    short-id: 85
   servername: www.tesla.com
   client-fingerprint: ios
   network: tcp
@@ -5051,7 +5027,7 @@ proxies:
   skip-cert-verify: true
   reality-opts:
     public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8
-    short-id: '85'
+    short-id: 85
   servername: www.tesla.com
   client-fingerprint: ios
   network: tcp
@@ -5065,7 +5041,7 @@ proxies:
   skip-cert-verify: true
   reality-opts:
     public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8
-    short-id: '85'
+    short-id: 85
   servername: www.tesla.com
   client-fingerprint: edge
   network: tcp
@@ -5079,7 +5055,7 @@ proxies:
   skip-cert-verify: true
   reality-opts:
     public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8
-    short-id: '85'
+    short-id: 85
   servername: www.tesla.com
   client-fingerprint: qq
   network: tcp
@@ -5093,7 +5069,7 @@ proxies:
   skip-cert-verify: true
   reality-opts:
     public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8
-    short-id: '85'
+    short-id: 85
   servername: www.tesla.com
   client-fingerprint: firefox
   network: tcp
@@ -5107,7 +5083,7 @@ proxies:
   skip-cert-verify: true
   reality-opts:
     public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8
-    short-id: '85'
+    short-id: 85
   servername: www.tesla.com
   client-fingerprint: qq
   network: tcp
@@ -5121,7 +5097,7 @@ proxies:
   skip-cert-verify: true
   reality-opts:
     public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8
-    short-id: '85'
+    short-id: 85
   servername: www.tesla.com
   client-fingerprint: safari
   network: tcp
@@ -5135,7 +5111,7 @@ proxies:
   skip-cert-verify: true
   reality-opts:
     public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8
-    short-id: '85'
+    short-id: 85
   servername: www.tesla.com
   client-fingerprint: ios
   network: tcp
@@ -5149,7 +5125,7 @@ proxies:
   skip-cert-verify: true
   reality-opts:
     public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8
-    short-id: '85'
+    short-id: 85
   servername: www.tesla.com
   client-fingerprint: firefox
   network: tcp
@@ -5163,7 +5139,7 @@ proxies:
   skip-cert-verify: true
   reality-opts:
     public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8
-    short-id: '85'
+    short-id: 85
   servername: www.tesla.com
   client-fingerprint: firefox
   network: tcp
@@ -5177,7 +5153,7 @@ proxies:
   skip-cert-verify: true
   reality-opts:
     public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8
-    short-id: '85'
+    short-id: 85
   servername: www.tesla.com
   client-fingerprint: safari
   network: tcp
@@ -5191,7 +5167,7 @@ proxies:
   skip-cert-verify: true
   reality-opts:
     public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8
-    short-id: '85'
+    short-id: 85
   servername: www.tesla.com
   client-fingerprint: safari
   network: tcp
@@ -5205,7 +5181,7 @@ proxies:
   skip-cert-verify: true
   reality-opts:
     public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8
-    short-id: '85'
+    short-id: 85
   servername: www.tesla.com
   client-fingerprint: edge
   network: tcp
@@ -5219,7 +5195,7 @@ proxies:
   skip-cert-verify: true
   reality-opts:
     public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8
-    short-id: '85'
+    short-id: 85
   servername: www.tesla.com
   client-fingerprint: edge
   network: tcp
@@ -5233,7 +5209,7 @@ proxies:
   skip-cert-verify: true
   reality-opts:
     public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8
-    short-id: '85'
+    short-id: 85
   servername: www.tesla.com
   client-fingerprint: edge
   network: tcp
@@ -5247,7 +5223,7 @@ proxies:
   skip-cert-verify: true
   reality-opts:
     public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8
-    short-id: '85'
+    short-id: 85
   servername: www.tesla.com
   client-fingerprint: firefox
   network: tcp
@@ -5261,7 +5237,7 @@ proxies:
   skip-cert-verify: true
   reality-opts:
     public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8
-    short-id: '85'
+    short-id: 85
   servername: www.tesla.com
   client-fingerprint: ios
   network: tcp
@@ -5275,7 +5251,7 @@ proxies:
   skip-cert-verify: true
   reality-opts:
     public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8
-    short-id: '85'
+    short-id: 85
   servername: www.tesla.com
   client-fingerprint: safari
   network: tcp
@@ -5289,7 +5265,7 @@ proxies:
   skip-cert-verify: true
   reality-opts:
     public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8
-    short-id: '85'
+    short-id: 85
   servername: www.tesla.com
   client-fingerprint: qq
   network: tcp
@@ -5303,7 +5279,7 @@ proxies:
   skip-cert-verify: true
   reality-opts:
     public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8
-    short-id: '85'
+    short-id: 85
   servername: www.tesla.com
   client-fingerprint: ios
   network: tcp
@@ -5317,7 +5293,7 @@ proxies:
   skip-cert-verify: true
   reality-opts:
     public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8
-    short-id: '85'
+    short-id: 85
   servername: www.tesla.com
   client-fingerprint: safari
   network: tcp
@@ -6932,7 +6908,7 @@ proxies:
   skip-cert-verify: true
   reality-opts:
     public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8
-    short-id: '85'
+    short-id: 85
   servername: www.tesla.com
   client-fingerprint: chrome
   network: tcp
@@ -6946,7 +6922,7 @@ proxies:
   skip-cert-verify: true
   reality-opts:
     public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8
-    short-id: '85'
+    short-id: 85
   servername: www.tesla.com
   client-fingerprint: edge
   network: tcp
@@ -7030,7 +7006,7 @@ proxies:
   skip-cert-verify: true
   reality-opts:
     public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8
-    short-id: '85'
+    short-id: 85
   servername: www.tesla.com
   client-fingerprint: ios
   network: tcp
@@ -7044,7 +7020,7 @@ proxies:
   skip-cert-verify: true
   reality-opts:
     public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8
-    short-id: '85'
+    short-id: 85
   servername: www.tesla.com
   client-fingerprint: firefox
   network: tcp
@@ -7058,7 +7034,7 @@ proxies:
   skip-cert-verify: true
   reality-opts:
     public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8
-    short-id: '85'
+    short-id: 85
   servername: www.tesla.com
   client-fingerprint: safari
   network: tcp
@@ -7072,7 +7048,7 @@ proxies:
   skip-cert-verify: true
   reality-opts:
     public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8
-    short-id: '85'
+    short-id: 85
   servername: www.tesla.com
   client-fingerprint: ios
   network: tcp
@@ -7086,7 +7062,7 @@ proxies:
   skip-cert-verify: true
   reality-opts:
     public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8
-    short-id: '85'
+    short-id: 85
   servername: www.tesla.com
   client-fingerprint: edge
   network: tcp
@@ -7100,7 +7076,7 @@ proxies:
   skip-cert-verify: true
   reality-opts:
     public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8
-    short-id: '85'
+    short-id: 85
   servername: www.tesla.com
   client-fingerprint: chrome
   network: tcp
@@ -7128,7 +7104,7 @@ proxies:
   skip-cert-verify: true
   reality-opts:
     public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8
-    short-id: '85'
+    short-id: 85
   servername: www.tesla.com
   client-fingerprint: edge
   network: tcp
@@ -7198,7 +7174,7 @@ proxies:
   skip-cert-verify: true
   reality-opts:
     public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8
-    short-id: '85'
+    short-id: 85
   servername: www.tesla.com
   client-fingerprint: chrome
   network: tcp
@@ -7240,7 +7216,7 @@ proxies:
   skip-cert-verify: true
   reality-opts:
     public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8
-    short-id: '85'
+    short-id: 85
   servername: www.tesla.com
   client-fingerprint: edge
   network: tcp
@@ -7282,7 +7258,7 @@ proxies:
   skip-cert-verify: true
   reality-opts:
     public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8
-    short-id: '85'
+    short-id: 85
   servername: www.tesla.com
   client-fingerprint: ios
   network: tcp
@@ -7324,7 +7300,7 @@ proxies:
   skip-cert-verify: true
   reality-opts:
     public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8
-    short-id: '85'
+    short-id: 85
   servername: www.tesla.com
   client-fingerprint: chrome
   network: tcp
@@ -7450,7 +7426,7 @@ proxies:
   skip-cert-verify: true
   reality-opts:
     public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8
-    short-id: '85'
+    short-id: 85
   servername: www.tesla.com
   client-fingerprint: ios
   network: tcp
@@ -7478,7 +7454,7 @@ proxies:
   skip-cert-verify: true
   reality-opts:
     public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8
-    short-id: '85'
+    short-id: 85
   servername: www.tesla.com
   client-fingerprint: safari
   network: tcp
@@ -7506,7 +7482,7 @@ proxies:
   skip-cert-verify: true
   reality-opts:
     public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8
-    short-id: '85'
+    short-id: 85
   servername: www.tesla.com
   client-fingerprint: edge
   network: tcp
@@ -7520,7 +7496,7 @@ proxies:
   skip-cert-verify: true
   reality-opts:
     public-key: QaAEn2qRqovBLfSIx2MGUQx50TBmOG3yRxRFN_VE01s
-    short-id: '37'
+    short-id: 37
   servername: www.tesla.com
   client-fingerprint: edge
   network: tcp
@@ -7590,7 +7566,7 @@ proxies:
   skip-cert-verify: true
   reality-opts:
     public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8
-    short-id: '85'
+    short-id: 85
   servername: www.tesla.com
   client-fingerprint: firefox
   network: tcp
@@ -7604,7 +7580,7 @@ proxies:
   skip-cert-verify: true
   reality-opts:
     public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8
-    short-id: '85'
+    short-id: 85
   servername: www.tesla.com
   client-fingerprint: qq
   network: tcp
@@ -7618,7 +7594,7 @@ proxies:
   skip-cert-verify: true
   reality-opts:
     public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8
-    short-id: '85'
+    short-id: 85
   servername: www.tesla.com
   client-fingerprint: chrome
   network: tcp
@@ -7646,7 +7622,7 @@ proxies:
   skip-cert-verify: true
   reality-opts:
     public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8
-    short-id: '85'
+    short-id: 85
   servername: www.tesla.com
   client-fingerprint: qq
   network: tcp
@@ -7660,7 +7636,7 @@ proxies:
   skip-cert-verify: true
   reality-opts:
     public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8
-    short-id: '85'
+    short-id: 85
   servername: www.tesla.com
   client-fingerprint: firefox
   network: tcp
@@ -7674,7 +7650,7 @@ proxies:
   skip-cert-verify: true
   reality-opts:
     public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8
-    short-id: '85'
+    short-id: 85
   servername: www.tesla.com
   client-fingerprint: qq
   network: tcp
@@ -9498,7 +9474,7 @@ proxies:
   skip-cert-verify: true
   reality-opts:
     public-key: HxRJbZUxWaVAvFnsVPOJ1S8-Hss05tEwobm7R6lhhHw
-    short-id: '64'
+    short-id: 64
   servername: google.com
   client-fingerprint: chrome
   network: tcp
@@ -86585,138 +86561,6 @@ proxies:
     path: /pq/us8
     headers:
       Host: usa8.xn--ghqu5fm27b67w.com
-- name: 🇸🇬 新加坡 Pro 3
-  server: complete-maggot.tetra074.boats
-  port: 443
-  type: trojan
-  password: 3690911436885991424
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 1
-  server: eager-anemone.dove397.pics
-  port: 443
-  type: trojan
-  password: 3690911436885991424
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 Pro 1
-  server: eager-anemone.dove397.pics
-  port: 443
-  type: trojan
-  password: 3690911436885991424
-  skip-cert-verify: true
-- name: 🇩🇪 法兰克福 115
-  server: electric-hookworm.dove397.pics
-  port: 443
-  type: trojan
-  password: 3690911436885991424
-  skip-cert-verify: true
-- name: 🇩🇪 法兰克福 Pro 115
-  server: electric-hookworm.dove397.pics
-  port: 443
-  type: trojan
-  password: 3690911436885991424
-  skip-cert-verify: true
-- name: 多伦多 Pro 4
-  server: enabling-civet.tetra074.boats
-  port: 443
-  type: trojan
-  password: 3690911436885991424
-  skip-cert-verify: true
-- name: 多伦多 Pro 1
-  server: engaging-whippet.tetra074.boats
-  port: 443
-  type: trojan
-  password: 3690911436885991424
-  skip-cert-verify: true
-- name: Florence Pro 1
-  server: flexible-kangaroo.dove397.pics
-  port: 443
-  type: trojan
-  password: 3690911436885991424
-  skip-cert-verify: true
-- name: 多伦多 Pro 5
-  server: inviting-ostrich.tetra074.boats
-  port: 443
-  type: trojan
-  password: 3690911436885991424
-  skip-cert-verify: true
-- name: Chicago Pro 5
-  server: lenient-wolf.dove397.pics
-  port: 443
-  type: trojan
-  password: 3690911436885991424
-  skip-cert-verify: true
-- name: 🇩🇪 法兰克福 156
-  server: no.lytest1.tk
-  port: 443
-  type: trojan
-  password: 3690911436885991424
-  skip-cert-verify: true
-- name: 🇩🇪 法兰克福 157
-  server: no.lytest1.tk
-  port: 443
-  type: trojan
-  password: 3690911436885991424
-  skip-cert-verify: true
-- name: 🇩🇪 法兰克福 Pro 156
-  server: no.lytest1.tk
-  port: 443
-  type: trojan
-  password: 3690911436885991424
-  skip-cert-verify: true
-- name: 🇩🇪 法兰克福 Pro 157
-  server: no.lytest1.tk
-  port: 443
-  type: trojan
-  password: 3690911436885991424
-  skip-cert-verify: true
-- name: 🇦🇺 悉尼 Pro 1
-  server: quiet-foxhound.dove397.pics
-  port: 443
-  type: trojan
-  password: 3690911436885991424
-  skip-cert-verify: true
-- name: 🇯🇵 东京 4
-  server: relieved-bluegill.dove397.pics
-  port: 443
-  type: trojan
-  password: 3690911436885991424
-  skip-cert-verify: true
-- name: 🇯🇵 东京 Pro 4
-  server: relieved-bluegill.dove397.pics
-  port: 443
-  type: trojan
-  password: 3690911436885991424
-  skip-cert-verify: true
-- name: 🇩🇪 法兰克福 24
-  server: romantic-sculpin.dove397.pics
-  port: 443
-  type: trojan
-  password: 3690911436885991424
-  skip-cert-verify: true
-- name: 🇩🇪 法兰克福 Pro 24
-  server: romantic-sculpin.dove397.pics
-  port: 443
-  type: trojan
-  password: 3690911436885991424
-  skip-cert-verify: true
-- name: 🇯🇵 东京 3
-  server: special-macaque.tetra074.boats
-  port: 443
-  type: trojan
-  password: 3690911436885991424
-  skip-cert-verify: true
-- name: 🇯🇵 东京 Pro 3
-  server: special-macaque.tetra074.boats
-  port: 443
-  type: trojan
-  password: 3690911436885991424
-  skip-cert-verify: true
-- name: 🇰🇷 首尔 Pro 1
-  server: ultimate-cricket.tetra074.boats
-  port: 443
-  type: trojan
-  password: 3690911436885991424
-  skip-cert-verify: true
 - name: 🇹🇭 泰国线路
   server: 103.169.67.34
   port: 65443
@@ -91417,7 +91261,7 @@ proxies:
   skip-cert-verify: true
   reality-opts:
     public-key: Cn-WCdy8NQCJL-nYv3BkPjV0DgjNy00-sz2Po_6TTgA
-    short-id: '13871365'
+    short-id: 13871365
   servername: www.cloudflare.com
   client-fingerprint: chrome
   network: tcp
@@ -94827,8 +94671,6 @@ proxy-groups:
   - 🇺🇸 美国-Santa Clara-美国-rK4lj4
   - 🇺🇸 美国-Santa Clara-美国-gtgEzk
   - 🇺🇸 美国-Santa Clara-美国-9qXrVS
-  - CyberGuard-VPN-SS
-  - CyberGuard-VPN-v2ray.cool
   - 西南-01
   - 华东-01
   - 华东-02
@@ -101379,28 +101221,6 @@ proxy-groups:
   - 🇺🇸 StarlinkVPN-美国-vip-1478
   - 🇺🇸 StarlinkVPN-美国-vip-1579
   - 🇺🇸 StarlinkVPN-美国-vip-1680
-  - 🇸🇬 新加坡 Pro 3
-  - 🇸🇬 新加坡 1
-  - 🇸🇬 新加坡 Pro 1
-  - 🇩🇪 法兰克福 115
-  - 🇩🇪 法兰克福 Pro 115
-  - 多伦多 Pro 4
-  - 多伦多 Pro 1
-  - Florence Pro 1
-  - 多伦多 Pro 5
-  - Chicago Pro 5
-  - 🇩🇪 法兰克福 156
-  - 🇩🇪 法兰克福 157
-  - 🇩🇪 法兰克福 Pro 156
-  - 🇩🇪 法兰克福 Pro 157
-  - 🇦🇺 悉尼 Pro 1
-  - 🇯🇵 东京 4
-  - 🇯🇵 东京 Pro 4
-  - 🇩🇪 法兰克福 24
-  - 🇩🇪 法兰克福 Pro 24
-  - 🇯🇵 东京 3
-  - 🇯🇵 东京 Pro 3
-  - 🇰🇷 首尔 Pro 1
   - 🇹🇭 泰国线路
   - 🇲🇾 马来西亚线路
   - 🇭🇰 移动-香港线路2
@@ -102289,8 +102109,6 @@ proxy-groups:
   - 🇺🇸 美国-Santa Clara-美国-rK4lj4
   - 🇺🇸 美国-Santa Clara-美国-gtgEzk
   - 🇺🇸 美国-Santa Clara-美国-9qXrVS
-  - CyberGuard-VPN-SS
-  - CyberGuard-VPN-v2ray.cool
   - 西南-01
   - 华东-01
   - 华东-02
@@ -108841,28 +108659,6 @@ proxy-groups:
   - 🇺🇸 StarlinkVPN-美国-vip-1478
   - 🇺🇸 StarlinkVPN-美国-vip-1579
   - 🇺🇸 StarlinkVPN-美国-vip-1680
-  - 🇸🇬 新加坡 Pro 3
-  - 🇸🇬 新加坡 1
-  - 🇸🇬 新加坡 Pro 1
-  - 🇩🇪 法兰克福 115
-  - 🇩🇪 法兰克福 Pro 115
-  - 多伦多 Pro 4
-  - 多伦多 Pro 1
-  - Florence Pro 1
-  - 多伦多 Pro 5
-  - Chicago Pro 5
-  - 🇩🇪 法兰克福 156
-  - 🇩🇪 法兰克福 157
-  - 🇩🇪 法兰克福 Pro 156
-  - 🇩🇪 法兰克福 Pro 157
-  - 🇦🇺 悉尼 Pro 1
-  - 🇯🇵 东京 4
-  - 🇯🇵 东京 Pro 4
-  - 🇩🇪 法兰克福 24
-  - 🇩🇪 法兰克福 Pro 24
-  - 🇯🇵 东京 3
-  - 🇯🇵 东京 Pro 3
-  - 🇰🇷 首尔 Pro 1
   - 🇹🇭 泰国线路
   - 🇲🇾 马来西亚线路
   - 🇭🇰 移动-香港线路2
@@ -109592,35 +109388,6 @@ proxy-groups:
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
-- name: 🌍 国外媒体
-  type: select
-  proxies:
-  - 🚀 节点选择
-  - ♻️ 自动选择
-  - DIRECT
-- name: 📲 电报信息
-  type: select
-  proxies:
-  - 🚀 节点选择
-  - ♻️ 自动选择
-  - DIRECT
-- name: 🍃 应用净化
-  type: select
-  proxies:
-  - REJECT
-  - DIRECT
-  - 🚀 节点选择
-- name: 🐟 漏网之鱼
-  type: select
-  proxies:
-  - 🚀 节点选择
-  - ♻️ 自动选择
-  - DIRECT
 rules:
-- DOMAIN-SUFFIX,local,DIRECT
-- IP-CIDR,127.0.0.0/8,DIRECT
-- IP-CIDR,192.168.0.0/16,DIRECT
-- IP-CIDR,10.0.0.0/8,DIRECT
-- IP-CIDR,172.16.0.0/12,DIRECT
 - GEOIP,CN,DIRECT
-- MATCH,🐟 漏网之鱼
+- MATCH,🚀 节点选择
