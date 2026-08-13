@@ -26,7 +26,21 @@ def convert_to_flow(obj):
 # ====================================================================================
 
 # ==================== 配置区 ====================
-SUBCONVERTER = os.environ.get("SUBCONVERTER", "https://api.v1.mk/sub")
+DEFAULT_SUBCONVERTERS = [
+    "https://api.v1.mk/sub",
+    "https://url.v1.mk/sub",
+    "https://sub.xeton.dev/sub",
+    "https://subapi.cmliussss.net/sub",
+    "https://subapi.fxxk.dedyn.io/sub",
+    "https://api.dler.io/sub",
+]
+
+env_sub = os.environ.get("SUBCONVERTER")
+if env_sub and env_sub not in DEFAULT_SUBCONVERTERS:
+    DEFAULT_SUBCONVERTERS.insert(0, env_sub)
+
+SUBCONVERTERS = DEFAULT_SUBCONVERTERS
+
 LINKS_FILE = Path("links.txt")
 OUTPUT_DIR = Path("clash")
 REQUEST_TIMEOUT = 60
@@ -49,17 +63,22 @@ def fetch_clash(session: requests.Session, url: str) -> str | None:
         "new_name": "true",
         "scv": "true",
     }
-    try:
-        r = session.get(SUBCONVERTER, params=params, timeout=REQUEST_TIMEOUT)
-        r.raise_for_status()
-        text = r.text
-        if "proxies:" not in text and "Proxy:" not in text:
-            print(f"  [WARN] 返回内容不像 Clash 配置")
-            return None
-        return text
-    except Exception as e:
-        print(f"  [ERROR] 转换失败: {e}")
-        return None
+    
+    for backend in SUBCONVERTERS:
+        try:
+            r = session.get(backend, params=params, timeout=REQUEST_TIMEOUT)
+            r.raise_for_status()
+            text = r.text
+            if "proxies:" not in text and "Proxy:" not in text:
+                print(f"  [WARN] 后端 {backend} 返回内容无效，尝试下一个...")
+                continue
+            return text
+        except Exception as e:
+            print(f"  [WARN] 后端 {backend} 请求失败 ({type(e).__name__}), 尝试下一个...")
+            continue
+            
+    print(f"  [ERROR] 所有后端均尝试失败！")
+    return None
 
 def extract_proxies(clash_text: str) -> list:
     try:
@@ -163,7 +182,10 @@ def main():
         for line in lines
         if line.strip() and not line.strip().startswith("#")
     ]
-    print(f"共 {len(urls)} 个订阅源，开始转换...\n")
+    
+    print(f"共 {len(urls)} 个订阅源，开始转换...")
+    print(f"使用 {len(SUBCONVERTERS)} 个转换后端进行容错处理。\n")
+    
     all_proxies = []
     seen_names = set()
     success = 0
