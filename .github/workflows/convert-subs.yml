@@ -1,0 +1,255 @@
+name: Convert Subscriptions to Clash
+
+on:
+  schedule:
+    # 每小时整点执行
+    - cron: '0 * * * *'
+  workflow_dispatch:   # 支持手动触发
+
+jobs:
+  convert:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install pyyaml requests
+
+      - name: Convert subscriptions
+        env:
+          # 可换成自己的 subconverter 实例
+          SUBCONVERTER: https://api.v1.mk/sub
+        run: |
+          python3 << 'EOF'
+          import os
+          import re
+          import time
+          import urllib.parse
+          import requests
+          import yaml
+          from pathlib import Path
+          from datetime import datetime, timezone
+
+          SUBCONVERTER = os.environ.get("SUBCONVERTER", "https://api.v1.mk/sub")
+          LINKS_FILE = Path("links.txt")
+          OUTPUT_DIR = Path("clash")
+          OUTPUT_DIR.mkdir(exist_ok=True)
+
+          session = requests.Session()
+          session.headers.update({
+              "User-Agent": "ClashMetaForAndroid/2.11.1"
+          })
+
+          def safe_name(url: str, idx: int) -> str:
+              """从 URL 提取干净文件名"""
+              name = Path(urllib.parse.urlparse(url).path).stem
+              name = re.sub(r'[^\w\-]', '_', name)
+              name = re.sub(r'_+', '_', name).strip('_')
+              return name or f"sub_{idx:03d}"
+
+          def fetch_clash(url: str) -> str | None:
+              """调用 subconverter 获取完整 Clash 配置"""
+              params = {
+                  "target": "clash",
+                  "url": url,
+                  "emoji": "true",
+                  "list": "false",          # 完整配置
+                  "new_name": "true",
+                  "scv": "true",            # 跳过证书验证（部分源需要）
+              }
+              try:
+                  r = session.get(SUBCONVERTER, params=params, timeout=60)
+                  r.raise_for_status()
+                  text = r.text
+                  # 简单校验是否像 YAML
+                  if "proxies:" not in text and "Proxy:" not in text:
+                      print(f"  [WARN] 返回内容不像 Clash 配置: {url}")
+                      return None
+                  return text
+              except Exception as e:
+                  print(f"  [ERROR] 转换失败 {url}: {e}")
+                  return None
+
+          def extract_proxies(clash_text: str) -> list:
+              """从完整配置里提取 proxies 列表"""
+              try:
+                  data = yaml.safe_load(clash_text)
+                  if not data:
+                      return []
+                  # 兼容 proxies / Proxy
+                  proxies = data.get("proxies") or data.get("Proxy") or []
+                  return proxies if isinstance(proxies, list) else []
+              except Exception:
+                  return []
+
+          # ---------- 主流程 ----------
+          all_proxies = []
+          seen_names = set()
+          success = 0
+          failed = 0
+
+          lines = LINKS_FILE.read_text(encoding="utf-8").splitlines()
+          urls = [line.strip() for line in lines if line.strip() and not line.strip().startswith("#")]
+
+          print(f"共 {len(urls)} 个订阅源，开始转换...\n")
+
+          for idx, url in enumerate(urls, 1):
+              name = safe_name(url, idx)
+              print(f"[{idx}/{len(urls)}] {name}")
+
+              clash_text = fetch_clash(url)
+              if not clash_text:
+                  failed += 1
+                  continue
+
+              # 写入单独文件
+              out_file = OUTPUT_DIR / f"{name}.yaml"
+              out_file.write_text(clash_text, encoding="utf-8")
+              print(f"  → 已保存 {out_file}")
+
+              # 收集节点（用于总订阅）
+              proxies = extract_proxies(clash_text)
+              for p in proxies:
+                  if not isinstance(p, dict):
+                      continue
+                  pname = p.get("name")
+                  if not pname or pname in seen_names:
+                      # 重名则加后缀
+                      if pname:
+                          base = pname
+                          n = 1
+                          while f"{base}_{n}" in seen_names:
+                              n += 1
+                          p["name"] = f"{base}_{n}"
+                          pname = p["name"]
+                      else:
+                          continue
+                  seen_names.add(pname)
+                  all_proxies.append(p)
+
+              success += 1
+              time.sleep(1.5)   # 稍微限速，避免被限流
+
+          print(f"\n单独转换完成: 成功 {success}，失败 {failed}")
+          print(f"去重后节点总数: {len(all_proxies)}")
+
+          # ---------- 生成总订阅 ----------
+          if all_proxies:
+              # 基础完整配置模板
+              combined = {
+                  "port": 7890,
+                  "socks-port": 7891,
+                  "allow-lan": True,
+                  "mode": "rule",
+                  "log-level": "info",
+                  "external-controller": "127.0.0.1:9090",
+                  "dns": {
+                      "enable": True,
+                      "listen": "0.0.0.0:53",
+                      "enhanced-mode": "fake-ip",
+                      "nameserver": [
+                          "https://dns.alidns.com/dns-query",
+                          "https://doh.pub/dns-query",
+                          "223.5.5.5"
+                      ],
+                      "fallback": [
+                          "https://1.1.1.1/dns-query",
+                          "https://dns.google/dns-query",
+                          "8.8.8.8"
+                      ],
+                      "fallback-filter": {
+                          "geoip": True,
+                          "geoip-code": "CN",
+                          "ipcidr": ["240.0.0.0/4"]
+                      }
+                  },
+                  "proxies": all_proxies,
+                  "proxy-groups": [
+                      {
+                          "name": "🚀 节点选择",
+                          "type": "select",
+                          "proxies": ["♻️ 自动选择", "DIRECT"] + [p["name"] for p in all_proxies]
+                      },
+                      {
+                          "name": "♻️ 自动选择",
+                          "type": "url-test",
+                          "proxies": [p["name"] for p in all_proxies],
+                          "url": "http://www.gstatic.com/generate_204",
+                          "interval": 300,
+                          "tolerance": 50
+                      },
+                      {
+                          "name": "🌍 国外媒体",
+                          "type": "select",
+                          "proxies": ["🚀 节点选择", "♻️ 自动选择", "DIRECT"]
+                      },
+                      {
+                          "name": "📲 电报信息",
+                          "type": "select",
+                          "proxies": ["🚀 节点选择", "♻️ 自动选择", "DIRECT"]
+                      },
+                      {
+                          "name": "🍃 应用净化",
+                          "type": "select",
+                          "proxies": ["REJECT", "DIRECT", "🚀 节点选择"]
+                      },
+                      {
+                          "name": "🐟 漏网之鱼",
+                          "type": "select",
+                          "proxies": ["🚀 节点选择", "♻️ 自动选择", "DIRECT"]
+                      }
+                  ],
+                  "rules": [
+                      "DOMAIN-SUFFIX,local,DIRECT",
+                      "IP-CIDR,127.0.0.0/8,DIRECT",
+                      "IP-CIDR,192.168.0.0/16,DIRECT",
+                      "IP-CIDR,10.0.0.0/8,DIRECT",
+                      "IP-CIDR,172.16.0.0/12,DIRECT",
+                      "GEOIP,CN,DIRECT",
+                      "MATCH,🐟 漏网之鱼"
+                  ]
+              }
+
+              # 写入总订阅
+              combined_file = OUTPUT_DIR / "all.yaml"
+              with open(combined_file, "w", encoding="utf-8") as f:
+                  f.write(f"# 自动生成于 {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M:%S UTC')}\n")
+                  f.write(f"# 来源数量: {success}  节点数量: {len(all_proxies)}\n\n")
+                  yaml.dump(combined, f, allow_unicode=True, sort_keys=False, default_flow_style=False)
+
+              print(f"总订阅已生成: {combined_file}")
+
+              # 再写一个纯 proxies 列表版本（方便当 proxy-provider 用）
+              provider = {"proxies": all_proxies}
+              provider_file = OUTPUT_DIR / "all-provider.yaml"
+              with open(provider_file, "w", encoding="utf-8") as f:
+                  yaml.dump(provider, f, allow_unicode=True, sort_keys=False)
+              print(f"Provider 版本已生成: {provider_file}")
+          else:
+              print("没有可用节点，跳过总订阅生成")
+
+          print("\n全部完成")
+          EOF
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          
+          git add clash/
+          
+          if git diff --staged --quiet; then
+            echo "没有内容变化，跳过提交"
+          else
+            git commit -m "chore: update Clash subscriptions $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git push
+          fi
