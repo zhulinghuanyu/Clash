@@ -26,7 +26,7 @@ jobs:
       - name: Run convert script
         env:
           SUBCONVERTER: https://api.v1.mk/sub
-        run: python scripts/convert.py
+        run: python convert.py
 
       - name: Commit and push
         run: |
