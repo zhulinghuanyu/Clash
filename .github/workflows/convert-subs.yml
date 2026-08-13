@@ -25,7 +25,6 @@ jobs:
 
       - name: Run convert script
         env:
-          # 可换成自己的 subconverter 地址
           SUBCONVERTER: https://api.v1.mk/sub
         run: python scripts/convert.py
 
