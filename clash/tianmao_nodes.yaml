@@ -1,27 +1,25 @@
 port: 7890
 socks-port: 7891
 allow-lan: true
-bind-address: '*'
-ipv6: false
 mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-- {name: 天猫-遇到线路卡顿请多切换线路使用, server: dada0880.xdfyyy.xyz, port: 35805, type: ss, cipher: aes-128-gcm, password: e0d64ff0-7ebe-4aef-a327-7b92e565d5eb}
-- {name: 🇩🇪 天猫-德国-快速专线IEPL, server: relay.popnode.host, port: 35805, type: ss, cipher: aes-128-gcm, password: e0d64ff0-7ebe-4aef-a327-7b92e565d5eb}
-- {name: 🇸🇬 天猫-新加坡-直连, server: 104.234.233.249, port: 443, type: vless, uuid: e0d64ff0-7ebe-4aef-a327-7b92e565d5eb, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc, short-id: 2da72ce6}, servername: navi.bankrate.com, client-fingerprint: chrome, network: tcp}
-- {name: 🇹🇷 天猫-土耳其-直连, server: 130.94.1.58, port: 443, type: vless, uuid: e0d64ff0-7ebe-4aef-a327-7b92e565d5eb, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc, short-id: 2da72ce6}, servername: navi.bankrate.com, client-fingerprint: chrome, network: tcp}
-- {name: 🇰🇷 天猫-韩国-直连, server: 130.94.29.60, port: 443, type: vless, uuid: e0d64ff0-7ebe-4aef-a327-7b92e565d5eb, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc, short-id: 2da72ce6}, servername: navi.bankrate.com, client-fingerprint: chrome, network: tcp}
-- {name: 🇻🇳 天猫-越南-直连, server: 130.94.4.235, port: 443, type: vless, uuid: e0d64ff0-7ebe-4aef-a327-7b92e565d5eb, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc, short-id: 2da72ce6}, servername: navi.bankrate.com, client-fingerprint: chrome, network: tcp}
-- {name: 🇭🇰 天猫-香港-直连, server: 156.224.79.35, port: 443, type: vless, uuid: e0d64ff0-7ebe-4aef-a327-7b92e565d5eb, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc, short-id: 2da72ce6}, servername: navi.bankrate.com, client-fingerprint: chrome, network: tcp}
-- {name: 🇯🇵 天猫-日本-直连2, server: 156.231.113.56, port: 443, type: vless, uuid: e0d64ff0-7ebe-4aef-a327-7b92e565d5eb, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc, short-id: 2da72ce6}, servername: navi.bankrate.com, client-fingerprint: chrome, network: tcp}
-- {name: 🇹🇼 天猫-台湾-直连, server: 166.0.198.65, port: 443, type: vless, uuid: e0d64ff0-7ebe-4aef-a327-7b92e565d5eb, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc, short-id: 2da72ce6}, servername: navi.bankrate.com, client-fingerprint: chrome, network: tcp}
-- {name: 🇩🇪 天猫-德国-直连, server: 189.24.106.163, port: 443, type: vless, uuid: e0d64ff0-7ebe-4aef-a327-7b92e565d5eb, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc, short-id: 2da72ce6}, servername: navi.bankrate.com, client-fingerprint: chrome, network: tcp}
-- {name: 🇹🇭 天猫-泰国-直连, server: 38.60.233.73, port: 443, type: vless, uuid: e0d64ff0-7ebe-4aef-a327-7b92e565d5eb, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc, short-id: 2da72ce6}, servername: navi.bankrate.com, client-fingerprint: chrome, network: tcp}
-- {name: 🇮🇹 天猫-意大利-直连, server: 45.196.215.42, port: 443, type: vless, uuid: e0d64ff0-7ebe-4aef-a327-7b92e565d5eb, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc, short-id: 2da72ce6}, servername: navi.bankrate.com, client-fingerprint: chrome, network: tcp}
-- {name: 🇯🇵 天猫-日本-直连, server: 45.202.245.218, port: 443, type: vless, uuid: e0d64ff0-7ebe-4aef-a327-7b92e565d5eb, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc, short-id: 2da72ce6}, servername: navi.bankrate.com, client-fingerprint: chrome, network: tcp}
-- {name: 🇲🇴 天猫-MAC-澳门-直连, server: 45.207.35.175, port: 443, type: vless, uuid: e0d64ff0-7ebe-4aef-a327-7b92e565d5eb, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc, short-id: 2da72ce6}, servername: navi.bankrate.com, client-fingerprint: chrome, network: tcp}
-- {name: 🇭🇰 天猫-香港-直连2, server: 64.90.28.237, port: 443, type: vless, uuid: e0d64ff0-7ebe-4aef-a327-7b92e565d5eb, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc, short-id: 2da72ce6}, servername: navi.bankrate.com, client-fingerprint: chrome, network: tcp}
+- {name: 天猫-遇到线路卡顿请多切换线路使用, server: dada0880.xdfyyy.xyz, port: 35805, type: ss, cipher: aes-128-gcm, password: c86178cb-17c5-4b9c-8076-42bea2c1c9a7}
+- {name: 🇩🇪 天猫-德国-快速专线IEPL, server: relay.popnode.host, port: 35805, type: ss, cipher: aes-128-gcm, password: c86178cb-17c5-4b9c-8076-42bea2c1c9a7}
+- {name: 🇸🇬 天猫-新加坡-直连, server: 104.234.233.249, port: 443, type: vless, uuid: c86178cb-17c5-4b9c-8076-42bea2c1c9a7, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc, short-id: 2da72ce6}, servername: navi.bankrate.com, client-fingerprint: chrome, network: tcp}
+- {name: 🇹🇷 天猫-土耳其-直连, server: 130.94.1.58, port: 443, type: vless, uuid: c86178cb-17c5-4b9c-8076-42bea2c1c9a7, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc, short-id: 2da72ce6}, servername: navi.bankrate.com, client-fingerprint: chrome, network: tcp}
+- {name: 🇰🇷 天猫-韩国-直连, server: 130.94.29.60, port: 443, type: vless, uuid: c86178cb-17c5-4b9c-8076-42bea2c1c9a7, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc, short-id: 2da72ce6}, servername: navi.bankrate.com, client-fingerprint: chrome, network: tcp}
+- {name: 🇻🇳 天猫-越南-直连, server: 130.94.4.235, port: 443, type: vless, uuid: c86178cb-17c5-4b9c-8076-42bea2c1c9a7, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc, short-id: 2da72ce6}, servername: navi.bankrate.com, client-fingerprint: chrome, network: tcp}
+- {name: 🇭🇰 天猫-香港-直连, server: 156.224.79.35, port: 443, type: vless, uuid: c86178cb-17c5-4b9c-8076-42bea2c1c9a7, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc, short-id: 2da72ce6}, servername: navi.bankrate.com, client-fingerprint: chrome, network: tcp}
+- {name: 🇯🇵 天猫-日本-直连2, server: 156.231.113.56, port: 443, type: vless, uuid: c86178cb-17c5-4b9c-8076-42bea2c1c9a7, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc, short-id: 2da72ce6}, servername: navi.bankrate.com, client-fingerprint: chrome, network: tcp}
+- {name: 🇨🇳 天猫-台湾-直连, server: 166.0.198.65, port: 443, type: vless, uuid: c86178cb-17c5-4b9c-8076-42bea2c1c9a7, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc, short-id: 2da72ce6}, servername: navi.bankrate.com, client-fingerprint: chrome, network: tcp}
+- {name: 🇩🇪 天猫-德国-直连, server: 189.24.106.163, port: 443, type: vless, uuid: c86178cb-17c5-4b9c-8076-42bea2c1c9a7, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc, short-id: 2da72ce6}, servername: navi.bankrate.com, client-fingerprint: chrome, network: tcp}
+- {name: 🇹🇭 天猫-泰国-直连, server: 38.60.233.73, port: 443, type: vless, uuid: c86178cb-17c5-4b9c-8076-42bea2c1c9a7, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc, short-id: 2da72ce6}, servername: navi.bankrate.com, client-fingerprint: chrome, network: tcp}
+- {name: 🇮🇹 天猫-意大利-直连, server: 45.196.215.42, port: 443, type: vless, uuid: c86178cb-17c5-4b9c-8076-42bea2c1c9a7, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc, short-id: 2da72ce6}, servername: navi.bankrate.com, client-fingerprint: chrome, network: tcp}
+- {name: 🇯🇵 天猫-日本-直连, server: 45.202.245.218, port: 443, type: vless, uuid: c86178cb-17c5-4b9c-8076-42bea2c1c9a7, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc, short-id: 2da72ce6}, servername: navi.bankrate.com, client-fingerprint: chrome, network: tcp}
+- {name: 🇲🇴 天猫-MAC-澳门-直连, server: 45.207.35.175, port: 443, type: vless, uuid: c86178cb-17c5-4b9c-8076-42bea2c1c9a7, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc, short-id: 2da72ce6}, servername: navi.bankrate.com, client-fingerprint: chrome, network: tcp}
+- {name: 🇭🇰 天猫-香港-直连2, server: 64.90.28.237, port: 443, type: vless, uuid: c86178cb-17c5-4b9c-8076-42bea2c1c9a7, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc, short-id: 2da72ce6}, servername: navi.bankrate.com, client-fingerprint: chrome, network: tcp}
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -35,7 +33,7 @@ proxy-groups:
   - 🇻🇳 天猫-越南-直连
   - 🇭🇰 天猫-香港-直连
   - 🇯🇵 天猫-日本-直连2
-  - 🇹🇼 天猫-台湾-直连
+  - 🇨🇳 天猫-台湾-直连
   - 🇩🇪 天猫-德国-直连
   - 🇹🇭 天猫-泰国-直连
   - 🇮🇹 天猫-意大利-直连
@@ -53,7 +51,7 @@ proxy-groups:
   - 🇻🇳 天猫-越南-直连
   - 🇭🇰 天猫-香港-直连
   - 🇯🇵 天猫-日本-直连2
-  - 🇹🇼 天猫-台湾-直连
+  - 🇨🇳 天猫-台湾-直连
   - 🇩🇪 天猫-德国-直连
   - 🇹🇭 天猫-泰国-直连
   - 🇮🇹 天猫-意大利-直连

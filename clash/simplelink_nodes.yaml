@@ -1,8 +1,6 @@
 port: 7890
 socks-port: 7891
 allow-lan: true
-bind-address: '*'
-ipv6: false
 mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
@@ -10,9 +8,9 @@ proxies:
 - {name: 🇭🇰 SimpleLink-香港 | 1, server: qy-26540.simplebridge.cc, port: 28019, type: trojan, password: b412eca8-b362-4116-b91e-61fe5e44eddd, skip-cert-verify: true}
 - {name: 🇭🇰 SimpleLink-香港 | 3, server: yn-11772.simplebridge.cc, port: 28019, type: trojan, password: b412eca8-b362-4116-b91e-61fe5e44eddd, skip-cert-verify: true}
 - {name: 🇭🇰 SimpleLink-香港 | 2, server: la-22331.simplebridge.cc, port: 28019, type: trojan, password: b412eca8-b362-4116-b91e-61fe5e44eddd, skip-cert-verify: true}
-- {name: 🇹🇼 SimpleLink-台湾 | 1, server: qy-26540.simplebridge.cc, port: 28039, type: trojan, password: b412eca8-b362-4116-b91e-61fe5e44eddd, skip-cert-verify: true}
-- {name: 🇹🇼 SimpleLink-台湾 | 3, server: yn-11772.simplebridge.cc, port: 28039, type: trojan, password: b412eca8-b362-4116-b91e-61fe5e44eddd, skip-cert-verify: true}
-- {name: 🇹🇼 SimpleLink-台湾 | 2, server: la-22331.simplebridge.cc, port: 28039, type: trojan, password: b412eca8-b362-4116-b91e-61fe5e44eddd, skip-cert-verify: true}
+- {name: 🇨🇳 SimpleLink-台湾 | 1, server: qy-26540.simplebridge.cc, port: 28039, type: trojan, password: b412eca8-b362-4116-b91e-61fe5e44eddd, skip-cert-verify: true}
+- {name: 🇨🇳 SimpleLink-台湾 | 3, server: yn-11772.simplebridge.cc, port: 28039, type: trojan, password: b412eca8-b362-4116-b91e-61fe5e44eddd, skip-cert-verify: true}
+- {name: 🇨🇳 SimpleLink-台湾 | 2, server: la-22331.simplebridge.cc, port: 28039, type: trojan, password: b412eca8-b362-4116-b91e-61fe5e44eddd, skip-cert-verify: true}
 - {name: 🇯🇵 SimpleLink-日本 | 1, server: qy-26540.simplebridge.cc, port: 28029, type: trojan, password: b412eca8-b362-4116-b91e-61fe5e44eddd, skip-cert-verify: true}
 - {name: 🇯🇵 SimpleLink-日本 | 3, server: yn-11772.simplebridge.cc, port: 28029, type: trojan, password: b412eca8-b362-4116-b91e-61fe5e44eddd, skip-cert-verify: true}
 - {name: 🇯🇵 SimpleLink-日本 | 2, server: la-22331.simplebridge.cc, port: 28029, type: trojan, password: b412eca8-b362-4116-b91e-61fe5e44eddd, skip-cert-verify: true}
@@ -42,9 +40,9 @@ proxy-groups:
   - 🇭🇰 SimpleLink-香港 | 1
   - 🇭🇰 SimpleLink-香港 | 3
   - 🇭🇰 SimpleLink-香港 | 2
-  - 🇹🇼 SimpleLink-台湾 | 1
-  - 🇹🇼 SimpleLink-台湾 | 3
-  - 🇹🇼 SimpleLink-台湾 | 2
+  - 🇨🇳 SimpleLink-台湾 | 1
+  - 🇨🇳 SimpleLink-台湾 | 3
+  - 🇨🇳 SimpleLink-台湾 | 2
   - 🇯🇵 SimpleLink-日本 | 1
   - 🇯🇵 SimpleLink-日本 | 3
   - 🇯🇵 SimpleLink-日本 | 2
@@ -72,9 +70,9 @@ proxy-groups:
   - 🇭🇰 SimpleLink-香港 | 1
   - 🇭🇰 SimpleLink-香港 | 3
   - 🇭🇰 SimpleLink-香港 | 2
-  - 🇹🇼 SimpleLink-台湾 | 1
-  - 🇹🇼 SimpleLink-台湾 | 3
-  - 🇹🇼 SimpleLink-台湾 | 2
+  - 🇨🇳 SimpleLink-台湾 | 1
+  - 🇨🇳 SimpleLink-台湾 | 3
+  - 🇨🇳 SimpleLink-台湾 | 2
   - 🇯🇵 SimpleLink-日本 | 1
   - 🇯🇵 SimpleLink-日本 | 3
   - 🇯🇵 SimpleLink-日本 | 2

@@ -1,8 +1,6 @@
 port: 7890
 socks-port: 7891
 allow-lan: true
-bind-address: '*'
-ipv6: false
 mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
@@ -14,7 +12,7 @@ proxies:
 - {name: 🇩🇪 德国线路1, server: 120.232.250.163, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae}
 - {name: 🇭🇰 移动-香港线路1, server: 120.232.251.128, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae}
 - {name: 🇭🇰 移动-香港线路3, server: 120.232.251.129, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae}
-- {name: 🇹🇼 台湾线路1, server: 120.232.251.130, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae}
+- {name: 🇨🇳 台湾线路1, server: 120.232.251.130, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae}
 - {name: 🇸🇬 新加坡线路1, server: 120.232.253.90, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae}
 - {name: 🇻🇳 越南线路1, server: 120.232.253.91, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae}
 - {name: 🇮🇩 印尼线路1, server: 120.232.253.92, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae}
@@ -34,7 +32,7 @@ proxies:
 - {name: 🇿🇦 南非线路, server: 160.119.251.53, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae}
 - {name: 🇧🇷 巴西线路, server: 181.41.201.242, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae}
 - {name: 🇸🇬 新加坡线路2, server: 183.240.203.86, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae}
-- {name: 🇹🇼 台湾线路2, server: 183.240.203.87, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae}
+- {name: 🇨🇳 台湾线路2, server: 183.240.203.87, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae}
 - {name: 🇭🇰 电信-香港线路1, server: 183.36.35.150, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae}
 - {name: 🇭🇰 电信-香港线路2, server: 183.36.35.151, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae}
 - {name: 🇭🇰 电信-香港线路3, server: 183.36.35.152, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae}
@@ -54,7 +52,7 @@ proxy-groups:
   - 🇩🇪 德国线路1
   - 🇭🇰 移动-香港线路1
   - 🇭🇰 移动-香港线路3
-  - 🇹🇼 台湾线路1
+  - 🇨🇳 台湾线路1
   - 🇸🇬 新加坡线路1
   - 🇻🇳 越南线路1
   - 🇮🇩 印尼线路1
@@ -74,7 +72,7 @@ proxy-groups:
   - 🇿🇦 南非线路
   - 🇧🇷 巴西线路
   - 🇸🇬 新加坡线路2
-  - 🇹🇼 台湾线路2
+  - 🇨🇳 台湾线路2
   - 🇭🇰 电信-香港线路1
   - 🇭🇰 电信-香港线路2
   - 🇭🇰 电信-香港线路3
@@ -92,7 +90,7 @@ proxy-groups:
   - 🇩🇪 德国线路1
   - 🇭🇰 移动-香港线路1
   - 🇭🇰 移动-香港线路3
-  - 🇹🇼 台湾线路1
+  - 🇨🇳 台湾线路1
   - 🇸🇬 新加坡线路1
   - 🇻🇳 越南线路1
   - 🇮🇩 印尼线路1
@@ -112,7 +110,7 @@ proxy-groups:
   - 🇿🇦 南非线路
   - 🇧🇷 巴西线路
   - 🇸🇬 新加坡线路2
-  - 🇹🇼 台湾线路2
+  - 🇨🇳 台湾线路2
   - 🇭🇰 电信-香港线路1
   - 🇭🇰 电信-香港线路2
   - 🇭🇰 电信-香港线路3
