@@ -1,8 +1,6 @@
 port: 7890
 socks-port: 7891
 allow-lan: true
-bind-address: '*'
-ipv6: false
 mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
@@ -19,9 +17,9 @@ proxies:
 - {name: 🇬🇧 来连-英国-1, server: 106.75.143.18, port: 4011, type: vless, uuid: ecbbd28a-2fb0-4c9e-ae3b-cc398e64475c, tls: true, skip-cert-verify: true, reality-opts: {public-key: Pemzhn3yxNs8HT_mYP8jxvXlQ2FWfT7hL8op4aEocX8, short-id: b18375d24c80e577}, servername: buylite.tv.apple.com, client-fingerprint: chrome, network: tcp}
 - {name: 🇬🇧 来连-英国-2, server: 106.75.143.18, port: 4012, type: vless, uuid: ecbbd28a-2fb0-4c9e-ae3b-cc398e64475c, tls: true, skip-cert-verify: true, reality-opts: {public-key: Pemzhn3yxNs8HT_mYP8jxvXlQ2FWfT7hL8op4aEocX8, short-id: b18375d24c80e577}, servername: buylite.tv.apple.com, client-fingerprint: chrome, network: tcp}
 - {name: 🇬🇧 来连-英国-3, server: 106.75.143.18, port: 4013, type: vless, uuid: ecbbd28a-2fb0-4c9e-ae3b-cc398e64475c, tls: true, skip-cert-verify: true, reality-opts: {public-key: Pemzhn3yxNs8HT_mYP8jxvXlQ2FWfT7hL8op4aEocX8, short-id: b18375d24c80e577}, servername: buylite.tv.apple.com, client-fingerprint: chrome, network: tcp}
-- {name: 🇹🇼 来连-台湾-1, server: 106.75.143.18, port: 4014, type: vless, uuid: ecbbd28a-2fb0-4c9e-ae3b-cc398e64475c, tls: true, skip-cert-verify: true, reality-opts: {public-key: Pemzhn3yxNs8HT_mYP8jxvXlQ2FWfT7hL8op4aEocX8, short-id: b18375d24c80e577}, servername: buylite.tv.apple.com, client-fingerprint: chrome, network: tcp}
-- {name: 🇹🇼 来连-台湾-2, server: 106.75.143.18, port: 4015, type: vless, uuid: ecbbd28a-2fb0-4c9e-ae3b-cc398e64475c, tls: true, skip-cert-verify: true, reality-opts: {public-key: Pemzhn3yxNs8HT_mYP8jxvXlQ2FWfT7hL8op4aEocX8, short-id: b18375d24c80e577}, servername: buylite.tv.apple.com, client-fingerprint: chrome, network: tcp}
-- {name: 🇹🇼 来连-台湾-3, server: 106.75.143.18, port: 4016, type: vless, uuid: ecbbd28a-2fb0-4c9e-ae3b-cc398e64475c, tls: true, skip-cert-verify: true, reality-opts: {public-key: Pemzhn3yxNs8HT_mYP8jxvXlQ2FWfT7hL8op4aEocX8, short-id: b18375d24c80e577}, servername: buylite.tv.apple.com, client-fingerprint: chrome, network: tcp}
+- {name: 🇨🇳 来连-台湾-1, server: 106.75.143.18, port: 4014, type: vless, uuid: ecbbd28a-2fb0-4c9e-ae3b-cc398e64475c, tls: true, skip-cert-verify: true, reality-opts: {public-key: Pemzhn3yxNs8HT_mYP8jxvXlQ2FWfT7hL8op4aEocX8, short-id: b18375d24c80e577}, servername: buylite.tv.apple.com, client-fingerprint: chrome, network: tcp}
+- {name: 🇨🇳 来连-台湾-2, server: 106.75.143.18, port: 4015, type: vless, uuid: ecbbd28a-2fb0-4c9e-ae3b-cc398e64475c, tls: true, skip-cert-verify: true, reality-opts: {public-key: Pemzhn3yxNs8HT_mYP8jxvXlQ2FWfT7hL8op4aEocX8, short-id: b18375d24c80e577}, servername: buylite.tv.apple.com, client-fingerprint: chrome, network: tcp}
+- {name: 🇨🇳 来连-台湾-3, server: 106.75.143.18, port: 4016, type: vless, uuid: ecbbd28a-2fb0-4c9e-ae3b-cc398e64475c, tls: true, skip-cert-verify: true, reality-opts: {public-key: Pemzhn3yxNs8HT_mYP8jxvXlQ2FWfT7hL8op4aEocX8, short-id: b18375d24c80e577}, servername: buylite.tv.apple.com, client-fingerprint: chrome, network: tcp}
 - {name: 🇭🇰 来连-香港-1, server: 106.75.143.18, port: 443, type: vless, uuid: ecbbd28a-2fb0-4c9e-ae3b-cc398e64475c, tls: true, skip-cert-verify: true, reality-opts: {public-key: Pemzhn3yxNs8HT_mYP8jxvXlQ2FWfT7hL8op4aEocX8, short-id: b18375d24c80e577}, servername: buylite.tv.apple.com, client-fingerprint: chrome, network: tcp}
 - {name: 🇺🇸 来连-美国-5, server: 106.75.143.18, port: 4001, type: vless, uuid: ecbbd28a-2fb0-4c9e-ae3b-cc398e64475c, tls: true, skip-cert-verify: true, reality-opts: {public-key: Pemzhn3yxNs8HT_mYP8jxvXlQ2FWfT7hL8op4aEocX8, short-id: b18375d24c80e577}, servername: buylite.tv.apple.com, client-fingerprint: chrome, network: tcp}
 - {name: 🇰🇷 来连-韩国-1, server: 106.75.143.18, port: 4017, type: vless, uuid: ecbbd28a-2fb0-4c9e-ae3b-cc398e64475c, tls: true, skip-cert-verify: true, reality-opts: {public-key: Pemzhn3yxNs8HT_mYP8jxvXlQ2FWfT7hL8op4aEocX8, short-id: b18375d24c80e577}, servername: buylite.tv.apple.com, client-fingerprint: chrome, network: tcp}
@@ -44,9 +42,9 @@ proxy-groups:
   - 🇬🇧 来连-英国-1
   - 🇬🇧 来连-英国-2
   - 🇬🇧 来连-英国-3
-  - 🇹🇼 来连-台湾-1
-  - 🇹🇼 来连-台湾-2
-  - 🇹🇼 来连-台湾-3
+  - 🇨🇳 来连-台湾-1
+  - 🇨🇳 来连-台湾-2
+  - 🇨🇳 来连-台湾-3
   - 🇭🇰 来连-香港-1
   - 🇺🇸 来连-美国-5
   - 🇰🇷 来连-韩国-1
@@ -67,9 +65,9 @@ proxy-groups:
   - 🇬🇧 来连-英国-1
   - 🇬🇧 来连-英国-2
   - 🇬🇧 来连-英国-3
-  - 🇹🇼 来连-台湾-1
-  - 🇹🇼 来连-台湾-2
-  - 🇹🇼 来连-台湾-3
+  - 🇨🇳 来连-台湾-1
+  - 🇨🇳 来连-台湾-2
+  - 🇨🇳 来连-台湾-3
   - 🇭🇰 来连-香港-1
   - 🇺🇸 来连-美国-5
   - 🇰🇷 来连-韩国-1

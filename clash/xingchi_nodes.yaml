@@ -1,14 +1,15 @@
 port: 7890
 socks-port: 7891
 allow-lan: true
+bind-address: '*'
+ipv6: false
 mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-- {name: 🇭🇰 星驰-香港, server: direct-hk-dz2.xlww.cc, port: 43900, type: vless, uuid: 839ab60e-63c7-407b-9bf4-ccdf7282a67f, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: W1o-aXiwX9UuAntTtAcIWq-B-riPD1-XS4ZvFC4WkDo, short-id: 3df44810}, servername: swdist.apple.com, client-fingerprint: ios, network: tcp}
 - {name: 🇭🇰 星驰-香港-D, server: a.xchicn.com, port: 39000, type: vless, uuid: 839ab60e-63c7-407b-9bf4-ccdf7282a67f, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: QKxITrFaXNnWPX0xW-t0MeZmFyqLCUW8DxCkleHI9AU, short-id: 00fd2512}, servername: swdist.apple.com, client-fingerprint: ios, network: tcp}
-- {name: 🇨🇳 星驰-台湾, server: direct-hk-dz2.xlww.cc, port: 43800, type: vless, uuid: 839ab60e-63c7-407b-9bf4-ccdf7282a67f, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: FvP-oDnNuaIRv90VuLERbsQV88OcX_rTad4jpVHp0XU, short-id: 889942de}, servername: swdist.apple.com, client-fingerprint: ios, network: tcp}
-- {name: 🇨🇳 星驰-台湾-D, server: a.xchicn.com, port: 36680, type: vless, uuid: 839ab60e-63c7-407b-9bf4-ccdf7282a67f, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: gsQBn5KFzj_PaJWfDv_FNfcq-r2-XDjbXmZANIDFb1E, short-id: e74f017f}, servername: swdist.apple.com, client-fingerprint: ios, network: tcp}
+- {name: 🇹🇼 星驰-台湾, server: direct-hk-dz2.xlww.cc, port: 43800, type: vless, uuid: 839ab60e-63c7-407b-9bf4-ccdf7282a67f, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: FvP-oDnNuaIRv90VuLERbsQV88OcX_rTad4jpVHp0XU, short-id: 889942de}, servername: swdist.apple.com, client-fingerprint: ios, network: tcp}
+- {name: 🇹🇼 星驰-台湾-D, server: a.xchicn.com, port: 36680, type: vless, uuid: 839ab60e-63c7-407b-9bf4-ccdf7282a67f, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: gsQBn5KFzj_PaJWfDv_FNfcq-r2-XDjbXmZANIDFb1E, short-id: e74f017f}, servername: swdist.apple.com, client-fingerprint: ios, network: tcp}
 - {name: 🇭🇰 星驰-香港 | 香港03, server: 8.8.8.8, port: 43903, type: vless, uuid: 839ab60e-63c7-407b-9bf4-ccdf7282a67f, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: 5x_GCuK2guyI7kJLzs4rDCv2wCQIJNCSxzknACtcmCc, short-id: 15bb064a}, servername: swdist.apple.com, client-fingerprint: ios, network: tcp}
 - {name: 🇭🇰 星驰-香港 | 香港04, server: 8.8.8.8, port: 43904, type: vless, uuid: 839ab60e-63c7-407b-9bf4-ccdf7282a67f, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: v96xPv2XTubsCV2MtxI78NKwxhHYFbAtKzpX9_3DrmM, short-id: 4c0cce57}, servername: swdist.apple.com, client-fingerprint: ios, network: tcp}
 - {name: 🇭🇰 星驰-香港 | 香港05, server: 8.8.8.8, port: 43905, type: vless, uuid: 839ab60e-63c7-407b-9bf4-ccdf7282a67f, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: cWLz3mS7w9xpqMMoteQpczZbe346zx0MZLN2CXaxDw0, short-id: 85989e67}, servername: swdist.apple.com, client-fingerprint: ios, network: tcp}
@@ -26,16 +27,16 @@ proxies:
 - {name: 🇭🇰 星驰-香港 | 香港21 | IEPL, server: 8.8.8.8, port: 43913, type: vless, uuid: 839ab60e-63c7-407b-9bf4-ccdf7282a67f, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: i1Fj55JPgQHyD7x5KbsOrh40t4g0FCAZq3BIL1UDoUE, short-id: 13b86b8a}, servername: swdist.apple.com, client-fingerprint: ios, network: tcp}
 - {name: 🇭🇰 星驰-香港 | 香港22 | IEPL, server: 8.8.8.8, port: 43914, type: vless, uuid: 839ab60e-63c7-407b-9bf4-ccdf7282a67f, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: _ca3lxZ_8s-opbCYLZcTp1ZaPXARAShRyUGtACSoQiI, short-id: 8b3371a1}, servername: swdist.apple.com, client-fingerprint: ios, network: tcp}
 - {name: 🇲🇴 星驰-澳门 | 澳门01, server: 8.8.8.8, port: 43925, type: vless, uuid: 839ab60e-63c7-407b-9bf4-ccdf7282a67f, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: yGHbUDMVQB6TaxRwkZGOjyWSZzu2yC70J9xbhqIJ9wM, short-id: e5c33071}, servername: swdist.apple.com, client-fingerprint: ios, network: tcp}
-- {name: 🇨🇳 星驰-台湾 | 台湾01, server: 8.8.8.8, port: 43801, type: vless, uuid: 839ab60e-63c7-407b-9bf4-ccdf7282a67f, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: W1SK2ix_AZS7m_ho0D6VgTrydBj0yTigIgowbWUrn2U, short-id: ca8f6d51}, servername: swdist.apple.com, client-fingerprint: ios, network: tcp}
-- {name: 🇨🇳 星驰-台湾 | 台湾02, server: 8.8.8.8, port: 43802, type: vless, uuid: 839ab60e-63c7-407b-9bf4-ccdf7282a67f, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: bbUVbvPodgNb2zwlKFX1XwhROtXtDeMcJsMR4Vm6kTE, short-id: 11c0bfe9}, servername: swdist.apple.com, client-fingerprint: ios, network: tcp}
-- {name: 🇨🇳 星驰-台湾 | 台湾03, server: 8.8.8.8, port: 43805, type: vless, uuid: 839ab60e-63c7-407b-9bf4-ccdf7282a67f, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: ZO_hRZJSYuYwb8trud-l_vLz-GCj5YCHJtiQAFvGPD0, short-id: 197e3461}, servername: swdist.apple.com, client-fingerprint: ios, network: tcp}
-- {name: 🇨🇳 星驰-台湾 | 台湾04 | 直连, server: 8.8.8.8, port: 38041, type: vless, uuid: 839ab60e-63c7-407b-9bf4-ccdf7282a67f, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: LN0rMlJDjuRDm5gprVhMxKwVlKeTj5o0wB49hCdBRiw, short-id: ac196769}, servername: swdist.apple.com, client-fingerprint: ios, network: tcp}
-- {name: 🇨🇳 星驰-台湾 | 台湾05 | 直连, server: 8.8.8.8, port: 38041, type: vless, uuid: 839ab60e-63c7-407b-9bf4-ccdf7282a67f, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: 3i_wPm_vAQx5YIPXyMKQZBtRmhRuZ3njzOXMMJ58bWk, short-id: c68f121e}, servername: swdist.apple.com, client-fingerprint: ios, network: tcp}
-- {name: 🇨🇳 星驰-台湾 | 台湾06 | 直连, server: 8.8.8.8, port: 38070, type: vless, uuid: 839ab60e-63c7-407b-9bf4-ccdf7282a67f, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: pZbTjjxpqWsWY283q0YrFaV1aAFTdeb_HKkx4UW7Vyo, short-id: 3ce6c558}, servername: swdist.apple.com, client-fingerprint: ios, network: tcp}
-- {name: 🇨🇳 星驰-台湾 | 台湾07 | 家宽, server: 8.8.8.8, port: 43808, type: vless, uuid: 839ab60e-63c7-407b-9bf4-ccdf7282a67f, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: tjxP5V6TBz29Fau2e7n30lYFNs0MBb_FQkMh5zwggVg, short-id: 7b3ed956}, servername: swdist.apple.com, client-fingerprint: ios, network: tcp}
-- {name: 🇨🇳 星驰-台湾 | 台湾08 | 直连, server: 8.8.8.8, port: 43809, type: vless, uuid: 839ab60e-63c7-407b-9bf4-ccdf7282a67f, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: bXMikWF-0vNkT5ByV2enfDkhNoYIBQNHs6biVvM7ahw, short-id: 07f45efb}, servername: swdist.apple.com, client-fingerprint: ios, network: tcp}
-- {name: 🇨🇳 星驰-台湾 | 台湾09 | IEPL, server: 8.8.8.8, port: 43803, type: vless, uuid: 839ab60e-63c7-407b-9bf4-ccdf7282a67f, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: ksK5deLlrQc_Mh6hPihHMRt6WCalNZ6WXAnt6biThT8, short-id: a72f45a5}, servername: swdist.apple.com, client-fingerprint: ios, network: tcp}
-- {name: 🇨🇳 星驰-台湾 | 台湾10 | IEPL, server: 8.8.8.8, port: 43806, type: vless, uuid: 839ab60e-63c7-407b-9bf4-ccdf7282a67f, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: dLPxbCSKHfhb0nk1hDqa3SUOCpOcErro6c1xxzn4Hlk, short-id: 189ad0a9}, servername: swdist.apple.com, client-fingerprint: ios, network: tcp}
+- {name: 🇹🇼 星驰-台湾 | 台湾01, server: 8.8.8.8, port: 43801, type: vless, uuid: 839ab60e-63c7-407b-9bf4-ccdf7282a67f, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: W1SK2ix_AZS7m_ho0D6VgTrydBj0yTigIgowbWUrn2U, short-id: ca8f6d51}, servername: swdist.apple.com, client-fingerprint: ios, network: tcp}
+- {name: 🇹🇼 星驰-台湾 | 台湾02, server: 8.8.8.8, port: 43802, type: vless, uuid: 839ab60e-63c7-407b-9bf4-ccdf7282a67f, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: bbUVbvPodgNb2zwlKFX1XwhROtXtDeMcJsMR4Vm6kTE, short-id: 11c0bfe9}, servername: swdist.apple.com, client-fingerprint: ios, network: tcp}
+- {name: 🇹🇼 星驰-台湾 | 台湾03, server: 8.8.8.8, port: 43805, type: vless, uuid: 839ab60e-63c7-407b-9bf4-ccdf7282a67f, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: ZO_hRZJSYuYwb8trud-l_vLz-GCj5YCHJtiQAFvGPD0, short-id: 197e3461}, servername: swdist.apple.com, client-fingerprint: ios, network: tcp}
+- {name: 🇹🇼 星驰-台湾 | 台湾04 | 直连, server: 8.8.8.8, port: 38041, type: vless, uuid: 839ab60e-63c7-407b-9bf4-ccdf7282a67f, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: LN0rMlJDjuRDm5gprVhMxKwVlKeTj5o0wB49hCdBRiw, short-id: ac196769}, servername: swdist.apple.com, client-fingerprint: ios, network: tcp}
+- {name: 🇹🇼 星驰-台湾 | 台湾05 | 直连, server: 8.8.8.8, port: 38041, type: vless, uuid: 839ab60e-63c7-407b-9bf4-ccdf7282a67f, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: 3i_wPm_vAQx5YIPXyMKQZBtRmhRuZ3njzOXMMJ58bWk, short-id: c68f121e}, servername: swdist.apple.com, client-fingerprint: ios, network: tcp}
+- {name: 🇹🇼 星驰-台湾 | 台湾06 | 直连, server: 8.8.8.8, port: 38070, type: vless, uuid: 839ab60e-63c7-407b-9bf4-ccdf7282a67f, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: pZbTjjxpqWsWY283q0YrFaV1aAFTdeb_HKkx4UW7Vyo, short-id: 3ce6c558}, servername: swdist.apple.com, client-fingerprint: ios, network: tcp}
+- {name: 🇹🇼 星驰-台湾 | 台湾07 | 家宽, server: 8.8.8.8, port: 43808, type: vless, uuid: 839ab60e-63c7-407b-9bf4-ccdf7282a67f, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: tjxP5V6TBz29Fau2e7n30lYFNs0MBb_FQkMh5zwggVg, short-id: 7b3ed956}, servername: swdist.apple.com, client-fingerprint: ios, network: tcp}
+- {name: 🇹🇼 星驰-台湾 | 台湾08 | 直连, server: 8.8.8.8, port: 43809, type: vless, uuid: 839ab60e-63c7-407b-9bf4-ccdf7282a67f, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: bXMikWF-0vNkT5ByV2enfDkhNoYIBQNHs6biVvM7ahw, short-id: 07f45efb}, servername: swdist.apple.com, client-fingerprint: ios, network: tcp}
+- {name: 🇹🇼 星驰-台湾 | 台湾09 | IEPL, server: 8.8.8.8, port: 43803, type: vless, uuid: 839ab60e-63c7-407b-9bf4-ccdf7282a67f, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: ksK5deLlrQc_Mh6hPihHMRt6WCalNZ6WXAnt6biThT8, short-id: a72f45a5}, servername: swdist.apple.com, client-fingerprint: ios, network: tcp}
+- {name: 🇹🇼 星驰-台湾 | 台湾10 | IEPL, server: 8.8.8.8, port: 43806, type: vless, uuid: 839ab60e-63c7-407b-9bf4-ccdf7282a67f, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: dLPxbCSKHfhb0nk1hDqa3SUOCpOcErro6c1xxzn4Hlk, short-id: 189ad0a9}, servername: swdist.apple.com, client-fingerprint: ios, network: tcp}
 - {name: 🇯🇵 星驰-日本 | 日本02, server: 8.8.8.8, port: 43602, type: vless, uuid: 839ab60e-63c7-407b-9bf4-ccdf7282a67f, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: E_OTlziiNTn7I3Fm1-cN1bLUv4ONXhLh5jqOZP54Wlg, short-id: f345279e}, servername: swdist.apple.com, client-fingerprint: ios, network: tcp}
 - {name: 🇯🇵 星驰-日本 | 日本03, server: 8.8.8.8, port: 43603, type: vless, uuid: 839ab60e-63c7-407b-9bf4-ccdf7282a67f, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: Mj2l3qY3R-YFLnJ88OjYNvo2TLzWhnz6eckd_aqo5h8, short-id: 5f5b8de0}, servername: swdist.apple.com, client-fingerprint: ios, network: tcp}
 - {name: 🇯🇵 星驰-日本 | 日本04 | 直连, server: 8.8.8.8, port: 36001, type: vless, uuid: 839ab60e-63c7-407b-9bf4-ccdf7282a67f, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: cZY7FmIyJkl2kLMH0mRukA1nUH6uupH_aPHeiUj8H1I, short-id: df09636e}, servername: swdist.apple.com, client-fingerprint: ios, network: tcp}
@@ -103,10 +104,9 @@ proxy-groups:
   type: select
   proxies:
   - ♻️ 自动选择
-  - 🇭🇰 星驰-香港
   - 🇭🇰 星驰-香港-D
-  - 🇨🇳 星驰-台湾
-  - 🇨🇳 星驰-台湾-D
+  - 🇹🇼 星驰-台湾
+  - 🇹🇼 星驰-台湾-D
   - 🇭🇰 星驰-香港 | 香港03
   - 🇭🇰 星驰-香港 | 香港04
   - 🇭🇰 星驰-香港 | 香港05
@@ -124,16 +124,16 @@ proxy-groups:
   - 🇭🇰 星驰-香港 | 香港21 | IEPL
   - 🇭🇰 星驰-香港 | 香港22 | IEPL
   - 🇲🇴 星驰-澳门 | 澳门01
-  - 🇨🇳 星驰-台湾 | 台湾01
-  - 🇨🇳 星驰-台湾 | 台湾02
-  - 🇨🇳 星驰-台湾 | 台湾03
-  - 🇨🇳 星驰-台湾 | 台湾04 | 直连
-  - 🇨🇳 星驰-台湾 | 台湾05 | 直连
-  - 🇨🇳 星驰-台湾 | 台湾06 | 直连
-  - 🇨🇳 星驰-台湾 | 台湾07 | 家宽
-  - 🇨🇳 星驰-台湾 | 台湾08 | 直连
-  - 🇨🇳 星驰-台湾 | 台湾09 | IEPL
-  - 🇨🇳 星驰-台湾 | 台湾10 | IEPL
+  - 🇹🇼 星驰-台湾 | 台湾01
+  - 🇹🇼 星驰-台湾 | 台湾02
+  - 🇹🇼 星驰-台湾 | 台湾03
+  - 🇹🇼 星驰-台湾 | 台湾04 | 直连
+  - 🇹🇼 星驰-台湾 | 台湾05 | 直连
+  - 🇹🇼 星驰-台湾 | 台湾06 | 直连
+  - 🇹🇼 星驰-台湾 | 台湾07 | 家宽
+  - 🇹🇼 星驰-台湾 | 台湾08 | 直连
+  - 🇹🇼 星驰-台湾 | 台湾09 | IEPL
+  - 🇹🇼 星驰-台湾 | 台湾10 | IEPL
   - 🇯🇵 星驰-日本 | 日本02
   - 🇯🇵 星驰-日本 | 日本03
   - 🇯🇵 星驰-日本 | 日本04 | 直连
@@ -199,10 +199,9 @@ proxy-groups:
 - name: ♻️ 自动选择
   type: url-test
   proxies:
-  - 🇭🇰 星驰-香港
   - 🇭🇰 星驰-香港-D
-  - 🇨🇳 星驰-台湾
-  - 🇨🇳 星驰-台湾-D
+  - 🇹🇼 星驰-台湾
+  - 🇹🇼 星驰-台湾-D
   - 🇭🇰 星驰-香港 | 香港03
   - 🇭🇰 星驰-香港 | 香港04
   - 🇭🇰 星驰-香港 | 香港05
@@ -220,16 +219,16 @@ proxy-groups:
   - 🇭🇰 星驰-香港 | 香港21 | IEPL
   - 🇭🇰 星驰-香港 | 香港22 | IEPL
   - 🇲🇴 星驰-澳门 | 澳门01
-  - 🇨🇳 星驰-台湾 | 台湾01
-  - 🇨🇳 星驰-台湾 | 台湾02
-  - 🇨🇳 星驰-台湾 | 台湾03
-  - 🇨🇳 星驰-台湾 | 台湾04 | 直连
-  - 🇨🇳 星驰-台湾 | 台湾05 | 直连
-  - 🇨🇳 星驰-台湾 | 台湾06 | 直连
-  - 🇨🇳 星驰-台湾 | 台湾07 | 家宽
-  - 🇨🇳 星驰-台湾 | 台湾08 | 直连
-  - 🇨🇳 星驰-台湾 | 台湾09 | IEPL
-  - 🇨🇳 星驰-台湾 | 台湾10 | IEPL
+  - 🇹🇼 星驰-台湾 | 台湾01
+  - 🇹🇼 星驰-台湾 | 台湾02
+  - 🇹🇼 星驰-台湾 | 台湾03
+  - 🇹🇼 星驰-台湾 | 台湾04 | 直连
+  - 🇹🇼 星驰-台湾 | 台湾05 | 直连
+  - 🇹🇼 星驰-台湾 | 台湾06 | 直连
+  - 🇹🇼 星驰-台湾 | 台湾07 | 家宽
+  - 🇹🇼 星驰-台湾 | 台湾08 | 直连
+  - 🇹🇼 星驰-台湾 | 台湾09 | IEPL
+  - 🇹🇼 星驰-台湾 | 台湾10 | IEPL
   - 🇯🇵 星驰-日本 | 日本02
   - 🇯🇵 星驰-日本 | 日本03
   - 🇯🇵 星驰-日本 | 日本04 | 直连
