@@ -9,15 +9,15 @@ external-controller: 127.0.0.1:9090
 proxies:
 - {name: 183, server: 83.142.225.30, port: 30008, type: vmess, uuid: 5267ca71-97e6-44c8-8fb5-9fe4afe0954e, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/091615350227, headers: {Host: www.64171527.xyz}}}
 - {name: 178, server: 85.206.168.71, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/091615350227, headers: {Host: www.73327345.xyz}}}
-- {name: 1184, server: 104.219.208.196, port: 34001, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/091615350227, headers: {Host: www.45482968.xyz}}}
-- {name: 635, server: 107.148.240.156, port: 49994, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/091615350227, headers: {Host: www.35274705.xyz}}}
-- {name: 196, server: 107.167.21.156, port: 443, type: vmess, uuid: fabb30e8-3a2c-4149-9651-2758f7712481, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/091615350227, headers: {Host: www.91296450.xyz}}}
+- {name: 796, server: 104.219.208.229, port: 34002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/091615350227, headers: {Host: www.91047491.xyz}}}
+- {name: 1057, server: 104.233.133.34, port: 49998, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/091615350227, headers: {Host: www.75258140.xyz}}}
+- {name: 191, server: 107.167.22.28, port: 30020, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/091615350227, headers: {Host: www.66069748.xyz}}}
 - {name: 158, server: 112.132.215.108, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true}
-- {name: 981, server: 134.122.184.108, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/091615350227, headers: {Host: www.44548560.xyz}}}
-- {name: 1220, server: 137.220.142.74, port: 46666, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/091615350227, headers: {Host: www.34034527.xyz}}}
+- {name: 1221, server: 118.107.10.205, port: 46665, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/091615350227, headers: {Host: www.21487439.xyz}}}
+- {name: 1212, server: 137.220.229.71, port: 48887, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/091615350227, headers: {Host: www.97310642.xyz}}}
 - {name: 1197, server: 154.83.134.188, port: 30109, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/091615350227, headers: {Host: www.51552940.xyz}}}
-- {name: 421, server: 162.209.128.84, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/091615350227, headers: {Host: www.95474349.xyz}}}
 - {name: 615, server: 185.173.94.246, port: 30010, type: vmess, uuid: 8d78c2a8-acaa-467d-9234-d2606624506d, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/091615350227, headers: {Host: www.12078033.xyz}}}
+- {name: 264, server: 23.224.252.250, port: 36000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/091615350227, headers: {Host: www.78536851.xyz}}}
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -25,29 +25,29 @@ proxy-groups:
   - ♻️ 自动选择
   - 183
   - 178
-  - 1184
-  - 635
-  - 196
+  - 796
+  - 1057
+  - 191
   - 158
-  - 981
-  - 1220
+  - 1221
+  - 1212
   - 1197
-  - 421
   - 615
+  - 264
 - name: ♻️ 自动选择
   type: url-test
   proxies:
   - 183
   - 178
-  - 1184
-  - 635
-  - 196
+  - 796
+  - 1057
+  - 191
   - 158
-  - 981
-  - 1220
+  - 1221
+  - 1212
   - 1197
-  - 421
   - 615
+  - 264
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 🐟 漏网之鱼
