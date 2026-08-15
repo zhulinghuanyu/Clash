@@ -7,6 +7,7 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
+- {name: 🇭🇰 星驰-香港, server: direct-hk-dz2.xlww.cc, port: 43900, type: vless, uuid: 839ab60e-63c7-407b-9bf4-ccdf7282a67f, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: W1o-aXiwX9UuAntTtAcIWq-B-riPD1-XS4ZvFC4WkDo, short-id: 3df44810}, servername: swdist.apple.com, client-fingerprint: ios, network: tcp}
 - {name: 🇭🇰 星驰-香港-D, server: a.xchicn.com, port: 39000, type: vless, uuid: 839ab60e-63c7-407b-9bf4-ccdf7282a67f, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: QKxITrFaXNnWPX0xW-t0MeZmFyqLCUW8DxCkleHI9AU, short-id: 00fd2512}, servername: swdist.apple.com, client-fingerprint: ios, network: tcp}
 - {name: 🇹🇼 星驰-台湾, server: direct-hk-dz2.xlww.cc, port: 43800, type: vless, uuid: 839ab60e-63c7-407b-9bf4-ccdf7282a67f, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: FvP-oDnNuaIRv90VuLERbsQV88OcX_rTad4jpVHp0XU, short-id: 889942de}, servername: swdist.apple.com, client-fingerprint: ios, network: tcp}
 - {name: 🇹🇼 星驰-台湾-D, server: a.xchicn.com, port: 36680, type: vless, uuid: 839ab60e-63c7-407b-9bf4-ccdf7282a67f, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: gsQBn5KFzj_PaJWfDv_FNfcq-r2-XDjbXmZANIDFb1E, short-id: e74f017f}, servername: swdist.apple.com, client-fingerprint: ios, network: tcp}
@@ -104,6 +105,7 @@ proxy-groups:
   type: select
   proxies:
   - ♻️ 自动选择
+  - 🇭🇰 星驰-香港
   - 🇭🇰 星驰-香港-D
   - 🇹🇼 星驰-台湾
   - 🇹🇼 星驰-台湾-D
@@ -199,6 +201,7 @@ proxy-groups:
 - name: ♻️ 自动选择
   type: url-test
   proxies:
+  - 🇭🇰 星驰-香港
   - 🇭🇰 星驰-香港-D
   - 🇹🇼 星驰-台湾
   - 🇹🇼 星驰-台湾-D
