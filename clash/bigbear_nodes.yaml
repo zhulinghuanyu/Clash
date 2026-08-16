@@ -7,10 +7,10 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-- {name: 🇭🇰 BigBear-🇭🇰 香港精品2-扣量×1.7, server: 47.244.67.73, port: 443, type: vmess, uuid: 53a10e9b-cb39-491e-ba56-221947c213b2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: api-data.fcapp.run, network: ws, ws-opts: {path: /f-hk1/v2, headers: {Host: api-39208e19-7c0e-48b1-94e4-a632871b4a00.aitrack.io}}}
-- {name: 🇭🇰 BigBear-🇭🇰 香港精品3-扣量×1.8, server: 47.244.67.76, port: 443, type: vmess, uuid: 981e43ce-7fa6-48c3-ad69-fd8d2a7bbeb8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: api-data.fcapp.run, network: ws, ws-opts: {path: /jp_hk1cft, headers: {Host: api-39208e19-7c0e-48b1-94e4-a632871b4a00.aitrack.io}}}
-- {name: 🇭🇰 BigBear-🇭🇰 香港1-移动优化, server: 202.155.155.245, port: 443, type: vless, uuid: 2bdd928c-ade6-4938-b21e-1cb45226f9b9, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: 4comh-7Jm_wZXJQ5QiLSCbVGQIbMUzHUIBdb0aFtLzM}, servername: cdnjs.cloudflare.com, client-fingerprint: chrome, network: tcp}
-- {name: 🇸🇬 BigBear-🇸🇬 新加坡1-aws, server: 54.255.231.61, port: 443, type: vless, uuid: b2daa917-2f9b-4b58-a797-b9a4e20e5f07, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: 4comh-7Jm_wZXJQ5QiLSCbVGQIbMUzHUIBdb0aFtLzM}, servername: cdnjs.cloudflare.com, client-fingerprint: chrome, network: tcp}
+- {name: 🇭🇰 BigBear-🇭🇰 香港精品2-扣量×1.7, server: 47.244.67.73, port: 443, type: vmess, uuid: 78c27936-0707-49a9-8638-83b3d5c89790, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: api-data.fcapp.run, network: ws, ws-opts: {path: /f-hk1/v2, headers: {Host: api-39208e19-7c0e-48b1-94e4-a632871b4a00.aitrack.io}}}
+- {name: 🇭🇰 BigBear-🇭🇰 香港精品3-扣量×1.8, server: 47.244.67.76, port: 443, type: vmess, uuid: d7f9c271-4074-49c7-b2e1-de49322f085e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: api-data.fcapp.run, network: ws, ws-opts: {path: /jp_hk1cft, headers: {Host: api-39208e19-7c0e-48b1-94e4-a632871b4a00.aitrack.io}}}
+- {name: 🇭🇰 BigBear-🇭🇰 香港1-移动优化, server: 202.155.155.245, port: 443, type: vless, uuid: bb086b73-baa3-4c36-8a88-0d31a963836c, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: 4comh-7Jm_wZXJQ5QiLSCbVGQIbMUzHUIBdb0aFtLzM}, servername: cdnjs.cloudflare.com, client-fingerprint: chrome, network: tcp}
+- {name: 🇸🇬 BigBear-🇸🇬 新加坡1-aws, server: 54.255.231.61, port: 443, type: vless, uuid: fcf07578-a0d8-44fe-886b-ac22423c0156, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: 4comh-7Jm_wZXJQ5QiLSCbVGQIbMUzHUIBdb0aFtLzM}, servername: cdnjs.cloudflare.com, client-fingerprint: chrome, network: tcp}
 proxy-groups:
 - name: 🚀 节点选择
   type: select
