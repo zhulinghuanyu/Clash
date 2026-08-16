@@ -9,15 +9,15 @@ external-controller: 127.0.0.1:9090
 proxies:
 - {name: 183, server: 83.142.225.57, port: 30008, type: vmess, uuid: 5267ca71-97e6-44c8-8fb5-9fe4afe0954e, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/091615350227, headers: {Host: www.64171527.xyz}}}
 - {name: 178, server: 85.206.168.71, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/091615350227, headers: {Host: www.73327345.xyz}}}
-- {name: 220, server: 104.192.87.93, port: 49999, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/091615350227, headers: {Host: www.62544542.xyz}}}
-- {name: 802, server: 104.219.208.233, port: 34001, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/091615350227, headers: {Host: www.76503746.xyz}}}
+- {name: 796, server: 104.219.208.227, port: 34002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/091615350227, headers: {Host: www.91047491.xyz}}}
+- {name: 996, server: 104.233.243.185, port: 49995, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/091615350227, headers: {Host: www.90431010.xyz}}}
 - {name: 191, server: 107.167.22.30, port: 30020, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/091615350227, headers: {Host: www.66069748.xyz}}}
 - {name: 158, server: 112.132.215.108, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true}
+- {name: 984, server: 134.122.135.35, port: 48886, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/091615350227, headers: {Host: www.36484110.xyz}}}
 - {name: 1219, server: 137.220.142.183, port: 46666, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/091615350227, headers: {Host: www.45534865.xyz}}}
-- {name: 1213, server: 137.220.229.86, port: 48888, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/091615350227, headers: {Host: www.46605781.xyz}}}
-- {name: 1197, server: 154.83.134.188, port: 30109, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/091615350227, headers: {Host: www.51552940.xyz}}}
-- {name: 421, server: 162.209.128.84, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/091615350227, headers: {Host: www.95474349.xyz}}}
+- {name: 1197, server: 154.83.134.137, port: 30109, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/091615350227, headers: {Host: www.51552940.xyz}}}
 - {name: 615, server: 185.133.40.192, port: 30010, type: vmess, uuid: 8d78c2a8-acaa-467d-9234-d2606624506d, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/091615350227, headers: {Host: www.12078033.xyz}}}
+- {name: 264, server: 23.224.252.250, port: 36000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/091615350227, headers: {Host: www.78536851.xyz}}}
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -25,29 +25,29 @@ proxy-groups:
   - ♻️ 自动选择
   - 183
   - 178
-  - 220
-  - 802
+  - 796
+  - 996
   - 191
   - 158
+  - 984
   - 1219
-  - 1213
   - 1197
-  - 421
   - 615
+  - 264
 - name: ♻️ 自动选择
   type: url-test
   proxies:
   - 183
   - 178
-  - 220
-  - 802
+  - 796
+  - 996
   - 191
   - 158
+  - 984
   - 1219
-  - 1213
   - 1197
-  - 421
   - 615
+  - 264
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 🐟 漏网之鱼
