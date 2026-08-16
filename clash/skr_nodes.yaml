@@ -8,43 +8,43 @@ log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
 - {name: '🇹🇼 台湾, 台北', server: 13.38.78.128, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-- {name: '🇰🇷 韩国, Incheon', server: 15.237.96.222, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-- {name: '🇭🇰 香港, 九龙', server: 16.59.54.240, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-- {name: '🇯🇵 日本, 东京', server: 18.191.198.248, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-- {name: '🇺🇸 美国, 达拉斯 2', server: 3.121.109.240, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-- {name: 🇸🇬 新加坡, server: 3.145.155.157, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-- {name: '🇯🇵 日本, Osaka', server: 52.47.117.218, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-- {name: '🇺🇸 美国, 洛杉矶', server: 63.181.36.211, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-- {name: '🇺🇸 美国, 休斯敦', server: 47.77.188.84, port: 80, type: ss, cipher: aes-256-cfb, password: aliyun0120}
-- {name: '🇨🇦 加拿大, Vancouver', server: 47.77.191.92, port: 80, type: ss, cipher: aes-256-cfb, password: aliyun0120}
+- {name: '🇯🇵 日本, 东京', server: 16.59.54.240, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+- {name: '🇺🇸 美国, 洛杉矶', server: 18.185.179.35, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+- {name: '🇺🇸 美国, 达拉斯 2', server: 18.197.108.25, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+- {name: 🇸🇬 新加坡, server: 3.145.61.0, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+- {name: '🇺🇸 美国, 休斯敦', server: 3.75.226.122, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+- {name: '🇨🇦 加拿大, Vancouver', server: 3.76.102.125, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+- {name: '🇯🇵 日本, Osaka', server: 51.44.167.151, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+- {name: '🇰🇷 韩国, Incheon', server: 52.47.117.218, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+- {name: '🇭🇰 香港, 九龙', server: 52.47.54.187, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
 proxy-groups:
 - name: 🚀 节点选择
   type: select
   proxies:
   - ♻️ 自动选择
   - 🇹🇼 台湾, 台北
-  - 🇰🇷 韩国, Incheon
-  - 🇭🇰 香港, 九龙
   - 🇯🇵 日本, 东京
+  - 🇺🇸 美国, 洛杉矶
   - 🇺🇸 美国, 达拉斯 2
   - 🇸🇬 新加坡
-  - 🇯🇵 日本, Osaka
-  - 🇺🇸 美国, 洛杉矶
   - 🇺🇸 美国, 休斯敦
   - 🇨🇦 加拿大, Vancouver
+  - 🇯🇵 日本, Osaka
+  - 🇰🇷 韩国, Incheon
+  - 🇭🇰 香港, 九龙
 - name: ♻️ 自动选择
   type: url-test
   proxies:
   - 🇹🇼 台湾, 台北
-  - 🇰🇷 韩国, Incheon
-  - 🇭🇰 香港, 九龙
   - 🇯🇵 日本, 东京
+  - 🇺🇸 美国, 洛杉矶
   - 🇺🇸 美国, 达拉斯 2
   - 🇸🇬 新加坡
-  - 🇯🇵 日本, Osaka
-  - 🇺🇸 美国, 洛杉矶
   - 🇺🇸 美国, 休斯敦
   - 🇨🇦 加拿大, Vancouver
+  - 🇯🇵 日本, Osaka
+  - 🇰🇷 韩国, Incheon
+  - 🇭🇰 香港, 九龙
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 🐟 漏网之鱼
