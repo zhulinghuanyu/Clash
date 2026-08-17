@@ -1,374 +1,330 @@
 port: 7890
 socks-port: 7891
 allow-lan: true
-bind-address: '*'
-ipv6: false
 mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-- {name: 🇭🇰 Skyward-香港-1H, server: helped-buck.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: helped-buck.rooster465.autos, skip-cert-verify: true}
-- {name: 🇭🇰 Skyward-香港-1H-WS, server: dgyxjct9ehmzt.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: dgyxjct9ehmzt.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: dgyxjct9ehmzt.cloudfront.net}}}
-- {name: 🇺🇸 Skyward-美国-俄勒冈-1A, server: normal-macaque.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: normal-macaque.rooster465.autos, skip-cert-verify: true}
-- {name: 🇺🇸 Skyward-美国-俄勒冈-1A-WS, server: d1l6gt3nndf5j5.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d1l6gt3nndf5j5.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d1l6gt3nndf5j5.cloudfront.net}}}
-- {name: 🇸🇬 Skyward-新加坡-1A, server: exciting-turtle.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: exciting-turtle.rooster465.autos, skip-cert-verify: true}
-- {name: 🇸🇬 Skyward-新加坡-1A-WS, server: d327wf1kx8ubug.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d327wf1kx8ubug.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d327wf1kx8ubug.cloudfront.net}}}
-- {name: 🇯🇵 Skyward-日本-东京-1A, server: frank-frog.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: frank-frog.rooster465.autos, skip-cert-verify: true}
-- {name: 🇯🇵 Skyward-日本-东京-1A-WS, server: d3q6lazoo3tfav.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d3q6lazoo3tfav.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d3q6lazoo3tfav.cloudfront.net}}}
-- {name: 🇸🇬 Skyward-新加坡-1A 2, server: in-mongrel.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: in-mongrel.rooster465.autos, skip-cert-verify: true}
-- {name: 🇸🇬 Skyward-新加坡-1A-WS 2, server: dh1l00ocksbp2.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: dh1l00ocksbp2.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: dh1l00ocksbp2.cloudfront.net}}}
-- {name: 🇯🇵 Skyward-日本-东京-1A 2, server: glorious-hamster.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: glorious-hamster.rooster465.autos, skip-cert-verify: true}
-- {name: 🇯🇵 Skyward-日本-东京-1A-WS 2, server: d5o4q4bwmuif2.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d5o4q4bwmuif2.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d5o4q4bwmuif2.cloudfront.net}}}
-- {name: 🇸🇬 Skyward-新加坡-1A 3, server: dynamic-imp.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: dynamic-imp.rooster465.autos, skip-cert-verify: true}
-- {name: 🇸🇬 Skyward-新加坡-1A-WS 3, server: d1z08hxi9m38gf.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d1z08hxi9m38gf.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d1z08hxi9m38gf.cloudfront.net}}}
-- {name: 🇯🇵 Skyward-日本-东京-1A 3, server: immense-gnu.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: immense-gnu.rooster465.autos, skip-cert-verify: true}
-- {name: 🇯🇵 Skyward-日本-东京-1A-WS 3, server: d107kdd7a1ohvu.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d107kdd7a1ohvu.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d107kdd7a1ohvu.cloudfront.net}}}
-- {name: 🇺🇸 Skyward-美国-俄勒冈-1A 2, server: bright-baboon.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: bright-baboon.rooster465.autos, skip-cert-verify: true}
-- {name: 🇺🇸 Skyward-美国-俄勒冈-1A-WS 2, server: d2ii2p0d6a4k3i.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d2ii2p0d6a4k3i.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d2ii2p0d6a4k3i.cloudfront.net}}}
-- {name: 🇯🇵 Skyward-日本-东京-1A 4, server: evolving-ewe.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: evolving-ewe.rooster465.autos, skip-cert-verify: true}
-- {name: 🇯🇵 Skyward-日本-东京-1A-WS 4, server: d3075cy2xc5ckd.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d3075cy2xc5ckd.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d3075cy2xc5ckd.cloudfront.net}}}
-- {name: 🇺🇸 Skyward-美国-俄勒冈-1A 3, server: arriving-colt.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: arriving-colt.rooster465.autos, skip-cert-verify: true}
-- {name: 🇺🇸 Skyward-美国-俄勒冈-1A-WS 3, server: d3abxeulog2xlx.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d3abxeulog2xlx.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d3abxeulog2xlx.cloudfront.net}}}
-- {name: 🇺🇸 Skyward-美国-俄勒冈-1A 4, server: comic-poodle.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: comic-poodle.rooster465.autos, skip-cert-verify: true}
-- {name: 🇺🇸 Skyward-美国-俄勒冈-1A-WS 4, server: ddhqjm3kmrcw5.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: ddhqjm3kmrcw5.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: ddhqjm3kmrcw5.cloudfront.net}}}
-- {name: 🇺🇸 Skyward-美国-俄勒冈-1A 5, server: united-condor.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: united-condor.rooster465.autos, skip-cert-verify: true}
-- {name: 🇺🇸 Skyward-美国-俄勒冈-1A-WS 5, server: d2z4lp5e1bvs5l.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d2z4lp5e1bvs5l.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d2z4lp5e1bvs5l.cloudfront.net}}}
-- {name: 🇸🇬 Skyward-新加坡-1A 4, server: brave-squirrel.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: brave-squirrel.rooster465.autos, skip-cert-verify: true}
-- {name: 🇸🇬 Skyward-新加坡-1A-WS 4, server: d24op8whkukgq1.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d24op8whkukgq1.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d24op8whkukgq1.cloudfront.net}}}
-- {name: 🇺🇸 Skyward-美国-俄勒冈-1A 6, server: allowed-moose.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: allowed-moose.rooster465.autos, skip-cert-verify: true}
-- {name: 🇺🇸 Skyward-美国-俄勒冈-1A-WS 6, server: d1macfpiudvu1y.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d1macfpiudvu1y.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d1macfpiudvu1y.cloudfront.net}}}
-- {name: 🇺🇸 Skyward-美国-俄勒冈-1A 7, server: obliging-louse.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: obliging-louse.rooster465.autos, skip-cert-verify: true}
-- {name: 🇺🇸 Skyward-美国-俄勒冈-1A-WS 7, server: d3b3taxtbkmrj8.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d3b3taxtbkmrj8.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d3b3taxtbkmrj8.cloudfront.net}}}
-- {name: 🇺🇸 Skyward-美国-俄勒冈-1A 8, server: liked-serval.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: liked-serval.rooster465.autos, skip-cert-verify: true}
-- {name: 🇺🇸 Skyward-美国-俄勒冈-1A-WS 8, server: d2ifeluph93d6t.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d2ifeluph93d6t.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d2ifeluph93d6t.cloudfront.net}}}
-- {name: 🇺🇸 Skyward-美国-俄勒冈-1A 9, server: warm-krill.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: warm-krill.rooster465.autos, skip-cert-verify: true}
-- {name: 🇺🇸 Skyward-美国-俄勒冈-1A-WS 9, server: d1cpk2kvx1kaom.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d1cpk2kvx1kaom.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d1cpk2kvx1kaom.cloudfront.net}}}
-- {name: 🇺🇸 Skyward-美国-俄勒冈-1A 10, server: natural-collie.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: natural-collie.rooster465.autos, skip-cert-verify: true}
-- {name: 🇺🇸 Skyward-美国-俄勒冈-1A-WS 10, server: d1rf5qpw2e74s5.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d1rf5qpw2e74s5.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d1rf5qpw2e74s5.cloudfront.net}}}
-- {name: 🇺🇸 Skyward-美国-俄勒冈-1A 11, server: happy-porpoise.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: happy-porpoise.rooster465.autos, skip-cert-verify: true}
-- {name: 🇺🇸 Skyward-美国-俄勒冈-1A-WS 11, server: d26hzx1f4en5oh.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d26hzx1f4en5oh.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d26hzx1f4en5oh.cloudfront.net}}}
-- {name: 🇯🇵 Skyward-日本-东京-1A 5, server: musical-mouse.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: musical-mouse.rooster465.autos, skip-cert-verify: true}
-- {name: 🇯🇵 Skyward-日本-东京-1A-WS 5, server: d28s1ztfwccco2.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d28s1ztfwccco2.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d28s1ztfwccco2.cloudfront.net}}}
-- {name: 🇸🇬 Skyward-新加坡-1A 5, server: upward-squid.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: upward-squid.rooster465.autos, skip-cert-verify: true}
-- {name: 🇸🇬 Skyward-新加坡-1A-WS 5, server: d2sizvxfb0m1q7.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d2sizvxfb0m1q7.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d2sizvxfb0m1q7.cloudfront.net}}}
-- {name: 🇯🇵 Skyward-日本-东京-1A 6, server: accepted-starling.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: accepted-starling.rooster465.autos, skip-cert-verify: true}
-- {name: 🇯🇵 Skyward-日本-东京-1A-WS 6, server: d3a0xwj5y0xznd.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d3a0xwj5y0xznd.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d3a0xwj5y0xznd.cloudfront.net}}}
-- {name: 🇳🇱 Skyward-荷兰-阿姆斯特丹-1H, server: eager-louse.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: eager-louse.rooster465.autos, skip-cert-verify: true}
-- {name: 🇳🇱 Skyward-荷兰-阿姆斯特丹-1H-WS, server: dwga0n909n7g8.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: dwga0n909n7g8.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: dwga0n909n7g8.cloudfront.net}}}
-- {name: 🇳🇱 Skyward-荷兰-阿姆斯特丹-1H 2, server: powerful-squid.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: powerful-squid.rooster465.autos, skip-cert-verify: true}
-- {name: 🇳🇱 Skyward-荷兰-阿姆斯特丹-1H-WS 2, server: d3o3910izg3lpb.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d3o3910izg3lpb.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d3o3910izg3lpb.cloudfront.net}}}
-- {name: 🇸🇬 Skyward-新加坡-1A 6, server: wired-grouper.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: wired-grouper.rooster465.autos, skip-cert-verify: true}
-- {name: 🇸🇬 Skyward-新加坡-1A-WS 6, server: d2ohvphy5smuw2.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d2ohvphy5smuw2.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d2ohvphy5smuw2.cloudfront.net}}}
-- {name: 🇯🇵 Skyward-日本-东京-1A 7, server: clear-heron.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: clear-heron.rooster465.autos, skip-cert-verify: true}
-- {name: 🇯🇵 Skyward-日本-东京-1A-WS 7, server: d15geesy0qbp6d.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d15geesy0qbp6d.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d15geesy0qbp6d.cloudfront.net}}}
-- {name: 🇮🇪 Skyward-爱尔兰-1A, server: valued-reptile.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: valued-reptile.rooster465.autos, skip-cert-verify: true}
-- {name: 🇮🇪 Skyward-爱尔兰-1A-WS, server: d2o4m6q2x458bk.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d2o4m6q2x458bk.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d2o4m6q2x458bk.cloudfront.net}}}
-- {name: 🇸🇬 Skyward-新加坡-1A 7, server: liked-prawn.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: liked-prawn.rooster465.autos, skip-cert-verify: true}
-- {name: 🇸🇬 Skyward-新加坡-1A-WS 7, server: d1amwj4dkp35il.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d1amwj4dkp35il.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d1amwj4dkp35il.cloudfront.net}}}
-- {name: 🇸🇬 Skyward-新加坡-1A 8, server: capable-loon.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: capable-loon.rooster465.autos, skip-cert-verify: true}
-- {name: 🇸🇬 Skyward-新加坡-1A-WS 8, server: d1mtd849zcw6sc.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d1mtd849zcw6sc.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d1mtd849zcw6sc.cloudfront.net}}}
-- {name: 🇸🇬 Skyward-新加坡-1A 9, server: crucial-moth.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: crucial-moth.rooster465.autos, skip-cert-verify: true}
-- {name: 🇸🇬 Skyward-新加坡-1A-WS 9, server: d3aonn87lmhq04.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d3aonn87lmhq04.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d3aonn87lmhq04.cloudfront.net}}}
-- {name: 🇸🇬 Skyward-新加坡-1A 10, server: excited-sole.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: excited-sole.rooster465.autos, skip-cert-verify: true}
-- {name: 🇸🇬 Skyward-新加坡-1A-WS 10, server: dx35qgrgb5fao.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: dx35qgrgb5fao.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: dx35qgrgb5fao.cloudfront.net}}}
-- {name: 🇸🇬 Skyward-新加坡-1A 11, server: allowing-ram.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: allowing-ram.rooster465.autos, skip-cert-verify: true}
-- {name: 🇸🇬 Skyward-新加坡-1A-WS 11, server: d3fvazm8vpwxfi.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d3fvazm8vpwxfi.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d3fvazm8vpwxfi.cloudfront.net}}}
-- {name: 🇸🇬 Skyward-新加坡-1A 12, server: aware-corgi.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: aware-corgi.rooster465.autos, skip-cert-verify: true}
-- {name: 🇸🇬 Skyward-新加坡-1A-WS 12, server: d2vm4d0lv3avbr.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d2vm4d0lv3avbr.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d2vm4d0lv3avbr.cloudfront.net}}}
-- {name: 🇸🇬 Skyward-新加坡-1A 13, server: relaxing-mayfly.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: relaxing-mayfly.rooster465.autos, skip-cert-verify: true}
-- {name: 🇸🇬 Skyward-新加坡-1A-WS 13, server: dzy6z63uu6po0.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: dzy6z63uu6po0.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: dzy6z63uu6po0.cloudfront.net}}}
-- {name: 🇸🇬 Skyward-新加坡-1A 14, server: leading-eel.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: leading-eel.rooster465.autos, skip-cert-verify: true}
-- {name: 🇸🇬 Skyward-新加坡-1A-WS 14, server: da0c52g98sk17.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: da0c52g98sk17.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: da0c52g98sk17.cloudfront.net}}}
-- {name: 🇸🇬 Skyward-新加坡-1A 15, server: bold-eagle.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: bold-eagle.rooster465.autos, skip-cert-verify: true}
-- {name: 🇸🇬 Skyward-新加坡-1A-WS 15, server: d2b884fznxdfwa.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d2b884fznxdfwa.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d2b884fznxdfwa.cloudfront.net}}}
-- {name: 🇸🇬 Skyward-新加坡-1A 16, server: relevant-oryx.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: relevant-oryx.rooster465.autos, skip-cert-verify: true}
-- {name: 🇸🇬 Skyward-新加坡-1A-WS 16, server: d3j1hls90kx3dp.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d3j1hls90kx3dp.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d3j1hls90kx3dp.cloudfront.net}}}
-- {name: 🇸🇬 Skyward-新加坡-1A 17, server: immense-eagle.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: immense-eagle.rooster465.autos, skip-cert-verify: true}
-- {name: 🇸🇬 Skyward-新加坡-1A-WS 17, server: d4j2qct7ojuty.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d4j2qct7ojuty.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d4j2qct7ojuty.cloudfront.net}}}
-- {name: 🇸🇬 Skyward-新加坡-1A 18, server: sacred-treefrog.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: sacred-treefrog.rooster465.autos, skip-cert-verify: true}
-- {name: 🇸🇬 Skyward-新加坡-1A-WS 18, server: d1vwngxvmvwis0.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d1vwngxvmvwis0.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d1vwngxvmvwis0.cloudfront.net}}}
-- {name: 🇸🇬 Skyward-新加坡-1A 19, server: musical-terrier.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: musical-terrier.rooster465.autos, skip-cert-verify: true}
-- {name: 🇸🇬 Skyward-新加坡-1A-WS 19, server: d1jxum0qgf3wy7.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d1jxum0qgf3wy7.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d1jxum0qgf3wy7.cloudfront.net}}}
-- {name: 🇯🇵 Skyward-日本-东京-1A 8, server: relaxing-bluebird.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: relaxing-bluebird.rooster465.autos, skip-cert-verify: true}
-- {name: 🇯🇵 Skyward-日本-东京-1A-WS 8, server: d39bdj8vevju6x.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d39bdj8vevju6x.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d39bdj8vevju6x.cloudfront.net}}}
-- {name: 🇯🇵 Skyward-日本-东京-1A 9, server: devoted-zebra.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: devoted-zebra.rooster465.autos, skip-cert-verify: true}
-- {name: 🇯🇵 Skyward-日本-东京-1A-WS 9, server: d24ayf7osdhwey.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d24ayf7osdhwey.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d24ayf7osdhwey.cloudfront.net}}}
-- {name: 🇸🇬 Skyward-新加坡-1A 20, server: well-goshawk.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: well-goshawk.rooster465.autos, skip-cert-verify: true}
-- {name: 🇸🇬 Skyward-新加坡-1A-WS 20, server: d30t6316y8mxto.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d30t6316y8mxto.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d30t6316y8mxto.cloudfront.net}}}
-- {name: 🇸🇬 Skyward-新加坡-1A 21, server: internal-garfish.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: internal-garfish.rooster465.autos, skip-cert-verify: true}
-- {name: 🇸🇬 Skyward-新加坡-1A-WS 21, server: d1chqf5tv73447.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d1chqf5tv73447.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d1chqf5tv73447.cloudfront.net}}}
-- {name: 🇯🇵 Skyward-日本-东京-1A 10, server: smooth-lark.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: smooth-lark.rooster465.autos, skip-cert-verify: true}
-- {name: 🇯🇵 Skyward-日本-东京-1A-WS 10, server: d17vv3538vkmul.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d17vv3538vkmul.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d17vv3538vkmul.cloudfront.net}}}
-- {name: 🇯🇵 Skyward-日本-东京-1A 11, server: together-amoeba.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: together-amoeba.rooster465.autos, skip-cert-verify: true}
-- {name: 🇯🇵 Skyward-日本-东京-1A-WS 11, server: d1di5g1pbmi8kg.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d1di5g1pbmi8kg.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d1di5g1pbmi8kg.cloudfront.net}}}
-- {name: 🇸🇬 Skyward-新加坡-1A 22, server: exotic-turtle.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: exotic-turtle.rooster465.autos, skip-cert-verify: true}
-- {name: 🇸🇬 Skyward-新加坡-1A-WS 22, server: d3ujz1k2gk77z5.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d3ujz1k2gk77z5.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d3ujz1k2gk77z5.cloudfront.net}}}
-- {name: 🇸🇬 Skyward-新加坡-1A 23, server: verified-ringtail.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: verified-ringtail.rooster465.autos, skip-cert-verify: true}
-- {name: 🇸🇬 Skyward-新加坡-1A-WS 23, server: d1r1wg3ldad907.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d1r1wg3ldad907.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d1r1wg3ldad907.cloudfront.net}}}
-- {name: 🇰🇷 Skyward-韩国-首尔-1A, server: dynamic-herring.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: dynamic-herring.rooster465.autos, skip-cert-verify: true}
-- {name: 🇰🇷 Skyward-韩国-首尔-1A-WS, server: d1v08q36txjw61.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d1v08q36txjw61.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d1v08q36txjw61.cloudfront.net}}}
-- {name: 🇸🇬 Skyward-新加坡-1A 24, server: integral-quetzal.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: integral-quetzal.rooster465.autos, skip-cert-verify: true}
-- {name: 🇸🇬 Skyward-新加坡-1A-WS 24, server: d2s36jf4c4ktkk.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d2s36jf4c4ktkk.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d2s36jf4c4ktkk.cloudfront.net}}}
-- {name: 🇯🇵 Skyward-日本-东京-1A 12, server: becoming-hare.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: becoming-hare.rooster465.autos, skip-cert-verify: true}
-- {name: 🇯🇵 Skyward-日本-东京-1A-WS 12, server: dbvmh2djasin6.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: dbvmh2djasin6.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: dbvmh2djasin6.cloudfront.net}}}
-- {name: 🇮🇪 Skyward-爱尔兰-1A 2, server: nice-elephant.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: nice-elephant.rooster465.autos, skip-cert-verify: true}
-- {name: 🇮🇪 Skyward-爱尔兰-1A-WS 2, server: d3pi776fzpmj51.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d3pi776fzpmj51.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d3pi776fzpmj51.cloudfront.net}}}
-- {name: 🇸🇬 Skyward-新加坡-1A 25, server: balanced-firefly.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: balanced-firefly.rooster465.autos, skip-cert-verify: true}
-- {name: 🇸🇬 Skyward-新加坡-1A-WS 25, server: d1pn5qna6lq4mq.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d1pn5qna6lq4mq.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d1pn5qna6lq4mq.cloudfront.net}}}
-- {name: 🇮🇪 Skyward-爱尔兰-1A 3, server: romantic-kangaroo.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: romantic-kangaroo.rooster465.autos, skip-cert-verify: true}
-- {name: 🇮🇪 Skyward-爱尔兰-1A-WS 3, server: d3tks580w1cqp0.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d3tks580w1cqp0.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d3tks580w1cqp0.cloudfront.net}}}
+- {name: 🇰🇷 Skyward-韩国-首尔-1A, server: moved-meerkat.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: moved-meerkat.rooster465.autos, skip-cert-verify: true}
+- {name: 🇰🇷 Skyward-韩国-首尔-1A-WS, server: d2hnd1k3ixmf00.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d2hnd1k3ixmf00.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d2hnd1k3ixmf00.cloudfront.net}}}
+- {name: 🇸🇬 Skyward-新加坡-1A, server: relevant-oryx.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: relevant-oryx.rooster465.autos, skip-cert-verify: true}
+- {name: 🇸🇬 Skyward-新加坡-1A-WS, server: d3j1hls90kx3dp.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d3j1hls90kx3dp.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d3j1hls90kx3dp.cloudfront.net}}}
+- {name: 🇺🇸 Skyward-美国-俄勒冈-1A, server: sharing-duck.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: sharing-duck.rooster465.autos, skip-cert-verify: true}
+- {name: 🇺🇸 Skyward-美国-俄勒冈-1A-WS, server: d2qvp43dggrxdw.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d2qvp43dggrxdw.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d2qvp43dggrxdw.cloudfront.net}}}
+- {name: 🇸🇬 Skyward-新加坡-1A 2, server: alive-flea.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: alive-flea.rooster465.autos, skip-cert-verify: true}
+- {name: 🇸🇬 Skyward-新加坡-1A-WS 2, server: d1tw4wb7ivkb2h.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d1tw4wb7ivkb2h.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d1tw4wb7ivkb2h.cloudfront.net}}}
+- {name: 🇸🇬 Skyward-新加坡-1A 3, server: stable-python.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: stable-python.rooster465.autos, skip-cert-verify: true}
+- {name: 🇸🇬 Skyward-新加坡-1A-WS 3, server: d19hhp88ognfyj.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d19hhp88ognfyj.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d19hhp88ognfyj.cloudfront.net}}}
+- {name: 🇸🇬 Skyward-新加坡-1A 4, server: key-flounder.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: key-flounder.rooster465.autos, skip-cert-verify: true}
+- {name: 🇸🇬 Skyward-新加坡-1A-WS 4, server: d9r08dv8xfads.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d9r08dv8xfads.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d9r08dv8xfads.cloudfront.net}}}
+- {name: 🇸🇬 Skyward-新加坡-1A 5, server: fond-chipmunk.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: fond-chipmunk.rooster465.autos, skip-cert-verify: true}
+- {name: 🇸🇬 Skyward-新加坡-1A-WS 5, server: d1fgr9nizzwe9u.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d1fgr9nizzwe9u.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d1fgr9nizzwe9u.cloudfront.net}}}
+- {name: 🇸🇬 Skyward-新加坡-1A 6, server: definite-jennet.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: definite-jennet.rooster465.autos, skip-cert-verify: true}
+- {name: 🇸🇬 Skyward-新加坡-1A-WS 6, server: d1uvzr70a48pst.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d1uvzr70a48pst.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d1uvzr70a48pst.cloudfront.net}}}
+- {name: 🇸🇬 Skyward-新加坡-1A 7, server: loved-shark.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: loved-shark.rooster465.autos, skip-cert-verify: true}
+- {name: 🇸🇬 Skyward-新加坡-1A-WS 7, server: d2acez58rnbqzy.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d2acez58rnbqzy.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d2acez58rnbqzy.cloudfront.net}}}
+- {name: 🇸🇬 Skyward-新加坡-1A 8, server: bursting-dolphin.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: bursting-dolphin.rooster465.autos, skip-cert-verify: true}
+- {name: 🇸🇬 Skyward-新加坡-1A-WS 8, server: d3rxo7qhuts3ww.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d3rxo7qhuts3ww.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d3rxo7qhuts3ww.cloudfront.net}}}
+- {name: 🇸🇬 Skyward-新加坡-1A 9, server: amazing-troll.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: amazing-troll.rooster465.autos, skip-cert-verify: true}
+- {name: 🇸🇬 Skyward-新加坡-1A-WS 9, server: d3vdr26lm43ns.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d3vdr26lm43ns.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d3vdr26lm43ns.cloudfront.net}}}
+- {name: 🇸🇬 Skyward-新加坡-1A 10, server: winning-marten.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: winning-marten.rooster465.autos, skip-cert-verify: true}
+- {name: 🇸🇬 Skyward-新加坡-1A-WS 10, server: d2sqfwkp6sec7y.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d2sqfwkp6sec7y.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d2sqfwkp6sec7y.cloudfront.net}}}
+- {name: 🇸🇬 Skyward-新加坡-1A 11, server: meet-goshawk.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: meet-goshawk.rooster465.autos, skip-cert-verify: true}
+- {name: 🇸🇬 Skyward-新加坡-1A-WS 11, server: d1o13iiuw5vlbz.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d1o13iiuw5vlbz.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d1o13iiuw5vlbz.cloudfront.net}}}
+- {name: 🇸🇬 Skyward-新加坡-1A 12, server: worthy-perch.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: worthy-perch.rooster465.autos, skip-cert-verify: true}
+- {name: 🇸🇬 Skyward-新加坡-1A-WS 12, server: deghxkh7a8i9l.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: deghxkh7a8i9l.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: deghxkh7a8i9l.cloudfront.net}}}
+- {name: 🇸🇬 Skyward-新加坡-1A 13, server: next-jaybird.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: next-jaybird.rooster465.autos, skip-cert-verify: true}
+- {name: 🇸🇬 Skyward-新加坡-1A-WS 13, server: d3r90shqdj1h9p.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d3r90shqdj1h9p.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d3r90shqdj1h9p.cloudfront.net}}}
+- {name: 🇸🇬 Skyward-新加坡-1A 14, server: stable-racer.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: stable-racer.rooster465.autos, skip-cert-verify: true}
+- {name: 🇸🇬 Skyward-新加坡-1A-WS 14, server: d25i49gq7jp8hy.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d25i49gq7jp8hy.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d25i49gq7jp8hy.cloudfront.net}}}
+- {name: 🇸🇬 Skyward-新加坡-1A 15, server: sharp-dogfish.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: sharp-dogfish.rooster465.autos, skip-cert-verify: true}
+- {name: 🇸🇬 Skyward-新加坡-1A-WS 15, server: d176oavc81g34l.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d176oavc81g34l.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d176oavc81g34l.cloudfront.net}}}
+- {name: 🇺🇸 Skyward-美国-俄勒冈-1A 2, server: communal-squid.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: communal-squid.rooster465.autos, skip-cert-verify: true}
+- {name: 🇺🇸 Skyward-美国-俄勒冈-1A-WS 2, server: dn2b3s3z7jsg8.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: dn2b3s3z7jsg8.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: dn2b3s3z7jsg8.cloudfront.net}}}
+- {name: 🇸🇬 Skyward-新加坡-1A 16, server: infinite-anteater.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: infinite-anteater.rooster465.autos, skip-cert-verify: true}
+- {name: 🇸🇬 Skyward-新加坡-1A-WS 16, server: d2v9sns431bzgh.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d2v9sns431bzgh.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d2v9sns431bzgh.cloudfront.net}}}
+- {name: 🇸🇬 Skyward-新加坡-1A 17, server: excited-alien.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: excited-alien.rooster465.autos, skip-cert-verify: true}
+- {name: 🇸🇬 Skyward-新加坡-1A-WS 17, server: d3488yqphbsr6p.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d3488yqphbsr6p.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d3488yqphbsr6p.cloudfront.net}}}
+- {name: 🇸🇬 Skyward-新加坡-1A 18, server: verified-ringtail.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: verified-ringtail.rooster465.autos, skip-cert-verify: true}
+- {name: 🇸🇬 Skyward-新加坡-1A-WS 18, server: d1r1wg3ldad907.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d1r1wg3ldad907.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d1r1wg3ldad907.cloudfront.net}}}
+- {name: 🇸🇬 Skyward-新加坡-1A 19, server: aware-corgi.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: aware-corgi.rooster465.autos, skip-cert-verify: true}
+- {name: 🇸🇬 Skyward-新加坡-1A-WS 19, server: d2vm4d0lv3avbr.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d2vm4d0lv3avbr.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d2vm4d0lv3avbr.cloudfront.net}}}
+- {name: 🇸🇬 Skyward-新加坡-1A 20, server: complete-cockatoo.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: complete-cockatoo.rooster465.autos, skip-cert-verify: true}
+- {name: 🇸🇬 Skyward-新加坡-1A-WS 20, server: d1zahmobcxl7pl.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d1zahmobcxl7pl.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d1zahmobcxl7pl.cloudfront.net}}}
+- {name: 🇸🇬 Skyward-新加坡-1A 21, server: helping-newt.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: helping-newt.rooster465.autos, skip-cert-verify: true}
+- {name: 🇸🇬 Skyward-新加坡-1A-WS 21, server: d2qy0srvnn6a59.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d2qy0srvnn6a59.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d2qy0srvnn6a59.cloudfront.net}}}
+- {name: 🇫🇷 Skyward-法国-巴黎-1A, server: nearby-cod.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: nearby-cod.rooster465.autos, skip-cert-verify: true}
+- {name: 🇫🇷 Skyward-法国-巴黎-1A-WS, server: d1467cfm0t9097.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d1467cfm0t9097.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d1467cfm0t9097.cloudfront.net}}}
+- {name: 🇫🇷 Skyward-法国-巴黎-1A 2, server: able-mackerel.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: able-mackerel.rooster465.autos, skip-cert-verify: true}
+- {name: 🇫🇷 Skyward-法国-巴黎-1A-WS 2, server: d3kgnj96ojo0kf.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d3kgnj96ojo0kf.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d3kgnj96ojo0kf.cloudfront.net}}}
+- {name: 🇫🇷 Skyward-法国-巴黎-1A 3, server: desired-pony.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: desired-pony.rooster465.autos, skip-cert-verify: true}
+- {name: 🇫🇷 Skyward-法国-巴黎-1A-WS 3, server: d3ey2twrj0w0hq.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d3ey2twrj0w0hq.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d3ey2twrj0w0hq.cloudfront.net}}}
 - {name: 🇰🇷 Skyward-韩国-首尔-1A 2, server: tender-warthog.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: tender-warthog.rooster465.autos, skip-cert-verify: true}
 - {name: 🇰🇷 Skyward-韩国-首尔-1A-WS 2, server: d2wgejj6rp0e1g.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d2wgejj6rp0e1g.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d2wgejj6rp0e1g.cloudfront.net}}}
-- {name: 🇰🇷 Skyward-韩国-首尔-1A 3, server: flying-hyena.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: flying-hyena.rooster465.autos, skip-cert-verify: true}
-- {name: 🇰🇷 Skyward-韩国-首尔-1A-WS 3, server: d26kmlo2iigxxy.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d26kmlo2iigxxy.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d26kmlo2iigxxy.cloudfront.net}}}
-- {name: 🇫🇷 Skyward-法国-巴黎-1A, server: tough-hermit.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: tough-hermit.rooster465.autos, skip-cert-verify: true}
-- {name: 🇫🇷 Skyward-法国-巴黎-1A-WS, server: d1b6l293bzbei5.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d1b6l293bzbei5.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d1b6l293bzbei5.cloudfront.net}}}
-- {name: 🇰🇷 Skyward-韩国-首尔-1A 4, server: intimate-moray.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: intimate-moray.rooster465.autos, skip-cert-verify: true}
-- {name: 🇰🇷 Skyward-韩国-首尔-1A-WS 4, server: d23rhgav923qvk.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d23rhgav923qvk.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d23rhgav923qvk.cloudfront.net}}}
-- {name: 🇫🇷 Skyward-法国-巴黎-1A 2, server: correct-pony.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: correct-pony.rooster465.autos, skip-cert-verify: true}
-- {name: 🇫🇷 Skyward-法国-巴黎-1A-WS 2, server: d2s831gegjpa1s.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d2s831gegjpa1s.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d2s831gegjpa1s.cloudfront.net}}}
-- {name: 🇰🇷 Skyward-韩国-首尔-1A 5, server: grown-troll.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: grown-troll.rooster465.autos, skip-cert-verify: true}
-- {name: 🇰🇷 Skyward-韩国-首尔-1A-WS 5, server: d3dgi3il87xxtg.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d3dgi3il87xxtg.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d3dgi3il87xxtg.cloudfront.net}}}
-- {name: 🇰🇷 Skyward-韩国-首尔-1A 6, server: elegant-mouse.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: elegant-mouse.rooster465.autos, skip-cert-verify: true}
-- {name: 🇰🇷 Skyward-韩国-首尔-1A-WS 6, server: d1w3jjchn32u3l.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d1w3jjchn32u3l.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d1w3jjchn32u3l.cloudfront.net}}}
-- {name: 🇰🇷 Skyward-韩国-首尔-1A 7, server: daring-sunbeam.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: daring-sunbeam.rooster465.autos, skip-cert-verify: true}
-- {name: 🇰🇷 Skyward-韩国-首尔-1A-WS 7, server: d8b8p9pepkvuk.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d8b8p9pepkvuk.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d8b8p9pepkvuk.cloudfront.net}}}
-- {name: 🇰🇷 Skyward-韩国-首尔-1A 8, server: eternal-woodcock.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: eternal-woodcock.rooster465.autos, skip-cert-verify: true}
-- {name: 🇰🇷 Skyward-韩国-首尔-1A-WS 8, server: d6z3g8qkndycx.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d6z3g8qkndycx.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d6z3g8qkndycx.cloudfront.net}}}
-- {name: 🇰🇷 Skyward-韩国-首尔-1A 9, server: gentle-mastiff.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: gentle-mastiff.rooster465.autos, skip-cert-verify: true}
-- {name: 🇰🇷 Skyward-韩国-首尔-1A-WS 9, server: d38sth4zgi96ul.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d38sth4zgi96ul.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d38sth4zgi96ul.cloudfront.net}}}
+- {name: 🇯🇵 Skyward-日本-东京-1A, server: polished-imp.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: polished-imp.rooster465.autos, skip-cert-verify: true}
+- {name: 🇯🇵 Skyward-日本-东京-1A-WS, server: d3ppljg811fhgt.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d3ppljg811fhgt.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d3ppljg811fhgt.cloudfront.net}}}
+- {name: 🇯🇵 Skyward-日本-东京-1A 2, server: delicate-lacewing.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: delicate-lacewing.rooster465.autos, skip-cert-verify: true}
+- {name: 🇯🇵 Skyward-日本-东京-1A-WS 2, server: d3hgvxj5hlxd5w.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d3hgvxj5hlxd5w.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d3hgvxj5hlxd5w.cloudfront.net}}}
+- {name: 🇯🇵 Skyward-日本-东京-1A 3, server: loyal-killdeer.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: loyal-killdeer.rooster465.autos, skip-cert-verify: true}
+- {name: 🇯🇵 Skyward-日本-东京-1A-WS 3, server: d2o8nllbmh8dmw.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d2o8nllbmh8dmw.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d2o8nllbmh8dmw.cloudfront.net}}}
+- {name: 🇯🇵 Skyward-日本-东京-1A 4, server: main-impala.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: main-impala.rooster465.autos, skip-cert-verify: true}
+- {name: 🇯🇵 Skyward-日本-东京-1A-WS 4, server: d21xd4kjh1okut.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d21xd4kjh1okut.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d21xd4kjh1okut.cloudfront.net}}}
+- {name: 🇺🇸 Skyward-美国-俄勒冈-1A 3, server: humorous-hawk.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: humorous-hawk.rooster465.autos, skip-cert-verify: true}
+- {name: 🇺🇸 Skyward-美国-俄勒冈-1A-WS 3, server: dvjpq01e19sh9.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: dvjpq01e19sh9.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: dvjpq01e19sh9.cloudfront.net}}}
+- {name: 🇺🇸 Skyward-美国-俄勒冈-1A 4, server: capable-dory.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: capable-dory.rooster465.autos, skip-cert-verify: true}
+- {name: 🇺🇸 Skyward-美国-俄勒冈-1A-WS 4, server: dkr8l40uu6q9u.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: dkr8l40uu6q9u.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: dkr8l40uu6q9u.cloudfront.net}}}
+- {name: 🇯🇵 Skyward-日本-东京-1A 5, server: accepted-starling.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: accepted-starling.rooster465.autos, skip-cert-verify: true}
+- {name: 🇯🇵 Skyward-日本-东京-1A-WS 5, server: d3a0xwj5y0xznd.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d3a0xwj5y0xznd.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d3a0xwj5y0xznd.cloudfront.net}}}
+- {name: 🇩🇪 Skyward-德国-法兰克福-1A, server: rapid-firefly.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: rapid-firefly.rooster465.autos, skip-cert-verify: true}
+- {name: 🇩🇪 Skyward-德国-法兰克福-1A-WS, server: d2emalyegb48os.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d2emalyegb48os.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d2emalyegb48os.cloudfront.net}}}
+- {name: 🇦🇺 Skyward-澳大利亚-悉尼-1H, server: sharing-chipmunk.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: sharing-chipmunk.rooster465.autos, skip-cert-verify: true}
+- {name: 🇦🇺 Skyward-澳大利亚-悉尼-1H-WS, server: d1v93ro6vayby5.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d1v93ro6vayby5.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d1v93ro6vayby5.cloudfront.net}}}
+- {name: 🇭🇰 Skyward-香港-1H, server: novel-mouse.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: novel-mouse.rooster465.autos, skip-cert-verify: true}
+- {name: 🇭🇰 Skyward-香港-1H-WS, server: d269kcbvuhs9tc.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d269kcbvuhs9tc.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d269kcbvuhs9tc.cloudfront.net}}}
 - {name: 🇭🇰 Skyward-香港-1H 2, server: smiling-ray.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: smiling-ray.rooster465.autos, skip-cert-verify: true}
 - {name: 🇭🇰 Skyward-香港-1H-WS 2, server: d3od8z1ohm5by.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d3od8z1ohm5by.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d3od8z1ohm5by.cloudfront.net}}}
-- {name: 🇭🇰 Skyward-香港-1H 3, server: pretty-vervet.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: pretty-vervet.rooster465.autos, skip-cert-verify: true}
-- {name: 🇭🇰 Skyward-香港-1H-WS 3, server: d2ymio1yenik2b.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d2ymio1yenik2b.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d2ymio1yenik2b.cloudfront.net}}}
-- {name: 🇰🇷 Skyward-韩国-首尔-1A 10, server: game-ant.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: game-ant.rooster465.autos, skip-cert-verify: true}
-- {name: 🇰🇷 Skyward-韩国-首尔-1A-WS 10, server: d2w66xvjjty7s2.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d2w66xvjjty7s2.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d2w66xvjjty7s2.cloudfront.net}}}
-- {name: 🇦🇺 Skyward-澳大利亚-悉尼-1H, server: grown-rhino.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: grown-rhino.rooster465.autos, skip-cert-verify: true}
-- {name: 🇦🇺 Skyward-澳大利亚-悉尼-1H-WS, server: d2147hwo7tg4q3.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d2147hwo7tg4q3.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d2147hwo7tg4q3.cloudfront.net}}}
-- {name: 🇰🇷 Skyward-韩国-首尔-1A 11, server: happy-tortoise.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: happy-tortoise.rooster465.autos, skip-cert-verify: true}
-- {name: 🇰🇷 Skyward-韩国-首尔-1A-WS 11, server: d2mqdwuu156wpy.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d2mqdwuu156wpy.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d2mqdwuu156wpy.cloudfront.net}}}
-- {name: 🇭🇰 Skyward-香港-1H 4, server: strong-haddock.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: strong-haddock.rooster465.autos, skip-cert-verify: true}
-- {name: 🇭🇰 Skyward-香港-1H-WS 4, server: dss8uaz1qufma.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: dss8uaz1qufma.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: dss8uaz1qufma.cloudfront.net}}}
-- {name: 🇭🇰 Skyward-香港-1H 5, server: free-tahr.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: free-tahr.rooster465.autos, skip-cert-verify: true}
-- {name: 🇭🇰 Skyward-香港-1H-WS 5, server: djb61qcddkylu.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: djb61qcddkylu.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: djb61qcddkylu.cloudfront.net}}}
-- {name: 🇰🇷 Skyward-韩国-首尔-1A 12, server: alive-glider.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: alive-glider.rooster465.autos, skip-cert-verify: true}
-- {name: 🇰🇷 Skyward-韩国-首尔-1A-WS 12, server: d3tf5rajbftfrk.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d3tf5rajbftfrk.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d3tf5rajbftfrk.cloudfront.net}}}
-- {name: 🇭🇰 Skyward-香港-1H 6, server: striking-cheetah.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: striking-cheetah.rooster465.autos, skip-cert-verify: true}
-- {name: 🇭🇰 Skyward-香港-1H-WS 6, server: d18jbb37ccp7h2.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d18jbb37ccp7h2.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d18jbb37ccp7h2.cloudfront.net}}}
-- {name: 🇰🇷 Skyward-韩国-首尔-1A 13, server: welcomed-man.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: welcomed-man.rooster465.autos, skip-cert-verify: true}
-- {name: 🇰🇷 Skyward-韩国-首尔-1A-WS 13, server: d2o4owc3i3nh8v.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d2o4owc3i3nh8v.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d2o4owc3i3nh8v.cloudfront.net}}}
-- {name: 🇰🇷 Skyward-韩国-首尔-1A 14, server: capable-jay.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: capable-jay.rooster465.autos, skip-cert-verify: true}
-- {name: 🇰🇷 Skyward-韩国-首尔-1A-WS 14, server: di5kqram49wy5.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: di5kqram49wy5.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: di5kqram49wy5.cloudfront.net}}}
-- {name: 🇭🇰 Skyward-香港-1H 7, server: true-coral.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: true-coral.rooster465.autos, skip-cert-verify: true}
-- {name: 🇭🇰 Skyward-香港-1H-WS 7, server: d3gtkcg4t6oka1.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d3gtkcg4t6oka1.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d3gtkcg4t6oka1.cloudfront.net}}}
-- {name: 🇰🇷 Skyward-韩国-首尔-1A 15, server: allowed-hermit.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: allowed-hermit.rooster465.autos, skip-cert-verify: true}
-- {name: 🇰🇷 Skyward-韩国-首尔-1A-WS 15, server: d1phxvstjud0iu.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d1phxvstjud0iu.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d1phxvstjud0iu.cloudfront.net}}}
-- {name: 🇰🇷 Skyward-韩国-首尔-1A 16, server: sensible-barnacle.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: sensible-barnacle.rooster465.autos, skip-cert-verify: true}
-- {name: 🇰🇷 Skyward-韩国-首尔-1A-WS 16, server: d210jeni3ejvq1.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d210jeni3ejvq1.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d210jeni3ejvq1.cloudfront.net}}}
-- {name: 🇰🇷 Skyward-韩国-首尔-1A 17, server: winning-polecat.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: winning-polecat.rooster465.autos, skip-cert-verify: true}
-- {name: 🇰🇷 Skyward-韩国-首尔-1A-WS 17, server: dwc4xkfm87cuf.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: dwc4xkfm87cuf.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: dwc4xkfm87cuf.cloudfront.net}}}
-- {name: 🇰🇷 Skyward-韩国-首尔-1A 18, server: main-whippet.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: main-whippet.rooster465.autos, skip-cert-verify: true}
-- {name: 🇰🇷 Skyward-韩国-首尔-1A-WS 18, server: d2pne16ok8lo4b.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d2pne16ok8lo4b.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d2pne16ok8lo4b.cloudfront.net}}}
-- {name: 🇯🇵 Skyward-日本-东京-1A 13, server: main-impala.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: main-impala.rooster465.autos, skip-cert-verify: true}
-- {name: 🇯🇵 Skyward-日本-东京-1A-WS 13, server: d21xd4kjh1okut.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d21xd4kjh1okut.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d21xd4kjh1okut.cloudfront.net}}}
-- {name: 🇰🇷 Skyward-韩国-首尔-1A 19, server: good-hound.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: good-hound.rooster465.autos, skip-cert-verify: true}
-- {name: 🇰🇷 Skyward-韩国-首尔-1A-WS 19, server: d16lfrjeb7gb0z.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d16lfrjeb7gb0z.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d16lfrjeb7gb0z.cloudfront.net}}}
-- {name: 🇩🇪 Skyward-德国-法兰克福-1A, server: sterling-macaw.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: sterling-macaw.rooster465.autos, skip-cert-verify: true}
-- {name: 🇩🇪 Skyward-德国-法兰克福-1A-WS, server: d3c620dwd6s3vy.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d3c620dwd6s3vy.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d3c620dwd6s3vy.cloudfront.net}}}
-- {name: 🇦🇺 Skyward-澳大利亚-悉尼-1H 2, server: darling-mutt.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: darling-mutt.rooster465.autos, skip-cert-verify: true}
-- {name: 🇦🇺 Skyward-澳大利亚-悉尼-1H-WS 2, server: d39whfe7e4e7wl.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d39whfe7e4e7wl.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d39whfe7e4e7wl.cloudfront.net}}}
-- {name: 🇩🇪 Skyward-德国-法兰克福-1A 2, server: unique-mako.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: unique-mako.rooster465.autos, skip-cert-verify: true}
-- {name: 🇩🇪 Skyward-德国-法兰克福-1A-WS 2, server: d1haam3vivyw9t.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d1haam3vivyw9t.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d1haam3vivyw9t.cloudfront.net}}}
-- {name: 🇩🇪 Skyward-德国-法兰克福-1A 3, server: renewed-porpoise.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: renewed-porpoise.rooster465.autos, skip-cert-verify: true}
-- {name: 🇩🇪 Skyward-德国-法兰克福-1A-WS 3, server: dw4d1p9dmdajs.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: dw4d1p9dmdajs.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: dw4d1p9dmdajs.cloudfront.net}}}
-- {name: 🇯🇵 Skyward-日本-东京-1A 14, server: devoted-heron.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: devoted-heron.rooster465.autos, skip-cert-verify: true}
-- {name: 🇯🇵 Skyward-日本-东京-1A-WS 14, server: dbautfhpxy78i.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: dbautfhpxy78i.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: dbautfhpxy78i.cloudfront.net}}}
-- {name: 🇦🇺 Skyward-澳大利亚-悉尼-1H 3, server: in-colt.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: in-colt.rooster465.autos, skip-cert-verify: true}
-- {name: 🇦🇺 Skyward-澳大利亚-悉尼-1H-WS 3, server: d3fk683ho5i91m.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d3fk683ho5i91m.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d3fk683ho5i91m.cloudfront.net}}}
-- {name: 🇯🇵 Skyward-日本-东京-1A 15, server: delicate-lacewing.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: delicate-lacewing.rooster465.autos, skip-cert-verify: true}
-- {name: 🇯🇵 Skyward-日本-东京-1A-WS 15, server: d3hgvxj5hlxd5w.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d3hgvxj5hlxd5w.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d3hgvxj5hlxd5w.cloudfront.net}}}
-- {name: 🇮🇪 Skyward-爱尔兰-1A 4, server: glowing-filly.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: glowing-filly.rooster465.autos, skip-cert-verify: true}
-- {name: 🇮🇪 Skyward-爱尔兰-1A-WS 4, server: d19oaul6ytmv9y.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d19oaul6ytmv9y.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d19oaul6ytmv9y.cloudfront.net}}}
-- {name: 🇯🇵 Skyward-日本-东京-1A 16, server: internal-peacock.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: internal-peacock.rooster465.autos, skip-cert-verify: true}
-- {name: 🇯🇵 Skyward-日本-东京-1A-WS 16, server: d3alibiz386reh.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d3alibiz386reh.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d3alibiz386reh.cloudfront.net}}}
-- {name: 🇯🇵 Skyward-日本-东京-1A 17, server: central-jawfish.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: central-jawfish.rooster465.autos, skip-cert-verify: true}
-- {name: 🇯🇵 Skyward-日本-东京-1A-WS 17, server: dyvjbk5r5dloz.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: dyvjbk5r5dloz.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: dyvjbk5r5dloz.cloudfront.net}}}
-- {name: 🇩🇪 Skyward-德国-法兰克福-1A 4, server: flying-elephant.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: flying-elephant.rooster465.autos, skip-cert-verify: true}
-- {name: 🇩🇪 Skyward-德国-法兰克福-1A-WS 4, server: d3hnfx9y4aswz9.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d3hnfx9y4aswz9.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d3hnfx9y4aswz9.cloudfront.net}}}
-- {name: 🇦🇺 Skyward-澳大利亚-悉尼-1H 4, server: national-stingray.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: national-stingray.rooster465.autos, skip-cert-verify: true}
-- {name: 🇦🇺 Skyward-澳大利亚-悉尼-1H-WS 4, server: dla3glbmy3vvn.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: dla3glbmy3vvn.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: dla3glbmy3vvn.cloudfront.net}}}
-- {name: 🇯🇵 Skyward-日本-东京-1A 18, server: desired-boxer.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: desired-boxer.rooster465.autos, skip-cert-verify: true}
-- {name: 🇯🇵 Skyward-日本-东京-1A-WS 18, server: d1s6h3mfrhcnqq.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d1s6h3mfrhcnqq.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d1s6h3mfrhcnqq.cloudfront.net}}}
-- {name: 🇩🇪 Skyward-德国-法兰克福-1A 5, server: humorous-foxhound.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: humorous-foxhound.rooster465.autos, skip-cert-verify: true}
-- {name: 🇩🇪 Skyward-德国-法兰克福-1A-WS 5, server: d9a4kkkbul202.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d9a4kkkbul202.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d9a4kkkbul202.cloudfront.net}}}
-- {name: 🇮🇪 Skyward-爱尔兰-1A 5, server: darling-mongrel.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: darling-mongrel.rooster465.autos, skip-cert-verify: true}
-- {name: 🇮🇪 Skyward-爱尔兰-1A-WS 5, server: dy9rg6jgc0jra.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: dy9rg6jgc0jra.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: dy9rg6jgc0jra.cloudfront.net}}}
-- {name: 🇮🇪 Skyward-爱尔兰-1A 6, server: unbiased-garfish.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: unbiased-garfish.rooster465.autos, skip-cert-verify: true}
-- {name: 🇮🇪 Skyward-爱尔兰-1A-WS 6, server: d22k4bvy2t8kmg.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d22k4bvy2t8kmg.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d22k4bvy2t8kmg.cloudfront.net}}}
-- {name: 🇯🇵 Skyward-日本-东京-1A 19, server: known-albacore.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: known-albacore.rooster465.autos, skip-cert-verify: true}
-- {name: 🇯🇵 Skyward-日本-东京-1A-WS 19, server: dkv80au4w171h.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: dkv80au4w171h.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: dkv80au4w171h.cloudfront.net}}}
-- {name: 🇩🇪 Skyward-德国-法兰克福-1A 6, server: fine-elf.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: fine-elf.rooster465.autos, skip-cert-verify: true}
-- {name: 🇩🇪 Skyward-德国-法兰克福-1A-WS 6, server: dd590lhh2r1p.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: dd590lhh2r1p.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: dd590lhh2r1p.cloudfront.net}}}
-- {name: 🇸🇬 Skyward-新加坡-1A 26, server: guided-ferret.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: guided-ferret.rooster465.autos, skip-cert-verify: true}
-- {name: 🇵🇱 Skyward-波兰-华沙-1H, server: more-trout.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: more-trout.rooster465.autos, skip-cert-verify: true}
-- {name: 🇵🇱 Skyward-波兰-华沙-1H 2, server: game-firefly.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: game-firefly.rooster465.autos, skip-cert-verify: true}
-- {name: 🇳🇱 Skyward-荷兰-阿姆斯特丹-1H 3, server: literate-coyote.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: literate-coyote.rooster465.autos, skip-cert-verify: true}
-- {name: 🇳🇱 Skyward-荷兰-阿姆斯特丹-1H 4, server: upward-hedgehog.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: upward-hedgehog.rooster465.autos, skip-cert-verify: true}
-- {name: 🇵🇱 Skyward-波兰-华沙-1H 3, server: dear-ferret.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: dear-ferret.rooster465.autos, skip-cert-verify: true}
-- {name: 🇫🇷 Skyward-法国-巴黎-1A 3, server: pretty-quail.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: pretty-quail.rooster465.autos, skip-cert-verify: true}
-- {name: 🇸🇬 Skyward-新加坡-1A 27, server: lenient-penguin.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: lenient-penguin.rooster465.autos, skip-cert-verify: true}
-- {name: 🇸🇬 Skyward-新加坡-1A 28, server: capable-baboon.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: capable-baboon.rooster465.autos, skip-cert-verify: true}
-- {name: 🇸🇬 Skyward-新加坡-1A 29, server: careful-penguin.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: careful-penguin.rooster465.autos, skip-cert-verify: true}
-- {name: 🇸🇬 Skyward-新加坡-1A 30, server: polished-akita.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: polished-akita.rooster465.autos, skip-cert-verify: true}
-- {name: 🇸🇬 Skyward-新加坡-1A 31, server: bursting-baboon.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: bursting-baboon.rooster465.autos, skip-cert-verify: true}
-- {name: 🇸🇬 Skyward-新加坡-1A 32, server: cuddly-sheepdog.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: cuddly-sheepdog.rooster465.autos, skip-cert-verify: true}
-- {name: 🇸🇬 Skyward-新加坡-1A 33, server: better-earwig.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: better-earwig.rooster465.autos, skip-cert-verify: true}
-- {name: 🇸🇬 Skyward-新加坡-1A 34, server: faithful-clam.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: faithful-clam.rooster465.autos, skip-cert-verify: true}
-- {name: 🇫🇷 Skyward-法国-巴黎-1A 4, server: great-krill.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: great-krill.rooster465.autos, skip-cert-verify: true}
-- {name: 🇭🇰 Skyward-香港-1H 8, server: glad-roughy.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: glad-roughy.rooster465.autos, skip-cert-verify: true}
-- {name: 🇸🇬 Skyward-新加坡-1A 35, server: absolute-hare.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: absolute-hare.rooster465.autos, skip-cert-verify: true}
-- {name: 🇫🇷 Skyward-法国-巴黎-1A 5, server: definite-giraffe.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: definite-giraffe.rooster465.autos, skip-cert-verify: true}
-- {name: 🇸🇬 Skyward-新加坡-1A 36, server: beloved-crow.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: beloved-crow.rooster465.autos, skip-cert-verify: true}
-- {name: 🇸🇬 Skyward-新加坡-1A 37, server: shining-piranha.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: shining-piranha.rooster465.autos, skip-cert-verify: true}
-- {name: 🇸🇬 Skyward-新加坡-1A 38, server: noted-bass.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: noted-bass.rooster465.autos, skip-cert-verify: true}
-- {name: 🇫🇷 Skyward-法国-巴黎-1A 6, server: immune-earwig.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: immune-earwig.rooster465.autos, skip-cert-verify: true}
-- {name: 🇵🇱 Skyward-波兰-华沙-1H 4, server: cheerful-swan.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: cheerful-swan.rooster465.autos, skip-cert-verify: true}
-- {name: 🇰🇷 Skyward-韩国-首尔-1A 20, server: quick-ant.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: quick-ant.rooster465.autos, skip-cert-verify: true}
-- {name: 🇸🇬 Skyward-新加坡-1A 39, server: probable-weasel.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: probable-weasel.rooster465.autos, skip-cert-verify: true}
-- {name: 🇯🇵 Skyward-日本-东京-1A 20, server: deciding-rattler.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: deciding-rattler.rooster465.autos, skip-cert-verify: true}
-- {name: 🇯🇵 Skyward-日本-东京-1A 21, server: bursting-racer.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: bursting-racer.rooster465.autos, skip-cert-verify: true}
-- {name: 🇯🇵 Skyward-日本-东京-1A 22, server: robust-toucan.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: robust-toucan.rooster465.autos, skip-cert-verify: true}
-- {name: 🇯🇵 Skyward-日本-东京-1A 23, server: legible-chipmunk.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: legible-chipmunk.rooster465.autos, skip-cert-verify: true}
-- {name: 🇯🇵 Skyward-日本-东京-1A 24, server: endless-jackal.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: endless-jackal.rooster465.autos, skip-cert-verify: true}
-- {name: 🇯🇵 Skyward-日本-东京-1A 25, server: intense-wildcat.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: intense-wildcat.rooster465.autos, skip-cert-verify: true}
-- {name: 🇯🇵 Skyward-日本-东京-1A 26, server: open-octopus.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: open-octopus.rooster465.autos, skip-cert-verify: true}
-- {name: 🇯🇵 Skyward-日本-东京-1A 27, server: neat-duck.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: neat-duck.rooster465.autos, skip-cert-verify: true}
-- {name: 🇯🇵 Skyward-日本-东京-1A 28, server: proper-mouse.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: proper-mouse.rooster465.autos, skip-cert-verify: true}
-- {name: 🇯🇵 Skyward-日本-东京-1A 29, server: star-dodo.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: star-dodo.rooster465.autos, skip-cert-verify: true}
-- {name: 🇯🇵 Skyward-日本-东京-1A 30, server: coherent-newt.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: coherent-newt.rooster465.autos, skip-cert-verify: true}
-- {name: 🇯🇵 Skyward-日本-东京-1A 31, server: safe-penguin.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: safe-penguin.rooster465.autos, skip-cert-verify: true}
-- {name: 🇯🇵 Skyward-日本-东京-1A 32, server: cheerful-tapir.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: cheerful-tapir.rooster465.autos, skip-cert-verify: true}
-- {name: 🇯🇵 Skyward-日本-东京-1A 33, server: wealthy-bengal.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: wealthy-bengal.rooster465.autos, skip-cert-verify: true}
-- {name: 🇯🇵 Skyward-日本-东京-1A 34, server: casual-stallion.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: casual-stallion.rooster465.autos, skip-cert-verify: true}
-- {name: 🇯🇵 Skyward-日本-东京-1A 35, server: fun-salmon.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: fun-salmon.rooster465.autos, skip-cert-verify: true}
-- {name: 🇯🇵 Skyward-日本-东京-1A 36, server: settling-shad.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: settling-shad.rooster465.autos, skip-cert-verify: true}
-- {name: 🇯🇵 Skyward-日本-东京-1A 37, server: stirred-sunbeam.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: stirred-sunbeam.rooster465.autos, skip-cert-verify: true}
-- {name: 🇰🇷 Skyward-韩国-首尔-1A 21, server: glorious-lark.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: glorious-lark.rooster465.autos, skip-cert-verify: true}
-- {name: 🇰🇷 Skyward-韩国-首尔-1A 22, server: pleasant-hawk.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: pleasant-hawk.rooster465.autos, skip-cert-verify: true}
-- {name: 🇰🇷 Skyward-韩国-首尔-1A 23, server: brave-muskox.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: brave-muskox.rooster465.autos, skip-cert-verify: true}
+- {name: 🇭🇰 Skyward-香港-1H 3, server: true-coral.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: true-coral.rooster465.autos, skip-cert-verify: true}
+- {name: 🇭🇰 Skyward-香港-1H-WS 3, server: d3gtkcg4t6oka1.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d3gtkcg4t6oka1.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d3gtkcg4t6oka1.cloudfront.net}}}
+- {name: 🇭🇰 Skyward-香港-1H 4, server: sensible-haddock.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: sensible-haddock.rooster465.autos, skip-cert-verify: true}
+- {name: 🇭🇰 Skyward-香港-1H-WS 4, server: d29wtz4dd3ou2a.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d29wtz4dd3ou2a.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d29wtz4dd3ou2a.cloudfront.net}}}
+- {name: 🇭🇰 Skyward-香港-1H 5, server: striking-cheetah.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: striking-cheetah.rooster465.autos, skip-cert-verify: true}
+- {name: 🇭🇰 Skyward-香港-1H-WS 5, server: d18jbb37ccp7h2.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d18jbb37ccp7h2.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d18jbb37ccp7h2.cloudfront.net}}}
+- {name: 🇭🇰 Skyward-香港-1H 6, server: modest-foal.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: modest-foal.rooster465.autos, skip-cert-verify: true}
+- {name: 🇭🇰 Skyward-香港-1H-WS 6, server: d1ccao7kclqrvh.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d1ccao7kclqrvh.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d1ccao7kclqrvh.cloudfront.net}}}
+- {name: 🇭🇰 Skyward-香港-1H 7, server: normal-elk.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: normal-elk.rooster465.autos, skip-cert-verify: true}
+- {name: 🇭🇰 Skyward-香港-1H-WS 7, server: d3qyd6pr8itxft.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d3qyd6pr8itxft.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d3qyd6pr8itxft.cloudfront.net}}}
+- {name: 🇵🇱 Skyward-波兰-华沙-1H, server: discrete-basilisk.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: discrete-basilisk.rooster465.autos, skip-cert-verify: true}
+- {name: 🇵🇱 Skyward-波兰-华沙-1H-WS, server: d39vynozrmtldz.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d39vynozrmtldz.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d39vynozrmtldz.cloudfront.net}}}
+- {name: 🇵🇱 Skyward-波兰-华沙-1H 2, server: skilled-robin.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: skilled-robin.rooster465.autos, skip-cert-verify: true}
+- {name: 🇵🇱 Skyward-波兰-华沙-1H-WS 2, server: d2883hfgtnrd54.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d2883hfgtnrd54.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d2883hfgtnrd54.cloudfront.net}}}
+- {name: 🇩🇪 Skyward-德国-法兰克福-1A 2, server: up-dinosaur.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: up-dinosaur.rooster465.autos, skip-cert-verify: true}
+- {name: 🇩🇪 Skyward-德国-法兰克福-1A-WS 2, server: dbji7nfsue2pr.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: dbji7nfsue2pr.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: dbji7nfsue2pr.cloudfront.net}}}
+- {name: 🇩🇪 Skyward-德国-法兰克福-1A 3, server: sterling-macaw.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: sterling-macaw.rooster465.autos, skip-cert-verify: true}
+- {name: 🇩🇪 Skyward-德国-法兰克福-1A-WS 3, server: d3c620dwd6s3vy.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d3c620dwd6s3vy.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d3c620dwd6s3vy.cloudfront.net}}}
+- {name: 🇩🇪 Skyward-德国-法兰克福-1A 4, server: moved-bluegill.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: moved-bluegill.rooster465.autos, skip-cert-verify: true}
+- {name: 🇩🇪 Skyward-德国-法兰克福-1A-WS 4, server: d176e7csi68jzc.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d176e7csi68jzc.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d176e7csi68jzc.cloudfront.net}}}
+- {name: 🇩🇪 Skyward-德国-法兰克福-1A 5, server: teaching-gnu.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: teaching-gnu.rooster465.autos, skip-cert-verify: true}
+- {name: 🇩🇪 Skyward-德国-法兰克福-1A-WS 5, server: d2g1es7r83g8h2.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d2g1es7r83g8h2.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d2g1es7r83g8h2.cloudfront.net}}}
+- {name: 🇩🇪 Skyward-德国-法兰克福-1A 6, server: adapting-spider.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: adapting-spider.rooster465.autos, skip-cert-verify: true}
+- {name: 🇩🇪 Skyward-德国-法兰克福-1A-WS 6, server: d6hvuv1z5hmd5.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d6hvuv1z5hmd5.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d6hvuv1z5hmd5.cloudfront.net}}}
+- {name: 🇺🇸 Skyward-美国-俄勒冈-1A 5, server: sincere-gelding.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: sincere-gelding.rooster465.autos, skip-cert-verify: true}
+- {name: 🇺🇸 Skyward-美国-俄勒冈-1A-WS 5, server: d2020j3f6c6szl.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d2020j3f6c6szl.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d2020j3f6c6szl.cloudfront.net}}}
+- {name: 🇮🇪 Skyward-爱尔兰-1A, server: splendid-grizzly.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: splendid-grizzly.rooster465.autos, skip-cert-verify: true}
+- {name: 🇮🇪 Skyward-爱尔兰-1A-WS, server: d2juox0896vlt1.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d2juox0896vlt1.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d2juox0896vlt1.cloudfront.net}}}
+- {name: 🇺🇸 Skyward-美国-俄勒冈-1A 6, server: dominant-jaguar.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: dominant-jaguar.rooster465.autos, skip-cert-verify: true}
+- {name: 🇺🇸 Skyward-美国-俄勒冈-1A-WS 6, server: d1qxw2jasfvyd5.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d1qxw2jasfvyd5.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d1qxw2jasfvyd5.cloudfront.net}}}
+- {name: 🇺🇸 Skyward-美国-俄勒冈-1A 7, server: absolute-teal.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: absolute-teal.rooster465.autos, skip-cert-verify: true}
+- {name: 🇺🇸 Skyward-美国-俄勒冈-1A-WS 7, server: dnj343pzijlnu.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: dnj343pzijlnu.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: dnj343pzijlnu.cloudfront.net}}}
+- {name: 🇺🇸 Skyward-美国-俄勒冈-1A 8, server: devoted-tapir.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: devoted-tapir.rooster465.autos, skip-cert-verify: true}
+- {name: 🇺🇸 Skyward-美国-俄勒冈-1A-WS 8, server: d3lwq8wdvtwzgn.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d3lwq8wdvtwzgn.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d3lwq8wdvtwzgn.cloudfront.net}}}
+- {name: 🇺🇸 Skyward-美国-俄勒冈-1A 9, server: dear-hermit.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: dear-hermit.rooster465.autos, skip-cert-verify: true}
+- {name: 🇺🇸 Skyward-美国-俄勒冈-1A-WS 9, server: d2z8p4l435sa2k.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d2z8p4l435sa2k.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d2z8p4l435sa2k.cloudfront.net}}}
+- {name: 🇺🇸 Skyward-美国-俄勒冈-1A 10, server: united-condor.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: united-condor.rooster465.autos, skip-cert-verify: true}
+- {name: 🇺🇸 Skyward-美国-俄勒冈-1A-WS 10, server: d2z4lp5e1bvs5l.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d2z4lp5e1bvs5l.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d2z4lp5e1bvs5l.cloudfront.net}}}
+- {name: 🇺🇸 Skyward-美国-俄勒冈-1A 11, server: warm-krill.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: warm-krill.rooster465.autos, skip-cert-verify: true}
+- {name: 🇺🇸 Skyward-美国-俄勒冈-1A-WS 11, server: d1cpk2kvx1kaom.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d1cpk2kvx1kaom.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d1cpk2kvx1kaom.cloudfront.net}}}
+- {name: 🇮🇪 Skyward-爱尔兰-1A 2, server: touching-turtle.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: touching-turtle.rooster465.autos, skip-cert-verify: true}
+- {name: 🇮🇪 Skyward-爱尔兰-1A-WS 2, server: do0invd8y4z4q.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: do0invd8y4z4q.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: do0invd8y4z4q.cloudfront.net}}}
+- {name: 🇳🇱 Skyward-荷兰-阿姆斯特丹-1H, server: casual-bullfrog.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: casual-bullfrog.rooster465.autos, skip-cert-verify: true}
+- {name: 🇳🇱 Skyward-荷兰-阿姆斯特丹-1H-WS, server: d3i2dc92b8rc6c.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d3i2dc92b8rc6c.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d3i2dc92b8rc6c.cloudfront.net}}}
+- {name: 🇮🇪 Skyward-爱尔兰-1A 3, server: sharp-ibex.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: sharp-ibex.rooster465.autos, skip-cert-verify: true}
+- {name: 🇮🇪 Skyward-爱尔兰-1A-WS 3, server: d2x0c5vwl0mfop.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d2x0c5vwl0mfop.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d2x0c5vwl0mfop.cloudfront.net}}}
+- {name: 🇮🇪 Skyward-爱尔兰-1A 4, server: social-dog.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: social-dog.rooster465.autos, skip-cert-verify: true}
+- {name: 🇮🇪 Skyward-爱尔兰-1A-WS 4, server: dhzevd2tktffb.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: dhzevd2tktffb.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: dhzevd2tktffb.cloudfront.net}}}
+- {name: 🇮🇪 Skyward-爱尔兰-1A 5, server: kind-stork.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: kind-stork.rooster465.autos, skip-cert-verify: true}
+- {name: 🇮🇪 Skyward-爱尔兰-1A-WS 5, server: d1fhy2lb0xvksl.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d1fhy2lb0xvksl.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d1fhy2lb0xvksl.cloudfront.net}}}
+- {name: 🇮🇪 Skyward-爱尔兰-1A 6, server: balanced-heron.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: balanced-heron.rooster465.autos, skip-cert-verify: true}
+- {name: 🇮🇪 Skyward-爱尔兰-1A-WS 6, server: dh5pfrjlnb13v.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: dh5pfrjlnb13v.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: dh5pfrjlnb13v.cloudfront.net}}}
+- {name: 🇳🇱 Skyward-荷兰-阿姆斯特丹-1H 2, server: alive-snapper.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: alive-snapper.rooster465.autos, skip-cert-verify: true}
+- {name: 🇳🇱 Skyward-荷兰-阿姆斯特丹-1H-WS 2, server: d27pmq7keumj92.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d27pmq7keumj92.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d27pmq7keumj92.cloudfront.net}}}
+- {name: 🇳🇱 Skyward-荷兰-阿姆斯特丹-1H 3, server: actual-aardvark.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: actual-aardvark.rooster465.autos, skip-cert-verify: true}
+- {name: 🇳🇱 Skyward-荷兰-阿姆斯特丹-1H-WS 3, server: d12v3iysa6hwws.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d12v3iysa6hwws.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d12v3iysa6hwws.cloudfront.net}}}
+- {name: 🇯🇵 Skyward-日本-东京-1A 6, server: enhanced-crayfish.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: enhanced-crayfish.rooster465.autos, skip-cert-verify: true}
+- {name: 🇯🇵 Skyward-日本-东京-1A-WS 6, server: d28tz3v8hpp4f1.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d28tz3v8hpp4f1.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d28tz3v8hpp4f1.cloudfront.net}}}
+- {name: 🇦🇺 Skyward-澳大利亚-悉尼-1H 2, server: square-pheasant.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: square-pheasant.rooster465.autos, skip-cert-verify: true}
+- {name: 🇦🇺 Skyward-澳大利亚-悉尼-1H-WS 2, server: d6exwu20d2947.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d6exwu20d2947.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d6exwu20d2947.cloudfront.net}}}
+- {name: 🇰🇷 Skyward-韩国-首尔-1A 3, server: daring-sunbeam.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: daring-sunbeam.rooster465.autos, skip-cert-verify: true}
+- {name: 🇰🇷 Skyward-韩国-首尔-1A-WS 3, server: d8b8p9pepkvuk.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d8b8p9pepkvuk.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d8b8p9pepkvuk.cloudfront.net}}}
+- {name: 🇰🇷 Skyward-韩国-首尔-1A 4, server: star-shrimp.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: star-shrimp.rooster465.autos, skip-cert-verify: true}
+- {name: 🇰🇷 Skyward-韩国-首尔-1A-WS 4, server: d7pznogmjjugh.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d7pznogmjjugh.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d7pznogmjjugh.cloudfront.net}}}
+- {name: 🇰🇷 Skyward-韩国-首尔-1A 5, server: precious-stag.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: precious-stag.rooster465.autos, skip-cert-verify: true}
+- {name: 🇰🇷 Skyward-韩国-首尔-1A-WS 5, server: d44tz0zbedk2v.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d44tz0zbedk2v.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d44tz0zbedk2v.cloudfront.net}}}
+- {name: 🇯🇵 Skyward-日本-东京-1A 7, server: famous-opossum.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: famous-opossum.rooster465.autos, skip-cert-verify: true}
+- {name: 🇯🇵 Skyward-日本-东京-1A-WS 7, server: d2fimtqizyzpp8.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d2fimtqizyzpp8.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d2fimtqizyzpp8.cloudfront.net}}}
+- {name: 🇰🇷 Skyward-韩国-首尔-1A 6, server: oriented-pegasus.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: oriented-pegasus.rooster465.autos, skip-cert-verify: true}
+- {name: 🇰🇷 Skyward-韩国-首尔-1A-WS 6, server: dqr2g6adm0g9q.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: dqr2g6adm0g9q.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: dqr2g6adm0g9q.cloudfront.net}}}
+- {name: 🇰🇷 Skyward-韩国-首尔-1A 7, server: musical-manatee.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: musical-manatee.rooster465.autos, skip-cert-verify: true}
+- {name: 🇰🇷 Skyward-韩国-首尔-1A-WS 7, server: d23qprpkozlkd3.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d23qprpkozlkd3.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d23qprpkozlkd3.cloudfront.net}}}
+- {name: 🇰🇷 Skyward-韩国-首尔-1A 8, server: powerful-troll.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: powerful-troll.rooster465.autos, skip-cert-verify: true}
+- {name: 🇰🇷 Skyward-韩国-首尔-1A-WS 8, server: d1gtvqwxa47mvf.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d1gtvqwxa47mvf.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d1gtvqwxa47mvf.cloudfront.net}}}
+- {name: 🇰🇷 Skyward-韩国-首尔-1A 9, server: viable-serval.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: viable-serval.rooster465.autos, skip-cert-verify: true}
+- {name: 🇰🇷 Skyward-韩国-首尔-1A-WS 9, server: d2fyprvqn9lm7m.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d2fyprvqn9lm7m.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d2fyprvqn9lm7m.cloudfront.net}}}
+- {name: 🇯🇵 Skyward-日本-东京-1A 8, server: known-albacore.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: known-albacore.rooster465.autos, skip-cert-verify: true}
+- {name: 🇯🇵 Skyward-日本-东京-1A-WS 8, server: dkv80au4w171h.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: dkv80au4w171h.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: dkv80au4w171h.cloudfront.net}}}
+- {name: 🇰🇷 Skyward-韩国-首尔-1A 10, server: star-bluejay.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: star-bluejay.rooster465.autos, skip-cert-verify: true}
+- {name: 🇰🇷 Skyward-韩国-首尔-1A-WS 10, server: d2fd293igszwyz.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d2fd293igszwyz.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d2fd293igszwyz.cloudfront.net}}}
+- {name: 🇰🇷 Skyward-韩国-首尔-1A 11, server: humorous-malamute.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: humorous-malamute.rooster465.autos, skip-cert-verify: true}
+- {name: 🇰🇷 Skyward-韩国-首尔-1A-WS 11, server: d2g7374cnpk1ug.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d2g7374cnpk1ug.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d2g7374cnpk1ug.cloudfront.net}}}
+- {name: 🇯🇵 Skyward-日本-东京-1A 9, server: living-hagfish.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: living-hagfish.rooster465.autos, skip-cert-verify: true}
+- {name: 🇯🇵 Skyward-日本-东京-1A-WS 9, server: d2romc8wcxc2s2.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d2romc8wcxc2s2.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d2romc8wcxc2s2.cloudfront.net}}}
+- {name: 🇰🇷 Skyward-韩国-首尔-1A 12, server: possible-yeti.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: possible-yeti.rooster465.autos, skip-cert-verify: true}
+- {name: 🇰🇷 Skyward-韩国-首尔-1A-WS 12, server: d2v4q20z414gs2.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d2v4q20z414gs2.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d2v4q20z414gs2.cloudfront.net}}}
+- {name: 🇯🇵 Skyward-日本-东京-1A 10, server: mighty-lemming.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: mighty-lemming.rooster465.autos, skip-cert-verify: true}
+- {name: 🇯🇵 Skyward-日本-东京-1A-WS 10, server: d2md43wmilw3b1.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d2md43wmilw3b1.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d2md43wmilw3b1.cloudfront.net}}}
+- {name: 🇯🇵 Skyward-日本-东京-1A 11, server: accurate-cat.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: accurate-cat.rooster465.autos, skip-cert-verify: true}
+- {name: 🇯🇵 Skyward-日本-东京-1A-WS 11, server: dy0xutg5htc4w.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: dy0xutg5htc4w.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: dy0xutg5htc4w.cloudfront.net}}}
+- {name: 🇰🇷 Skyward-韩国-首尔-1A 13, server: flying-hyena.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: flying-hyena.rooster465.autos, skip-cert-verify: true}
+- {name: 🇰🇷 Skyward-韩国-首尔-1A-WS 13, server: d26kmlo2iigxxy.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d26kmlo2iigxxy.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d26kmlo2iigxxy.cloudfront.net}}}
+- {name: 🇰🇷 Skyward-韩国-首尔-1A 14, server: novel-kodiak.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: novel-kodiak.rooster465.autos, skip-cert-verify: true}
+- {name: 🇰🇷 Skyward-韩国-首尔-1A-WS 14, server: d28u12d2yjjx4q.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d28u12d2yjjx4q.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d28u12d2yjjx4q.cloudfront.net}}}
+- {name: 🇯🇵 Skyward-日本-东京-1A 12, server: charmed-fly.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: charmed-fly.rooster465.autos, skip-cert-verify: true}
+- {name: 🇯🇵 Skyward-日本-东京-1A-WS 12, server: d3878mu512lmpe.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d3878mu512lmpe.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d3878mu512lmpe.cloudfront.net}}}
+- {name: 🇰🇷 Skyward-韩国-首尔-1A 15, server: awake-redbird.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: awake-redbird.rooster465.autos, skip-cert-verify: true}
+- {name: 🇰🇷 Skyward-韩国-首尔-1A-WS 15, server: d317nt7k1v14v7.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d317nt7k1v14v7.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d317nt7k1v14v7.cloudfront.net}}}
+- {name: 🇰🇷 Skyward-韩国-首尔-1A 16, server: uncommon-feline.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: uncommon-feline.rooster465.autos, skip-cert-verify: true}
+- {name: 🇰🇷 Skyward-韩国-首尔-1A-WS 16, server: d3j8qneyexerh4.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d3j8qneyexerh4.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d3j8qneyexerh4.cloudfront.net}}}
+- {name: 🇰🇷 Skyward-韩国-首尔-1A 17, server: modern-vulture.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: modern-vulture.rooster465.autos, skip-cert-verify: true}
+- {name: 🇰🇷 Skyward-韩国-首尔-1A-WS 17, server: d3pr56hhmuhgwz.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d3pr56hhmuhgwz.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d3pr56hhmuhgwz.cloudfront.net}}}
+- {name: 🇰🇷 Skyward-韩国-首尔-1A 18, server: gentle-platypus.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: gentle-platypus.rooster465.autos, skip-cert-verify: true}
+- {name: 🇰🇷 Skyward-韩国-首尔-1A-WS 18, server: dqpc0ri4bh3mm.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: dqpc0ri4bh3mm.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: dqpc0ri4bh3mm.cloudfront.net}}}
+- {name: 🇰🇷 Skyward-韩国-首尔-1A 19, server: light-sheepdog.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: light-sheepdog.rooster465.autos, skip-cert-verify: true}
+- {name: 🇰🇷 Skyward-韩国-首尔-1A-WS 19, server: dmc3lh6otuz4o.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: dmc3lh6otuz4o.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: dmc3lh6otuz4o.cloudfront.net}}}
+- {name: 🇰🇷 Skyward-韩国-首尔-1A 20, server: learning-ladybug.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: learning-ladybug.rooster465.autos, skip-cert-verify: true}
+- {name: 🇰🇷 Skyward-韩国-首尔-1A-WS 20, server: d2evlbte2tka2n.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d2evlbte2tka2n.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d2evlbte2tka2n.cloudfront.net}}}
+- {name: 🇰🇷 Skyward-韩国-首尔-1A 21, server: in-catfish.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: in-catfish.rooster465.autos, skip-cert-verify: true}
+- {name: 🇰🇷 Skyward-韩国-首尔-1A-WS 21, server: d2vqihw8mo20dr.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d2vqihw8mo20dr.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d2vqihw8mo20dr.cloudfront.net}}}
+- {name: 🇰🇷 Skyward-韩国-首尔-1A 22, server: novel-kitten.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: novel-kitten.rooster465.autos, skip-cert-verify: true}
+- {name: 🇰🇷 Skyward-韩国-首尔-1A-WS 22, server: d2le9pkcei86uj.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d2le9pkcei86uj.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d2le9pkcei86uj.cloudfront.net}}}
+- {name: 🇯🇵 Skyward-日本-东京-1A 13, server: helping-shark.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: helping-shark.rooster465.autos, skip-cert-verify: true}
+- {name: 🇯🇵 Skyward-日本-东京-1A-WS 13, server: d36ot6xkbcnk92.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d36ot6xkbcnk92.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d36ot6xkbcnk92.cloudfront.net}}}
+- {name: 🇰🇷 Skyward-韩国-首尔-1A 23, server: enough-lamb.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: enough-lamb.rooster465.autos, skip-cert-verify: true}
+- {name: 🇰🇷 Skyward-韩国-首尔-1A-WS 23, server: d3a9aasw5su5qu.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d3a9aasw5su5qu.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d3a9aasw5su5qu.cloudfront.net}}}
+- {name: 🇯🇵 Skyward-日本-东京-1A 14, server: humorous-snake.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: humorous-snake.rooster465.autos, skip-cert-verify: true}
+- {name: 🇯🇵 Skyward-日本-东京-1A-WS 14, server: d3p8xxnjmur4vg.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d3p8xxnjmur4vg.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d3p8xxnjmur4vg.cloudfront.net}}}
+- {name: 🇯🇵 Skyward-日本-东京-1A 15, server: united-sculpin.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: united-sculpin.rooster465.autos, skip-cert-verify: true}
+- {name: 🇯🇵 Skyward-日本-东京-1A-WS 15, server: d2umjc98ghg9h8.cloudfront.net, port: 443, type: trojan, password: KA06597143, sni: d2umjc98ghg9h8.cloudfront.net, skip-cert-verify: true, network: ws, ws-opts: {path: /img/ser/, headers: {Host: d2umjc98ghg9h8.cloudfront.net}}}
+- {name: 🇸🇬 Skyward-新加坡-1A 22, server: integral-rodent.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: integral-rodent.rooster465.autos, skip-cert-verify: true}
+- {name: 🇸🇬 Skyward-新加坡-1A 23, server: simple-rodent.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: simple-rodent.rooster465.autos, skip-cert-verify: true}
+- {name: 🇯🇵 Skyward-日本-东京-1A 16, server: winning-shrimp.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: winning-shrimp.rooster465.autos, skip-cert-verify: true}
+- {name: 🇯🇵 Skyward-日本-东京-1A 17, server: communal-buffalo.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: communal-buffalo.rooster465.autos, skip-cert-verify: true}
+- {name: 🇯🇵 Skyward-日本-东京-1A 18, server: open-caribou.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: open-caribou.rooster465.autos, skip-cert-verify: true}
+- {name: 🇸🇬 Skyward-新加坡-1A 24, server: certain-egret.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: certain-egret.rooster465.autos, skip-cert-verify: true}
+- {name: 🇸🇬 Skyward-新加坡-1A 25, server: on-airedale.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: on-airedale.rooster465.autos, skip-cert-verify: true}
+- {name: 🇯🇵 Skyward-日本-东京-1A 19, server: ace-liger.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: ace-liger.rooster465.autos, skip-cert-verify: true}
+- {name: 🇸🇬 Skyward-新加坡-1A 26, server: eternal-perch.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: eternal-perch.rooster465.autos, skip-cert-verify: true}
+- {name: 🇸🇬 Skyward-新加坡-1A 27, server: peaceful-polecat.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: peaceful-polecat.rooster465.autos, skip-cert-verify: true}
+- {name: 🇸🇬 Skyward-新加坡-1A 28, server: elegant-arachnid.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: elegant-arachnid.rooster465.autos, skip-cert-verify: true}
+- {name: 🇸🇬 Skyward-新加坡-1A 29, server: included-falcon.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: included-falcon.rooster465.autos, skip-cert-verify: true}
+- {name: 🇯🇵 Skyward-日本-东京-1A 20, server: mutual-puma.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: mutual-puma.rooster465.autos, skip-cert-verify: true}
+- {name: 🇸🇬 Skyward-新加坡-1A 30, server: sacred-anemone.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: sacred-anemone.rooster465.autos, skip-cert-verify: true}
+- {name: 🇯🇵 Skyward-日本-东京-1A 21, server: internal-sunbird.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: internal-sunbird.rooster465.autos, skip-cert-verify: true}
+- {name: 🇯🇵 Skyward-日本-东京-1A 22, server: rich-gelding.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: rich-gelding.rooster465.autos, skip-cert-verify: true}
 - {name: 🇰🇷 Skyward-韩国-首尔-1A 24, server: precious-racer.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: precious-racer.rooster465.autos, skip-cert-verify: true}
-- {name: 🇰🇷 Skyward-韩国-首尔-1A 25, server: sacred-hound.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: sacred-hound.rooster465.autos, skip-cert-verify: true}
-- {name: 🇰🇷 Skyward-韩国-首尔-1A 26, server: gentle-honeybee.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: gentle-honeybee.rooster465.autos, skip-cert-verify: true}
-- {name: 🇰🇷 Skyward-韩国-首尔-1A 27, server: united-grouse.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: united-grouse.rooster465.autos, skip-cert-verify: true}
-- {name: 🇰🇷 Skyward-韩国-首尔-1A 28, server: ruling-toucan.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: ruling-toucan.rooster465.autos, skip-cert-verify: true}
-- {name: 🇯🇵 Skyward-日本-东京-1A 38, server: pumped-clam.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: pumped-clam.rooster465.autos, skip-cert-verify: true}
-- {name: 🇰🇷 Skyward-韩国-首尔-1A 29, server: caring-wallaby.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: caring-wallaby.rooster465.autos, skip-cert-verify: true}
-- {name: 🇰🇷 Skyward-韩国-首尔-1A 30, server: wise-rhino.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: wise-rhino.rooster465.autos, skip-cert-verify: true}
-- {name: 🇰🇷 Skyward-韩国-首尔-1A 31, server: balanced-stag.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: balanced-stag.rooster465.autos, skip-cert-verify: true}
-- {name: 🇰🇷 Skyward-韩国-首尔-1A 32, server: pro-snake.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: pro-snake.rooster465.autos, skip-cert-verify: true}
-- {name: 🇦🇺 Skyward-澳大利亚-悉尼-1H 5, server: selected-bison.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: selected-bison.rooster465.autos, skip-cert-verify: true}
-- {name: 🇯🇵 Skyward-日本-东京-1A 39, server: open-eel.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: open-eel.rooster465.autos, skip-cert-verify: true}
-- {name: 🇯🇵 Skyward-日本-东京-1A 40, server: mutual-puma.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: mutual-puma.rooster465.autos, skip-cert-verify: true}
-- {name: 🇯🇵 Skyward-日本-东京-1A 41, server: driven-bulldog.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: driven-bulldog.rooster465.autos, skip-cert-verify: true}
-- {name: 🇯🇵 Skyward-日本-东京-1A 42, server: glowing-iguana.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: glowing-iguana.rooster465.autos, skip-cert-verify: true}
-- {name: 🇸🇬 Skyward-新加坡-1A 40, server: frank-turtle.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: frank-turtle.rooster465.autos, skip-cert-verify: true}
-- {name: 🇯🇵 Skyward-日本-东京-1A 43, server: wise-longhorn.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: wise-longhorn.rooster465.autos, skip-cert-verify: true}
-- {name: 🇯🇵 Skyward-日本-东京-1A 44, server: wise-gibbon.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: wise-gibbon.rooster465.autos, skip-cert-verify: true}
-- {name: 🇯🇵 Skyward-日本-东京-1A 45, server: pure-ghoul.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: pure-ghoul.rooster465.autos, skip-cert-verify: true}
-- {name: 🇯🇵 Skyward-日本-东京-1A 46, server: proud-honeybee.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: proud-honeybee.rooster465.autos, skip-cert-verify: true}
-- {name: 🇯🇵 Skyward-日本-东京-1A 47, server: cool-lioness.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: cool-lioness.rooster465.autos, skip-cert-verify: true}
-- {name: 🇯🇵 Skyward-日本-东京-1A 48, server: perfect-slug.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: perfect-slug.rooster465.autos, skip-cert-verify: true}
-- {name: 🇯🇵 Skyward-日本-东京-1A 49, server: funny-squid.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: funny-squid.rooster465.autos, skip-cert-verify: true}
-- {name: 🇯🇵 Skyward-日本-东京-1A 50, server: easy-barnacle.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: easy-barnacle.rooster465.autos, skip-cert-verify: true}
-- {name: 🇯🇵 Skyward-日本-东京-1A 51, server: brave-cattle.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: brave-cattle.rooster465.autos, skip-cert-verify: true}
-- {name: 🇯🇵 Skyward-日本-东京-1A 52, server: clear-snail.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: clear-snail.rooster465.autos, skip-cert-verify: true}
-- {name: 🇯🇵 Skyward-日本-东京-1A 53, server: tough-shark.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: tough-shark.rooster465.autos, skip-cert-verify: true}
-- {name: 🇯🇵 Skyward-日本-东京-1A 54, server: square-tortoise.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: square-tortoise.rooster465.autos, skip-cert-verify: true}
-- {name: 🇯🇵 Skyward-日本-东京-1A 55, server: pumped-sailfish.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: pumped-sailfish.rooster465.autos, skip-cert-verify: true}
-- {name: 🇸🇬 Skyward-新加坡-1A 41, server: pleased-raptor.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: pleased-raptor.rooster465.autos, skip-cert-verify: true}
-- {name: 🇸🇬 Skyward-新加坡-1A 42, server: smashing-fawn.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: smashing-fawn.rooster465.autos, skip-cert-verify: true}
-- {name: 🇸🇬 Skyward-新加坡-1A 43, server: rested-osprey.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: rested-osprey.rooster465.autos, skip-cert-verify: true}
-- {name: 🇯🇵 Skyward-日本-东京-1A 56, server: real-ewe.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: real-ewe.rooster465.autos, skip-cert-verify: true}
-- {name: 🇯🇵 Skyward-日本-东京-1A 57, server: on-roughy.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: on-roughy.rooster465.autos, skip-cert-verify: true}
-- {name: 🇯🇵 Skyward-日本-东京-1A 58, server: one-dragon.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: one-dragon.rooster465.autos, skip-cert-verify: true}
-- {name: 🇯🇵 Skyward-日本-东京-1A 59, server: saving-sawfly.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: saving-sawfly.rooster465.autos, skip-cert-verify: true}
-- {name: 🇯🇵 Skyward-日本-东京-1A 60, server: united-frog.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: united-frog.rooster465.autos, skip-cert-verify: true}
-- {name: 🇯🇵 Skyward-日本-东京-1A 61, server: rested-pheasant.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: rested-pheasant.rooster465.autos, skip-cert-verify: true}
-- {name: 🇯🇵 Skyward-日本-东京-1A 62, server: guided-warthog.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: guided-warthog.rooster465.autos, skip-cert-verify: true}
-- {name: 🇯🇵 Skyward-日本-东京-1A 63, server: better-molly.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: better-molly.rooster465.autos, skip-cert-verify: true}
-- {name: 🇯🇵 Skyward-日本-东京-1A 64, server: glowing-deer.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: glowing-deer.rooster465.autos, skip-cert-verify: true}
-- {name: 🇯🇵 Skyward-日本-东京-1A 65, server: polite-husky.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: polite-husky.rooster465.autos, skip-cert-verify: true}
-- {name: 🇯🇵 Skyward-日本-东京-1A 66, server: aware-serval.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: aware-serval.rooster465.autos, skip-cert-verify: true}
-- {name: 🇯🇵 Skyward-日本-东京-1A 67, server: sharing-fawn.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: sharing-fawn.rooster465.autos, skip-cert-verify: true}
-- {name: 🇯🇵 Skyward-日本-东京-1A 68, server: harmless-imp.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: harmless-imp.rooster465.autos, skip-cert-verify: true}
-- {name: 🇯🇵 Skyward-日本-东京-1A 69, server: outgoing-eagle.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: outgoing-eagle.rooster465.autos, skip-cert-verify: true}
-- {name: 🇯🇵 Skyward-日本-东京-1A 70, server: great-wasp.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: great-wasp.rooster465.autos, skip-cert-verify: true}
-- {name: 🇯🇵 Skyward-日本-东京-1A 71, server: united-molly.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: united-molly.rooster465.autos, skip-cert-verify: true}
-- {name: 🇯🇵 Skyward-日本-东京-1A 72, server: literate-grizzly.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: literate-grizzly.rooster465.autos, skip-cert-verify: true}
-- {name: 🇯🇵 Skyward-日本-东京-1A 73, server: new-eagle.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: new-eagle.rooster465.autos, skip-cert-verify: true}
-- {name: 🇯🇵 Skyward-日本-东京-1A 74, server: pleased-lobster.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: pleased-lobster.rooster465.autos, skip-cert-verify: true}
-- {name: 🇯🇵 Skyward-日本-东京-1A 75, server: mature-civet.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: mature-civet.rooster465.autos, skip-cert-verify: true}
+- {name: 🇦🇺 Skyward-澳大利亚-悉尼-1H 3, server: together-dingo.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: together-dingo.rooster465.autos, skip-cert-verify: true}
+- {name: 🇦🇺 Skyward-澳大利亚-悉尼-1H 4, server: big-bonefish.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: big-bonefish.rooster465.autos, skip-cert-verify: true}
+- {name: 🇰🇷 Skyward-韩国-首尔-1A 25, server: regular-raptor.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: regular-raptor.rooster465.autos, skip-cert-verify: true}
+- {name: 🇭🇰 Skyward-香港-1H 8, server: eminent-lamb.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: eminent-lamb.rooster465.autos, skip-cert-verify: true}
+- {name: 🇰🇷 Skyward-韩国-首尔-1A 26, server: magical-prawn.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: magical-prawn.rooster465.autos, skip-cert-verify: true}
+- {name: 🇵🇱 Skyward-波兰-华沙-1H 3, server: cheerful-swan.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: cheerful-swan.rooster465.autos, skip-cert-verify: true}
+- {name: 🇰🇷 Skyward-韩国-首尔-1A 27, server: peaceful-muskrat.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: peaceful-muskrat.rooster465.autos, skip-cert-verify: true}
+- {name: 🇵🇱 Skyward-波兰-华沙-1H 4, server: more-trout.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: more-trout.rooster465.autos, skip-cert-verify: true}
+- {name: 🇰🇷 Skyward-韩国-首尔-1A 28, server: full-mayfly.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: full-mayfly.rooster465.autos, skip-cert-verify: true}
+- {name: 🇯🇵 Skyward-日本-东京-1A 23, server: right-seahorse.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: right-seahorse.rooster465.autos, skip-cert-verify: true}
+- {name: 🇰🇷 Skyward-韩国-首尔-1A 29, server: gentle-honeybee.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: gentle-honeybee.rooster465.autos, skip-cert-verify: true}
+- {name: 🇳🇱 Skyward-荷兰-阿姆斯特丹-1H 4, server: emerging-weevil.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: emerging-weevil.rooster465.autos, skip-cert-verify: true}
+- {name: 🇰🇷 Skyward-韩国-首尔-1A 30, server: infinite-tuna.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: infinite-tuna.rooster465.autos, skip-cert-verify: true}
+- {name: 🇰🇷 Skyward-韩国-首尔-1A 31, server: pleased-mammal.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: pleased-mammal.rooster465.autos, skip-cert-verify: true}
+- {name: 🇯🇵 Skyward-日本-东京-1A 24, server: good-bluebird.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: good-bluebird.rooster465.autos, skip-cert-verify: true}
+- {name: 🇰🇷 Skyward-韩国-首尔-1A 32, server: one-dove.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: one-dove.rooster465.autos, skip-cert-verify: true}
+- {name: 🇯🇵 Skyward-日本-东京-1A 25, server: alert-redfish.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: alert-redfish.rooster465.autos, skip-cert-verify: true}
+- {name: 🇯🇵 Skyward-日本-东京-1A 26, server: proud-honeybee.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: proud-honeybee.rooster465.autos, skip-cert-verify: true}
+- {name: 🇯🇵 Skyward-日本-东京-1A 27, server: pumped-eft.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: pumped-eft.rooster465.autos, skip-cert-verify: true}
+- {name: 🇸🇬 Skyward-新加坡-1A 31, server: calm-honeybee.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: calm-honeybee.rooster465.autos, skip-cert-verify: true}
+- {name: 🇸🇬 Skyward-新加坡-1A 32, server: closing-moose.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: closing-moose.rooster465.autos, skip-cert-verify: true}
+- {name: 🇯🇵 Skyward-日本-东京-1A 28, server: moved-weasel.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: moved-weasel.rooster465.autos, skip-cert-verify: true}
+- {name: 🇯🇵 Skyward-日本-东京-1A 29, server: pumped-clam.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: pumped-clam.rooster465.autos, skip-cert-verify: true}
+- {name: 🇯🇵 Skyward-日本-东京-1A 30, server: sure-husky.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: sure-husky.rooster465.autos, skip-cert-verify: true}
+- {name: 🇯🇵 Skyward-日本-东京-1A 31, server: inviting-burro.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: inviting-burro.rooster465.autos, skip-cert-verify: true}
+- {name: 🇯🇵 Skyward-日本-东京-1A 32, server: pet-mako.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: pet-mako.rooster465.autos, skip-cert-verify: true}
+- {name: 🇯🇵 Skyward-日本-东京-1A 33, server: prime-quail.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: prime-quail.rooster465.autos, skip-cert-verify: true}
+- {name: 🇯🇵 Skyward-日本-东京-1A 34, server: immortal-woodcock.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: immortal-woodcock.rooster465.autos, skip-cert-verify: true}
+- {name: 🇯🇵 Skyward-日本-东京-1A 35, server: pleased-pelican.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: pleased-pelican.rooster465.autos, skip-cert-verify: true}
+- {name: 🇯🇵 Skyward-日本-东京-1A 36, server: sacred-shepherd.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: sacred-shepherd.rooster465.autos, skip-cert-verify: true}
+- {name: 🇯🇵 Skyward-日本-东京-1A 37, server: literate-cow.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: literate-cow.rooster465.autos, skip-cert-verify: true}
+- {name: 🇯🇵 Skyward-日本-东京-1A 38, server: equal-labrador.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: equal-labrador.rooster465.autos, skip-cert-verify: true}
+- {name: 🇯🇵 Skyward-日本-东京-1A 39, server: giving-bird.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: giving-bird.rooster465.autos, skip-cert-verify: true}
+- {name: 🇯🇵 Skyward-日本-东京-1A 40, server: saving-sawfly.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: saving-sawfly.rooster465.autos, skip-cert-verify: true}
+- {name: 🇯🇵 Skyward-日本-东京-1A 41, server: apt-midge.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: apt-midge.rooster465.autos, skip-cert-verify: true}
+- {name: 🇯🇵 Skyward-日本-东京-1A 42, server: neat-quail.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: neat-quail.rooster465.autos, skip-cert-verify: true}
+- {name: 🇯🇵 Skyward-日本-东京-1A 43, server: clear-killdeer.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: clear-killdeer.rooster465.autos, skip-cert-verify: true}
+- {name: 🇯🇵 Skyward-日本-东京-1A 44, server: engaged-lionfish.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: engaged-lionfish.rooster465.autos, skip-cert-verify: true}
+- {name: 🇯🇵 Skyward-日本-东京-1A 45, server: new-eagle.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: new-eagle.rooster465.autos, skip-cert-verify: true}
+- {name: 🇯🇵 Skyward-日本-东京-1A 46, server: innocent-mullet.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: innocent-mullet.rooster465.autos, skip-cert-verify: true}
+- {name: 🇯🇵 Skyward-日本-东京-1A 47, server: flexible-gannet.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: flexible-gannet.rooster465.autos, skip-cert-verify: true}
+- {name: 🇯🇵 Skyward-日本-东京-1A 48, server: flying-escargot.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: flying-escargot.rooster465.autos, skip-cert-verify: true}
+- {name: 🇯🇵 Skyward-日本-东京-1A 49, server: star-cheetah.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: star-cheetah.rooster465.autos, skip-cert-verify: true}
+- {name: 🇯🇵 Skyward-日本-东京-1A 50, server: dashing-minnow.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: dashing-minnow.rooster465.autos, skip-cert-verify: true}
+- {name: 🇯🇵 Skyward-日本-东京-1A 51, server: present-ram.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: present-ram.rooster465.autos, skip-cert-verify: true}
+- {name: 🇯🇵 Skyward-日本-东京-1A 52, server: meet-doe.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: meet-doe.rooster465.autos, skip-cert-verify: true}
+- {name: 🇯🇵 Skyward-日本-东京-1A 53, server: flexible-pony.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: flexible-pony.rooster465.autos, skip-cert-verify: true}
+- {name: 🇯🇵 Skyward-日本-东京-1A 54, server: safe-penguin.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: safe-penguin.rooster465.autos, skip-cert-verify: true}
+- {name: 🇯🇵 Skyward-日本-东京-1A 55, server: pleased-lobster.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: pleased-lobster.rooster465.autos, skip-cert-verify: true}
+- {name: 🇯🇵 Skyward-日本-东京-1A 56, server: fair-kingfish.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: fair-kingfish.rooster465.autos, skip-cert-verify: true}
+- {name: 🇯🇵 Skyward-日本-东京-1A 57, server: choice-bird.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: choice-bird.rooster465.autos, skip-cert-verify: true}
+- {name: 🇯🇵 Skyward-日本-东京-1A 58, server: maximum-elk.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: maximum-elk.rooster465.autos, skip-cert-verify: true}
+- {name: 🇯🇵 Skyward-日本-东京-1A 59, server: robust-toucan.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: robust-toucan.rooster465.autos, skip-cert-verify: true}
+- {name: 🇸🇬 Skyward-新加坡-1A 33, server: cuddly-sheepdog.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: cuddly-sheepdog.rooster465.autos, skip-cert-verify: true}
+- {name: 🇯🇵 Skyward-日本-东京-1A 60, server: bright-quagga.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: bright-quagga.rooster465.autos, skip-cert-verify: true}
+- {name: 🇯🇵 Skyward-日本-东京-1A 61, server: intense-basilisk.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: intense-basilisk.rooster465.autos, skip-cert-verify: true}
+- {name: 🇸🇬 Skyward-新加坡-1A 34, server: immune-grackle.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: immune-grackle.rooster465.autos, skip-cert-verify: true}
+- {name: 🇸🇬 Skyward-新加坡-1A 35, server: fleet-pony.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: fleet-pony.rooster465.autos, skip-cert-verify: true}
+- {name: 🇯🇵 Skyward-日本-东京-1A 62, server: mature-civet.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: mature-civet.rooster465.autos, skip-cert-verify: true}
+- {name: 🇯🇵 Skyward-日本-东京-1A 63, server: grateful-crawdad.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: grateful-crawdad.rooster465.autos, skip-cert-verify: true}
+- {name: 🇸🇬 Skyward-新加坡-1A 36, server: smashing-airedale.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: smashing-airedale.rooster465.autos, skip-cert-verify: true}
+- {name: 🇯🇵 Skyward-日本-东京-1A 64, server: adapting-giraffe.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: adapting-giraffe.rooster465.autos, skip-cert-verify: true}
+- {name: 🇸🇬 Skyward-新加坡-1A 37, server: massive-terrapin.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: massive-terrapin.rooster465.autos, skip-cert-verify: true}
+- {name: 🇸🇬 Skyward-新加坡-1A 38, server: prime-corgi.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: prime-corgi.rooster465.autos, skip-cert-verify: true}
+- {name: 🇸🇬 Skyward-新加坡-1A 39, server: apparent-wasp.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: apparent-wasp.rooster465.autos, skip-cert-verify: true}
+- {name: 🇸🇬 Skyward-新加坡-1A 40, server: legal-monster.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: legal-monster.rooster465.autos, skip-cert-verify: true}
+- {name: 🇯🇵 Skyward-日本-东京-1A 65, server: adjusted-orca.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: adjusted-orca.rooster465.autos, skip-cert-verify: true}
+- {name: 🇯🇵 Skyward-日本-东京-1A 66, server: lucky-albacore.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: lucky-albacore.rooster465.autos, skip-cert-verify: true}
+- {name: 🇸🇬 Skyward-新加坡-1A 41, server: climbing-sawfly.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: climbing-sawfly.rooster465.autos, skip-cert-verify: true}
+- {name: 🇯🇵 Skyward-日本-东京-1A 67, server: bursting-racer.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: bursting-racer.rooster465.autos, skip-cert-verify: true}
+- {name: 🇯🇵 Skyward-日本-东京-1A 68, server: electric-rhino.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: electric-rhino.rooster465.autos, skip-cert-verify: true}
+- {name: 🇯🇵 Skyward-日本-东京-1A 69, server: lucky-primate.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: lucky-primate.rooster465.autos, skip-cert-verify: true}
+- {name: 🇸🇬 Skyward-新加坡-1A 42, server: cunning-midge.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: cunning-midge.rooster465.autos, skip-cert-verify: true}
+- {name: 🇯🇵 Skyward-日本-东京-1A 70, server: harmless-gobbler.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: harmless-gobbler.rooster465.autos, skip-cert-verify: true}
+- {name: 🇸🇬 Skyward-新加坡-1A 43, server: frank-turtle.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: frank-turtle.rooster465.autos, skip-cert-verify: true}
+- {name: 🇫🇷 Skyward-法国-巴黎-1A 4, server: lucky-marmot.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: lucky-marmot.rooster465.autos, skip-cert-verify: true}
+- {name: 🇯🇵 Skyward-日本-东京-1A 71, server: safe-frog.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: safe-frog.rooster465.autos, skip-cert-verify: true}
+- {name: 🇫🇷 Skyward-法国-巴黎-1A 5, server: great-krill.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: great-krill.rooster465.autos, skip-cert-verify: true}
+- {name: 🇫🇷 Skyward-法国-巴黎-1A 6, server: one-quail.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: one-quail.rooster465.autos, skip-cert-verify: true}
+- {name: 🇫🇷 Skyward-法国-巴黎-1A 7, server: immune-earwig.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: immune-earwig.rooster465.autos, skip-cert-verify: true}
+- {name: 🇯🇵 Skyward-日本-东京-1A 72, server: picked-hippo.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: picked-hippo.rooster465.autos, skip-cert-verify: true}
+- {name: 🇯🇵 Skyward-日本-东京-1A 73, server: supreme-lobster.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: supreme-lobster.rooster465.autos, skip-cert-verify: true}
+- {name: 🇯🇵 Skyward-日本-东京-1A 74, server: champion-alien.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: champion-alien.rooster465.autos, skip-cert-verify: true}
+- {name: 🇯🇵 Skyward-日本-东京-1A 75, server: pet-albacore.rooster465.autos, port: 443, type: trojan, password: KA06597143, sni: pet-albacore.rooster465.autos, skip-cert-verify: true}
 proxy-groups:
 - name: 🚀 节点选择
   type: select
   proxies:
   - ♻️ 自动选择
-  - 🇭🇰 Skyward-香港-1H
-  - 🇭🇰 Skyward-香港-1H-WS
-  - 🇺🇸 Skyward-美国-俄勒冈-1A
-  - 🇺🇸 Skyward-美国-俄勒冈-1A-WS
+  - 🇰🇷 Skyward-韩国-首尔-1A
+  - 🇰🇷 Skyward-韩国-首尔-1A-WS
   - 🇸🇬 Skyward-新加坡-1A
   - 🇸🇬 Skyward-新加坡-1A-WS
-  - 🇯🇵 Skyward-日本-东京-1A
-  - 🇯🇵 Skyward-日本-东京-1A-WS
+  - 🇺🇸 Skyward-美国-俄勒冈-1A
+  - 🇺🇸 Skyward-美国-俄勒冈-1A-WS
   - 🇸🇬 Skyward-新加坡-1A 2
   - 🇸🇬 Skyward-新加坡-1A-WS 2
-  - 🇯🇵 Skyward-日本-东京-1A 2
-  - 🇯🇵 Skyward-日本-东京-1A-WS 2
   - 🇸🇬 Skyward-新加坡-1A 3
   - 🇸🇬 Skyward-新加坡-1A-WS 3
-  - 🇯🇵 Skyward-日本-东京-1A 3
-  - 🇯🇵 Skyward-日本-东京-1A-WS 3
-  - 🇺🇸 Skyward-美国-俄勒冈-1A 2
-  - 🇺🇸 Skyward-美国-俄勒冈-1A-WS 2
-  - 🇯🇵 Skyward-日本-东京-1A 4
-  - 🇯🇵 Skyward-日本-东京-1A-WS 4
-  - 🇺🇸 Skyward-美国-俄勒冈-1A 3
-  - 🇺🇸 Skyward-美国-俄勒冈-1A-WS 3
-  - 🇺🇸 Skyward-美国-俄勒冈-1A 4
-  - 🇺🇸 Skyward-美国-俄勒冈-1A-WS 4
-  - 🇺🇸 Skyward-美国-俄勒冈-1A 5
-  - 🇺🇸 Skyward-美国-俄勒冈-1A-WS 5
   - 🇸🇬 Skyward-新加坡-1A 4
   - 🇸🇬 Skyward-新加坡-1A-WS 4
-  - 🇺🇸 Skyward-美国-俄勒冈-1A 6
-  - 🇺🇸 Skyward-美国-俄勒冈-1A-WS 6
-  - 🇺🇸 Skyward-美国-俄勒冈-1A 7
-  - 🇺🇸 Skyward-美国-俄勒冈-1A-WS 7
-  - 🇺🇸 Skyward-美国-俄勒冈-1A 8
-  - 🇺🇸 Skyward-美国-俄勒冈-1A-WS 8
-  - 🇺🇸 Skyward-美国-俄勒冈-1A 9
-  - 🇺🇸 Skyward-美国-俄勒冈-1A-WS 9
-  - 🇺🇸 Skyward-美国-俄勒冈-1A 10
-  - 🇺🇸 Skyward-美国-俄勒冈-1A-WS 10
-  - 🇺🇸 Skyward-美国-俄勒冈-1A 11
-  - 🇺🇸 Skyward-美国-俄勒冈-1A-WS 11
-  - 🇯🇵 Skyward-日本-东京-1A 5
-  - 🇯🇵 Skyward-日本-东京-1A-WS 5
   - 🇸🇬 Skyward-新加坡-1A 5
   - 🇸🇬 Skyward-新加坡-1A-WS 5
-  - 🇯🇵 Skyward-日本-东京-1A 6
-  - 🇯🇵 Skyward-日本-东京-1A-WS 6
-  - 🇳🇱 Skyward-荷兰-阿姆斯特丹-1H
-  - 🇳🇱 Skyward-荷兰-阿姆斯特丹-1H-WS
-  - 🇳🇱 Skyward-荷兰-阿姆斯特丹-1H 2
-  - 🇳🇱 Skyward-荷兰-阿姆斯特丹-1H-WS 2
   - 🇸🇬 Skyward-新加坡-1A 6
   - 🇸🇬 Skyward-新加坡-1A-WS 6
-  - 🇯🇵 Skyward-日本-东京-1A 7
-  - 🇯🇵 Skyward-日本-东京-1A-WS 7
-  - 🇮🇪 Skyward-爱尔兰-1A
-  - 🇮🇪 Skyward-爱尔兰-1A-WS
   - 🇸🇬 Skyward-新加坡-1A 7
   - 🇸🇬 Skyward-新加坡-1A-WS 7
   - 🇸🇬 Skyward-新加坡-1A 8
@@ -387,6 +343,8 @@ proxy-groups:
   - 🇸🇬 Skyward-新加坡-1A-WS 14
   - 🇸🇬 Skyward-新加坡-1A 15
   - 🇸🇬 Skyward-新加坡-1A-WS 15
+  - 🇺🇸 Skyward-美国-俄勒冈-1A 2
+  - 🇺🇸 Skyward-美国-俄勒冈-1A-WS 2
   - 🇸🇬 Skyward-新加坡-1A 16
   - 🇸🇬 Skyward-新加坡-1A-WS 16
   - 🇸🇬 Skyward-新加坡-1A 17
@@ -395,46 +353,108 @@ proxy-groups:
   - 🇸🇬 Skyward-新加坡-1A-WS 18
   - 🇸🇬 Skyward-新加坡-1A 19
   - 🇸🇬 Skyward-新加坡-1A-WS 19
-  - 🇯🇵 Skyward-日本-东京-1A 8
-  - 🇯🇵 Skyward-日本-东京-1A-WS 8
-  - 🇯🇵 Skyward-日本-东京-1A 9
-  - 🇯🇵 Skyward-日本-东京-1A-WS 9
   - 🇸🇬 Skyward-新加坡-1A 20
   - 🇸🇬 Skyward-新加坡-1A-WS 20
   - 🇸🇬 Skyward-新加坡-1A 21
   - 🇸🇬 Skyward-新加坡-1A-WS 21
-  - 🇯🇵 Skyward-日本-东京-1A 10
-  - 🇯🇵 Skyward-日本-东京-1A-WS 10
-  - 🇯🇵 Skyward-日本-东京-1A 11
-  - 🇯🇵 Skyward-日本-东京-1A-WS 11
-  - 🇸🇬 Skyward-新加坡-1A 22
-  - 🇸🇬 Skyward-新加坡-1A-WS 22
-  - 🇸🇬 Skyward-新加坡-1A 23
-  - 🇸🇬 Skyward-新加坡-1A-WS 23
-  - 🇰🇷 Skyward-韩国-首尔-1A
-  - 🇰🇷 Skyward-韩国-首尔-1A-WS
-  - 🇸🇬 Skyward-新加坡-1A 24
-  - 🇸🇬 Skyward-新加坡-1A-WS 24
-  - 🇯🇵 Skyward-日本-东京-1A 12
-  - 🇯🇵 Skyward-日本-东京-1A-WS 12
-  - 🇮🇪 Skyward-爱尔兰-1A 2
-  - 🇮🇪 Skyward-爱尔兰-1A-WS 2
-  - 🇸🇬 Skyward-新加坡-1A 25
-  - 🇸🇬 Skyward-新加坡-1A-WS 25
-  - 🇮🇪 Skyward-爱尔兰-1A 3
-  - 🇮🇪 Skyward-爱尔兰-1A-WS 3
-  - 🇰🇷 Skyward-韩国-首尔-1A 2
-  - 🇰🇷 Skyward-韩国-首尔-1A-WS 2
-  - 🇰🇷 Skyward-韩国-首尔-1A 3
-  - 🇰🇷 Skyward-韩国-首尔-1A-WS 3
   - 🇫🇷 Skyward-法国-巴黎-1A
   - 🇫🇷 Skyward-法国-巴黎-1A-WS
-  - 🇰🇷 Skyward-韩国-首尔-1A 4
-  - 🇰🇷 Skyward-韩国-首尔-1A-WS 4
   - 🇫🇷 Skyward-法国-巴黎-1A 2
   - 🇫🇷 Skyward-法国-巴黎-1A-WS 2
+  - 🇫🇷 Skyward-法国-巴黎-1A 3
+  - 🇫🇷 Skyward-法国-巴黎-1A-WS 3
+  - 🇰🇷 Skyward-韩国-首尔-1A 2
+  - 🇰🇷 Skyward-韩国-首尔-1A-WS 2
+  - 🇯🇵 Skyward-日本-东京-1A
+  - 🇯🇵 Skyward-日本-东京-1A-WS
+  - 🇯🇵 Skyward-日本-东京-1A 2
+  - 🇯🇵 Skyward-日本-东京-1A-WS 2
+  - 🇯🇵 Skyward-日本-东京-1A 3
+  - 🇯🇵 Skyward-日本-东京-1A-WS 3
+  - 🇯🇵 Skyward-日本-东京-1A 4
+  - 🇯🇵 Skyward-日本-东京-1A-WS 4
+  - 🇺🇸 Skyward-美国-俄勒冈-1A 3
+  - 🇺🇸 Skyward-美国-俄勒冈-1A-WS 3
+  - 🇺🇸 Skyward-美国-俄勒冈-1A 4
+  - 🇺🇸 Skyward-美国-俄勒冈-1A-WS 4
+  - 🇯🇵 Skyward-日本-东京-1A 5
+  - 🇯🇵 Skyward-日本-东京-1A-WS 5
+  - 🇩🇪 Skyward-德国-法兰克福-1A
+  - 🇩🇪 Skyward-德国-法兰克福-1A-WS
+  - 🇦🇺 Skyward-澳大利亚-悉尼-1H
+  - 🇦🇺 Skyward-澳大利亚-悉尼-1H-WS
+  - 🇭🇰 Skyward-香港-1H
+  - 🇭🇰 Skyward-香港-1H-WS
+  - 🇭🇰 Skyward-香港-1H 2
+  - 🇭🇰 Skyward-香港-1H-WS 2
+  - 🇭🇰 Skyward-香港-1H 3
+  - 🇭🇰 Skyward-香港-1H-WS 3
+  - 🇭🇰 Skyward-香港-1H 4
+  - 🇭🇰 Skyward-香港-1H-WS 4
+  - 🇭🇰 Skyward-香港-1H 5
+  - 🇭🇰 Skyward-香港-1H-WS 5
+  - 🇭🇰 Skyward-香港-1H 6
+  - 🇭🇰 Skyward-香港-1H-WS 6
+  - 🇭🇰 Skyward-香港-1H 7
+  - 🇭🇰 Skyward-香港-1H-WS 7
+  - 🇵🇱 Skyward-波兰-华沙-1H
+  - 🇵🇱 Skyward-波兰-华沙-1H-WS
+  - 🇵🇱 Skyward-波兰-华沙-1H 2
+  - 🇵🇱 Skyward-波兰-华沙-1H-WS 2
+  - 🇩🇪 Skyward-德国-法兰克福-1A 2
+  - 🇩🇪 Skyward-德国-法兰克福-1A-WS 2
+  - 🇩🇪 Skyward-德国-法兰克福-1A 3
+  - 🇩🇪 Skyward-德国-法兰克福-1A-WS 3
+  - 🇩🇪 Skyward-德国-法兰克福-1A 4
+  - 🇩🇪 Skyward-德国-法兰克福-1A-WS 4
+  - 🇩🇪 Skyward-德国-法兰克福-1A 5
+  - 🇩🇪 Skyward-德国-法兰克福-1A-WS 5
+  - 🇩🇪 Skyward-德国-法兰克福-1A 6
+  - 🇩🇪 Skyward-德国-法兰克福-1A-WS 6
+  - 🇺🇸 Skyward-美国-俄勒冈-1A 5
+  - 🇺🇸 Skyward-美国-俄勒冈-1A-WS 5
+  - 🇮🇪 Skyward-爱尔兰-1A
+  - 🇮🇪 Skyward-爱尔兰-1A-WS
+  - 🇺🇸 Skyward-美国-俄勒冈-1A 6
+  - 🇺🇸 Skyward-美国-俄勒冈-1A-WS 6
+  - 🇺🇸 Skyward-美国-俄勒冈-1A 7
+  - 🇺🇸 Skyward-美国-俄勒冈-1A-WS 7
+  - 🇺🇸 Skyward-美国-俄勒冈-1A 8
+  - 🇺🇸 Skyward-美国-俄勒冈-1A-WS 8
+  - 🇺🇸 Skyward-美国-俄勒冈-1A 9
+  - 🇺🇸 Skyward-美国-俄勒冈-1A-WS 9
+  - 🇺🇸 Skyward-美国-俄勒冈-1A 10
+  - 🇺🇸 Skyward-美国-俄勒冈-1A-WS 10
+  - 🇺🇸 Skyward-美国-俄勒冈-1A 11
+  - 🇺🇸 Skyward-美国-俄勒冈-1A-WS 11
+  - 🇮🇪 Skyward-爱尔兰-1A 2
+  - 🇮🇪 Skyward-爱尔兰-1A-WS 2
+  - 🇳🇱 Skyward-荷兰-阿姆斯特丹-1H
+  - 🇳🇱 Skyward-荷兰-阿姆斯特丹-1H-WS
+  - 🇮🇪 Skyward-爱尔兰-1A 3
+  - 🇮🇪 Skyward-爱尔兰-1A-WS 3
+  - 🇮🇪 Skyward-爱尔兰-1A 4
+  - 🇮🇪 Skyward-爱尔兰-1A-WS 4
+  - 🇮🇪 Skyward-爱尔兰-1A 5
+  - 🇮🇪 Skyward-爱尔兰-1A-WS 5
+  - 🇮🇪 Skyward-爱尔兰-1A 6
+  - 🇮🇪 Skyward-爱尔兰-1A-WS 6
+  - 🇳🇱 Skyward-荷兰-阿姆斯特丹-1H 2
+  - 🇳🇱 Skyward-荷兰-阿姆斯特丹-1H-WS 2
+  - 🇳🇱 Skyward-荷兰-阿姆斯特丹-1H 3
+  - 🇳🇱 Skyward-荷兰-阿姆斯特丹-1H-WS 3
+  - 🇯🇵 Skyward-日本-东京-1A 6
+  - 🇯🇵 Skyward-日本-东京-1A-WS 6
+  - 🇦🇺 Skyward-澳大利亚-悉尼-1H 2
+  - 🇦🇺 Skyward-澳大利亚-悉尼-1H-WS 2
+  - 🇰🇷 Skyward-韩国-首尔-1A 3
+  - 🇰🇷 Skyward-韩国-首尔-1A-WS 3
+  - 🇰🇷 Skyward-韩国-首尔-1A 4
+  - 🇰🇷 Skyward-韩国-首尔-1A-WS 4
   - 🇰🇷 Skyward-韩国-首尔-1A 5
   - 🇰🇷 Skyward-韩国-首尔-1A-WS 5
+  - 🇯🇵 Skyward-日本-东京-1A 7
+  - 🇯🇵 Skyward-日本-东京-1A-WS 7
   - 🇰🇷 Skyward-韩国-首尔-1A 6
   - 🇰🇷 Skyward-韩国-首尔-1A-WS 6
   - 🇰🇷 Skyward-韩国-首尔-1A 7
@@ -443,30 +463,26 @@ proxy-groups:
   - 🇰🇷 Skyward-韩国-首尔-1A-WS 8
   - 🇰🇷 Skyward-韩国-首尔-1A 9
   - 🇰🇷 Skyward-韩国-首尔-1A-WS 9
-  - 🇭🇰 Skyward-香港-1H 2
-  - 🇭🇰 Skyward-香港-1H-WS 2
-  - 🇭🇰 Skyward-香港-1H 3
-  - 🇭🇰 Skyward-香港-1H-WS 3
+  - 🇯🇵 Skyward-日本-东京-1A 8
+  - 🇯🇵 Skyward-日本-东京-1A-WS 8
   - 🇰🇷 Skyward-韩国-首尔-1A 10
   - 🇰🇷 Skyward-韩国-首尔-1A-WS 10
-  - 🇦🇺 Skyward-澳大利亚-悉尼-1H
-  - 🇦🇺 Skyward-澳大利亚-悉尼-1H-WS
   - 🇰🇷 Skyward-韩国-首尔-1A 11
   - 🇰🇷 Skyward-韩国-首尔-1A-WS 11
-  - 🇭🇰 Skyward-香港-1H 4
-  - 🇭🇰 Skyward-香港-1H-WS 4
-  - 🇭🇰 Skyward-香港-1H 5
-  - 🇭🇰 Skyward-香港-1H-WS 5
+  - 🇯🇵 Skyward-日本-东京-1A 9
+  - 🇯🇵 Skyward-日本-东京-1A-WS 9
   - 🇰🇷 Skyward-韩国-首尔-1A 12
   - 🇰🇷 Skyward-韩国-首尔-1A-WS 12
-  - 🇭🇰 Skyward-香港-1H 6
-  - 🇭🇰 Skyward-香港-1H-WS 6
+  - 🇯🇵 Skyward-日本-东京-1A 10
+  - 🇯🇵 Skyward-日本-东京-1A-WS 10
+  - 🇯🇵 Skyward-日本-东京-1A 11
+  - 🇯🇵 Skyward-日本-东京-1A-WS 11
   - 🇰🇷 Skyward-韩国-首尔-1A 13
   - 🇰🇷 Skyward-韩国-首尔-1A-WS 13
   - 🇰🇷 Skyward-韩国-首尔-1A 14
   - 🇰🇷 Skyward-韩国-首尔-1A-WS 14
-  - 🇭🇰 Skyward-香港-1H 7
-  - 🇭🇰 Skyward-香港-1H-WS 7
+  - 🇯🇵 Skyward-日本-东京-1A 12
+  - 🇯🇵 Skyward-日本-东京-1A-WS 12
   - 🇰🇷 Skyward-韩国-首尔-1A 15
   - 🇰🇷 Skyward-韩国-首尔-1A-WS 15
   - 🇰🇷 Skyward-韩国-首尔-1A 16
@@ -475,80 +491,60 @@ proxy-groups:
   - 🇰🇷 Skyward-韩国-首尔-1A-WS 17
   - 🇰🇷 Skyward-韩国-首尔-1A 18
   - 🇰🇷 Skyward-韩国-首尔-1A-WS 18
-  - 🇯🇵 Skyward-日本-东京-1A 13
-  - 🇯🇵 Skyward-日本-东京-1A-WS 13
   - 🇰🇷 Skyward-韩国-首尔-1A 19
   - 🇰🇷 Skyward-韩国-首尔-1A-WS 19
-  - 🇩🇪 Skyward-德国-法兰克福-1A
-  - 🇩🇪 Skyward-德国-法兰克福-1A-WS
-  - 🇦🇺 Skyward-澳大利亚-悉尼-1H 2
-  - 🇦🇺 Skyward-澳大利亚-悉尼-1H-WS 2
-  - 🇩🇪 Skyward-德国-法兰克福-1A 2
-  - 🇩🇪 Skyward-德国-法兰克福-1A-WS 2
-  - 🇩🇪 Skyward-德国-法兰克福-1A 3
-  - 🇩🇪 Skyward-德国-法兰克福-1A-WS 3
+  - 🇰🇷 Skyward-韩国-首尔-1A 20
+  - 🇰🇷 Skyward-韩国-首尔-1A-WS 20
+  - 🇰🇷 Skyward-韩国-首尔-1A 21
+  - 🇰🇷 Skyward-韩国-首尔-1A-WS 21
+  - 🇰🇷 Skyward-韩国-首尔-1A 22
+  - 🇰🇷 Skyward-韩国-首尔-1A-WS 22
+  - 🇯🇵 Skyward-日本-东京-1A 13
+  - 🇯🇵 Skyward-日本-东京-1A-WS 13
+  - 🇰🇷 Skyward-韩国-首尔-1A 23
+  - 🇰🇷 Skyward-韩国-首尔-1A-WS 23
   - 🇯🇵 Skyward-日本-东京-1A 14
   - 🇯🇵 Skyward-日本-东京-1A-WS 14
-  - 🇦🇺 Skyward-澳大利亚-悉尼-1H 3
-  - 🇦🇺 Skyward-澳大利亚-悉尼-1H-WS 3
   - 🇯🇵 Skyward-日本-东京-1A 15
   - 🇯🇵 Skyward-日本-东京-1A-WS 15
-  - 🇮🇪 Skyward-爱尔兰-1A 4
-  - 🇮🇪 Skyward-爱尔兰-1A-WS 4
+  - 🇸🇬 Skyward-新加坡-1A 22
+  - 🇸🇬 Skyward-新加坡-1A 23
   - 🇯🇵 Skyward-日本-东京-1A 16
-  - 🇯🇵 Skyward-日本-东京-1A-WS 16
   - 🇯🇵 Skyward-日本-东京-1A 17
-  - 🇯🇵 Skyward-日本-东京-1A-WS 17
-  - 🇩🇪 Skyward-德国-法兰克福-1A 4
-  - 🇩🇪 Skyward-德国-法兰克福-1A-WS 4
-  - 🇦🇺 Skyward-澳大利亚-悉尼-1H 4
-  - 🇦🇺 Skyward-澳大利亚-悉尼-1H-WS 4
   - 🇯🇵 Skyward-日本-东京-1A 18
-  - 🇯🇵 Skyward-日本-东京-1A-WS 18
-  - 🇩🇪 Skyward-德国-法兰克福-1A 5
-  - 🇩🇪 Skyward-德国-法兰克福-1A-WS 5
-  - 🇮🇪 Skyward-爱尔兰-1A 5
-  - 🇮🇪 Skyward-爱尔兰-1A-WS 5
-  - 🇮🇪 Skyward-爱尔兰-1A 6
-  - 🇮🇪 Skyward-爱尔兰-1A-WS 6
+  - 🇸🇬 Skyward-新加坡-1A 24
+  - 🇸🇬 Skyward-新加坡-1A 25
   - 🇯🇵 Skyward-日本-东京-1A 19
-  - 🇯🇵 Skyward-日本-东京-1A-WS 19
-  - 🇩🇪 Skyward-德国-法兰克福-1A 6
-  - 🇩🇪 Skyward-德国-法兰克福-1A-WS 6
   - 🇸🇬 Skyward-新加坡-1A 26
-  - 🇵🇱 Skyward-波兰-华沙-1H
-  - 🇵🇱 Skyward-波兰-华沙-1H 2
-  - 🇳🇱 Skyward-荷兰-阿姆斯特丹-1H 3
-  - 🇳🇱 Skyward-荷兰-阿姆斯特丹-1H 4
-  - 🇵🇱 Skyward-波兰-华沙-1H 3
-  - 🇫🇷 Skyward-法国-巴黎-1A 3
   - 🇸🇬 Skyward-新加坡-1A 27
   - 🇸🇬 Skyward-新加坡-1A 28
   - 🇸🇬 Skyward-新加坡-1A 29
-  - 🇸🇬 Skyward-新加坡-1A 30
-  - 🇸🇬 Skyward-新加坡-1A 31
-  - 🇸🇬 Skyward-新加坡-1A 32
-  - 🇸🇬 Skyward-新加坡-1A 33
-  - 🇸🇬 Skyward-新加坡-1A 34
-  - 🇫🇷 Skyward-法国-巴黎-1A 4
-  - 🇭🇰 Skyward-香港-1H 8
-  - 🇸🇬 Skyward-新加坡-1A 35
-  - 🇫🇷 Skyward-法国-巴黎-1A 5
-  - 🇸🇬 Skyward-新加坡-1A 36
-  - 🇸🇬 Skyward-新加坡-1A 37
-  - 🇸🇬 Skyward-新加坡-1A 38
-  - 🇫🇷 Skyward-法国-巴黎-1A 6
-  - 🇵🇱 Skyward-波兰-华沙-1H 4
-  - 🇰🇷 Skyward-韩国-首尔-1A 20
-  - 🇸🇬 Skyward-新加坡-1A 39
   - 🇯🇵 Skyward-日本-东京-1A 20
+  - 🇸🇬 Skyward-新加坡-1A 30
   - 🇯🇵 Skyward-日本-东京-1A 21
   - 🇯🇵 Skyward-日本-东京-1A 22
+  - 🇰🇷 Skyward-韩国-首尔-1A 24
+  - 🇦🇺 Skyward-澳大利亚-悉尼-1H 3
+  - 🇦🇺 Skyward-澳大利亚-悉尼-1H 4
+  - 🇰🇷 Skyward-韩国-首尔-1A 25
+  - 🇭🇰 Skyward-香港-1H 8
+  - 🇰🇷 Skyward-韩国-首尔-1A 26
+  - 🇵🇱 Skyward-波兰-华沙-1H 3
+  - 🇰🇷 Skyward-韩国-首尔-1A 27
+  - 🇵🇱 Skyward-波兰-华沙-1H 4
+  - 🇰🇷 Skyward-韩国-首尔-1A 28
   - 🇯🇵 Skyward-日本-东京-1A 23
+  - 🇰🇷 Skyward-韩国-首尔-1A 29
+  - 🇳🇱 Skyward-荷兰-阿姆斯特丹-1H 4
+  - 🇰🇷 Skyward-韩国-首尔-1A 30
+  - 🇰🇷 Skyward-韩国-首尔-1A 31
   - 🇯🇵 Skyward-日本-东京-1A 24
+  - 🇰🇷 Skyward-韩国-首尔-1A 32
   - 🇯🇵 Skyward-日本-东京-1A 25
   - 🇯🇵 Skyward-日本-东京-1A 26
   - 🇯🇵 Skyward-日本-东京-1A 27
+  - 🇸🇬 Skyward-新加坡-1A 31
+  - 🇸🇬 Skyward-新加坡-1A 32
   - 🇯🇵 Skyward-日本-东京-1A 28
   - 🇯🇵 Skyward-日本-东京-1A 29
   - 🇯🇵 Skyward-日本-东京-1A 30
@@ -559,25 +555,11 @@ proxy-groups:
   - 🇯🇵 Skyward-日本-东京-1A 35
   - 🇯🇵 Skyward-日本-东京-1A 36
   - 🇯🇵 Skyward-日本-东京-1A 37
-  - 🇰🇷 Skyward-韩国-首尔-1A 21
-  - 🇰🇷 Skyward-韩国-首尔-1A 22
-  - 🇰🇷 Skyward-韩国-首尔-1A 23
-  - 🇰🇷 Skyward-韩国-首尔-1A 24
-  - 🇰🇷 Skyward-韩国-首尔-1A 25
-  - 🇰🇷 Skyward-韩国-首尔-1A 26
-  - 🇰🇷 Skyward-韩国-首尔-1A 27
-  - 🇰🇷 Skyward-韩国-首尔-1A 28
   - 🇯🇵 Skyward-日本-东京-1A 38
-  - 🇰🇷 Skyward-韩国-首尔-1A 29
-  - 🇰🇷 Skyward-韩国-首尔-1A 30
-  - 🇰🇷 Skyward-韩国-首尔-1A 31
-  - 🇰🇷 Skyward-韩国-首尔-1A 32
-  - 🇦🇺 Skyward-澳大利亚-悉尼-1H 5
   - 🇯🇵 Skyward-日本-东京-1A 39
   - 🇯🇵 Skyward-日本-东京-1A 40
   - 🇯🇵 Skyward-日本-东京-1A 41
   - 🇯🇵 Skyward-日本-东京-1A 42
-  - 🇸🇬 Skyward-新加坡-1A 40
   - 🇯🇵 Skyward-日本-东京-1A 43
   - 🇯🇵 Skyward-日本-东京-1A 44
   - 🇯🇵 Skyward-日本-东京-1A 45
@@ -591,25 +573,37 @@ proxy-groups:
   - 🇯🇵 Skyward-日本-东京-1A 53
   - 🇯🇵 Skyward-日本-东京-1A 54
   - 🇯🇵 Skyward-日本-东京-1A 55
-  - 🇸🇬 Skyward-新加坡-1A 41
-  - 🇸🇬 Skyward-新加坡-1A 42
-  - 🇸🇬 Skyward-新加坡-1A 43
   - 🇯🇵 Skyward-日本-东京-1A 56
   - 🇯🇵 Skyward-日本-东京-1A 57
   - 🇯🇵 Skyward-日本-东京-1A 58
   - 🇯🇵 Skyward-日本-东京-1A 59
+  - 🇸🇬 Skyward-新加坡-1A 33
   - 🇯🇵 Skyward-日本-东京-1A 60
   - 🇯🇵 Skyward-日本-东京-1A 61
+  - 🇸🇬 Skyward-新加坡-1A 34
+  - 🇸🇬 Skyward-新加坡-1A 35
   - 🇯🇵 Skyward-日本-东京-1A 62
   - 🇯🇵 Skyward-日本-东京-1A 63
+  - 🇸🇬 Skyward-新加坡-1A 36
   - 🇯🇵 Skyward-日本-东京-1A 64
+  - 🇸🇬 Skyward-新加坡-1A 37
+  - 🇸🇬 Skyward-新加坡-1A 38
+  - 🇸🇬 Skyward-新加坡-1A 39
+  - 🇸🇬 Skyward-新加坡-1A 40
   - 🇯🇵 Skyward-日本-东京-1A 65
   - 🇯🇵 Skyward-日本-东京-1A 66
+  - 🇸🇬 Skyward-新加坡-1A 41
   - 🇯🇵 Skyward-日本-东京-1A 67
   - 🇯🇵 Skyward-日本-东京-1A 68
   - 🇯🇵 Skyward-日本-东京-1A 69
+  - 🇸🇬 Skyward-新加坡-1A 42
   - 🇯🇵 Skyward-日本-东京-1A 70
+  - 🇸🇬 Skyward-新加坡-1A 43
+  - 🇫🇷 Skyward-法国-巴黎-1A 4
   - 🇯🇵 Skyward-日本-东京-1A 71
+  - 🇫🇷 Skyward-法国-巴黎-1A 5
+  - 🇫🇷 Skyward-法国-巴黎-1A 6
+  - 🇫🇷 Skyward-法国-巴黎-1A 7
   - 🇯🇵 Skyward-日本-东京-1A 72
   - 🇯🇵 Skyward-日本-东京-1A 73
   - 🇯🇵 Skyward-日本-东京-1A 74
@@ -617,62 +611,22 @@ proxy-groups:
 - name: ♻️ 自动选择
   type: url-test
   proxies:
-  - 🇭🇰 Skyward-香港-1H
-  - 🇭🇰 Skyward-香港-1H-WS
-  - 🇺🇸 Skyward-美国-俄勒冈-1A
-  - 🇺🇸 Skyward-美国-俄勒冈-1A-WS
+  - 🇰🇷 Skyward-韩国-首尔-1A
+  - 🇰🇷 Skyward-韩国-首尔-1A-WS
   - 🇸🇬 Skyward-新加坡-1A
   - 🇸🇬 Skyward-新加坡-1A-WS
-  - 🇯🇵 Skyward-日本-东京-1A
-  - 🇯🇵 Skyward-日本-东京-1A-WS
+  - 🇺🇸 Skyward-美国-俄勒冈-1A
+  - 🇺🇸 Skyward-美国-俄勒冈-1A-WS
   - 🇸🇬 Skyward-新加坡-1A 2
   - 🇸🇬 Skyward-新加坡-1A-WS 2
-  - 🇯🇵 Skyward-日本-东京-1A 2
-  - 🇯🇵 Skyward-日本-东京-1A-WS 2
   - 🇸🇬 Skyward-新加坡-1A 3
   - 🇸🇬 Skyward-新加坡-1A-WS 3
-  - 🇯🇵 Skyward-日本-东京-1A 3
-  - 🇯🇵 Skyward-日本-东京-1A-WS 3
-  - 🇺🇸 Skyward-美国-俄勒冈-1A 2
-  - 🇺🇸 Skyward-美国-俄勒冈-1A-WS 2
-  - 🇯🇵 Skyward-日本-东京-1A 4
-  - 🇯🇵 Skyward-日本-东京-1A-WS 4
-  - 🇺🇸 Skyward-美国-俄勒冈-1A 3
-  - 🇺🇸 Skyward-美国-俄勒冈-1A-WS 3
-  - 🇺🇸 Skyward-美国-俄勒冈-1A 4
-  - 🇺🇸 Skyward-美国-俄勒冈-1A-WS 4
-  - 🇺🇸 Skyward-美国-俄勒冈-1A 5
-  - 🇺🇸 Skyward-美国-俄勒冈-1A-WS 5
   - 🇸🇬 Skyward-新加坡-1A 4
   - 🇸🇬 Skyward-新加坡-1A-WS 4
-  - 🇺🇸 Skyward-美国-俄勒冈-1A 6
-  - 🇺🇸 Skyward-美国-俄勒冈-1A-WS 6
-  - 🇺🇸 Skyward-美国-俄勒冈-1A 7
-  - 🇺🇸 Skyward-美国-俄勒冈-1A-WS 7
-  - 🇺🇸 Skyward-美国-俄勒冈-1A 8
-  - 🇺🇸 Skyward-美国-俄勒冈-1A-WS 8
-  - 🇺🇸 Skyward-美国-俄勒冈-1A 9
-  - 🇺🇸 Skyward-美国-俄勒冈-1A-WS 9
-  - 🇺🇸 Skyward-美国-俄勒冈-1A 10
-  - 🇺🇸 Skyward-美国-俄勒冈-1A-WS 10
-  - 🇺🇸 Skyward-美国-俄勒冈-1A 11
-  - 🇺🇸 Skyward-美国-俄勒冈-1A-WS 11
-  - 🇯🇵 Skyward-日本-东京-1A 5
-  - 🇯🇵 Skyward-日本-东京-1A-WS 5
   - 🇸🇬 Skyward-新加坡-1A 5
   - 🇸🇬 Skyward-新加坡-1A-WS 5
-  - 🇯🇵 Skyward-日本-东京-1A 6
-  - 🇯🇵 Skyward-日本-东京-1A-WS 6
-  - 🇳🇱 Skyward-荷兰-阿姆斯特丹-1H
-  - 🇳🇱 Skyward-荷兰-阿姆斯特丹-1H-WS
-  - 🇳🇱 Skyward-荷兰-阿姆斯特丹-1H 2
-  - 🇳🇱 Skyward-荷兰-阿姆斯特丹-1H-WS 2
   - 🇸🇬 Skyward-新加坡-1A 6
   - 🇸🇬 Skyward-新加坡-1A-WS 6
-  - 🇯🇵 Skyward-日本-东京-1A 7
-  - 🇯🇵 Skyward-日本-东京-1A-WS 7
-  - 🇮🇪 Skyward-爱尔兰-1A
-  - 🇮🇪 Skyward-爱尔兰-1A-WS
   - 🇸🇬 Skyward-新加坡-1A 7
   - 🇸🇬 Skyward-新加坡-1A-WS 7
   - 🇸🇬 Skyward-新加坡-1A 8
@@ -691,6 +645,8 @@ proxy-groups:
   - 🇸🇬 Skyward-新加坡-1A-WS 14
   - 🇸🇬 Skyward-新加坡-1A 15
   - 🇸🇬 Skyward-新加坡-1A-WS 15
+  - 🇺🇸 Skyward-美国-俄勒冈-1A 2
+  - 🇺🇸 Skyward-美国-俄勒冈-1A-WS 2
   - 🇸🇬 Skyward-新加坡-1A 16
   - 🇸🇬 Skyward-新加坡-1A-WS 16
   - 🇸🇬 Skyward-新加坡-1A 17
@@ -699,46 +655,108 @@ proxy-groups:
   - 🇸🇬 Skyward-新加坡-1A-WS 18
   - 🇸🇬 Skyward-新加坡-1A 19
   - 🇸🇬 Skyward-新加坡-1A-WS 19
-  - 🇯🇵 Skyward-日本-东京-1A 8
-  - 🇯🇵 Skyward-日本-东京-1A-WS 8
-  - 🇯🇵 Skyward-日本-东京-1A 9
-  - 🇯🇵 Skyward-日本-东京-1A-WS 9
   - 🇸🇬 Skyward-新加坡-1A 20
   - 🇸🇬 Skyward-新加坡-1A-WS 20
   - 🇸🇬 Skyward-新加坡-1A 21
   - 🇸🇬 Skyward-新加坡-1A-WS 21
-  - 🇯🇵 Skyward-日本-东京-1A 10
-  - 🇯🇵 Skyward-日本-东京-1A-WS 10
-  - 🇯🇵 Skyward-日本-东京-1A 11
-  - 🇯🇵 Skyward-日本-东京-1A-WS 11
-  - 🇸🇬 Skyward-新加坡-1A 22
-  - 🇸🇬 Skyward-新加坡-1A-WS 22
-  - 🇸🇬 Skyward-新加坡-1A 23
-  - 🇸🇬 Skyward-新加坡-1A-WS 23
-  - 🇰🇷 Skyward-韩国-首尔-1A
-  - 🇰🇷 Skyward-韩国-首尔-1A-WS
-  - 🇸🇬 Skyward-新加坡-1A 24
-  - 🇸🇬 Skyward-新加坡-1A-WS 24
-  - 🇯🇵 Skyward-日本-东京-1A 12
-  - 🇯🇵 Skyward-日本-东京-1A-WS 12
-  - 🇮🇪 Skyward-爱尔兰-1A 2
-  - 🇮🇪 Skyward-爱尔兰-1A-WS 2
-  - 🇸🇬 Skyward-新加坡-1A 25
-  - 🇸🇬 Skyward-新加坡-1A-WS 25
-  - 🇮🇪 Skyward-爱尔兰-1A 3
-  - 🇮🇪 Skyward-爱尔兰-1A-WS 3
-  - 🇰🇷 Skyward-韩国-首尔-1A 2
-  - 🇰🇷 Skyward-韩国-首尔-1A-WS 2
-  - 🇰🇷 Skyward-韩国-首尔-1A 3
-  - 🇰🇷 Skyward-韩国-首尔-1A-WS 3
   - 🇫🇷 Skyward-法国-巴黎-1A
   - 🇫🇷 Skyward-法国-巴黎-1A-WS
-  - 🇰🇷 Skyward-韩国-首尔-1A 4
-  - 🇰🇷 Skyward-韩国-首尔-1A-WS 4
   - 🇫🇷 Skyward-法国-巴黎-1A 2
   - 🇫🇷 Skyward-法国-巴黎-1A-WS 2
+  - 🇫🇷 Skyward-法国-巴黎-1A 3
+  - 🇫🇷 Skyward-法国-巴黎-1A-WS 3
+  - 🇰🇷 Skyward-韩国-首尔-1A 2
+  - 🇰🇷 Skyward-韩国-首尔-1A-WS 2
+  - 🇯🇵 Skyward-日本-东京-1A
+  - 🇯🇵 Skyward-日本-东京-1A-WS
+  - 🇯🇵 Skyward-日本-东京-1A 2
+  - 🇯🇵 Skyward-日本-东京-1A-WS 2
+  - 🇯🇵 Skyward-日本-东京-1A 3
+  - 🇯🇵 Skyward-日本-东京-1A-WS 3
+  - 🇯🇵 Skyward-日本-东京-1A 4
+  - 🇯🇵 Skyward-日本-东京-1A-WS 4
+  - 🇺🇸 Skyward-美国-俄勒冈-1A 3
+  - 🇺🇸 Skyward-美国-俄勒冈-1A-WS 3
+  - 🇺🇸 Skyward-美国-俄勒冈-1A 4
+  - 🇺🇸 Skyward-美国-俄勒冈-1A-WS 4
+  - 🇯🇵 Skyward-日本-东京-1A 5
+  - 🇯🇵 Skyward-日本-东京-1A-WS 5
+  - 🇩🇪 Skyward-德国-法兰克福-1A
+  - 🇩🇪 Skyward-德国-法兰克福-1A-WS
+  - 🇦🇺 Skyward-澳大利亚-悉尼-1H
+  - 🇦🇺 Skyward-澳大利亚-悉尼-1H-WS
+  - 🇭🇰 Skyward-香港-1H
+  - 🇭🇰 Skyward-香港-1H-WS
+  - 🇭🇰 Skyward-香港-1H 2
+  - 🇭🇰 Skyward-香港-1H-WS 2
+  - 🇭🇰 Skyward-香港-1H 3
+  - 🇭🇰 Skyward-香港-1H-WS 3
+  - 🇭🇰 Skyward-香港-1H 4
+  - 🇭🇰 Skyward-香港-1H-WS 4
+  - 🇭🇰 Skyward-香港-1H 5
+  - 🇭🇰 Skyward-香港-1H-WS 5
+  - 🇭🇰 Skyward-香港-1H 6
+  - 🇭🇰 Skyward-香港-1H-WS 6
+  - 🇭🇰 Skyward-香港-1H 7
+  - 🇭🇰 Skyward-香港-1H-WS 7
+  - 🇵🇱 Skyward-波兰-华沙-1H
+  - 🇵🇱 Skyward-波兰-华沙-1H-WS
+  - 🇵🇱 Skyward-波兰-华沙-1H 2
+  - 🇵🇱 Skyward-波兰-华沙-1H-WS 2
+  - 🇩🇪 Skyward-德国-法兰克福-1A 2
+  - 🇩🇪 Skyward-德国-法兰克福-1A-WS 2
+  - 🇩🇪 Skyward-德国-法兰克福-1A 3
+  - 🇩🇪 Skyward-德国-法兰克福-1A-WS 3
+  - 🇩🇪 Skyward-德国-法兰克福-1A 4
+  - 🇩🇪 Skyward-德国-法兰克福-1A-WS 4
+  - 🇩🇪 Skyward-德国-法兰克福-1A 5
+  - 🇩🇪 Skyward-德国-法兰克福-1A-WS 5
+  - 🇩🇪 Skyward-德国-法兰克福-1A 6
+  - 🇩🇪 Skyward-德国-法兰克福-1A-WS 6
+  - 🇺🇸 Skyward-美国-俄勒冈-1A 5
+  - 🇺🇸 Skyward-美国-俄勒冈-1A-WS 5
+  - 🇮🇪 Skyward-爱尔兰-1A
+  - 🇮🇪 Skyward-爱尔兰-1A-WS
+  - 🇺🇸 Skyward-美国-俄勒冈-1A 6
+  - 🇺🇸 Skyward-美国-俄勒冈-1A-WS 6
+  - 🇺🇸 Skyward-美国-俄勒冈-1A 7
+  - 🇺🇸 Skyward-美国-俄勒冈-1A-WS 7
+  - 🇺🇸 Skyward-美国-俄勒冈-1A 8
+  - 🇺🇸 Skyward-美国-俄勒冈-1A-WS 8
+  - 🇺🇸 Skyward-美国-俄勒冈-1A 9
+  - 🇺🇸 Skyward-美国-俄勒冈-1A-WS 9
+  - 🇺🇸 Skyward-美国-俄勒冈-1A 10
+  - 🇺🇸 Skyward-美国-俄勒冈-1A-WS 10
+  - 🇺🇸 Skyward-美国-俄勒冈-1A 11
+  - 🇺🇸 Skyward-美国-俄勒冈-1A-WS 11
+  - 🇮🇪 Skyward-爱尔兰-1A 2
+  - 🇮🇪 Skyward-爱尔兰-1A-WS 2
+  - 🇳🇱 Skyward-荷兰-阿姆斯特丹-1H
+  - 🇳🇱 Skyward-荷兰-阿姆斯特丹-1H-WS
+  - 🇮🇪 Skyward-爱尔兰-1A 3
+  - 🇮🇪 Skyward-爱尔兰-1A-WS 3
+  - 🇮🇪 Skyward-爱尔兰-1A 4
+  - 🇮🇪 Skyward-爱尔兰-1A-WS 4
+  - 🇮🇪 Skyward-爱尔兰-1A 5
+  - 🇮🇪 Skyward-爱尔兰-1A-WS 5
+  - 🇮🇪 Skyward-爱尔兰-1A 6
+  - 🇮🇪 Skyward-爱尔兰-1A-WS 6
+  - 🇳🇱 Skyward-荷兰-阿姆斯特丹-1H 2
+  - 🇳🇱 Skyward-荷兰-阿姆斯特丹-1H-WS 2
+  - 🇳🇱 Skyward-荷兰-阿姆斯特丹-1H 3
+  - 🇳🇱 Skyward-荷兰-阿姆斯特丹-1H-WS 3
+  - 🇯🇵 Skyward-日本-东京-1A 6
+  - 🇯🇵 Skyward-日本-东京-1A-WS 6
+  - 🇦🇺 Skyward-澳大利亚-悉尼-1H 2
+  - 🇦🇺 Skyward-澳大利亚-悉尼-1H-WS 2
+  - 🇰🇷 Skyward-韩国-首尔-1A 3
+  - 🇰🇷 Skyward-韩国-首尔-1A-WS 3
+  - 🇰🇷 Skyward-韩国-首尔-1A 4
+  - 🇰🇷 Skyward-韩国-首尔-1A-WS 4
   - 🇰🇷 Skyward-韩国-首尔-1A 5
   - 🇰🇷 Skyward-韩国-首尔-1A-WS 5
+  - 🇯🇵 Skyward-日本-东京-1A 7
+  - 🇯🇵 Skyward-日本-东京-1A-WS 7
   - 🇰🇷 Skyward-韩国-首尔-1A 6
   - 🇰🇷 Skyward-韩国-首尔-1A-WS 6
   - 🇰🇷 Skyward-韩国-首尔-1A 7
@@ -747,30 +765,26 @@ proxy-groups:
   - 🇰🇷 Skyward-韩国-首尔-1A-WS 8
   - 🇰🇷 Skyward-韩国-首尔-1A 9
   - 🇰🇷 Skyward-韩国-首尔-1A-WS 9
-  - 🇭🇰 Skyward-香港-1H 2
-  - 🇭🇰 Skyward-香港-1H-WS 2
-  - 🇭🇰 Skyward-香港-1H 3
-  - 🇭🇰 Skyward-香港-1H-WS 3
+  - 🇯🇵 Skyward-日本-东京-1A 8
+  - 🇯🇵 Skyward-日本-东京-1A-WS 8
   - 🇰🇷 Skyward-韩国-首尔-1A 10
   - 🇰🇷 Skyward-韩国-首尔-1A-WS 10
-  - 🇦🇺 Skyward-澳大利亚-悉尼-1H
-  - 🇦🇺 Skyward-澳大利亚-悉尼-1H-WS
   - 🇰🇷 Skyward-韩国-首尔-1A 11
   - 🇰🇷 Skyward-韩国-首尔-1A-WS 11
-  - 🇭🇰 Skyward-香港-1H 4
-  - 🇭🇰 Skyward-香港-1H-WS 4
-  - 🇭🇰 Skyward-香港-1H 5
-  - 🇭🇰 Skyward-香港-1H-WS 5
+  - 🇯🇵 Skyward-日本-东京-1A 9
+  - 🇯🇵 Skyward-日本-东京-1A-WS 9
   - 🇰🇷 Skyward-韩国-首尔-1A 12
   - 🇰🇷 Skyward-韩国-首尔-1A-WS 12
-  - 🇭🇰 Skyward-香港-1H 6
-  - 🇭🇰 Skyward-香港-1H-WS 6
+  - 🇯🇵 Skyward-日本-东京-1A 10
+  - 🇯🇵 Skyward-日本-东京-1A-WS 10
+  - 🇯🇵 Skyward-日本-东京-1A 11
+  - 🇯🇵 Skyward-日本-东京-1A-WS 11
   - 🇰🇷 Skyward-韩国-首尔-1A 13
   - 🇰🇷 Skyward-韩国-首尔-1A-WS 13
   - 🇰🇷 Skyward-韩国-首尔-1A 14
   - 🇰🇷 Skyward-韩国-首尔-1A-WS 14
-  - 🇭🇰 Skyward-香港-1H 7
-  - 🇭🇰 Skyward-香港-1H-WS 7
+  - 🇯🇵 Skyward-日本-东京-1A 12
+  - 🇯🇵 Skyward-日本-东京-1A-WS 12
   - 🇰🇷 Skyward-韩国-首尔-1A 15
   - 🇰🇷 Skyward-韩国-首尔-1A-WS 15
   - 🇰🇷 Skyward-韩国-首尔-1A 16
@@ -779,80 +793,60 @@ proxy-groups:
   - 🇰🇷 Skyward-韩国-首尔-1A-WS 17
   - 🇰🇷 Skyward-韩国-首尔-1A 18
   - 🇰🇷 Skyward-韩国-首尔-1A-WS 18
-  - 🇯🇵 Skyward-日本-东京-1A 13
-  - 🇯🇵 Skyward-日本-东京-1A-WS 13
   - 🇰🇷 Skyward-韩国-首尔-1A 19
   - 🇰🇷 Skyward-韩国-首尔-1A-WS 19
-  - 🇩🇪 Skyward-德国-法兰克福-1A
-  - 🇩🇪 Skyward-德国-法兰克福-1A-WS
-  - 🇦🇺 Skyward-澳大利亚-悉尼-1H 2
-  - 🇦🇺 Skyward-澳大利亚-悉尼-1H-WS 2
-  - 🇩🇪 Skyward-德国-法兰克福-1A 2
-  - 🇩🇪 Skyward-德国-法兰克福-1A-WS 2
-  - 🇩🇪 Skyward-德国-法兰克福-1A 3
-  - 🇩🇪 Skyward-德国-法兰克福-1A-WS 3
+  - 🇰🇷 Skyward-韩国-首尔-1A 20
+  - 🇰🇷 Skyward-韩国-首尔-1A-WS 20
+  - 🇰🇷 Skyward-韩国-首尔-1A 21
+  - 🇰🇷 Skyward-韩国-首尔-1A-WS 21
+  - 🇰🇷 Skyward-韩国-首尔-1A 22
+  - 🇰🇷 Skyward-韩国-首尔-1A-WS 22
+  - 🇯🇵 Skyward-日本-东京-1A 13
+  - 🇯🇵 Skyward-日本-东京-1A-WS 13
+  - 🇰🇷 Skyward-韩国-首尔-1A 23
+  - 🇰🇷 Skyward-韩国-首尔-1A-WS 23
   - 🇯🇵 Skyward-日本-东京-1A 14
   - 🇯🇵 Skyward-日本-东京-1A-WS 14
-  - 🇦🇺 Skyward-澳大利亚-悉尼-1H 3
-  - 🇦🇺 Skyward-澳大利亚-悉尼-1H-WS 3
   - 🇯🇵 Skyward-日本-东京-1A 15
   - 🇯🇵 Skyward-日本-东京-1A-WS 15
-  - 🇮🇪 Skyward-爱尔兰-1A 4
-  - 🇮🇪 Skyward-爱尔兰-1A-WS 4
+  - 🇸🇬 Skyward-新加坡-1A 22
+  - 🇸🇬 Skyward-新加坡-1A 23
   - 🇯🇵 Skyward-日本-东京-1A 16
-  - 🇯🇵 Skyward-日本-东京-1A-WS 16
   - 🇯🇵 Skyward-日本-东京-1A 17
-  - 🇯🇵 Skyward-日本-东京-1A-WS 17
-  - 🇩🇪 Skyward-德国-法兰克福-1A 4
-  - 🇩🇪 Skyward-德国-法兰克福-1A-WS 4
-  - 🇦🇺 Skyward-澳大利亚-悉尼-1H 4
-  - 🇦🇺 Skyward-澳大利亚-悉尼-1H-WS 4
   - 🇯🇵 Skyward-日本-东京-1A 18
-  - 🇯🇵 Skyward-日本-东京-1A-WS 18
-  - 🇩🇪 Skyward-德国-法兰克福-1A 5
-  - 🇩🇪 Skyward-德国-法兰克福-1A-WS 5
-  - 🇮🇪 Skyward-爱尔兰-1A 5
-  - 🇮🇪 Skyward-爱尔兰-1A-WS 5
-  - 🇮🇪 Skyward-爱尔兰-1A 6
-  - 🇮🇪 Skyward-爱尔兰-1A-WS 6
+  - 🇸🇬 Skyward-新加坡-1A 24
+  - 🇸🇬 Skyward-新加坡-1A 25
   - 🇯🇵 Skyward-日本-东京-1A 19
-  - 🇯🇵 Skyward-日本-东京-1A-WS 19
-  - 🇩🇪 Skyward-德国-法兰克福-1A 6
-  - 🇩🇪 Skyward-德国-法兰克福-1A-WS 6
   - 🇸🇬 Skyward-新加坡-1A 26
-  - 🇵🇱 Skyward-波兰-华沙-1H
-  - 🇵🇱 Skyward-波兰-华沙-1H 2
-  - 🇳🇱 Skyward-荷兰-阿姆斯特丹-1H 3
-  - 🇳🇱 Skyward-荷兰-阿姆斯特丹-1H 4
-  - 🇵🇱 Skyward-波兰-华沙-1H 3
-  - 🇫🇷 Skyward-法国-巴黎-1A 3
   - 🇸🇬 Skyward-新加坡-1A 27
   - 🇸🇬 Skyward-新加坡-1A 28
   - 🇸🇬 Skyward-新加坡-1A 29
-  - 🇸🇬 Skyward-新加坡-1A 30
-  - 🇸🇬 Skyward-新加坡-1A 31
-  - 🇸🇬 Skyward-新加坡-1A 32
-  - 🇸🇬 Skyward-新加坡-1A 33
-  - 🇸🇬 Skyward-新加坡-1A 34
-  - 🇫🇷 Skyward-法国-巴黎-1A 4
-  - 🇭🇰 Skyward-香港-1H 8
-  - 🇸🇬 Skyward-新加坡-1A 35
-  - 🇫🇷 Skyward-法国-巴黎-1A 5
-  - 🇸🇬 Skyward-新加坡-1A 36
-  - 🇸🇬 Skyward-新加坡-1A 37
-  - 🇸🇬 Skyward-新加坡-1A 38
-  - 🇫🇷 Skyward-法国-巴黎-1A 6
-  - 🇵🇱 Skyward-波兰-华沙-1H 4
-  - 🇰🇷 Skyward-韩国-首尔-1A 20
-  - 🇸🇬 Skyward-新加坡-1A 39
   - 🇯🇵 Skyward-日本-东京-1A 20
+  - 🇸🇬 Skyward-新加坡-1A 30
   - 🇯🇵 Skyward-日本-东京-1A 21
   - 🇯🇵 Skyward-日本-东京-1A 22
+  - 🇰🇷 Skyward-韩国-首尔-1A 24
+  - 🇦🇺 Skyward-澳大利亚-悉尼-1H 3
+  - 🇦🇺 Skyward-澳大利亚-悉尼-1H 4
+  - 🇰🇷 Skyward-韩国-首尔-1A 25
+  - 🇭🇰 Skyward-香港-1H 8
+  - 🇰🇷 Skyward-韩国-首尔-1A 26
+  - 🇵🇱 Skyward-波兰-华沙-1H 3
+  - 🇰🇷 Skyward-韩国-首尔-1A 27
+  - 🇵🇱 Skyward-波兰-华沙-1H 4
+  - 🇰🇷 Skyward-韩国-首尔-1A 28
   - 🇯🇵 Skyward-日本-东京-1A 23
+  - 🇰🇷 Skyward-韩国-首尔-1A 29
+  - 🇳🇱 Skyward-荷兰-阿姆斯特丹-1H 4
+  - 🇰🇷 Skyward-韩国-首尔-1A 30
+  - 🇰🇷 Skyward-韩国-首尔-1A 31
   - 🇯🇵 Skyward-日本-东京-1A 24
+  - 🇰🇷 Skyward-韩国-首尔-1A 32
   - 🇯🇵 Skyward-日本-东京-1A 25
   - 🇯🇵 Skyward-日本-东京-1A 26
   - 🇯🇵 Skyward-日本-东京-1A 27
+  - 🇸🇬 Skyward-新加坡-1A 31
+  - 🇸🇬 Skyward-新加坡-1A 32
   - 🇯🇵 Skyward-日本-东京-1A 28
   - 🇯🇵 Skyward-日本-东京-1A 29
   - 🇯🇵 Skyward-日本-东京-1A 30
@@ -863,25 +857,11 @@ proxy-groups:
   - 🇯🇵 Skyward-日本-东京-1A 35
   - 🇯🇵 Skyward-日本-东京-1A 36
   - 🇯🇵 Skyward-日本-东京-1A 37
-  - 🇰🇷 Skyward-韩国-首尔-1A 21
-  - 🇰🇷 Skyward-韩国-首尔-1A 22
-  - 🇰🇷 Skyward-韩国-首尔-1A 23
-  - 🇰🇷 Skyward-韩国-首尔-1A 24
-  - 🇰🇷 Skyward-韩国-首尔-1A 25
-  - 🇰🇷 Skyward-韩国-首尔-1A 26
-  - 🇰🇷 Skyward-韩国-首尔-1A 27
-  - 🇰🇷 Skyward-韩国-首尔-1A 28
   - 🇯🇵 Skyward-日本-东京-1A 38
-  - 🇰🇷 Skyward-韩国-首尔-1A 29
-  - 🇰🇷 Skyward-韩国-首尔-1A 30
-  - 🇰🇷 Skyward-韩国-首尔-1A 31
-  - 🇰🇷 Skyward-韩国-首尔-1A 32
-  - 🇦🇺 Skyward-澳大利亚-悉尼-1H 5
   - 🇯🇵 Skyward-日本-东京-1A 39
   - 🇯🇵 Skyward-日本-东京-1A 40
   - 🇯🇵 Skyward-日本-东京-1A 41
   - 🇯🇵 Skyward-日本-东京-1A 42
-  - 🇸🇬 Skyward-新加坡-1A 40
   - 🇯🇵 Skyward-日本-东京-1A 43
   - 🇯🇵 Skyward-日本-东京-1A 44
   - 🇯🇵 Skyward-日本-东京-1A 45
@@ -895,25 +875,37 @@ proxy-groups:
   - 🇯🇵 Skyward-日本-东京-1A 53
   - 🇯🇵 Skyward-日本-东京-1A 54
   - 🇯🇵 Skyward-日本-东京-1A 55
-  - 🇸🇬 Skyward-新加坡-1A 41
-  - 🇸🇬 Skyward-新加坡-1A 42
-  - 🇸🇬 Skyward-新加坡-1A 43
   - 🇯🇵 Skyward-日本-东京-1A 56
   - 🇯🇵 Skyward-日本-东京-1A 57
   - 🇯🇵 Skyward-日本-东京-1A 58
   - 🇯🇵 Skyward-日本-东京-1A 59
+  - 🇸🇬 Skyward-新加坡-1A 33
   - 🇯🇵 Skyward-日本-东京-1A 60
   - 🇯🇵 Skyward-日本-东京-1A 61
+  - 🇸🇬 Skyward-新加坡-1A 34
+  - 🇸🇬 Skyward-新加坡-1A 35
   - 🇯🇵 Skyward-日本-东京-1A 62
   - 🇯🇵 Skyward-日本-东京-1A 63
+  - 🇸🇬 Skyward-新加坡-1A 36
   - 🇯🇵 Skyward-日本-东京-1A 64
+  - 🇸🇬 Skyward-新加坡-1A 37
+  - 🇸🇬 Skyward-新加坡-1A 38
+  - 🇸🇬 Skyward-新加坡-1A 39
+  - 🇸🇬 Skyward-新加坡-1A 40
   - 🇯🇵 Skyward-日本-东京-1A 65
   - 🇯🇵 Skyward-日本-东京-1A 66
+  - 🇸🇬 Skyward-新加坡-1A 41
   - 🇯🇵 Skyward-日本-东京-1A 67
   - 🇯🇵 Skyward-日本-东京-1A 68
   - 🇯🇵 Skyward-日本-东京-1A 69
+  - 🇸🇬 Skyward-新加坡-1A 42
   - 🇯🇵 Skyward-日本-东京-1A 70
+  - 🇸🇬 Skyward-新加坡-1A 43
+  - 🇫🇷 Skyward-法国-巴黎-1A 4
   - 🇯🇵 Skyward-日本-东京-1A 71
+  - 🇫🇷 Skyward-法国-巴黎-1A 5
+  - 🇫🇷 Skyward-法国-巴黎-1A 6
+  - 🇫🇷 Skyward-法国-巴黎-1A 7
   - 🇯🇵 Skyward-日本-东京-1A 72
   - 🇯🇵 Skyward-日本-东京-1A 73
   - 🇯🇵 Skyward-日本-东京-1A 74
