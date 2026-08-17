@@ -7,22 +7,16 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-- {name: 🇱🇻 GotoVPN-拉脱维亚, server: 46.21.80.47, port: 443, type: vless, uuid: 2e0d2c37-86f0-4ec3-8457-37c70f4908da, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: bcm-lZf4xSBstvOUdVmXRI8PhYLJPACBGQ5TVBUJ5w4, short-id: '34277137'}, servername: www.apple.com, client-fingerprint: chrome, network: tcp}
-- {name: 🇬🇧 GotoVPN-英国, server: 138.124.125.211, port: 443, type: vless, uuid: 1996007c-e7bc-464b-999b-cac28cec6c3e, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: RVj8E6YuWeOq9XzIVLQCKM39qa-Cknp-GYvVAA1UPFo, short-id: 72cceb78}, servername: www.apple.com, client-fingerprint: chrome, network: tcp}
 - {name: 🇸🇪 GotoVPN-瑞典, server: 193.148.59.178, port: 443, type: vless, uuid: 20d7c485-5d24-49b5-a5cc-bb7a7daf9908, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: -GMpCber8qtrKzJbwvpLcwlIhOy-5zS66u_x9lLvIjE, short-id: e3daad69}, servername: www.apple.com, client-fingerprint: chrome, network: tcp}
 proxy-groups:
 - name: 🚀 节点选择
   type: select
   proxies:
   - ♻️ 自动选择
-  - 🇱🇻 GotoVPN-拉脱维亚
-  - 🇬🇧 GotoVPN-英国
   - 🇸🇪 GotoVPN-瑞典
 - name: ♻️ 自动选择
   type: url-test
   proxies:
-  - 🇱🇻 GotoVPN-拉脱维亚
-  - 🇬🇧 GotoVPN-英国
   - 🇸🇪 GotoVPN-瑞典
   url: http://www.gstatic.com/generate_204
   interval: 300

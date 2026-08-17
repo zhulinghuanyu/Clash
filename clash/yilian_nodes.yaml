@@ -7,176 +7,176 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-- {name: 西南-01, server: 118.24.78.159, port: 21572, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: cm.g.doubleclick.net, skip-cert-verify: true}
-- {name: 华东-01, server: 175.24.202.227, port: 22103, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: cm.g.doubleclick.net, skip-cert-verify: true}
-- {name: 华东-02, server: 175.27.171.241, port: 57374, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: cm.g.doubleclick.net, skip-cert-verify: true}
-- {name: 华南-01, server: 43.136.50.236, port: 23095, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: cm.g.doubleclick.net, skip-cert-verify: true}
-- {name: 华北-01, server: 82.156.17.181, port: 55618, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: cm.g.doubleclick.net, skip-cert-verify: true}
-- {name: 🇦🇺 澳大利亚, server: speed-01.aliyun-web-tracker.cn, port: 10082, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: cm.g.doubleclick.net, skip-cert-verify: true}
-- {name: 🇹🇷 土耳其, server: speed-01.aliyun-web-tracker.cn, port: 10820, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: wximg.qq.com, skip-cert-verify: true}
-- {name: 🇹🇼 台湾-8, server: speed-01.aliyun-web-tracker.cn, port: 11007, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: cm.g.doubleclick.net, skip-cert-verify: true}
-- {name: 🇭🇰 香港-02, server: speed-01.aliyun-web-tracker.cn, port: 11418, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: cm.g.doubleclick.net, skip-cert-verify: true}
-- {name: 🇸🇬 新加坡-O-01, server: speed-01.aliyun-web-tracker.cn, port: 11861, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: cm.g.doubleclick.net, skip-cert-verify: true}
-- {name: 🇸🇬 新加坡-02, server: speed-01.aliyun-web-tracker.cn, port: 13153, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: cm.g.doubleclick.net, skip-cert-verify: true}
-- {name: 🇻🇳 越南, server: speed-01.aliyun-web-tracker.cn, port: 14134, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: cm.g.doubleclick.net, skip-cert-verify: true}
-- {name: 🇯🇵 日本, server: speed-01.aliyun-web-tracker.cn, port: 14316, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: cm.g.doubleclick.net, skip-cert-verify: true}
-- {name: 🇲🇳 蒙古, server: speed-01.aliyun-web-tracker.cn, port: 14844, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: cm.g.doubleclick.net, skip-cert-verify: true}
-- {name: 🇹🇼 台湾-01, server: speed-01.aliyun-web-tracker.cn, port: 14950, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: cm.g.doubleclick.net, skip-cert-verify: true}
-- {name: 🇫🇮 芬兰, server: speed-01.aliyun-web-tracker.cn, port: 15201, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: cm.g.doubleclick.net, skip-cert-verify: true}
-- {name: 🇭🇰 香港-家宽-02, server: speed-01.aliyun-web-tracker.cn, port: 15537, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: cm.g.doubleclick.net, skip-cert-verify: true}
-- {name: 🇹🇭 泰国-原生-02, server: speed-01.aliyun-web-tracker.cn, port: 18281, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: cm.g.doubleclick.net, skip-cert-verify: true}
-- {name: 🇲🇾 马来西亚, server: speed-01.aliyun-web-tracker.cn, port: 19269, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: cm.g.doubleclick.net, skip-cert-verify: true}
-- {name: 🇸🇦 沙特-O-01, server: speed-01.aliyun-web-tracker.cn, port: 20971, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: cm.g.doubleclick.net, skip-cert-verify: true}
-- {name: 🇺🇸 美国-ISP, server: speed-01.aliyun-web-tracker.cn, port: 21379, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: cm.g.doubleclick.net, skip-cert-verify: true}
-- {name: 🇧🇷 巴西, server: speed-01.aliyun-web-tracker.cn, port: 23310, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: cm.g.doubleclick.net, skip-cert-verify: true}
-- {name: 🇺🇸 美国-03, server: speed-01.aliyun-web-tracker.cn, port: 23598, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: cm.g.doubleclick.net, skip-cert-verify: true}
-- {name: 🇸🇬 新加坡-01, server: speed-01.aliyun-web-tracker.cn, port: 26871, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: cm.g.doubleclick.net, skip-cert-verify: true}
-- {name: 🇫🇷 法国, server: speed-01.aliyun-web-tracker.cn, port: 29514, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: cm.g.doubleclick.net, skip-cert-verify: true}
-- {name: 🇨🇦 加拿大, server: speed-01.aliyun-web-tracker.cn, port: 29754, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: wximg.qq.com, skip-cert-verify: true}
-- {name: 🇬🇧 伦敦, server: speed-01.aliyun-web-tracker.cn, port: 30314, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: cm.g.doubleclick.net, skip-cert-verify: true}
-- {name: 🇺🇸 美国-02, server: speed-01.aliyun-web-tracker.cn, port: 31944, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: cm.g.doubleclick.net, skip-cert-verify: true}
-- {name: 🇺🇸 美国, server: speed-01.aliyun-web-tracker.cn, port: 32162, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: cm.g.doubleclick.net, skip-cert-verify: true}
-- {name: 🇦🇹 奥地利, server: speed-01.aliyun-web-tracker.cn, port: 32618, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: cm.g.doubleclick.net, skip-cert-verify: true}
-- {name: 🇪🇸 西班牙, server: speed-01.aliyun-web-tracker.cn, port: 33278, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: cm.g.doubleclick.net, skip-cert-verify: true}
-- {name: 🇮🇳 印度, server: speed-01.aliyun-web-tracker.cn, port: 35752, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: wximg.qq.com, skip-cert-verify: true}
-- {name: 🇷🇺 俄罗斯, server: speed-01.aliyun-web-tracker.cn, port: 36914, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: cm.g.doubleclick.net, skip-cert-verify: true}
-- {name: 🇸🇬 新加坡-优化, server: speed-01.aliyun-web-tracker.cn, port: 37340, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: cm.g.doubleclick.net, skip-cert-verify: true}
-- {name: 🇹🇼 台湾-01 2, server: speed-01.aliyun-web-tracker.cn, port: 38396, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: cm.g.doubleclick.net, skip-cert-verify: true}
-- {name: 🇸🇬 新加坡-ISP, server: speed-01.aliyun-web-tracker.cn, port: 38751, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: cm.g.doubleclick.net, skip-cert-verify: true}
-- {name: 🇯🇵 日本-03, server: speed-01.aliyun-web-tracker.cn, port: 38910, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: cm.g.doubleclick.net, skip-cert-verify: true}
-- {name: 🇭🇰 香港-05, server: speed-01.aliyun-web-tracker.cn, port: 39581, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: cm.g.doubleclick.net, skip-cert-verify: true}
-- {name: 🇲🇴 澳门-家宽, server: speed-01.aliyun-web-tracker.cn, port: 40314, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: cm.g.doubleclick.net, skip-cert-verify: true}
-- {name: 🇹🇼 台湾-02, server: speed-01.aliyun-web-tracker.cn, port: 40855, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: cm.g.doubleclick.net, skip-cert-verify: true}
-- {name: 🇹🇭 泰国-原生-01, server: speed-01.aliyun-web-tracker.cn, port: 41025, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: cm.g.doubleclick.net, skip-cert-verify: true}
-- {name: 🇺🇸 美国-04, server: speed-01.aliyun-web-tracker.cn, port: 41060, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: cm.g.doubleclick.net, skip-cert-verify: true}
-- {name: 🇯🇵 日本-家宽, server: speed-01.aliyun-web-tracker.cn, port: 41347, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: wximg.qq.com, skip-cert-verify: true}
-- {name: 🇭🇰 香港-03, server: speed-01.aliyun-web-tracker.cn, port: 41862, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: cm.g.doubleclick.net, skip-cert-verify: true}
-- {name: 🇸🇰 斯洛伐克, server: speed-01.aliyun-web-tracker.cn, port: 42341, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: cm.g.doubleclick.net, skip-cert-verify: true}
-- {name: 🇰🇷 韩国, server: speed-01.aliyun-web-tracker.cn, port: 44043, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: cm.g.doubleclick.net, skip-cert-verify: true}
-- {name: 🇺🇸 美国-01, server: speed-01.aliyun-web-tracker.cn, port: 47613, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: cm.g.doubleclick.net, skip-cert-verify: true}
-- {name: 🇭🇰 香港-01, server: speed-01.aliyun-web-tracker.cn, port: 48066, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: cm.g.doubleclick.net, skip-cert-verify: true}
-- {name: 🇰🇷 韩国-03, server: speed-01.aliyun-web-tracker.cn, port: 50250, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: cm.g.doubleclick.net, skip-cert-verify: true}
-- {name: 🇯🇵 日本-02, server: speed-01.aliyun-web-tracker.cn, port: 53333, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: cm.g.doubleclick.net, skip-cert-verify: true}
-- {name: 🇸🇬 新加坡-ISP-02, server: speed-01.aliyun-web-tracker.cn, port: 55583, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: cm.g.doubleclick.net, skip-cert-verify: true}
-- {name: 🇸🇬 新加坡-03, server: speed-01.aliyun-web-tracker.cn, port: 57490, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: cm.g.doubleclick.net, skip-cert-verify: true}
-- {name: 🇵🇰 巴基斯坦, server: speed-01.aliyun-web-tracker.cn, port: 58080, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: wximg.qq.com, skip-cert-verify: true}
-- {name: 🇹🇭 泰国-原生-03, server: speed-01.aliyun-web-tracker.cn, port: 59433, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: cm.g.doubleclick.net, skip-cert-verify: true}
+- {name: 西南-01_2, server: 118.24.78.159, port: 21572, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: cm.g.doubleclick.net, skip-cert-verify: true}
+- {name: 华东-01_2, server: 175.24.202.227, port: 22103, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: cm.g.doubleclick.net, skip-cert-verify: true}
+- {name: 华东-02_2, server: 175.27.171.241, port: 57374, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: cm.g.doubleclick.net, skip-cert-verify: true}
+- {name: 华南-01_2, server: 43.136.50.236, port: 23095, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: cm.g.doubleclick.net, skip-cert-verify: true}
+- {name: 华北-01_2, server: 82.156.17.181, port: 55618, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: cm.g.doubleclick.net, skip-cert-verify: true}
+- {name: 🇦🇺 澳大利亚_2, server: speed-01.aliyun-web-tracker.cn, port: 10082, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: cm.g.doubleclick.net, skip-cert-verify: true}
+- {name: 🇹🇷 土耳其_2, server: speed-01.aliyun-web-tracker.cn, port: 10820, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: wximg.qq.com, skip-cert-verify: true}
+- {name: 🇹🇼 台湾-8_2, server: speed-01.aliyun-web-tracker.cn, port: 11007, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: cm.g.doubleclick.net, skip-cert-verify: true}
+- {name: 🇭🇰 香港-02_2, server: speed-01.aliyun-web-tracker.cn, port: 11418, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: cm.g.doubleclick.net, skip-cert-verify: true}
+- {name: 🇸🇬 新加坡-O-01_2, server: speed-01.aliyun-web-tracker.cn, port: 11861, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: cm.g.doubleclick.net, skip-cert-verify: true}
+- {name: 🇸🇬 新加坡-02_2, server: speed-01.aliyun-web-tracker.cn, port: 13153, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: cm.g.doubleclick.net, skip-cert-verify: true}
+- {name: 🇻🇳 越南_2, server: speed-01.aliyun-web-tracker.cn, port: 14134, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: cm.g.doubleclick.net, skip-cert-verify: true}
+- {name: 🇯🇵 日本_2, server: speed-01.aliyun-web-tracker.cn, port: 14316, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: cm.g.doubleclick.net, skip-cert-verify: true}
+- {name: 🇲🇳 蒙古_2, server: speed-01.aliyun-web-tracker.cn, port: 14844, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: cm.g.doubleclick.net, skip-cert-verify: true}
+- {name: 🇹🇼 台湾-01_1, server: speed-01.aliyun-web-tracker.cn, port: 14950, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: cm.g.doubleclick.net, skip-cert-verify: true}
+- {name: 🇫🇮 芬兰_2, server: speed-01.aliyun-web-tracker.cn, port: 15201, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: cm.g.doubleclick.net, skip-cert-verify: true}
+- {name: 🇭🇰 香港-家宽-02_2, server: speed-01.aliyun-web-tracker.cn, port: 15537, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: cm.g.doubleclick.net, skip-cert-verify: true}
+- {name: 🇹🇭 泰国-原生-02_1, server: speed-01.aliyun-web-tracker.cn, port: 18281, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: cm.g.doubleclick.net, skip-cert-verify: true}
+- {name: 🇲🇾 马来西亚_2, server: speed-01.aliyun-web-tracker.cn, port: 19269, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: cm.g.doubleclick.net, skip-cert-verify: true}
+- {name: 🇸🇦 沙特-O-01_2, server: speed-01.aliyun-web-tracker.cn, port: 20971, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: cm.g.doubleclick.net, skip-cert-verify: true}
+- {name: 🇺🇸 美国-ISP_2, server: speed-01.aliyun-web-tracker.cn, port: 21379, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: cm.g.doubleclick.net, skip-cert-verify: true}
+- {name: 🇧🇷 巴西_2, server: speed-01.aliyun-web-tracker.cn, port: 23310, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: cm.g.doubleclick.net, skip-cert-verify: true}
+- {name: 🇺🇸 美国-03_2, server: speed-01.aliyun-web-tracker.cn, port: 23598, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: cm.g.doubleclick.net, skip-cert-verify: true}
+- {name: 🇸🇬 新加坡-01_2, server: speed-01.aliyun-web-tracker.cn, port: 26871, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: cm.g.doubleclick.net, skip-cert-verify: true}
+- {name: 🇫🇷 法国_2, server: speed-01.aliyun-web-tracker.cn, port: 29514, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: cm.g.doubleclick.net, skip-cert-verify: true}
+- {name: 🇨🇦 加拿大_2, server: speed-01.aliyun-web-tracker.cn, port: 29754, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: wximg.qq.com, skip-cert-verify: true}
+- {name: 🇬🇧 伦敦_2, server: speed-01.aliyun-web-tracker.cn, port: 30314, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: cm.g.doubleclick.net, skip-cert-verify: true}
+- {name: 🇺🇸 美国-02_2, server: speed-01.aliyun-web-tracker.cn, port: 31944, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: cm.g.doubleclick.net, skip-cert-verify: true}
+- {name: 🇺🇸 美国_2, server: speed-01.aliyun-web-tracker.cn, port: 32162, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: cm.g.doubleclick.net, skip-cert-verify: true}
+- {name: 🇦🇹 奥地利_2, server: speed-01.aliyun-web-tracker.cn, port: 32618, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: cm.g.doubleclick.net, skip-cert-verify: true}
+- {name: 🇪🇸 西班牙_2, server: speed-01.aliyun-web-tracker.cn, port: 33278, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: cm.g.doubleclick.net, skip-cert-verify: true}
+- {name: 🇮🇳 印度_2, server: speed-01.aliyun-web-tracker.cn, port: 35752, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: wximg.qq.com, skip-cert-verify: true}
+- {name: 🇷🇺 俄罗斯_2, server: speed-01.aliyun-web-tracker.cn, port: 36914, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: cm.g.doubleclick.net, skip-cert-verify: true}
+- {name: 🇸🇬 新加坡-优化_2, server: speed-01.aliyun-web-tracker.cn, port: 37340, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: cm.g.doubleclick.net, skip-cert-verify: true}
+- {name: 🇹🇼 台湾-01 2_1, server: speed-01.aliyun-web-tracker.cn, port: 38396, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: cm.g.doubleclick.net, skip-cert-verify: true}
+- {name: 🇸🇬 新加坡-ISP_2, server: speed-01.aliyun-web-tracker.cn, port: 38751, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: cm.g.doubleclick.net, skip-cert-verify: true}
+- {name: 🇯🇵 日本-03_2, server: speed-01.aliyun-web-tracker.cn, port: 38910, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: cm.g.doubleclick.net, skip-cert-verify: true}
+- {name: 🇭🇰 香港-05_2, server: speed-01.aliyun-web-tracker.cn, port: 39581, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: cm.g.doubleclick.net, skip-cert-verify: true}
+- {name: 🇲🇴 澳门-家宽_2, server: speed-01.aliyun-web-tracker.cn, port: 40314, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: cm.g.doubleclick.net, skip-cert-verify: true}
+- {name: 🇹🇼 台湾-02_1, server: speed-01.aliyun-web-tracker.cn, port: 40855, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: cm.g.doubleclick.net, skip-cert-verify: true}
+- {name: 🇹🇭 泰国-原生-01_1, server: speed-01.aliyun-web-tracker.cn, port: 41025, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: cm.g.doubleclick.net, skip-cert-verify: true}
+- {name: 🇺🇸 美国-04_2, server: speed-01.aliyun-web-tracker.cn, port: 41060, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: cm.g.doubleclick.net, skip-cert-verify: true}
+- {name: 🇯🇵 日本-家宽_2, server: speed-01.aliyun-web-tracker.cn, port: 41347, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: wximg.qq.com, skip-cert-verify: true}
+- {name: 🇭🇰 香港-03_2, server: speed-01.aliyun-web-tracker.cn, port: 41862, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: cm.g.doubleclick.net, skip-cert-verify: true}
+- {name: 🇸🇰 斯洛伐克_2, server: speed-01.aliyun-web-tracker.cn, port: 42341, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: cm.g.doubleclick.net, skip-cert-verify: true}
+- {name: 🇰🇷 韩国_2, server: speed-01.aliyun-web-tracker.cn, port: 44043, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: cm.g.doubleclick.net, skip-cert-verify: true}
+- {name: 🇺🇸 美国-01_2, server: speed-01.aliyun-web-tracker.cn, port: 47613, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: cm.g.doubleclick.net, skip-cert-verify: true}
+- {name: 🇭🇰 香港-01_2, server: speed-01.aliyun-web-tracker.cn, port: 48066, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: cm.g.doubleclick.net, skip-cert-verify: true}
+- {name: 🇰🇷 韩国-03_2, server: speed-01.aliyun-web-tracker.cn, port: 50250, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: cm.g.doubleclick.net, skip-cert-verify: true}
+- {name: 🇯🇵 日本-02_2, server: speed-01.aliyun-web-tracker.cn, port: 53333, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: cm.g.doubleclick.net, skip-cert-verify: true}
+- {name: 🇸🇬 新加坡-ISP-02_2, server: speed-01.aliyun-web-tracker.cn, port: 55583, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: cm.g.doubleclick.net, skip-cert-verify: true}
+- {name: 🇸🇬 新加坡-03_2, server: speed-01.aliyun-web-tracker.cn, port: 57490, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: cm.g.doubleclick.net, skip-cert-verify: true}
+- {name: 🇵🇰 巴基斯坦_2, server: speed-01.aliyun-web-tracker.cn, port: 58080, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: wximg.qq.com, skip-cert-verify: true}
+- {name: 🇹🇭 泰国-原生-03_1, server: speed-01.aliyun-web-tracker.cn, port: 59433, type: trojan, password: 82a51a311012f8b042dc979b21d42551, sni: cm.g.doubleclick.net, skip-cert-verify: true}
 proxy-groups:
 - name: 🚀 节点选择
   type: select
   proxies:
   - ♻️ 自动选择
-  - 西南-01
-  - 华东-01
-  - 华东-02
-  - 华南-01
-  - 华北-01
-  - 🇦🇺 澳大利亚
-  - 🇹🇷 土耳其
-  - 🇹🇼 台湾-8
-  - 🇭🇰 香港-02
-  - 🇸🇬 新加坡-O-01
-  - 🇸🇬 新加坡-02
-  - 🇻🇳 越南
-  - 🇯🇵 日本
-  - 🇲🇳 蒙古
-  - 🇹🇼 台湾-01
-  - 🇫🇮 芬兰
-  - 🇭🇰 香港-家宽-02
-  - 🇹🇭 泰国-原生-02
-  - 🇲🇾 马来西亚
-  - 🇸🇦 沙特-O-01
-  - 🇺🇸 美国-ISP
-  - 🇧🇷 巴西
-  - 🇺🇸 美国-03
-  - 🇸🇬 新加坡-01
-  - 🇫🇷 法国
-  - 🇨🇦 加拿大
-  - 🇬🇧 伦敦
-  - 🇺🇸 美国-02
-  - 🇺🇸 美国
-  - 🇦🇹 奥地利
-  - 🇪🇸 西班牙
-  - 🇮🇳 印度
-  - 🇷🇺 俄罗斯
-  - 🇸🇬 新加坡-优化
-  - 🇹🇼 台湾-01 2
-  - 🇸🇬 新加坡-ISP
-  - 🇯🇵 日本-03
-  - 🇭🇰 香港-05
-  - 🇲🇴 澳门-家宽
-  - 🇹🇼 台湾-02
-  - 🇹🇭 泰国-原生-01
-  - 🇺🇸 美国-04
-  - 🇯🇵 日本-家宽
-  - 🇭🇰 香港-03
-  - 🇸🇰 斯洛伐克
-  - 🇰🇷 韩国
-  - 🇺🇸 美国-01
-  - 🇭🇰 香港-01
-  - 🇰🇷 韩国-03
-  - 🇯🇵 日本-02
-  - 🇸🇬 新加坡-ISP-02
-  - 🇸🇬 新加坡-03
-  - 🇵🇰 巴基斯坦
-  - 🇹🇭 泰国-原生-03
+  - 西南-01_2
+  - 华东-01_2
+  - 华东-02_2
+  - 华南-01_2
+  - 华北-01_2
+  - 🇦🇺 澳大利亚_2
+  - 🇹🇷 土耳其_2
+  - 🇹🇼 台湾-8_2
+  - 🇭🇰 香港-02_2
+  - 🇸🇬 新加坡-O-01_2
+  - 🇸🇬 新加坡-02_2
+  - 🇻🇳 越南_2
+  - 🇯🇵 日本_2
+  - 🇲🇳 蒙古_2
+  - 🇹🇼 台湾-01_1
+  - 🇫🇮 芬兰_2
+  - 🇭🇰 香港-家宽-02_2
+  - 🇹🇭 泰国-原生-02_1
+  - 🇲🇾 马来西亚_2
+  - 🇸🇦 沙特-O-01_2
+  - 🇺🇸 美国-ISP_2
+  - 🇧🇷 巴西_2
+  - 🇺🇸 美国-03_2
+  - 🇸🇬 新加坡-01_2
+  - 🇫🇷 法国_2
+  - 🇨🇦 加拿大_2
+  - 🇬🇧 伦敦_2
+  - 🇺🇸 美国-02_2
+  - 🇺🇸 美国_2
+  - 🇦🇹 奥地利_2
+  - 🇪🇸 西班牙_2
+  - 🇮🇳 印度_2
+  - 🇷🇺 俄罗斯_2
+  - 🇸🇬 新加坡-优化_2
+  - 🇹🇼 台湾-01 2_1
+  - 🇸🇬 新加坡-ISP_2
+  - 🇯🇵 日本-03_2
+  - 🇭🇰 香港-05_2
+  - 🇲🇴 澳门-家宽_2
+  - 🇹🇼 台湾-02_1
+  - 🇹🇭 泰国-原生-01_1
+  - 🇺🇸 美国-04_2
+  - 🇯🇵 日本-家宽_2
+  - 🇭🇰 香港-03_2
+  - 🇸🇰 斯洛伐克_2
+  - 🇰🇷 韩国_2
+  - 🇺🇸 美国-01_2
+  - 🇭🇰 香港-01_2
+  - 🇰🇷 韩国-03_2
+  - 🇯🇵 日本-02_2
+  - 🇸🇬 新加坡-ISP-02_2
+  - 🇸🇬 新加坡-03_2
+  - 🇵🇰 巴基斯坦_2
+  - 🇹🇭 泰国-原生-03_1
 - name: ♻️ 自动选择
   type: url-test
   proxies:
-  - 西南-01
-  - 华东-01
-  - 华东-02
-  - 华南-01
-  - 华北-01
-  - 🇦🇺 澳大利亚
-  - 🇹🇷 土耳其
-  - 🇹🇼 台湾-8
-  - 🇭🇰 香港-02
-  - 🇸🇬 新加坡-O-01
-  - 🇸🇬 新加坡-02
-  - 🇻🇳 越南
-  - 🇯🇵 日本
-  - 🇲🇳 蒙古
-  - 🇹🇼 台湾-01
-  - 🇫🇮 芬兰
-  - 🇭🇰 香港-家宽-02
-  - 🇹🇭 泰国-原生-02
-  - 🇲🇾 马来西亚
-  - 🇸🇦 沙特-O-01
-  - 🇺🇸 美国-ISP
-  - 🇧🇷 巴西
-  - 🇺🇸 美国-03
-  - 🇸🇬 新加坡-01
-  - 🇫🇷 法国
-  - 🇨🇦 加拿大
-  - 🇬🇧 伦敦
-  - 🇺🇸 美国-02
-  - 🇺🇸 美国
-  - 🇦🇹 奥地利
-  - 🇪🇸 西班牙
-  - 🇮🇳 印度
-  - 🇷🇺 俄罗斯
-  - 🇸🇬 新加坡-优化
-  - 🇹🇼 台湾-01 2
-  - 🇸🇬 新加坡-ISP
-  - 🇯🇵 日本-03
-  - 🇭🇰 香港-05
-  - 🇲🇴 澳门-家宽
-  - 🇹🇼 台湾-02
-  - 🇹🇭 泰国-原生-01
-  - 🇺🇸 美国-04
-  - 🇯🇵 日本-家宽
-  - 🇭🇰 香港-03
-  - 🇸🇰 斯洛伐克
-  - 🇰🇷 韩国
-  - 🇺🇸 美国-01
-  - 🇭🇰 香港-01
-  - 🇰🇷 韩国-03
-  - 🇯🇵 日本-02
-  - 🇸🇬 新加坡-ISP-02
-  - 🇸🇬 新加坡-03
-  - 🇵🇰 巴基斯坦
-  - 🇹🇭 泰国-原生-03
+  - 西南-01_2
+  - 华东-01_2
+  - 华东-02_2
+  - 华南-01_2
+  - 华北-01_2
+  - 🇦🇺 澳大利亚_2
+  - 🇹🇷 土耳其_2
+  - 🇹🇼 台湾-8_2
+  - 🇭🇰 香港-02_2
+  - 🇸🇬 新加坡-O-01_2
+  - 🇸🇬 新加坡-02_2
+  - 🇻🇳 越南_2
+  - 🇯🇵 日本_2
+  - 🇲🇳 蒙古_2
+  - 🇹🇼 台湾-01_1
+  - 🇫🇮 芬兰_2
+  - 🇭🇰 香港-家宽-02_2
+  - 🇹🇭 泰国-原生-02_1
+  - 🇲🇾 马来西亚_2
+  - 🇸🇦 沙特-O-01_2
+  - 🇺🇸 美国-ISP_2
+  - 🇧🇷 巴西_2
+  - 🇺🇸 美国-03_2
+  - 🇸🇬 新加坡-01_2
+  - 🇫🇷 法国_2
+  - 🇨🇦 加拿大_2
+  - 🇬🇧 伦敦_2
+  - 🇺🇸 美国-02_2
+  - 🇺🇸 美国_2
+  - 🇦🇹 奥地利_2
+  - 🇪🇸 西班牙_2
+  - 🇮🇳 印度_2
+  - 🇷🇺 俄罗斯_2
+  - 🇸🇬 新加坡-优化_2
+  - 🇹🇼 台湾-01 2_1
+  - 🇸🇬 新加坡-ISP_2
+  - 🇯🇵 日本-03_2
+  - 🇭🇰 香港-05_2
+  - 🇲🇴 澳门-家宽_2
+  - 🇹🇼 台湾-02_1
+  - 🇹🇭 泰国-原生-01_1
+  - 🇺🇸 美国-04_2
+  - 🇯🇵 日本-家宽_2
+  - 🇭🇰 香港-03_2
+  - 🇸🇰 斯洛伐克_2
+  - 🇰🇷 韩国_2
+  - 🇺🇸 美国-01_2
+  - 🇭🇰 香港-01_2
+  - 🇰🇷 韩国-03_2
+  - 🇯🇵 日本-02_2
+  - 🇸🇬 新加坡-ISP-02_2
+  - 🇸🇬 新加坡-03_2
+  - 🇵🇰 巴基斯坦_2
+  - 🇹🇭 泰国-原生-03_1
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 🐟 漏网之鱼
