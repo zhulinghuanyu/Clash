@@ -1,19 +1,21 @@
 port: 7890
 socks-port: 7891
 allow-lan: true
+bind-address: '*'
+ipv6: false
 mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-- {name: 🇭🇰 RedMouse-香港-A1, server: 47.83.179.144, port: 30011, type: vless, uuid: 54ae0e6d-748d-4208-916c-718dbfab4793, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: SSFIkykW4mCy8Kn4ni7kX7QA9_DX1TX8YWM1ufLplkU}, servername: www.figma.com, client-fingerprint: edge, network: tcp}
-- {name: 🇭🇰 RedMouse-香港-A2, server: 47.83.179.144, port: 31012, type: vless, uuid: 54ae0e6d-748d-4208-916c-718dbfab4793, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: LvCIGI5QVMfY3lmEN7LM_WVLHF43ypZkeqMqvyOAax0}, servername: www.amazon.com, client-fingerprint: firefox, network: tcp}
-- {name: 🇭🇰 RedMouse-香港-A3, server: 47.83.179.144, port: 30013, type: vless, uuid: 54ae0e6d-748d-4208-916c-718dbfab4793, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: MPEowms2A7dWKLyN2RflXZkcjkW8mD9q5T-xSS8zoVo}, servername: www.ietf.org, client-fingerprint: safari, network: tcp}
-- {name: 🇸🇬 RedMouse-新加坡-A1, server: 47.83.179.144, port: 30014, type: vless, uuid: 54ae0e6d-748d-4208-916c-718dbfab4793, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: AGjEzFwkAaf7xZIlJaygQnYGB-yzYHqLMvfJFcV8ZFY}, servername: www.salesforce.com, client-fingerprint: chrome, network: tcp}
-- {name: 🇸🇬 RedMouse-新加坡-A2, server: 47.83.179.144, port: 30015, type: vless, uuid: 54ae0e6d-748d-4208-916c-718dbfab4793, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: JNuuUc30PLQGDflj6EQnl5VHoEvO4_fJy-UZWUne40A}, servername: addons.mozilla.org, client-fingerprint: edge, network: tcp}
-- {name: 🇸🇬 RedMouse-新加坡-A3, server: 47.83.179.144, port: 30016, type: vless, uuid: 54ae0e6d-748d-4208-916c-718dbfab4793, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: aknHJR7W2yhllqpRsvKlhdukdWLlSCp293Q2JFcg-wc}, servername: dl.google.com, client-fingerprint: chrome, network: tcp}
-- {name: 🇺🇸 RedMouse-美国-E1, server: 64.186.230.166, port: 30021, type: vless, uuid: 54ae0e6d-748d-4208-916c-718dbfab4793, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: X7QT4Hb32qRm8E7omXwxUjKn9oFvy597Xqvzbos_0iY}, servername: www.intel.com, client-fingerprint: qq, network: tcp}
-- {name: 🇺🇸 RedMouse-美国-E2, server: 64.186.230.166, port: 30022, type: vless, uuid: 54ae0e6d-748d-4208-916c-718dbfab4793, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: a2zUU8zpDgat2hXkCh1ZfvrKC-ByffLTWjYxEDyMKkg}, servername: www.nvidia.com, client-fingerprint: ios, network: tcp}
-- {name: 🇺🇸 RedMouse-美国-E3, server: 64.186.230.166, port: 30023, type: vless, uuid: 54ae0e6d-748d-4208-916c-718dbfab4793, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: cbwVEvmTvqUEWyMn_YgSXlf6-xctYp8-C0X0IRAuPCM}, servername: www.spotify.com, client-fingerprint: safari, network: tcp}
+- {name: 🇭🇰 RedMouse-香港-A1, server: 47.83.179.144, port: 30011, type: vless, uuid: 1925a520-efe7-4141-98e9-a2e82956d337, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: SSFIkykW4mCy8Kn4ni7kX7QA9_DX1TX8YWM1ufLplkU}, servername: www.figma.com, client-fingerprint: qq, network: tcp}
+- {name: 🇭🇰 RedMouse-香港-A2, server: 47.83.179.144, port: 31012, type: vless, uuid: 1925a520-efe7-4141-98e9-a2e82956d337, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: LvCIGI5QVMfY3lmEN7LM_WVLHF43ypZkeqMqvyOAax0}, servername: www.amazon.com, client-fingerprint: chrome, network: tcp}
+- {name: 🇭🇰 RedMouse-香港-A3, server: 47.83.179.144, port: 30013, type: vless, uuid: 1925a520-efe7-4141-98e9-a2e82956d337, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: MPEowms2A7dWKLyN2RflXZkcjkW8mD9q5T-xSS8zoVo}, servername: www.ietf.org, client-fingerprint: firefox, network: tcp}
+- {name: 🇸🇬 RedMouse-新加坡-A1, server: 47.83.179.144, port: 30014, type: vless, uuid: 1925a520-efe7-4141-98e9-a2e82956d337, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: AGjEzFwkAaf7xZIlJaygQnYGB-yzYHqLMvfJFcV8ZFY}, servername: www.salesforce.com, client-fingerprint: firefox, network: tcp}
+- {name: 🇸🇬 RedMouse-新加坡-A2, server: 47.83.179.144, port: 30015, type: vless, uuid: 1925a520-efe7-4141-98e9-a2e82956d337, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: JNuuUc30PLQGDflj6EQnl5VHoEvO4_fJy-UZWUne40A}, servername: addons.mozilla.org, client-fingerprint: edge, network: tcp}
+- {name: 🇸🇬 RedMouse-新加坡-A3, server: 47.83.179.144, port: 30016, type: vless, uuid: 1925a520-efe7-4141-98e9-a2e82956d337, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: aknHJR7W2yhllqpRsvKlhdukdWLlSCp293Q2JFcg-wc}, servername: dl.google.com, client-fingerprint: chrome, network: tcp}
+- {name: 🇺🇸 RedMouse-美国-E1, server: 64.186.230.166, port: 30021, type: vless, uuid: 1925a520-efe7-4141-98e9-a2e82956d337, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: X7QT4Hb32qRm8E7omXwxUjKn9oFvy597Xqvzbos_0iY}, servername: www.intel.com, client-fingerprint: safari, network: tcp}
+- {name: 🇺🇸 RedMouse-美国-E2, server: 64.186.230.166, port: 30022, type: vless, uuid: 1925a520-efe7-4141-98e9-a2e82956d337, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: a2zUU8zpDgat2hXkCh1ZfvrKC-ByffLTWjYxEDyMKkg}, servername: www.nvidia.com, client-fingerprint: firefox, network: tcp}
+- {name: 🇺🇸 RedMouse-美国-E3, server: 64.186.230.166, port: 30023, type: vless, uuid: 1925a520-efe7-4141-98e9-a2e82956d337, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: cbwVEvmTvqUEWyMn_YgSXlf6-xctYp8-C0X0IRAuPCM}, servername: www.spotify.com, client-fingerprint: chrome, network: tcp}
 proxy-groups:
 - name: 🚀 节点选择
   type: select
