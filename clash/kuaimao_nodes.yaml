@@ -1,6 +1,8 @@
 port: 7890
 socks-port: 7891
 allow-lan: true
+bind-address: '*'
+ipv6: false
 mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
@@ -36,7 +38,7 @@ proxies:
 - {name: 🇻🇳 快猫-Honkai Star Rail（越南 1, server: anyhk1.deepfind.site, port: 5463, type: vless, uuid: 2b945c7d-aa63-47a9-bdb2-416ade7d1560, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8, short-id: '85'}, servername: www.tesla.com, client-fingerprint: ios, network: tcp}
 - {name: 🇵🇭 快猫-PUBG Mobile（菲律宾, server: 103.72.5.57, port: 29654, type: vless, uuid: 2b945c7d-aa63-47a9-bdb2-416ade7d1560, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8, short-id: '85'}, servername: www.tesla.com, client-fingerprint: safari, network: tcp}
 - {name: 🇦🇺 快猫-Mobile Legends（澳大利亚）澳大利亚1, server: zfgcp.chatscreen.vip, port: 19748, type: vless, uuid: 2b945c7d-aa63-47a9-bdb2-416ade7d1560, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8, short-id: '85'}, servername: www.tesla.com, client-fingerprint: qq, network: tcp}
-- {name: 🇨🇳 快猫-Marvel Snap（台湾）中国台湾, server: zfgcp.chatscreen.vip, port: 10237, type: vless, uuid: 2b945c7d-aa63-47a9-bdb2-416ade7d1560, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8, short-id: '85'}, servername: www.tesla.com, client-fingerprint: ios, network: tcp}
+- {name: 🇹🇼 快猫-Marvel Snap（台湾）中国台湾, server: zfgcp.chatscreen.vip, port: 10237, type: vless, uuid: 2b945c7d-aa63-47a9-bdb2-416ade7d1560, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8, short-id: '85'}, servername: www.tesla.com, client-fingerprint: ios, network: tcp}
 - {name: 🇨🇦 快猫-Pokémon GO（加拿大）加拿大1, server: zfgcp.chatscreen.vip, port: 29889, type: vless, uuid: 2b945c7d-aa63-47a9-bdb2-416ade7d1560, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8, short-id: '85'}, servername: www.tesla.com, client-fingerprint: safari, network: tcp}
 proxy-groups:
 - name: 🚀 节点选择
@@ -74,7 +76,7 @@ proxy-groups:
   - 🇻🇳 快猫-Honkai Star Rail（越南 1
   - 🇵🇭 快猫-PUBG Mobile（菲律宾
   - 🇦🇺 快猫-Mobile Legends（澳大利亚）澳大利亚1
-  - 🇨🇳 快猫-Marvel Snap（台湾）中国台湾
+  - 🇹🇼 快猫-Marvel Snap（台湾）中国台湾
   - 🇨🇦 快猫-Pokémon GO（加拿大）加拿大1
 - name: ♻️ 自动选择
   type: url-test
@@ -110,7 +112,7 @@ proxy-groups:
   - 🇻🇳 快猫-Honkai Star Rail（越南 1
   - 🇵🇭 快猫-PUBG Mobile（菲律宾
   - 🇦🇺 快猫-Mobile Legends（澳大利亚）澳大利亚1
-  - 🇨🇳 快猫-Marvel Snap（台湾）中国台湾
+  - 🇹🇼 快猫-Marvel Snap（台湾）中国台湾
   - 🇨🇦 快猫-Pokémon GO（加拿大）加拿大1
   url: http://www.gstatic.com/generate_204
   interval: 300
