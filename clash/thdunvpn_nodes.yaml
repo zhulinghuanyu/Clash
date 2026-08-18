@@ -1,6 +1,8 @@
 port: 7890
 socks-port: 7891
 allow-lan: true
+bind-address: '*'
+ipv6: false
 mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
@@ -12,11 +14,12 @@ proxies:
 - {name: 🇩🇪 德国线路1, server: 120.232.250.163, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae}
 - {name: 🇭🇰 移动-香港线路1, server: 120.232.251.128, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae}
 - {name: 🇭🇰 移动-香港线路3, server: 120.232.251.129, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae}
+- {name: 🇹🇼 台湾线路2, server: 120.232.253.89, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae}
 - {name: 🇸🇬 新加坡线路1, server: 120.232.253.90, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae}
 - {name: 🇻🇳 越南线路1, server: 120.232.253.91, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae}
 - {name: 🇮🇩 印尼线路1, server: 120.232.253.92, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae}
 - {name: 🇮🇹 意大利线路, server: 120.232.253.93, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae}
-- {name: 🇨🇳 台湾线路1, server: 120.232.253.94, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae}
+- {name: 🇹🇼 台湾线路1, server: 120.232.253.94, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae}
 - {name: 🇭🇰 移动-香港线路6, server: 120.232.253.96, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae}
 - {name: 🇭🇰 移动-香港线路7, server: 120.232.253.97, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae}
 - {name: 🇭🇰 移动-香港线路8, server: 120.232.253.98, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae}
@@ -51,11 +54,12 @@ proxy-groups:
   - 🇩🇪 德国线路1
   - 🇭🇰 移动-香港线路1
   - 🇭🇰 移动-香港线路3
+  - 🇹🇼 台湾线路2
   - 🇸🇬 新加坡线路1
   - 🇻🇳 越南线路1
   - 🇮🇩 印尼线路1
   - 🇮🇹 意大利线路
-  - 🇨🇳 台湾线路1
+  - 🇹🇼 台湾线路1
   - 🇭🇰 移动-香港线路6
   - 🇭🇰 移动-香港线路7
   - 🇭🇰 移动-香港线路8
@@ -88,11 +92,12 @@ proxy-groups:
   - 🇩🇪 德国线路1
   - 🇭🇰 移动-香港线路1
   - 🇭🇰 移动-香港线路3
+  - 🇹🇼 台湾线路2
   - 🇸🇬 新加坡线路1
   - 🇻🇳 越南线路1
   - 🇮🇩 印尼线路1
   - 🇮🇹 意大利线路
-  - 🇨🇳 台湾线路1
+  - 🇹🇼 台湾线路1
   - 🇭🇰 移动-香港线路6
   - 🇭🇰 移动-香港线路7
   - 🇭🇰 移动-香港线路8

@@ -1,6 +1,8 @@
 port: 7890
 socks-port: 7891
 allow-lan: true
+bind-address: '*'
+ipv6: false
 mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
@@ -112,21 +114,21 @@ proxies:
 - {name: 🇸🇬 RelyVPN-新加坡 7, server: 45.32.115.157, port: 443, type: hysteria2, password: C1B4BBAE-B55C-4233-A047-3A8131912B46, auth: C1B4BBAE-B55C-4233-A047-3A8131912B46, sni: bvjqghhh.wofhwifhafalffagy.com, skip-cert-verify: true, alpn: [h3]}
 - {name: 🇸🇬 RelyVPN-新加坡 8, server: 45.77.175.212, port: 443, type: hysteria2, password: FB0F29DC-7072-4EF3-8871-E386F2FA3F9D, auth: FB0F29DC-7072-4EF3-8871-E386F2FA3F9D, sni: thaeylvh.wofhwifhafalffagy.com, skip-cert-verify: true, alpn: [h3]}
 - {name: 🇸🇬 RelyVPN-新加坡 9, server: 45.77.252.193, port: 443, type: hysteria2, password: 28A0A820-8018-4FA2-93FC-A5A5CCF8ED8D, auth: 28A0A820-8018-4FA2-93FC-A5A5CCF8ED8D, sni: krrjfhau.wofhwifhafalffagy.com, skip-cert-verify: true, alpn: [h3]}
-- {name: 🇨🇳 RelyVPN-台湾 4, server: 61.221.26.16, port: 443, type: hysteria2, password: ECDEE502-79B6-4F71-AB4D-B98F7FC3B271, auth: ECDEE502-79B6-4F71-AB4D-B98F7FC3B271, sni: wnpnsvrc.wofhwifhafalffagy.com, skip-cert-verify: true, alpn: [h3]}
-- {name: 🇨🇳 RelyVPN-台湾 10, server: 211.75.210.104, port: 443, type: hysteria2, password: 9704E069-7602-4F1D-9A0A-4DD3E698B182, auth: 9704E069-7602-4F1D-9A0A-4DD3E698B182, sni: mjjwxvzs.wofhwifhafalffagy.com, skip-cert-verify: true, alpn: [h3]}
-- {name: 🇨🇳 RelyVPN-台湾 20, server: 210.61.187.213, port: 443, type: hysteria2, password: DC56CDBE-3846-467A-9D36-B268DDA84AF8, auth: DC56CDBE-3846-467A-9D36-B268DDA84AF8, sni: dfrbosii.wofhwifhafalffagy.com, skip-cert-verify: true, alpn: [h3]}
-- {name: 🇨🇳 RelyVPN-台湾 9, server: 60.249.36.94, port: 443, type: hysteria2, password: 15E657CC-5ED6-4BDF-A2D3-2B755CA71F0B, auth: 15E657CC-5ED6-4BDF-A2D3-2B755CA71F0B, sni: rvhavkty.wofhwifhafalffagy.com, skip-cert-verify: true, alpn: [h3]}
-- {name: 🇨🇳 RelyVPN-台湾 11, server: 61.216.37.4, port: 443, type: hysteria2, password: 8A63BFAC-0D68-4760-8D21-F0DBDAA899C9, auth: 8A63BFAC-0D68-4760-8D21-F0DBDAA899C9, sni: pqevyhhh.wofhwifhafalffagy.com, skip-cert-verify: true, alpn: [h3]}
-- {name: 🇨🇳 RelyVPN-台湾 16, server: 118.163.198.104, port: 443, type: hysteria2, password: DC72155F-69D7-4607-8B14-B8C0C138D97F, auth: DC72155F-69D7-4607-8B14-B8C0C138D97F, sni: jislvzcm.wofhwifhafalffagy.com, skip-cert-verify: true, alpn: [h3]}
-- {name: 🇨🇳 RelyVPN-台湾 17, server: 211.22.154.3, port: 443, type: hysteria2, password: DBA7C85B-4B23-4265-8F87-30C916898FFE, auth: DBA7C85B-4B23-4265-8F87-30C916898FFE, sni: rwnwyfpv.wofhwifhafalffagy.com, skip-cert-verify: true, alpn: [h3]}
-- {name: 🇨🇳 RelyVPN-台湾 18, server: 211.22.154.5, port: 443, type: hysteria2, password: 7C0DF6FA-61B0-4434-9464-0CD0E4D2F001, auth: 7C0DF6FA-61B0-4434-9464-0CD0E4D2F001, sni: koptrfae.wofhwifhafalffagy.com, skip-cert-verify: true, alpn: [h3]}
-- {name: 🇨🇳 RelyVPN-台湾 19, server: 211.22.154.6, port: 443, type: hysteria2, password: B9993D39-13FD-487C-8B06-E5D6ABBC4716, auth: B9993D39-13FD-487C-8B06-E5D6ABBC4716, sni: qxoeaigl.wofhwifhafalffagy.com, skip-cert-verify: true, alpn: [h3]}
-- {name: 🇨🇳 RelyVPN-台湾 2, server: 211.23.142.109, port: 443, type: hysteria2, password: D437B9AD-5FCB-4BEB-99AF-001F11BADEF2, auth: D437B9AD-5FCB-4BEB-99AF-001F11BADEF2, sni: hpnsgxad.wofhwifhafalffagy.com, skip-cert-verify: true, alpn: [h3]}
-- {name: 🇨🇳 RelyVPN-台湾 3, server: 60.249.37.21, port: 443, type: hysteria2, password: 496D9A06-EA63-41DD-A888-2DF2020CCFD8, auth: 496D9A06-EA63-41DD-A888-2DF2020CCFD8, sni: vpeasjpe.wofhwifhafalffagy.com, skip-cert-verify: true, alpn: [h3]}
-- {name: 🇨🇳 RelyVPN-台湾 5, server: 118.163.198.106, port: 443, type: hysteria2, password: A875CB00-9B4B-4E48-9825-1E07DFA3E694, auth: A875CB00-9B4B-4E48-9825-1E07DFA3E694, sni: pzevmeae.wofhwifhafalffagy.com, skip-cert-verify: true, alpn: [h3]}
-- {name: 🇨🇳 RelyVPN-台湾 6, server: 59.125.75.31, port: 443, type: hysteria2, password: EF1B68F7-9861-4DED-885A-4DF78C6B214E, auth: EF1B68F7-9861-4DED-885A-4DF78C6B214E, sni: cpmzumuc.wofhwifhafalffagy.com, skip-cert-verify: true, alpn: [h3]}
-- {name: 🇨🇳 RelyVPN-台湾 7, server: 59.125.75.32, port: 443, type: hysteria2, password: 1D100547-F02A-494A-AFA4-14CE4621B6AD, auth: 1D100547-F02A-494A-AFA4-14CE4621B6AD, sni: bgejqgum.wofhwifhafalffagy.com, skip-cert-verify: true, alpn: [h3]}
-- {name: 🇨🇳 RelyVPN-台湾 8, server: 59.125.75.33, port: 443, type: hysteria2, password: DBFF4EDA-AC76-4B6F-B3D2-69555633E845, auth: DBFF4EDA-AC76-4B6F-B3D2-69555633E845, sni: nwfvoqzj.wofhwifhafalffagy.com, skip-cert-verify: true, alpn: [h3]}
+- {name: 🇹🇼 RelyVPN-台湾 4, server: 61.221.26.16, port: 443, type: hysteria2, password: ECDEE502-79B6-4F71-AB4D-B98F7FC3B271, auth: ECDEE502-79B6-4F71-AB4D-B98F7FC3B271, sni: wnpnsvrc.wofhwifhafalffagy.com, skip-cert-verify: true, alpn: [h3]}
+- {name: 🇹🇼 RelyVPN-台湾 10, server: 211.75.210.104, port: 443, type: hysteria2, password: 9704E069-7602-4F1D-9A0A-4DD3E698B182, auth: 9704E069-7602-4F1D-9A0A-4DD3E698B182, sni: mjjwxvzs.wofhwifhafalffagy.com, skip-cert-verify: true, alpn: [h3]}
+- {name: 🇹🇼 RelyVPN-台湾 20, server: 210.61.187.213, port: 443, type: hysteria2, password: DC56CDBE-3846-467A-9D36-B268DDA84AF8, auth: DC56CDBE-3846-467A-9D36-B268DDA84AF8, sni: dfrbosii.wofhwifhafalffagy.com, skip-cert-verify: true, alpn: [h3]}
+- {name: 🇹🇼 RelyVPN-台湾 9, server: 60.249.36.94, port: 443, type: hysteria2, password: 15E657CC-5ED6-4BDF-A2D3-2B755CA71F0B, auth: 15E657CC-5ED6-4BDF-A2D3-2B755CA71F0B, sni: rvhavkty.wofhwifhafalffagy.com, skip-cert-verify: true, alpn: [h3]}
+- {name: 🇹🇼 RelyVPN-台湾 11, server: 61.216.37.4, port: 443, type: hysteria2, password: 8A63BFAC-0D68-4760-8D21-F0DBDAA899C9, auth: 8A63BFAC-0D68-4760-8D21-F0DBDAA899C9, sni: pqevyhhh.wofhwifhafalffagy.com, skip-cert-verify: true, alpn: [h3]}
+- {name: 🇹🇼 RelyVPN-台湾 16, server: 118.163.198.104, port: 443, type: hysteria2, password: DC72155F-69D7-4607-8B14-B8C0C138D97F, auth: DC72155F-69D7-4607-8B14-B8C0C138D97F, sni: jislvzcm.wofhwifhafalffagy.com, skip-cert-verify: true, alpn: [h3]}
+- {name: 🇹🇼 RelyVPN-台湾 17, server: 211.22.154.3, port: 443, type: hysteria2, password: DBA7C85B-4B23-4265-8F87-30C916898FFE, auth: DBA7C85B-4B23-4265-8F87-30C916898FFE, sni: rwnwyfpv.wofhwifhafalffagy.com, skip-cert-verify: true, alpn: [h3]}
+- {name: 🇹🇼 RelyVPN-台湾 18, server: 211.22.154.5, port: 443, type: hysteria2, password: 7C0DF6FA-61B0-4434-9464-0CD0E4D2F001, auth: 7C0DF6FA-61B0-4434-9464-0CD0E4D2F001, sni: koptrfae.wofhwifhafalffagy.com, skip-cert-verify: true, alpn: [h3]}
+- {name: 🇹🇼 RelyVPN-台湾 19, server: 211.22.154.6, port: 443, type: hysteria2, password: B9993D39-13FD-487C-8B06-E5D6ABBC4716, auth: B9993D39-13FD-487C-8B06-E5D6ABBC4716, sni: qxoeaigl.wofhwifhafalffagy.com, skip-cert-verify: true, alpn: [h3]}
+- {name: 🇹🇼 RelyVPN-台湾 2, server: 211.23.142.109, port: 443, type: hysteria2, password: D437B9AD-5FCB-4BEB-99AF-001F11BADEF2, auth: D437B9AD-5FCB-4BEB-99AF-001F11BADEF2, sni: hpnsgxad.wofhwifhafalffagy.com, skip-cert-verify: true, alpn: [h3]}
+- {name: 🇹🇼 RelyVPN-台湾 3, server: 60.249.37.21, port: 443, type: hysteria2, password: 496D9A06-EA63-41DD-A888-2DF2020CCFD8, auth: 496D9A06-EA63-41DD-A888-2DF2020CCFD8, sni: vpeasjpe.wofhwifhafalffagy.com, skip-cert-verify: true, alpn: [h3]}
+- {name: 🇹🇼 RelyVPN-台湾 5, server: 118.163.198.106, port: 443, type: hysteria2, password: A875CB00-9B4B-4E48-9825-1E07DFA3E694, auth: A875CB00-9B4B-4E48-9825-1E07DFA3E694, sni: pzevmeae.wofhwifhafalffagy.com, skip-cert-verify: true, alpn: [h3]}
+- {name: 🇹🇼 RelyVPN-台湾 6, server: 59.125.75.31, port: 443, type: hysteria2, password: EF1B68F7-9861-4DED-885A-4DF78C6B214E, auth: EF1B68F7-9861-4DED-885A-4DF78C6B214E, sni: cpmzumuc.wofhwifhafalffagy.com, skip-cert-verify: true, alpn: [h3]}
+- {name: 🇹🇼 RelyVPN-台湾 7, server: 59.125.75.32, port: 443, type: hysteria2, password: 1D100547-F02A-494A-AFA4-14CE4621B6AD, auth: 1D100547-F02A-494A-AFA4-14CE4621B6AD, sni: bgejqgum.wofhwifhafalffagy.com, skip-cert-verify: true, alpn: [h3]}
+- {name: 🇹🇼 RelyVPN-台湾 8, server: 59.125.75.33, port: 443, type: hysteria2, password: DBFF4EDA-AC76-4B6F-B3D2-69555633E845, auth: DBFF4EDA-AC76-4B6F-B3D2-69555633E845, sni: nwfvoqzj.wofhwifhafalffagy.com, skip-cert-verify: true, alpn: [h3]}
 - {name: 🇷🇺 RelyVPN-莫斯科 1, server: 38.60.221.31, port: 443, type: hysteria2, password: C2847554-DF01-4A14-B312-245F721A8F30, auth: C2847554-DF01-4A14-B312-245F721A8F30, sni: opdbmizq.wofhwifhafalffagy.com, skip-cert-verify: true, alpn: [h3]}
 - {name: 🇩🇪 RelyVPN-法兰克福 1, server: 139.162.172.146, port: 443, type: hysteria2, password: F6E04254-DF74-4F8D-8375-B9DE7DDC7C21, auth: F6E04254-DF74-4F8D-8375-B9DE7DDC7C21, sni: gmkwuyug.wofhwifhafalffagy.com, skip-cert-verify: true, alpn: [h3]}
 - {name: RelyVPN-林堡, server: 51.195.20.126, port: 443, type: hysteria2, password: AD7702FE-8351-40D3-96DA-CCED2350873A, auth: AD7702FE-8351-40D3-96DA-CCED2350873A, sni: hvsaiofd.wofhwifhafalffagy.com, skip-cert-verify: true, alpn: [h3]}
@@ -286,21 +288,21 @@ proxy-groups:
   - 🇸🇬 RelyVPN-新加坡 7
   - 🇸🇬 RelyVPN-新加坡 8
   - 🇸🇬 RelyVPN-新加坡 9
-  - 🇨🇳 RelyVPN-台湾 4
-  - 🇨🇳 RelyVPN-台湾 10
-  - 🇨🇳 RelyVPN-台湾 20
-  - 🇨🇳 RelyVPN-台湾 9
-  - 🇨🇳 RelyVPN-台湾 11
-  - 🇨🇳 RelyVPN-台湾 16
-  - 🇨🇳 RelyVPN-台湾 17
-  - 🇨🇳 RelyVPN-台湾 18
-  - 🇨🇳 RelyVPN-台湾 19
-  - 🇨🇳 RelyVPN-台湾 2
-  - 🇨🇳 RelyVPN-台湾 3
-  - 🇨🇳 RelyVPN-台湾 5
-  - 🇨🇳 RelyVPN-台湾 6
-  - 🇨🇳 RelyVPN-台湾 7
-  - 🇨🇳 RelyVPN-台湾 8
+  - 🇹🇼 RelyVPN-台湾 4
+  - 🇹🇼 RelyVPN-台湾 10
+  - 🇹🇼 RelyVPN-台湾 20
+  - 🇹🇼 RelyVPN-台湾 9
+  - 🇹🇼 RelyVPN-台湾 11
+  - 🇹🇼 RelyVPN-台湾 16
+  - 🇹🇼 RelyVPN-台湾 17
+  - 🇹🇼 RelyVPN-台湾 18
+  - 🇹🇼 RelyVPN-台湾 19
+  - 🇹🇼 RelyVPN-台湾 2
+  - 🇹🇼 RelyVPN-台湾 3
+  - 🇹🇼 RelyVPN-台湾 5
+  - 🇹🇼 RelyVPN-台湾 6
+  - 🇹🇼 RelyVPN-台湾 7
+  - 🇹🇼 RelyVPN-台湾 8
   - 🇷🇺 RelyVPN-莫斯科 1
   - 🇩🇪 RelyVPN-法兰克福 1
   - RelyVPN-林堡
@@ -458,21 +460,21 @@ proxy-groups:
   - 🇸🇬 RelyVPN-新加坡 7
   - 🇸🇬 RelyVPN-新加坡 8
   - 🇸🇬 RelyVPN-新加坡 9
-  - 🇨🇳 RelyVPN-台湾 4
-  - 🇨🇳 RelyVPN-台湾 10
-  - 🇨🇳 RelyVPN-台湾 20
-  - 🇨🇳 RelyVPN-台湾 9
-  - 🇨🇳 RelyVPN-台湾 11
-  - 🇨🇳 RelyVPN-台湾 16
-  - 🇨🇳 RelyVPN-台湾 17
-  - 🇨🇳 RelyVPN-台湾 18
-  - 🇨🇳 RelyVPN-台湾 19
-  - 🇨🇳 RelyVPN-台湾 2
-  - 🇨🇳 RelyVPN-台湾 3
-  - 🇨🇳 RelyVPN-台湾 5
-  - 🇨🇳 RelyVPN-台湾 6
-  - 🇨🇳 RelyVPN-台湾 7
-  - 🇨🇳 RelyVPN-台湾 8
+  - 🇹🇼 RelyVPN-台湾 4
+  - 🇹🇼 RelyVPN-台湾 10
+  - 🇹🇼 RelyVPN-台湾 20
+  - 🇹🇼 RelyVPN-台湾 9
+  - 🇹🇼 RelyVPN-台湾 11
+  - 🇹🇼 RelyVPN-台湾 16
+  - 🇹🇼 RelyVPN-台湾 17
+  - 🇹🇼 RelyVPN-台湾 18
+  - 🇹🇼 RelyVPN-台湾 19
+  - 🇹🇼 RelyVPN-台湾 2
+  - 🇹🇼 RelyVPN-台湾 3
+  - 🇹🇼 RelyVPN-台湾 5
+  - 🇹🇼 RelyVPN-台湾 6
+  - 🇹🇼 RelyVPN-台湾 7
+  - 🇹🇼 RelyVPN-台湾 8
   - 🇷🇺 RelyVPN-莫斯科 1
   - 🇩🇪 RelyVPN-法兰克福 1
   - RelyVPN-林堡

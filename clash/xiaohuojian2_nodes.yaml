@@ -1,12 +1,14 @@
 port: 7890
 socks-port: 7891
 allow-lan: true
+bind-address: '*'
+ipv6: false
 mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-- {name: EPODONIOS, server: oooooooooooooooo-00000000000000000.poki-pakipon.ir, port: 4713, type: trojan, password: '---------------BanV2ray-------------', sni: yahoo.com, skip-cert-verify: true, network: grpc}
-- {name: EPODONIOS 2, server: mmmmmmmmmmmmmmmm-11111111111111111111111.poki-pakipon.ir, port: 42351, type: trojan, password: '--------------BanV2ray-----------', sni: yahoo.com, skip-cert-verify: true, network: grpc}
+- {name: EPODONIOS, server: oooooooooooooooo-00000000000000000.poki-pakipon.ir, port: 4713, type: trojan, password: '---------------BanV2ray-------------', sni: yahoo.com, client-fingerprint: chrome, skip-cert-verify: true, network: grpc}
+- {name: EPODONIOS 2, server: mmmmmmmmmmmmmmmm-11111111111111111111111.poki-pakipon.ir, port: 42351, type: trojan, password: '--------------BanV2ray-----------', sni: yahoo.com, client-fingerprint: chrome, skip-cert-verify: true, network: grpc}
 - {name: EPODONIOS 3, server: 128.199.188.214, port: 443, type: vmess, uuid: 3f724115-8ca2-4aa4-b8cc-eb72d9b6b1ef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: 128.199.188.214}}}
 - {name: EPODONIOS 4, server: 168.138.201.208, port: 10328, type: vmess, uuid: bf847bf7-0ba5-4885-bd2b-da4d77afbda8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
 proxy-groups:
