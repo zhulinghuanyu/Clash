@@ -1,8 +1,6 @@
 port: 7890
 socks-port: 7891
 allow-lan: true
-bind-address: '*'
-ipv6: false
 mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
@@ -17,7 +15,7 @@ proxies:
 - {name: 🇻🇳 神灯加速器-越南-03, server: tyy129.magiclampcloud.com, port: 59443, type: trojan, password: 094a90dd5480ed7702597be34aeaacf7, sni: tyy129.magiclampcloud.com, skip-cert-verify: true}
 - {name: 🇹🇷 神灯加速器-土耳其-02, server: ja262.magiclampcloud.cn, port: 59443, type: trojan, password: 0f3a49a77c569bc5cb7e272777ff4b4d, sni: ja262.magiclampcloud.cn, skip-cert-verify: true}
 - {name: 🇸🇬 神灯加速器-新加坡-07, server: ja304.magiclampcloud.cn, port: 59443, type: trojan, password: 1268e67e8d569099e8abb463d08fe0e4, sni: ja304.magiclampcloud.cn, skip-cert-verify: true}
-- {name: 🇹🇼 神灯加速器-台湾-03, server: tyy129.magiclampcloud.com, port: 59443, type: trojan, password: 139ba1c7177aff4dac1d13767230a1a2, sni: tyy129.magiclampcloud.com, skip-cert-verify: true}
+- {name: 🇨🇳 神灯加速器-台湾-03, server: tyy129.magiclampcloud.com, port: 59443, type: trojan, password: 139ba1c7177aff4dac1d13767230a1a2, sni: tyy129.magiclampcloud.com, skip-cert-verify: true}
 - {name: 🇭🇰 神灯加速器-香港-14, server: tyy129.magiclampcloud.com, port: 59443, type: trojan, password: 13e6b9f9497485cdedfdc59328e6a8ad, sni: tyy129.magiclampcloud.com, skip-cert-verify: true}
 - {name: 🇺🇸 神灯加速器-美国-19, server: ja262.magiclampcloud.cn, port: 59443, type: trojan, password: 149e8b06cedeaca58f830b51ec374540, sni: ja262.magiclampcloud.cn, skip-cert-verify: true}
 - {name: 🇺🇸 神灯加速器-美国-10, server: tyy129.magiclampcloud.com, port: 59443, type: trojan, password: 14bac0e43c849123ccb0fd0690f24316, sni: tyy129.magiclampcloud.com, skip-cert-verify: true}
@@ -80,7 +78,7 @@ proxies:
 - {name: 🇭🇰 神灯加速器-香港-33, server: ja262.magiclampcloud.cn, port: 59443, type: trojan, password: 6fac6920d85a061cc5bb88ea80e6a703, sni: ja262.magiclampcloud.cn, skip-cert-verify: true}
 - {name: 🇺🇸 神灯加速器-美国-07, server: ja304.magiclampcloud.cn, port: 59443, type: trojan, password: 7141b5f0592f2e7f459ea2e8cfcd8a84, sni: ja304.magiclampcloud.cn, skip-cert-verify: true}
 - {name: 🇬🇷 神灯加速器-希腊-02, server: tyy129.magiclampcloud.com, port: 59443, type: trojan, password: 73a21f82e484bc746b7b3e8b742622e1, sni: tyy129.magiclampcloud.com, skip-cert-verify: true}
-- {name: 🇹🇼 神灯加速器-台湾-07, server: tyy129.magiclampcloud.com, port: 59443, type: trojan, password: 74577e02978f5758d19f276a502b24b5, sni: tyy129.magiclampcloud.com, skip-cert-verify: true}
+- {name: 🇨🇳 神灯加速器-台湾-07, server: tyy129.magiclampcloud.com, port: 59443, type: trojan, password: 74577e02978f5758d19f276a502b24b5, sni: tyy129.magiclampcloud.com, skip-cert-verify: true}
 - {name: 🇫🇷 神灯加速器-法国-03, server: tyy129.magiclampcloud.com, port: 59443, type: trojan, password: 74bd27bf0a1968d15e8a020666472b47, sni: tyy129.magiclampcloud.com, skip-cert-verify: true}
 - {name: 🇫🇷 神灯加速器-法国-05, server: tyy129.magiclampcloud.com, port: 59443, type: trojan, password: 7547490bb96d371033b58baf91772254, sni: tyy129.magiclampcloud.com, skip-cert-verify: true}
 - {name: 🇵🇭 神灯加速器-菲律宾-102, server: ja304.magiclampcloud.cn, port: 59443, type: trojan, password: 75549bb4b4a8b7b9d940608808880852, sni: ja304.magiclampcloud.cn, skip-cert-verify: true}
@@ -95,7 +93,7 @@ proxies:
 - {name: 🇹🇭 神灯加速器-泰国-105, server: ja304.magiclampcloud.cn, port: 59443, type: trojan, password: 81f683c3f594588c69c9494526a57f3d, sni: ja304.magiclampcloud.cn, skip-cert-verify: true}
 - {name: 🇮🇩 神灯加速器-印尼 印度尼西亚-101, server: ja304.magiclampcloud.cn, port: 59443, type: trojan, password: 828b96278358962c945c18913e3ce5b7, sni: ja304.magiclampcloud.cn, skip-cert-verify: true}
 - {name: 🇭🇰 神灯加速器-香港-40, server: ja304.magiclampcloud.cn, port: 59443, type: trojan, password: 8551a9d47b390b78d3be443ad1d0019d, sni: ja304.magiclampcloud.cn, skip-cert-verify: true}
-- {name: 🇹🇼 神灯加速器-台湾-02, server: ja262.magiclampcloud.cn, port: 59443, type: trojan, password: 8560843d8550aa368674c3bf0d4d3ad8, sni: ja262.magiclampcloud.cn, skip-cert-verify: true}
+- {name: 🇨🇳 神灯加速器-台湾-02, server: ja262.magiclampcloud.cn, port: 59443, type: trojan, password: 8560843d8550aa368674c3bf0d4d3ad8, sni: ja262.magiclampcloud.cn, skip-cert-verify: true}
 - {name: 🇯🇵 神灯加速器-日本-01, server: tyy129.magiclampcloud.com, port: 59443, type: trojan, password: 881340284b2ba5737f5f892a846c2940, sni: tyy129.magiclampcloud.com, skip-cert-verify: true}
 - {name: 🇩🇪 神灯加速器-德国-04, server: ja262.magiclampcloud.cn, port: 59443, type: trojan, password: 881ff9e8588eaf4a7dd8352005921fa5, sni: ja262.magiclampcloud.cn, skip-cert-verify: true}
 - {name: 🇮🇩 神灯加速器-印尼 印度尼西亚-104, server: ja262.magiclampcloud.cn, port: 59443, type: trojan, password: 8a6691810c87dd1c7ac2ac7103c334d9, sni: ja262.magiclampcloud.cn, skip-cert-verify: true}
@@ -108,7 +106,7 @@ proxies:
 - {name: 🇹🇭 神灯加速器-泰国-104, server: ja262.magiclampcloud.cn, port: 59443, type: trojan, password: 970cff306f67f10cb3aa6cad2f73c2e2, sni: ja262.magiclampcloud.cn, skip-cert-verify: true}
 - {name: 🇮🇩 神灯加速器-印尼 印度尼西亚-103, server: ja304.magiclampcloud.cn, port: 59443, type: trojan, password: 9f08b5c59e0e0f5235d111cab8a3fe1b, sni: ja304.magiclampcloud.cn, skip-cert-verify: true}
 - {name: 🇭🇰 神灯加速器-香港-38, server: ja262.magiclampcloud.cn, port: 59443, type: trojan, password: a0d94e10446eef0e1eebb4f6c177512d, sni: ja262.magiclampcloud.cn, skip-cert-verify: true}
-- {name: 🇹🇼 神灯加速器-台湾-05, server: tyy129.magiclampcloud.com, port: 59443, type: trojan, password: a157d762252558b15b32075645145251, sni: tyy129.magiclampcloud.com, skip-cert-verify: true}
+- {name: 🇨🇳 神灯加速器-台湾-05, server: tyy129.magiclampcloud.com, port: 59443, type: trojan, password: a157d762252558b15b32075645145251, sni: tyy129.magiclampcloud.com, skip-cert-verify: true}
 - {name: 🇫🇷 神灯加速器-法国-02, server: ja262.magiclampcloud.cn, port: 59443, type: trojan, password: a1cc1219f15873f5cf89c921e3f32347, sni: ja262.magiclampcloud.cn, skip-cert-verify: true}
 - {name: 🇲🇾 神灯加速器-马来西亚-104, server: ja262.magiclampcloud.cn, port: 59443, type: trojan, password: a6667237f0272b408e55cec8c3ebde8e, sni: ja262.magiclampcloud.cn, skip-cert-verify: true}
 - {name: 🇦🇺 神灯加速器-澳大利亚-01, server: tyy129.magiclampcloud.com, port: 59443, type: trojan, password: a74c18e385d4df373ae7871c331cc88b, sni: tyy129.magiclampcloud.com, skip-cert-verify: true}
@@ -120,7 +118,7 @@ proxies:
 - {name: 🇬🇧 神灯加速器-英国-04, server: ja262.magiclampcloud.cn, port: 59443, type: trojan, password: ac312a46f833789e1e5c87222ec9949f, sni: ja262.magiclampcloud.cn, skip-cert-verify: true}
 - {name: 🇺🇸 神灯加速器-美国-09, server: ja262.magiclampcloud.cn, port: 59443, type: trojan, password: ac4d690c48661daaceb616b04007e2b5, sni: ja262.magiclampcloud.cn, skip-cert-verify: true}
 - {name: 🇮🇸 神灯加速器-冰岛 IS-03, server: tyy129.magiclampcloud.com, port: 59443, type: trojan, password: ad2ac27a9fa52023755a961d77632f23, sni: tyy129.magiclampcloud.com, skip-cert-verify: true}
-- {name: 🇹🇼 神灯加速器-台湾-01, server: tyy129.magiclampcloud.com, port: 59443, type: trojan, password: aea165cb7f5890ff234bc2b8a7fb0de8, sni: tyy129.magiclampcloud.com, skip-cert-verify: true}
+- {name: 🇨🇳 神灯加速器-台湾-01, server: tyy129.magiclampcloud.com, port: 59443, type: trojan, password: aea165cb7f5890ff234bc2b8a7fb0de8, sni: tyy129.magiclampcloud.com, skip-cert-verify: true}
 - {name: 🇹🇭 神灯加速器-泰国-103, server: ja262.magiclampcloud.cn, port: 59443, type: trojan, password: b3dc9daaf39804635c99dc0a296926b4, sni: ja262.magiclampcloud.cn, skip-cert-verify: true}
 - {name: 🇭🇰 神灯加速器-香港-35, server: ja262.magiclampcloud.cn, port: 59443, type: trojan, password: b4d7471e8bf6508a55dae8b38ba1a625, sni: ja262.magiclampcloud.cn, skip-cert-verify: true}
 - {name: 🇺🇸 神灯加速器-美国-06, server: tyy129.magiclampcloud.com, port: 59443, type: trojan, password: b5a6ec01194bd3e2510f5468b0885be7, sni: tyy129.magiclampcloud.com, skip-cert-verify: true}
@@ -129,7 +127,7 @@ proxies:
 - {name: 🇯🇵 神灯加速器-日本-12, server: ja262.magiclampcloud.cn, port: 59443, type: trojan, password: b84de87320ca97b4ff862f916cc67eaa, sni: ja262.magiclampcloud.cn, skip-cert-verify: true}
 - {name: 🇺🇦 神灯加速器-乌克兰-02, server: ja262.magiclampcloud.cn, port: 59443, type: trojan, password: ba981c8decd95953dcdb219c324e4e1d, sni: ja262.magiclampcloud.cn, skip-cert-verify: true}
 - {name: 🇯🇵 神灯加速器-日本-02, server: tyy129.magiclampcloud.com, port: 59443, type: trojan, password: bb611501dbb9aea577fd803fe11e945d, sni: tyy129.magiclampcloud.com, skip-cert-verify: true}
-- {name: 🇹🇼 神灯加速器-台湾-04, server: ja262.magiclampcloud.cn, port: 59443, type: trojan, password: bdbc9026183061770d64c6db2eab4ac7, sni: ja262.magiclampcloud.cn, skip-cert-verify: true}
+- {name: 🇨🇳 神灯加速器-台湾-04, server: ja262.magiclampcloud.cn, port: 59443, type: trojan, password: bdbc9026183061770d64c6db2eab4ac7, sni: ja262.magiclampcloud.cn, skip-cert-verify: true}
 - {name: 🇫🇷 神灯加速器-法国-04, server: tyy129.magiclampcloud.com, port: 59443, type: trojan, password: beb0854f651380331623d79eb06d87be, sni: tyy129.magiclampcloud.com, skip-cert-verify: true}
 - {name: 🇻🇳 神灯加速器-越南-05, server: tyy129.magiclampcloud.com, port: 59443, type: trojan, password: c300410095914c66daa846d8a5c92747, sni: tyy129.magiclampcloud.com, skip-cert-verify: true}
 - {name: 🇭🇰 神灯加速器-香港-23, server: ja262.magiclampcloud.cn, port: 59443, type: trojan, password: c30973184a30818b4a19c8b247cc3cd4, sni: ja262.magiclampcloud.cn, skip-cert-verify: true}
@@ -151,12 +149,12 @@ proxies:
 - {name: 🇸🇬 神灯加速器-新加坡-09, server: tyy129.magiclampcloud.com, port: 59443, type: trojan, password: d41f645df853df801ce2b6edec20aa16, sni: tyy129.magiclampcloud.com, skip-cert-verify: true}
 - {name: 🇨🇦 神灯加速器-加拿大 JA-05, server: ja304.magiclampcloud.cn, port: 59443, type: trojan, password: d453daeb7e9b5fb9cad882763bd71d85, sni: ja304.magiclampcloud.cn, skip-cert-verify: true}
 - {name: 🇭🇰 神灯加速器-香港-17, server: ja262.magiclampcloud.cn, port: 59443, type: trojan, password: d518716100e9e02b425f760d9219844e, sni: ja262.magiclampcloud.cn, skip-cert-verify: true}
-- {name: 🇹🇼 神灯加速器-台湾-08, server: ja304.magiclampcloud.cn, port: 59443, type: trojan, password: d66e65fd90c2be0f94fa27adc0e5e088, sni: ja304.magiclampcloud.cn, skip-cert-verify: true}
+- {name: 🇨🇳 神灯加速器-台湾-08, server: ja304.magiclampcloud.cn, port: 59443, type: trojan, password: d66e65fd90c2be0f94fa27adc0e5e088, sni: ja304.magiclampcloud.cn, skip-cert-verify: true}
 - {name: 🇸🇬 神灯加速器-新加坡-10, server: tyy129.magiclampcloud.com, port: 59443, type: trojan, password: d7f4b46d9e42ad4a6519bde2ff7ce43c, sni: tyy129.magiclampcloud.com, skip-cert-verify: true}
 - {name: 🇳🇱 神灯加速器-荷兰-02, server: tyy129.magiclampcloud.com, port: 59443, type: trojan, password: d86931c3cdedaae00c34a0ef62f744c6, sni: tyy129.magiclampcloud.com, skip-cert-verify: true}
 - {name: 🇸🇬 神灯加速器-新加坡-06, server: tyy129.magiclampcloud.com, port: 59443, type: trojan, password: d9c8aa383174c25132e0df201ffab4e3, sni: tyy129.magiclampcloud.com, skip-cert-verify: true}
 - {name: 🇸🇬 神灯加速器-新加坡-08, server: tyy129.magiclampcloud.com, port: 59443, type: trojan, password: da3c48a15e533f81d5286f6c58e51745, sni: tyy129.magiclampcloud.com, skip-cert-verify: true}
-- {name: 🇹🇼 神灯加速器-台湾-06, server: ja262.magiclampcloud.cn, port: 59443, type: trojan, password: da5051376e910e2b7c371ef039ab6a28, sni: ja262.magiclampcloud.cn, skip-cert-verify: true}
+- {name: 🇨🇳 神灯加速器-台湾-06, server: ja262.magiclampcloud.cn, port: 59443, type: trojan, password: da5051376e910e2b7c371ef039ab6a28, sni: ja262.magiclampcloud.cn, skip-cert-verify: true}
 - {name: 🇦🇪 神灯加速器-阿联酋-01, server: tyy129.magiclampcloud.com, port: 59443, type: trojan, password: da512fa7c70172080e013faff8ee9ac4, sni: tyy129.magiclampcloud.com, skip-cert-verify: true}
 - {name: 🇭🇰 神灯加速器-香港-29, server: tyy129.magiclampcloud.com, port: 59443, type: trojan, password: dc8487a54e41ae2a680b14ab235a30a2, sni: tyy129.magiclampcloud.com, skip-cert-verify: true}
 - {name: 🇫🇷 神灯加速器-法国-01, server: ja262.magiclampcloud.cn, port: 59443, type: trojan, password: dd135b010b5f8ec7ba4c4cc5a35f0efb, sni: ja262.magiclampcloud.cn, skip-cert-verify: true}
@@ -198,7 +196,7 @@ proxy-groups:
   - 🇻🇳 神灯加速器-越南-03
   - 🇹🇷 神灯加速器-土耳其-02
   - 🇸🇬 神灯加速器-新加坡-07
-  - 🇹🇼 神灯加速器-台湾-03
+  - 🇨🇳 神灯加速器-台湾-03
   - 🇭🇰 神灯加速器-香港-14
   - 🇺🇸 神灯加速器-美国-19
   - 🇺🇸 神灯加速器-美国-10
@@ -261,7 +259,7 @@ proxy-groups:
   - 🇭🇰 神灯加速器-香港-33
   - 🇺🇸 神灯加速器-美国-07
   - 🇬🇷 神灯加速器-希腊-02
-  - 🇹🇼 神灯加速器-台湾-07
+  - 🇨🇳 神灯加速器-台湾-07
   - 🇫🇷 神灯加速器-法国-03
   - 🇫🇷 神灯加速器-法国-05
   - 🇵🇭 神灯加速器-菲律宾-102
@@ -276,7 +274,7 @@ proxy-groups:
   - 🇹🇭 神灯加速器-泰国-105
   - 🇮🇩 神灯加速器-印尼 印度尼西亚-101
   - 🇭🇰 神灯加速器-香港-40
-  - 🇹🇼 神灯加速器-台湾-02
+  - 🇨🇳 神灯加速器-台湾-02
   - 🇯🇵 神灯加速器-日本-01
   - 🇩🇪 神灯加速器-德国-04
   - 🇮🇩 神灯加速器-印尼 印度尼西亚-104
@@ -289,7 +287,7 @@ proxy-groups:
   - 🇹🇭 神灯加速器-泰国-104
   - 🇮🇩 神灯加速器-印尼 印度尼西亚-103
   - 🇭🇰 神灯加速器-香港-38
-  - 🇹🇼 神灯加速器-台湾-05
+  - 🇨🇳 神灯加速器-台湾-05
   - 🇫🇷 神灯加速器-法国-02
   - 🇲🇾 神灯加速器-马来西亚-104
   - 🇦🇺 神灯加速器-澳大利亚-01
@@ -301,7 +299,7 @@ proxy-groups:
   - 🇬🇧 神灯加速器-英国-04
   - 🇺🇸 神灯加速器-美国-09
   - 🇮🇸 神灯加速器-冰岛 IS-03
-  - 🇹🇼 神灯加速器-台湾-01
+  - 🇨🇳 神灯加速器-台湾-01
   - 🇹🇭 神灯加速器-泰国-103
   - 🇭🇰 神灯加速器-香港-35
   - 🇺🇸 神灯加速器-美国-06
@@ -310,7 +308,7 @@ proxy-groups:
   - 🇯🇵 神灯加速器-日本-12
   - 🇺🇦 神灯加速器-乌克兰-02
   - 🇯🇵 神灯加速器-日本-02
-  - 🇹🇼 神灯加速器-台湾-04
+  - 🇨🇳 神灯加速器-台湾-04
   - 🇫🇷 神灯加速器-法国-04
   - 🇻🇳 神灯加速器-越南-05
   - 🇭🇰 神灯加速器-香港-23
@@ -332,12 +330,12 @@ proxy-groups:
   - 🇸🇬 神灯加速器-新加坡-09
   - 🇨🇦 神灯加速器-加拿大 JA-05
   - 🇭🇰 神灯加速器-香港-17
-  - 🇹🇼 神灯加速器-台湾-08
+  - 🇨🇳 神灯加速器-台湾-08
   - 🇸🇬 神灯加速器-新加坡-10
   - 🇳🇱 神灯加速器-荷兰-02
   - 🇸🇬 神灯加速器-新加坡-06
   - 🇸🇬 神灯加速器-新加坡-08
-  - 🇹🇼 神灯加速器-台湾-06
+  - 🇨🇳 神灯加速器-台湾-06
   - 🇦🇪 神灯加速器-阿联酋-01
   - 🇭🇰 神灯加速器-香港-29
   - 🇫🇷 神灯加速器-法国-01
@@ -377,7 +375,7 @@ proxy-groups:
   - 🇻🇳 神灯加速器-越南-03
   - 🇹🇷 神灯加速器-土耳其-02
   - 🇸🇬 神灯加速器-新加坡-07
-  - 🇹🇼 神灯加速器-台湾-03
+  - 🇨🇳 神灯加速器-台湾-03
   - 🇭🇰 神灯加速器-香港-14
   - 🇺🇸 神灯加速器-美国-19
   - 🇺🇸 神灯加速器-美国-10
@@ -440,7 +438,7 @@ proxy-groups:
   - 🇭🇰 神灯加速器-香港-33
   - 🇺🇸 神灯加速器-美国-07
   - 🇬🇷 神灯加速器-希腊-02
-  - 🇹🇼 神灯加速器-台湾-07
+  - 🇨🇳 神灯加速器-台湾-07
   - 🇫🇷 神灯加速器-法国-03
   - 🇫🇷 神灯加速器-法国-05
   - 🇵🇭 神灯加速器-菲律宾-102
@@ -455,7 +453,7 @@ proxy-groups:
   - 🇹🇭 神灯加速器-泰国-105
   - 🇮🇩 神灯加速器-印尼 印度尼西亚-101
   - 🇭🇰 神灯加速器-香港-40
-  - 🇹🇼 神灯加速器-台湾-02
+  - 🇨🇳 神灯加速器-台湾-02
   - 🇯🇵 神灯加速器-日本-01
   - 🇩🇪 神灯加速器-德国-04
   - 🇮🇩 神灯加速器-印尼 印度尼西亚-104
@@ -468,7 +466,7 @@ proxy-groups:
   - 🇹🇭 神灯加速器-泰国-104
   - 🇮🇩 神灯加速器-印尼 印度尼西亚-103
   - 🇭🇰 神灯加速器-香港-38
-  - 🇹🇼 神灯加速器-台湾-05
+  - 🇨🇳 神灯加速器-台湾-05
   - 🇫🇷 神灯加速器-法国-02
   - 🇲🇾 神灯加速器-马来西亚-104
   - 🇦🇺 神灯加速器-澳大利亚-01
@@ -480,7 +478,7 @@ proxy-groups:
   - 🇬🇧 神灯加速器-英国-04
   - 🇺🇸 神灯加速器-美国-09
   - 🇮🇸 神灯加速器-冰岛 IS-03
-  - 🇹🇼 神灯加速器-台湾-01
+  - 🇨🇳 神灯加速器-台湾-01
   - 🇹🇭 神灯加速器-泰国-103
   - 🇭🇰 神灯加速器-香港-35
   - 🇺🇸 神灯加速器-美国-06
@@ -489,7 +487,7 @@ proxy-groups:
   - 🇯🇵 神灯加速器-日本-12
   - 🇺🇦 神灯加速器-乌克兰-02
   - 🇯🇵 神灯加速器-日本-02
-  - 🇹🇼 神灯加速器-台湾-04
+  - 🇨🇳 神灯加速器-台湾-04
   - 🇫🇷 神灯加速器-法国-04
   - 🇻🇳 神灯加速器-越南-05
   - 🇭🇰 神灯加速器-香港-23
@@ -511,12 +509,12 @@ proxy-groups:
   - 🇸🇬 神灯加速器-新加坡-09
   - 🇨🇦 神灯加速器-加拿大 JA-05
   - 🇭🇰 神灯加速器-香港-17
-  - 🇹🇼 神灯加速器-台湾-08
+  - 🇨🇳 神灯加速器-台湾-08
   - 🇸🇬 神灯加速器-新加坡-10
   - 🇳🇱 神灯加速器-荷兰-02
   - 🇸🇬 神灯加速器-新加坡-06
   - 🇸🇬 神灯加速器-新加坡-08
-  - 🇹🇼 神灯加速器-台湾-06
+  - 🇨🇳 神灯加速器-台湾-06
   - 🇦🇪 神灯加速器-阿联酋-01
   - 🇭🇰 神灯加速器-香港-29
   - 🇫🇷 神灯加速器-法国-01
