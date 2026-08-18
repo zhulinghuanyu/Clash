@@ -1,8 +1,6 @@
 port: 7890
 socks-port: 7891
 allow-lan: true
-bind-address: '*'
-ipv6: false
 mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
@@ -24,7 +22,7 @@ proxies:
 - {name: 🇺🇸 LeapVPN-美国-西雅图, server: sea-x1.appfra.com, port: 443, type: vless, uuid: a5f674e8-c631-4baf-8a69-65a7d0d3bbe1, tls: true, skip-cert-verify: true, servername: sea-x1.appfra.com, network: ws, ws-opts: {path: /Z/images, headers: {Host: sea-x1.appfra.com}}}
 - {name: 🇸🇬 LeapVPN-新加坡, server: sgp-x701.appfra.com, port: 443, type: vless, uuid: a5f674e8-c631-4baf-8a69-65a7d0d3bbe1, tls: true, skip-cert-verify: true, servername: sgp-x701.appfra.com, network: ws, ws-opts: {path: /Z/images, headers: {Host: sgp-x701.appfra.com}}}
 - {name: 🇸🇬 LeapVPN-新加坡流媒体解锁, server: sgpx-x1.appfra.com, port: 443, type: vless, uuid: a5f674e8-c631-4baf-8a69-65a7d0d3bbe1, tls: true, skip-cert-verify: true, servername: sgpx-x1.appfra.com, network: ws, ws-opts: {path: /Z/images, headers: {Host: sgpx-x1.appfra.com}}}
-- {name: 🇹🇼 LeapVPN-台湾流媒体解锁, server: twx-x1.appfra.com, port: 443, type: vless, uuid: a5f674e8-c631-4baf-8a69-65a7d0d3bbe1, tls: true, skip-cert-verify: true, servername: twx-x1.appfra.com, network: ws, ws-opts: {path: /Z/images, headers: {Host: twx-x1.appfra.com}}}
+- {name: 🇨🇳 LeapVPN-台湾流媒体解锁, server: twx-x1.appfra.com, port: 443, type: vless, uuid: a5f674e8-c631-4baf-8a69-65a7d0d3bbe1, tls: true, skip-cert-verify: true, servername: twx-x1.appfra.com, network: ws, ws-opts: {path: /Z/images, headers: {Host: twx-x1.appfra.com}}}
 - {name: 🇭🇰 LeapVPN-香港, server: hk-x902.appfra.com, port: 443, type: vless, uuid: a5f674e8-c631-4baf-8a69-65a7d0d3bbe1, tls: true, skip-cert-verify: true, servername: hk-x902.appfra.com, network: ws, ws-opts: {path: /Z/images, headers: {Host: hk-x902.appfra.com}}}
 - {name: 🇦🇷 LeapVPN-阿根廷, server: arg-x2.appfra.com, port: 443, type: vless, uuid: a5f674e8-c631-4baf-8a69-65a7d0d3bbe1, tls: true, skip-cert-verify: true, servername: arg-x2.appfra.com, network: ws, ws-opts: {path: /Z/images, headers: {Host: arg-x2.appfra.com}}}
 - {name: 🇧🇪 LeapVPN-比利时, server: sh-x4.appfra.com, port: 443, type: vless, uuid: a5f674e8-c631-4baf-8a69-65a7d0d3bbe1, tls: true, skip-cert-verify: true, servername: sh-x4.appfra.com, network: ws, ws-opts: {path: /Z/images, headers: {Host: sh-x4.appfra.com}}}
@@ -68,7 +66,7 @@ proxy-groups:
   - 🇺🇸 LeapVPN-美国-西雅图
   - 🇸🇬 LeapVPN-新加坡
   - 🇸🇬 LeapVPN-新加坡流媒体解锁
-  - 🇹🇼 LeapVPN-台湾流媒体解锁
+  - 🇨🇳 LeapVPN-台湾流媒体解锁
   - 🇭🇰 LeapVPN-香港
   - 🇦🇷 LeapVPN-阿根廷
   - 🇧🇪 LeapVPN-比利时
@@ -110,7 +108,7 @@ proxy-groups:
   - 🇺🇸 LeapVPN-美国-西雅图
   - 🇸🇬 LeapVPN-新加坡
   - 🇸🇬 LeapVPN-新加坡流媒体解锁
-  - 🇹🇼 LeapVPN-台湾流媒体解锁
+  - 🇨🇳 LeapVPN-台湾流媒体解锁
   - 🇭🇰 LeapVPN-香港
   - 🇦🇷 LeapVPN-阿根廷
   - 🇧🇪 LeapVPN-比利时
