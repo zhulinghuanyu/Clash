@@ -1,21 +1,19 @@
 port: 7890
 socks-port: 7891
 allow-lan: true
-bind-address: '*'
-ipv6: false
 mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
 - {name: 🇸🇬 CloudVPN-新加坡(F)/新加坡, server: cn.fcncncn.org, port: 14802, type: ss, cipher: aes-256-gcm, password: Y24uZmNuY25jbi5vcmc=}
-- {name: 🇹🇼 CloudVPN-台湾(F)/台湾, server: cn.fcncncn.org, port: 24708, type: ss, cipher: aes-256-gcm, password: Y24uZmNuY25jbi5vcmc=}
+- {name: 🇨🇳 CloudVPN-台湾(F)/台湾, server: cn.fcncncn.org, port: 24708, type: ss, cipher: aes-256-gcm, password: Y24uZmNuY25jbi5vcmc=}
 - {name: 🇺🇸 CloudVPN-美国(F)/American, server: cn.fcncncn.org, port: 42020, type: ss, cipher: aes-256-gcm, password: Y24uZmNuY25jbi5vcmc=}
 - {name: 🇯🇵 CloudVPN-日本(F)/日本, server: cn.fcncncn.org, port: 43341, type: ss, cipher: aes-256-gcm, password: Y24uZmNuY25jbi5vcmc=}
 - {name: 🇭🇰 CloudVPN-香港(F)/香港, server: cn.fcncncn.org, port: 48818, type: ss, cipher: aes-256-gcm, password: Y24uZmNuY25jbi5vcmc=}
 - {name: 🇭🇰 CloudVPN-香港(Y)/香港, server: 6d995f95-4b14-4f93-b865-ab87fe4d49fa.a01.interface.routely.moe, port: 11001, type: vless, uuid: 6d995f95-4b14-4f93-b865-ab87fe4d49fa, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: DOAFRNZQY_uo5VMtnHn0w9ZyRlI8yLlXbby9QS6QS2o, short-id: b465d7601525}, servername: s0a3u.biliimg.com, client-fingerprint: chrome, network: tcp}
 - {name: 🇭🇰 CloudVPN-香港, server: 6d995f95-4b14-4f93-b865-ab87fe4d49fa.a01.interface.routely.moe, port: 11002, type: vless, uuid: 6d995f95-4b14-4f93-b865-ab87fe4d49fa, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: DOAFRNZQY_uo5VMtnHn0w9ZyRlI8yLlXbby9QS6QS2o, short-id: b465d7601525}, servername: s0a3u.biliimg.com, client-fingerprint: chrome, network: tcp}
-- {name: 🇹🇼 CloudVPN-台湾(Y)/台湾, server: 6d995f95-4b14-4f93-b865-ab87fe4d49fa.a01.interface.routely.moe, port: 12002, type: vless, uuid: 6d995f95-4b14-4f93-b865-ab87fe4d49fa, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: DOAFRNZQY_uo5VMtnHn0w9ZyRlI8yLlXbby9QS6QS2o, short-id: b465d7601525}, servername: s0a3u.biliimg.com, client-fingerprint: chrome, network: tcp}
-- {name: 🇹🇼 CloudVPN-台湾, server: 6d995f95-4b14-4f93-b865-ab87fe4d49fa.a01.interface.routely.moe, port: 12003, type: vless, uuid: 6d995f95-4b14-4f93-b865-ab87fe4d49fa, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: DOAFRNZQY_uo5VMtnHn0w9ZyRlI8yLlXbby9QS6QS2o, short-id: b465d7601525}, servername: s0a3u.biliimg.com, client-fingerprint: chrome, network: tcp}
+- {name: 🇨🇳 CloudVPN-台湾(Y)/台湾, server: 6d995f95-4b14-4f93-b865-ab87fe4d49fa.a01.interface.routely.moe, port: 12002, type: vless, uuid: 6d995f95-4b14-4f93-b865-ab87fe4d49fa, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: DOAFRNZQY_uo5VMtnHn0w9ZyRlI8yLlXbby9QS6QS2o, short-id: b465d7601525}, servername: s0a3u.biliimg.com, client-fingerprint: chrome, network: tcp}
+- {name: 🇨🇳 CloudVPN-台湾, server: 6d995f95-4b14-4f93-b865-ab87fe4d49fa.a01.interface.routely.moe, port: 12003, type: vless, uuid: 6d995f95-4b14-4f93-b865-ab87fe4d49fa, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: DOAFRNZQY_uo5VMtnHn0w9ZyRlI8yLlXbby9QS6QS2o, short-id: b465d7601525}, servername: s0a3u.biliimg.com, client-fingerprint: chrome, network: tcp}
 - {name: 🇯🇵 CloudVPN-日本(Y)/日本, server: 6d995f95-4b14-4f93-b865-ab87fe4d49fa.a01.interface.routely.moe, port: 13001, type: vless, uuid: 6d995f95-4b14-4f93-b865-ab87fe4d49fa, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: DOAFRNZQY_uo5VMtnHn0w9ZyRlI8yLlXbby9QS6QS2o, short-id: b465d7601525}, servername: s0a3u.biliimg.com, client-fingerprint: chrome, network: tcp}
 - {name: 🇯🇵 CloudVPN-日本, server: 6d995f95-4b14-4f93-b865-ab87fe4d49fa.a01.interface.routely.moe, port: 13002, type: vless, uuid: 6d995f95-4b14-4f93-b865-ab87fe4d49fa, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: DOAFRNZQY_uo5VMtnHn0w9ZyRlI8yLlXbby9QS6QS2o, short-id: b465d7601525}, servername: s0a3u.biliimg.com, client-fingerprint: chrome, network: tcp}
 - {name: 🇺🇸 CloudVPN-美国(Y)/American, server: 6d995f95-4b14-4f93-b865-ab87fe4d49fa.a01.interface.routely.moe, port: 15001, type: vless, uuid: 6d995f95-4b14-4f93-b865-ab87fe4d49fa, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: DOAFRNZQY_uo5VMtnHn0w9ZyRlI8yLlXbby9QS6QS2o, short-id: b465d7601525}, servername: s0a3u.biliimg.com, client-fingerprint: chrome, network: tcp}
@@ -24,12 +22,12 @@ proxies:
 - {name: 🇸🇬 CloudVPN-新加坡, server: 6d995f95-4b14-4f93-b865-ab87fe4d49fa.a01.interface.routely.moe, port: 16003, type: vless, uuid: 6d995f95-4b14-4f93-b865-ab87fe4d49fa, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: DOAFRNZQY_uo5VMtnHn0w9ZyRlI8yLlXbby9QS6QS2o, short-id: b465d7601525}, servername: s0a3u.biliimg.com, client-fingerprint: chrome, network: tcp}
 - {name: 🇬🇧 CloudVPN-英国/ENGLAND, server: direct-de-uk-kirino-01.inetsnode.de, port: 37799, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: DOAFRNZQY_uo5VMtnHn0w9ZyRlI8yLlXbby9QS6QS2o, short-id: b465d7601525}, servername: s0a3u.biliimg.com, client-fingerprint: chrome, network: tcp}
 - {name: 🇭🇰 CloudVPN-香港(I)/香港, server: direct-hk-mixed-01.mix.inetsnode.de, port: 59999, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: DOAFRNZQY_uo5VMtnHn0w9ZyRlI8yLlXbby9QS6QS2o, short-id: b465d7601525}, servername: s0a3u.biliimg.com, client-fingerprint: chrome, network: tcp}
-- {name: 🇹🇼 CloudVPN-台湾(I)/台湾, server: direct-hk-tw-mixed-02.mix.inetsnode.de, port: 52299, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: DOAFRNZQY_uo5VMtnHn0w9ZyRlI8yLlXbby9QS6QS2o, short-id: b465d7601525}, servername: s0a3u.biliimg.com, client-fingerprint: chrome, network: tcp}
+- {name: 🇨🇳 CloudVPN-台湾(I)/台湾, server: direct-hk-tw-mixed-02.mix.inetsnode.de, port: 52299, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: DOAFRNZQY_uo5VMtnHn0w9ZyRlI8yLlXbby9QS6QS2o, short-id: b465d7601525}, servername: s0a3u.biliimg.com, client-fingerprint: chrome, network: tcp}
 - {name: 🇯🇵 CloudVPN-日本(I)/日本, server: direct-jp-mixed-01.mix.inetsnode.de, port: 37799, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: DOAFRNZQY_uo5VMtnHn0w9ZyRlI8yLlXbby9QS6QS2o, short-id: b465d7601525}, servername: s0a3u.biliimg.com, client-fingerprint: chrome, network: tcp}
 - {name: 🇸🇬 CloudVPN-新加坡(I)/新加坡, server: direct-sg-01.inetsnode.de, port: 36699, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: DOAFRNZQY_uo5VMtnHn0w9ZyRlI8yLlXbby9QS6QS2o, short-id: b465d7601525}, servername: s0a3u.biliimg.com, client-fingerprint: chrome, network: tcp}
 - {name: 🇺🇸 CloudVPN-美国(I)/American, server: direct-us-01.inetsnode.de, port: 36699, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: DOAFRNZQY_uo5VMtnHn0w9ZyRlI8yLlXbby9QS6QS2o, short-id: b465d7601525}, servername: s0a3u.biliimg.com, client-fingerprint: chrome, network: tcp}
 - {name: 🇭🇰 CloudVPN-香港(W)/香港, server: edge.wfast.cc, port: 26001, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: DOAFRNZQY_uo5VMtnHn0w9ZyRlI8yLlXbby9QS6QS2o, short-id: b465d7601525}, servername: s0a3u.biliimg.com, client-fingerprint: chrome, network: tcp}
-- {name: 🇹🇼 CloudVPN-台湾(W)/台湾, server: edge.wfast.cc, port: 26022, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: DOAFRNZQY_uo5VMtnHn0w9ZyRlI8yLlXbby9QS6QS2o, short-id: b465d7601525}, servername: s0a3u.biliimg.com, client-fingerprint: chrome, network: tcp}
+- {name: 🇨🇳 CloudVPN-台湾(W)/台湾, server: edge.wfast.cc, port: 26022, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: DOAFRNZQY_uo5VMtnHn0w9ZyRlI8yLlXbby9QS6QS2o, short-id: b465d7601525}, servername: s0a3u.biliimg.com, client-fingerprint: chrome, network: tcp}
 - {name: 🇸🇬 CloudVPN-新加坡(W)/新加坡, server: edge.wfast.cc, port: 26041, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: DOAFRNZQY_uo5VMtnHn0w9ZyRlI8yLlXbby9QS6QS2o, short-id: b465d7601525}, servername: s0a3u.biliimg.com, client-fingerprint: chrome, network: tcp}
 - {name: 🇮🇩 CloudVPN-印尼/印度尼西亚, server: edge.wfast.cc, port: 26101, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: DOAFRNZQY_uo5VMtnHn0w9ZyRlI8yLlXbby9QS6QS2o, short-id: b465d7601525}, servername: s0a3u.biliimg.com, client-fingerprint: chrome, network: tcp}
 - {name: 🇹🇭 CloudVPN-泰国, server: edge.wfast.cc, port: 26141, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: DOAFRNZQY_uo5VMtnHn0w9ZyRlI8yLlXbby9QS6QS2o, short-id: b465d7601525}, servername: s0a3u.biliimg.com, client-fingerprint: chrome, network: tcp}
@@ -43,12 +41,12 @@ proxies:
 - {name: 🇭🇰 CloudVPN-香港(K)/香港, server: hk5.miyazono-kaori.com, port: 443, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: DOAFRNZQY_uo5VMtnHn0w9ZyRlI8yLlXbby9QS6QS2o, short-id: b465d7601525}, servername: s0a3u.biliimg.com, client-fingerprint: chrome, network: tcp}
 - {name: 🇯🇵 CloudVPN-日本(K)/日本, server: jp1.miyazono-kaori.com, port: 443, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: DOAFRNZQY_uo5VMtnHn0w9ZyRlI8yLlXbby9QS6QS2o, short-id: b465d7601525}, servername: s0a3u.biliimg.com, client-fingerprint: chrome, network: tcp}
 - {name: 🇺🇸 CloudVPN-美国(J)/American, server: nexus-na-seminar.gtm.appcli.net, port: 443, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: DOAFRNZQY_uo5VMtnHn0w9ZyRlI8yLlXbby9QS6QS2o, short-id: b465d7601525}, servername: s0a3u.biliimg.com, client-fingerprint: chrome, network: tcp}
-- {name: 🇹🇼 CloudVPN-台湾(J)/台湾, server: resurrect-asia-prime.gtm.appcli.net, port: 443, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: DOAFRNZQY_uo5VMtnHn0w9ZyRlI8yLlXbby9QS6QS2o, short-id: b465d7601525}, servername: s0a3u.biliimg.com, client-fingerprint: chrome, network: tcp}
+- {name: 🇨🇳 CloudVPN-台湾(J)/台湾, server: resurrect-asia-prime.gtm.appcli.net, port: 443, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: DOAFRNZQY_uo5VMtnHn0w9ZyRlI8yLlXbby9QS6QS2o, short-id: b465d7601525}, servername: s0a3u.biliimg.com, client-fingerprint: chrome, network: tcp}
 - {name: 🇸🇬 CloudVPN-新加坡(J)/新加坡, server: resurrect-asia-prime.gtm.appcli.net, port: 443, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: DOAFRNZQY_uo5VMtnHn0w9ZyRlI8yLlXbby9QS6QS2o, short-id: b465d7601525}, servername: s0a3u.biliimg.com, client-fingerprint: chrome, network: tcp}
 - {name: 🇯🇵 CloudVPN-日本(J)/日本, server: resurrect-asia-prime.gtm.appcli.net, port: 443, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: DOAFRNZQY_uo5VMtnHn0w9ZyRlI8yLlXbby9QS6QS2o, short-id: b465d7601525}, servername: s0a3u.biliimg.com, client-fingerprint: chrome, network: tcp}
 - {name: 🇭🇰 CloudVPN-香港(J)/香港, server: resurrect-asia-prime.gtm.appcli.net, port: 443, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: DOAFRNZQY_uo5VMtnHn0w9ZyRlI8yLlXbby9QS6QS2o, short-id: b465d7601525}, servername: s0a3u.biliimg.com, client-fingerprint: chrome, network: tcp}
 - {name: 🇸🇬 CloudVPN-新加坡(K)/新加坡, server: sg1.miyazono-kaori.com, port: 443, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: DOAFRNZQY_uo5VMtnHn0w9ZyRlI8yLlXbby9QS6QS2o, short-id: b465d7601525}, servername: s0a3u.biliimg.com, client-fingerprint: chrome, network: tcp}
-- {name: 🇹🇼 CloudVPN-台湾(K)/台湾, server: tw1.miyazono-kaori.com, port: 443, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: DOAFRNZQY_uo5VMtnHn0w9ZyRlI8yLlXbby9QS6QS2o, short-id: b465d7601525}, servername: s0a3u.biliimg.com, client-fingerprint: chrome, network: tcp}
+- {name: 🇨🇳 CloudVPN-台湾(K)/台湾, server: tw1.miyazono-kaori.com, port: 443, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: DOAFRNZQY_uo5VMtnHn0w9ZyRlI8yLlXbby9QS6QS2o, short-id: b465d7601525}, servername: s0a3u.biliimg.com, client-fingerprint: chrome, network: tcp}
 - {name: 🇺🇸 CloudVPN-美国(K)/American, server: us1.miyazono-kaori.com, port: 443, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: DOAFRNZQY_uo5VMtnHn0w9ZyRlI8yLlXbby9QS6QS2o, short-id: b465d7601525}, servername: s0a3u.biliimg.com, client-fingerprint: chrome, network: tcp}
 proxy-groups:
 - name: 🚀 节点选择
@@ -56,14 +54,14 @@ proxy-groups:
   proxies:
   - ♻️ 自动选择
   - 🇸🇬 CloudVPN-新加坡(F)/新加坡
-  - 🇹🇼 CloudVPN-台湾(F)/台湾
+  - 🇨🇳 CloudVPN-台湾(F)/台湾
   - 🇺🇸 CloudVPN-美国(F)/American
   - 🇯🇵 CloudVPN-日本(F)/日本
   - 🇭🇰 CloudVPN-香港(F)/香港
   - 🇭🇰 CloudVPN-香港(Y)/香港
   - 🇭🇰 CloudVPN-香港
-  - 🇹🇼 CloudVPN-台湾(Y)/台湾
-  - 🇹🇼 CloudVPN-台湾
+  - 🇨🇳 CloudVPN-台湾(Y)/台湾
+  - 🇨🇳 CloudVPN-台湾
   - 🇯🇵 CloudVPN-日本(Y)/日本
   - 🇯🇵 CloudVPN-日本
   - 🇺🇸 CloudVPN-美国(Y)/American
@@ -72,12 +70,12 @@ proxy-groups:
   - 🇸🇬 CloudVPN-新加坡
   - 🇬🇧 CloudVPN-英国/ENGLAND
   - 🇭🇰 CloudVPN-香港(I)/香港
-  - 🇹🇼 CloudVPN-台湾(I)/台湾
+  - 🇨🇳 CloudVPN-台湾(I)/台湾
   - 🇯🇵 CloudVPN-日本(I)/日本
   - 🇸🇬 CloudVPN-新加坡(I)/新加坡
   - 🇺🇸 CloudVPN-美国(I)/American
   - 🇭🇰 CloudVPN-香港(W)/香港
-  - 🇹🇼 CloudVPN-台湾(W)/台湾
+  - 🇨🇳 CloudVPN-台湾(W)/台湾
   - 🇸🇬 CloudVPN-新加坡(W)/新加坡
   - 🇮🇩 CloudVPN-印尼/印度尼西亚
   - 🇹🇭 CloudVPN-泰国
@@ -91,25 +89,25 @@ proxy-groups:
   - 🇭🇰 CloudVPN-香港(K)/香港
   - 🇯🇵 CloudVPN-日本(K)/日本
   - 🇺🇸 CloudVPN-美国(J)/American
-  - 🇹🇼 CloudVPN-台湾(J)/台湾
+  - 🇨🇳 CloudVPN-台湾(J)/台湾
   - 🇸🇬 CloudVPN-新加坡(J)/新加坡
   - 🇯🇵 CloudVPN-日本(J)/日本
   - 🇭🇰 CloudVPN-香港(J)/香港
   - 🇸🇬 CloudVPN-新加坡(K)/新加坡
-  - 🇹🇼 CloudVPN-台湾(K)/台湾
+  - 🇨🇳 CloudVPN-台湾(K)/台湾
   - 🇺🇸 CloudVPN-美国(K)/American
 - name: ♻️ 自动选择
   type: url-test
   proxies:
   - 🇸🇬 CloudVPN-新加坡(F)/新加坡
-  - 🇹🇼 CloudVPN-台湾(F)/台湾
+  - 🇨🇳 CloudVPN-台湾(F)/台湾
   - 🇺🇸 CloudVPN-美国(F)/American
   - 🇯🇵 CloudVPN-日本(F)/日本
   - 🇭🇰 CloudVPN-香港(F)/香港
   - 🇭🇰 CloudVPN-香港(Y)/香港
   - 🇭🇰 CloudVPN-香港
-  - 🇹🇼 CloudVPN-台湾(Y)/台湾
-  - 🇹🇼 CloudVPN-台湾
+  - 🇨🇳 CloudVPN-台湾(Y)/台湾
+  - 🇨🇳 CloudVPN-台湾
   - 🇯🇵 CloudVPN-日本(Y)/日本
   - 🇯🇵 CloudVPN-日本
   - 🇺🇸 CloudVPN-美国(Y)/American
@@ -118,12 +116,12 @@ proxy-groups:
   - 🇸🇬 CloudVPN-新加坡
   - 🇬🇧 CloudVPN-英国/ENGLAND
   - 🇭🇰 CloudVPN-香港(I)/香港
-  - 🇹🇼 CloudVPN-台湾(I)/台湾
+  - 🇨🇳 CloudVPN-台湾(I)/台湾
   - 🇯🇵 CloudVPN-日本(I)/日本
   - 🇸🇬 CloudVPN-新加坡(I)/新加坡
   - 🇺🇸 CloudVPN-美国(I)/American
   - 🇭🇰 CloudVPN-香港(W)/香港
-  - 🇹🇼 CloudVPN-台湾(W)/台湾
+  - 🇨🇳 CloudVPN-台湾(W)/台湾
   - 🇸🇬 CloudVPN-新加坡(W)/新加坡
   - 🇮🇩 CloudVPN-印尼/印度尼西亚
   - 🇹🇭 CloudVPN-泰国
@@ -137,12 +135,12 @@ proxy-groups:
   - 🇭🇰 CloudVPN-香港(K)/香港
   - 🇯🇵 CloudVPN-日本(K)/日本
   - 🇺🇸 CloudVPN-美国(J)/American
-  - 🇹🇼 CloudVPN-台湾(J)/台湾
+  - 🇨🇳 CloudVPN-台湾(J)/台湾
   - 🇸🇬 CloudVPN-新加坡(J)/新加坡
   - 🇯🇵 CloudVPN-日本(J)/日本
   - 🇭🇰 CloudVPN-香港(J)/香港
   - 🇸🇬 CloudVPN-新加坡(K)/新加坡
-  - 🇹🇼 CloudVPN-台湾(K)/台湾
+  - 🇨🇳 CloudVPN-台湾(K)/台湾
   - 🇺🇸 CloudVPN-美国(K)/American
   url: http://www.gstatic.com/generate_204
   interval: 300
