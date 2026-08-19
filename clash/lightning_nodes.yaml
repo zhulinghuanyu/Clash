@@ -1,6 +1,8 @@
 port: 7890
 socks-port: 7891
 allow-lan: true
+bind-address: '*'
+ipv6: false
 mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
@@ -57,7 +59,7 @@ proxies:
 - {name: 🇭🇰 小火箭-无畏契约-香港H, server: tomhk1.chatagent.online, port: 2053, type: vless, uuid: 28f828dc-3d38-4ba1-928a-f54f170ec03e, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8, short-id: '85'}, servername: www.tesla.com, client-fingerprint: edge, network: tcp}
 - {name: 🇹🇷 小火箭-蛋仔派对-土耳其, server: tomhk1.chatagent.online, port: 31105, type: vless, uuid: 28f828dc-3d38-4ba1-928a-f54f170ec03e, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: QaAEn2qRqovBLfSIx2MGUQx50TBmOG3yRxRFN_VE01s, short-id: '37'}, servername: www.tesla.com, client-fingerprint: edge, network: tcp}
 - {name: 🇩🇪 小火箭-和平精英-德国, server: tomhk1.chatagent.online, port: 58004, type: vless, uuid: 28f828dc-3d38-4ba1-928a-f54f170ec03e, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: K0YqEx8WBYO11acXtUPCJSnmpmgEReVIVJ9-L7oFLS0, short-id: 112b3b17}, servername: www.cloudflare.com, client-fingerprint: qq, network: tcp}
-- {name: 🇨🇳 小火箭-光遇-中国台湾, server: tomhk1.chatagent.online, port: 60531, type: vless, uuid: 28f828dc-3d38-4ba1-928a-f54f170ec03e, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: n4lBj6UGcj-O-SmvKXHC_uLtp0IyefVCVMVhPz6WsQg, short-id: 1be9ffe7d5}, servername: www.cloudflare.com, client-fingerprint: firefox, network: tcp}
+- {name: 🇹🇼 小火箭-光遇-中国台湾, server: tomhk1.chatagent.online, port: 60531, type: vless, uuid: 28f828dc-3d38-4ba1-928a-f54f170ec03e, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: n4lBj6UGcj-O-SmvKXHC_uLtp0IyefVCVMVhPz6WsQg, short-id: 1be9ffe7d5}, servername: www.cloudflare.com, client-fingerprint: firefox, network: tcp}
 - {name: 🇵🇭 小火箭-英雄联盟-菲律宾, server: tomhk1.chatagent.online, port: 61388, type: vless, uuid: 28f828dc-3d38-4ba1-928a-f54f170ec03e, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: iJRnam87Cm5euuBAZKxoKpiOxz0gdAizaZ9a72-jWAY, short-id: 04d63fe69de93d7f}, servername: www.tesla.com, client-fingerprint: safari, network: tcp}
 - {name: 🇻🇳 小火箭-蛋仔派对-越南A, server: tomhk2.chatagent.online, port: 14135, type: vless, uuid: 28f828dc-3d38-4ba1-928a-f54f170ec03e, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: 4kg-LfTstNTAHOmGtT6cuvz0-7689qUkmTrXOOQtZQI, short-id: ae04}, servername: www.cloudflare.com, client-fingerprint: safari, network: tcp}
 - {name: 🇭🇰 小火箭-无畏契约-香港G, server: tomhk2.chatagent.online, port: 2053, type: vless, uuid: 28f828dc-3d38-4ba1-928a-f54f170ec03e, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8, short-id: '85'}, servername: www.tesla.com, client-fingerprint: firefox, network: tcp}
@@ -124,7 +126,7 @@ proxy-groups:
   - 🇭🇰 小火箭-无畏契约-香港H
   - 🇹🇷 小火箭-蛋仔派对-土耳其
   - 🇩🇪 小火箭-和平精英-德国
-  - 🇨🇳 小火箭-光遇-中国台湾
+  - 🇹🇼 小火箭-光遇-中国台湾
   - 🇵🇭 小火箭-英雄联盟-菲律宾
   - 🇻🇳 小火箭-蛋仔派对-越南A
   - 🇭🇰 小火箭-无畏契约-香港G
@@ -189,7 +191,7 @@ proxy-groups:
   - 🇭🇰 小火箭-无畏契约-香港H
   - 🇹🇷 小火箭-蛋仔派对-土耳其
   - 🇩🇪 小火箭-和平精英-德国
-  - 🇨🇳 小火箭-光遇-中国台湾
+  - 🇹🇼 小火箭-光遇-中国台湾
   - 🇵🇭 小火箭-英雄联盟-菲律宾
   - 🇻🇳 小火箭-蛋仔派对-越南A
   - 🇭🇰 小火箭-无畏契约-香港G
