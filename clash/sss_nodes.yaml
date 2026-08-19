@@ -1,15 +1,17 @@
 port: 7890
 socks-port: 7891
 allow-lan: true
+bind-address: '*'
+ipv6: false
 mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
 - {name: 🇭🇰 SSS-CMI新用户专线, server: cmihkxwvhkx3v8.lingjielineone0310.com, port: 443, type: ssr, cipher: dummy, password: ADelXw1RfBIN, protocol: origin, obfs: plain, protocol-param: '', obfs-param: ''}
-- {name: 🇨🇳 SSS-免费·台服专线v3-21, server: wwxwtww21v3.lingjielineone0310.com, port: 443, type: ssr, cipher: dummy, password: bhxkKG87Zxxz, protocol: origin, obfs: plain, protocol-param: '', obfs-param: ''}
+- {name: 🇹🇼 SSS-免费·台服专线v3-21, server: wwxwtww21v3.lingjielineone0310.com, port: 443, type: ssr, cipher: dummy, password: bhxkKG87Zxxz, protocol: origin, obfs: plain, protocol-param: '', obfs-param: ''}
 - {name: SSS-YT视频优化·V3, server: ytoptimizationv3.linedicated.com, port: 443, type: ssr, cipher: dummy, password: FOqIYm254mUq, protocol: origin, obfs: plain, protocol-param: '', obfs-param: ''}
-- {name: 🇨🇳 SSS-免费·台服专线v3-26, server: xwwxwtww26v3.lingjielinetwo0310.com, port: 443, type: ssr, cipher: dummy, password: rhON8Bb1RVl8, protocol: origin, obfs: plain, protocol-param: '', obfs-param: ''}
-- {name: 🇨🇳 SSS-免费·台服专线v3-23, server: xiaoweitw23v3.lingjielinetwo0310.com, port: 443, type: ssr, cipher: dummy, password: pn0NkN9sr6dH, protocol: origin, obfs: plain, protocol-param: '', obfs-param: ''}
+- {name: 🇹🇼 SSS-免费·台服专线v3-26, server: xwwxwtww26v3.lingjielinetwo0310.com, port: 443, type: ssr, cipher: dummy, password: rhON8Bb1RVl8, protocol: origin, obfs: plain, protocol-param: '', obfs-param: ''}
+- {name: 🇹🇼 SSS-免费·台服专线v3-23, server: xiaoweitw23v3.lingjielinetwo0310.com, port: 443, type: ssr, cipher: dummy, password: pn0NkN9sr6dH, protocol: origin, obfs: plain, protocol-param: '', obfs-param: ''}
 - {name: SSS-X视频优化·V3, server: twoptimizationv3.lingjielineone0310.com, port: 443, type: ssr, cipher: dummy, password: AUA2YhPFxCFq, protocol: origin, obfs: plain, protocol-param: '', obfs-param: ''}
 - {name: SSS-原生·泰服原生线v3-5, server: tmmmeg3v5.lingjielineone0310.com, port: 443, type: ssr, cipher: dummy, password: gkYrdH11K76x, protocol: origin, obfs: plain, protocol-param: '', obfs-param: ''}
 - {name: 🇲🇾 SSS-百兆·马来服专线v3, server: malagigv3.ssslineone0726.com, port: 443, type: ssr, cipher: dummy, password: kfJPEhnXXvkx, protocol: origin, obfs: plain, protocol-param: '', obfs-param: ''}
@@ -24,11 +26,11 @@ proxies:
 - {name: 🇸🇬 SSS-百兆·新服专线v3, server: sing01v3.linestarring.com, port: 443, type: ssr, cipher: dummy, password: ZNvRl2EvVuLH, protocol: origin, obfs: plain, protocol-param: '', obfs-param: ''}
 - {name: SSS-原生·欧服专线v3-10, server: hlxwwx10v3.linedicated.com, port: 443, type: ssr, cipher: dummy, password: koaJT72Ve0GV, protocol: origin, obfs: plain, protocol-param: '', obfs-param: ''}
 - {name: SSS-原生·千兆欧服专线v3-5, server: xwlhhl5v3.lineskytoner.com, port: 443, type: ssr, cipher: dummy, password: HDr6dUnYKlJV, protocol: origin, obfs: plain, protocol-param: '', obfs-param: ''}
-- {name: 🇨🇳 SSS-原生·台服专线v3-22, server: zhdxwtwwt22v3.linedicated.com, port: 443, type: ssr, cipher: dummy, password: hpy2xFOQLVXa, protocol: origin, obfs: plain, protocol-param: '', obfs-param: ''}
-- {name: 🇨🇳 SSS-原生·台服专线V3-44, server: skytwykt044v3.lingjielinetwo0310.com, port: 443, type: ssr, cipher: dummy, password: R3a3JkFMIeAO, protocol: origin, obfs: plain, protocol-param: '', obfs-param: ''}
-- {name: 🇨🇳 SSS-原生.台服专线v3-8, server: pqstwwwt08v3.ssslineone0726.com, port: 443, type: ssr, cipher: dummy, password: H7Jo09tFk6z3, protocol: origin, obfs: plain, protocol-param: '', obfs-param: ''}
-- {name: 🇨🇳 SSS-原生·台服专线v3-7, server: skytwwtsk07v3.lineskytoner.com, port: 443, type: ssr, cipher: dummy, password: 4qMAJUFOWd6g, protocol: origin, obfs: plain, protocol-param: '', obfs-param: ''}
-- {name: 🇨🇳 SSS-原生·台服专线v3-6, server: xwwttetlins6v3.lineskytoner.com, port: 443, type: ssr, cipher: dummy, password: ZzG2IZzzRAr9, protocol: origin, obfs: plain, protocol-param: '', obfs-param: ''}
+- {name: 🇹🇼 SSS-原生·台服专线v3-22, server: zhdxwtwwt22v3.linedicated.com, port: 443, type: ssr, cipher: dummy, password: hpy2xFOQLVXa, protocol: origin, obfs: plain, protocol-param: '', obfs-param: ''}
+- {name: 🇹🇼 SSS-原生·台服专线V3-44, server: skytwykt044v3.lingjielinetwo0310.com, port: 443, type: ssr, cipher: dummy, password: R3a3JkFMIeAO, protocol: origin, obfs: plain, protocol-param: '', obfs-param: ''}
+- {name: 🇹🇼 SSS-原生.台服专线v3-8, server: pqstwwwt08v3.ssslineone0726.com, port: 443, type: ssr, cipher: dummy, password: H7Jo09tFk6z3, protocol: origin, obfs: plain, protocol-param: '', obfs-param: ''}
+- {name: 🇹🇼 SSS-原生·台服专线v3-7, server: skytwwtsk07v3.lineskytoner.com, port: 443, type: ssr, cipher: dummy, password: 4qMAJUFOWd6g, protocol: origin, obfs: plain, protocol-param: '', obfs-param: ''}
+- {name: 🇹🇼 SSS-原生·台服专线v3-6, server: xwwttetlins6v3.lineskytoner.com, port: 443, type: ssr, cipher: dummy, password: ZzG2IZzzRAr9, protocol: origin, obfs: plain, protocol-param: '', obfs-param: ''}
 - {name: 🇰🇷 SSS-原生·千兆韩服线v3-7, server: xwwrkkr7v3.ssslineone0726.com, port: 443, type: ssr, cipher: dummy, password: xOiXaetxysAL, protocol: origin, obfs: plain, protocol-param: '', obfs-param: ''}
 - {name: 🇰🇷 SSS-原生·千兆韩服线v3-5, server: xwkhtetswwx3v5.ssslineone0726.com, port: 443, type: ssr, cipher: dummy, password: 5t5vYZhmgsoi, protocol: origin, obfs: plain, protocol-param: '', obfs-param: ''}
 - {name: 🇰🇷 SSS-原生·千兆韩服线v3-11, server: xwkhtetswwxv11v3.ssslineone0726.com, port: 443, type: ssr, cipher: dummy, password: jf7vVfwtHtgg, protocol: origin, obfs: plain, protocol-param: '', obfs-param: ''}
@@ -58,10 +60,10 @@ proxy-groups:
   proxies:
   - ♻️ 自动选择
   - 🇭🇰 SSS-CMI新用户专线
-  - 🇨🇳 SSS-免费·台服专线v3-21
+  - 🇹🇼 SSS-免费·台服专线v3-21
   - SSS-YT视频优化·V3
-  - 🇨🇳 SSS-免费·台服专线v3-26
-  - 🇨🇳 SSS-免费·台服专线v3-23
+  - 🇹🇼 SSS-免费·台服专线v3-26
+  - 🇹🇼 SSS-免费·台服专线v3-23
   - SSS-X视频优化·V3
   - SSS-原生·泰服原生线v3-5
   - 🇲🇾 SSS-百兆·马来服专线v3
@@ -76,11 +78,11 @@ proxy-groups:
   - 🇸🇬 SSS-百兆·新服专线v3
   - SSS-原生·欧服专线v3-10
   - SSS-原生·千兆欧服专线v3-5
-  - 🇨🇳 SSS-原生·台服专线v3-22
-  - 🇨🇳 SSS-原生·台服专线V3-44
-  - 🇨🇳 SSS-原生.台服专线v3-8
-  - 🇨🇳 SSS-原生·台服专线v3-7
-  - 🇨🇳 SSS-原生·台服专线v3-6
+  - 🇹🇼 SSS-原生·台服专线v3-22
+  - 🇹🇼 SSS-原生·台服专线V3-44
+  - 🇹🇼 SSS-原生.台服专线v3-8
+  - 🇹🇼 SSS-原生·台服专线v3-7
+  - 🇹🇼 SSS-原生·台服专线v3-6
   - 🇰🇷 SSS-原生·千兆韩服线v3-7
   - 🇰🇷 SSS-原生·千兆韩服线v3-5
   - 🇰🇷 SSS-原生·千兆韩服线v3-11
@@ -108,10 +110,10 @@ proxy-groups:
   type: url-test
   proxies:
   - 🇭🇰 SSS-CMI新用户专线
-  - 🇨🇳 SSS-免费·台服专线v3-21
+  - 🇹🇼 SSS-免费·台服专线v3-21
   - SSS-YT视频优化·V3
-  - 🇨🇳 SSS-免费·台服专线v3-26
-  - 🇨🇳 SSS-免费·台服专线v3-23
+  - 🇹🇼 SSS-免费·台服专线v3-26
+  - 🇹🇼 SSS-免费·台服专线v3-23
   - SSS-X视频优化·V3
   - SSS-原生·泰服原生线v3-5
   - 🇲🇾 SSS-百兆·马来服专线v3
@@ -126,11 +128,11 @@ proxy-groups:
   - 🇸🇬 SSS-百兆·新服专线v3
   - SSS-原生·欧服专线v3-10
   - SSS-原生·千兆欧服专线v3-5
-  - 🇨🇳 SSS-原生·台服专线v3-22
-  - 🇨🇳 SSS-原生·台服专线V3-44
-  - 🇨🇳 SSS-原生.台服专线v3-8
-  - 🇨🇳 SSS-原生·台服专线v3-7
-  - 🇨🇳 SSS-原生·台服专线v3-6
+  - 🇹🇼 SSS-原生·台服专线v3-22
+  - 🇹🇼 SSS-原生·台服专线V3-44
+  - 🇹🇼 SSS-原生.台服专线v3-8
+  - 🇹🇼 SSS-原生·台服专线v3-7
+  - 🇹🇼 SSS-原生·台服专线v3-6
   - 🇰🇷 SSS-原生·千兆韩服线v3-7
   - 🇰🇷 SSS-原生·千兆韩服线v3-5
   - 🇰🇷 SSS-原生·千兆韩服线v3-11
