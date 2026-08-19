@@ -1,6 +1,8 @@
 port: 7890
 socks-port: 7891
 allow-lan: true
+bind-address: '*'
+ipv6: false
 mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
@@ -21,7 +23,7 @@ proxies:
 - {name: 🇫🇷 法国, server: ench-snet-app.w-ctrip.cn, port: 20731, type: trojan, password: 80213cb284c2c834635f4ea5fade7143, sni: cm.g.doubleclick.net, skip-cert-verify: true}
 - {name: 🇸🇬 新加坡-01, server: ench-snet-app.w-ctrip.cn, port: 21203, type: trojan, password: 80213cb284c2c834635f4ea5fade7143, sni: cm.g.doubleclick.net, skip-cert-verify: true}
 - {name: 🇭🇰 香港-优化, server: ench-snet-app.w-ctrip.cn, port: 22791, type: trojan, password: 80213cb284c2c834635f4ea5fade7143, sni: wximg.qq.com, skip-cert-verify: true}
-- {name: 🇨🇳 台湾-8, server: ench-snet-app.w-ctrip.cn, port: 25011, type: trojan, password: 80213cb284c2c834635f4ea5fade7143, sni: cm.g.doubleclick.net, skip-cert-verify: true}
+- {name: 🇹🇼 台湾-8, server: ench-snet-app.w-ctrip.cn, port: 25011, type: trojan, password: 80213cb284c2c834635f4ea5fade7143, sni: cm.g.doubleclick.net, skip-cert-verify: true}
 - {name: 🇭🇰 香港-01, server: ench-snet-app.w-ctrip.cn, port: 26182, type: trojan, password: 80213cb284c2c834635f4ea5fade7143, sni: cm.g.doubleclick.net, skip-cert-verify: true}
 - {name: 🇸🇰 斯洛伐克, server: ench-snet-app.w-ctrip.cn, port: 26577, type: trojan, password: 80213cb284c2c834635f4ea5fade7143, sni: cm.g.doubleclick.net, skip-cert-verify: true}
 - {name: 🇺🇸 美国-ISP, server: ench-snet-app.w-ctrip.cn, port: 28912, type: trojan, password: 80213cb284c2c834635f4ea5fade7143, sni: cm.g.doubleclick.net, skip-cert-verify: true}
@@ -76,7 +78,7 @@ proxy-groups:
   - 🇫🇷 法国
   - 🇸🇬 新加坡-01
   - 🇭🇰 香港-优化
-  - 🇨🇳 台湾-8
+  - 🇹🇼 台湾-8
   - 🇭🇰 香港-01
   - 🇸🇰 斯洛伐克
   - 🇺🇸 美国-ISP
@@ -129,7 +131,7 @@ proxy-groups:
   - 🇫🇷 法国
   - 🇸🇬 新加坡-01
   - 🇭🇰 香港-优化
-  - 🇨🇳 台湾-8
+  - 🇹🇼 台湾-8
   - 🇭🇰 香港-01
   - 🇸🇰 斯洛伐克
   - 🇺🇸 美国-ISP
