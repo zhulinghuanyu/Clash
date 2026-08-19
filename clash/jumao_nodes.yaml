@@ -7,48 +7,46 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-- {name: 🇮🇳 Jumao-印度-A, server: 211.91.158.24, port: 21103, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
-- {name: 🇬🇧 Jumao-英国-A, server: 211.91.158.24, port: 21104, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
-- {name: 🇺🇸 Jumao-美国-A, server: 211.91.158.24, port: 21105, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
-- {name: 🇰🇷 Jumao-韩国-B, server: 211.91.158.24, port: 21107, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
-- {name: 🇺🇸 Jumao-美国-B, server: 211.91.158.24, port: 21108, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
-- {name: 🇺🇸 Jumao-美国-B1, server: 211.91.158.24, port: 21108, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
-- {name: 🇯🇵 Jumao-日本-B, server: 211.91.158.24, port: 21109, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
-- {name: 🇸🇬 Jumao-新加坡-B, server: 211.91.158.24, port: 21110, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
-- {name: 🇲🇾 Jumao-马来西亚-A, server: 211.91.158.24, port: 21112, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
-- {name: 🇮🇹 Jumao-意大利-A, server: 211.91.158.24, port: 21113, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
-- {name: 🇰🇷 Jumao-韩国-C, server: 211.91.158.24, port: 21114, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
-- {name: 🇮🇱 Jumao-以色列-A, server: 211.91.158.24, port: 21116, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
-- {name: 🇬🇧 Jumao-英国-B, server: 211.91.158.24, port: 21117, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
-- {name: 🇩🇪 Jumao-德国-A, server: 211.91.158.24, port: 21118, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
-- {name: 🇯🇵 Jumao-日本-D, server: 211.91.158.24, port: 21119, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
-- {name: 🇮🇹 Jumao-意大利-B, server: 211.91.158.24, port: 21120, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
-- {name: 🇸🇬 Jumao-新加坡-C, server: 211.91.158.24, port: 21121, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
-- {name: 🇫🇷 Jumao-法国-B, server: 211.91.158.24, port: 21122, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
-- {name: 🇹🇭 Jumao-泰国-A, server: 211.91.158.24, port: 21123, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
-- {name: 🇮🇳 Jumao-印度-C, server: 211.91.158.24, port: 21125, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
-- {name: 🇫🇷 Jumao-法国-C, server: 211.91.158.24, port: 21126, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
-- {name: 🇭🇰 Jumao-联通-高速-香港K, server: 211.91.158.24, port: 9205, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
 - {name: 🇭🇰 Jumao-联通-高速-香港K2, server: 211.91.158.25, port: 9205, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
+- {name: 🇮🇳 Jumao-印度-A1, server: 211.91.158.26, port: 21103, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
+- {name: 🇬🇧 Jumao-英国-A1, server: 211.91.158.26, port: 21104, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
+- {name: 🇺🇸 Jumao-美国-A1, server: 211.91.158.26, port: 21105, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
+- {name: 🇰🇷 Jumao-韩国-B1, server: 211.91.158.26, port: 21107, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
+- {name: 🇯🇵 Jumao-日本-B1, server: 211.91.158.26, port: 21109, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
+- {name: 🇲🇾 Jumao-马来西亚-A1, server: 211.91.158.26, port: 21112, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
+- {name: 🇮🇹 Jumao-意大利-A1, server: 211.91.158.26, port: 21113, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
+- {name: 🇰🇷 Jumao-韩国-C1, server: 211.91.158.26, port: 21114, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
+- {name: 🇮🇱 Jumao-以色列-A1, server: 211.91.158.26, port: 21116, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
+- {name: 🇬🇧 Jumao-英国-B1, server: 211.91.158.26, port: 21117, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
+- {name: 🇩🇪 Jumao-德国-A1, server: 211.91.158.26, port: 21118, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
+- {name: 🇯🇵 Jumao-日本-D1, server: 211.91.158.26, port: 21119, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
+- {name: 🇮🇹 Jumao-意大利-B1, server: 211.91.158.26, port: 21120, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
+- {name: 🇸🇬 Jumao-新加坡-C1, server: 211.91.158.26, port: 21121, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
+- {name: 🇫🇷 Jumao-法国-B1, server: 211.91.158.26, port: 21122, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
+- {name: 🇮🇳 Jumao-印度-C1, server: 211.91.158.26, port: 21125, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
+- {name: 🇫🇷 Jumao-法国-C1, server: 211.91.158.26, port: 21126, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
 - {name: 🇭🇰 Jumao-联通-高速-香港K3, server: 211.91.158.26, port: 9205, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
-- {name: 🇮🇳 Jumao-印度-A1, server: 211.91.158.27, port: 21103, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
-- {name: 🇬🇧 Jumao-英国-A1, server: 211.91.158.27, port: 21104, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
-- {name: 🇺🇸 Jumao-美国-A1, server: 211.91.158.27, port: 21105, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
-- {name: 🇰🇷 Jumao-韩国-B1, server: 211.91.158.27, port: 21107, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
-- {name: 🇯🇵 Jumao-日本-B1, server: 211.91.158.27, port: 21109, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
-- {name: 🇲🇾 Jumao-马来西亚-A1, server: 211.91.158.27, port: 21112, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
-- {name: 🇮🇹 Jumao-意大利-A1, server: 211.91.158.27, port: 21113, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
-- {name: 🇰🇷 Jumao-韩国-C1, server: 211.91.158.27, port: 21114, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
-- {name: 🇮🇱 Jumao-以色列-A1, server: 211.91.158.27, port: 21116, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
-- {name: 🇬🇧 Jumao-英国-B1, server: 211.91.158.27, port: 21117, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
-- {name: 🇩🇪 Jumao-德国-A1, server: 211.91.158.27, port: 21118, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
-- {name: 🇯🇵 Jumao-日本-D1, server: 211.91.158.27, port: 21119, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
-- {name: 🇮🇹 Jumao-意大利-B1, server: 211.91.158.27, port: 21120, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
-- {name: 🇸🇬 Jumao-新加坡-C1, server: 211.91.158.27, port: 21121, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
-- {name: 🇫🇷 Jumao-法国-B1, server: 211.91.158.27, port: 21122, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
-- {name: 🇮🇳 Jumao-印度-C1, server: 211.91.158.27, port: 21125, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
-- {name: 🇫🇷 Jumao-法国-C1, server: 211.91.158.27, port: 21126, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
-- {name: 🇭🇰 Jumao-联通-高速-香港K4, server: 211.91.158.27, port: 9205, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
+- {name: 🇮🇳 Jumao-印度-A, server: 211.91.158.44, port: 21103, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
+- {name: 🇬🇧 Jumao-英国-A, server: 211.91.158.44, port: 21104, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
+- {name: 🇺🇸 Jumao-美国-A, server: 211.91.158.44, port: 21105, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
+- {name: 🇰🇷 Jumao-韩国-B, server: 211.91.158.44, port: 21107, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
+- {name: 🇺🇸 Jumao-美国-B, server: 211.91.158.44, port: 21108, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
+- {name: 🇺🇸 Jumao-美国-B1, server: 211.91.158.44, port: 21108, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
+- {name: 🇯🇵 Jumao-日本-B, server: 211.91.158.44, port: 21109, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
+- {name: 🇸🇬 Jumao-新加坡-B, server: 211.91.158.44, port: 21110, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
+- {name: 🇲🇾 Jumao-马来西亚-A, server: 211.91.158.44, port: 21112, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
+- {name: 🇮🇹 Jumao-意大利-A, server: 211.91.158.44, port: 21113, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
+- {name: 🇰🇷 Jumao-韩国-C, server: 211.91.158.44, port: 21114, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
+- {name: 🇮🇱 Jumao-以色列-A, server: 211.91.158.44, port: 21116, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
+- {name: 🇬🇧 Jumao-英国-B, server: 211.91.158.44, port: 21117, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
+- {name: 🇩🇪 Jumao-德国-A, server: 211.91.158.44, port: 21118, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
+- {name: 🇯🇵 Jumao-日本-D, server: 211.91.158.44, port: 21119, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
+- {name: 🇮🇹 Jumao-意大利-B, server: 211.91.158.44, port: 21120, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
+- {name: 🇸🇬 Jumao-新加坡-C, server: 211.91.158.44, port: 21121, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
+- {name: 🇫🇷 Jumao-法国-B, server: 211.91.158.44, port: 21122, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
+- {name: 🇹🇭 Jumao-泰国-A, server: 211.91.158.44, port: 21123, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
+- {name: 🇮🇳 Jumao-印度-C, server: 211.91.158.44, port: 21125, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
+- {name: 🇫🇷 Jumao-法国-C, server: 211.91.158.44, port: 21126, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
 - {name: 🇭🇰 Jumao-三线-高速-香港-M, server: 211.91.158.44, port: 9205, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
 - {name: 🇭🇰 Jumao-三线-高速-香港-M2, server: 211.91.158.44, port: 9206, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
 - {name: 🇭🇰 Jumao-三线-高速-香港-M3, server: 211.91.158.44, port: 9207, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
@@ -59,6 +57,25 @@ proxy-groups:
   type: select
   proxies:
   - ♻️ 自动选择
+  - 🇭🇰 Jumao-联通-高速-香港K2
+  - 🇮🇳 Jumao-印度-A1
+  - 🇬🇧 Jumao-英国-A1
+  - 🇺🇸 Jumao-美国-A1
+  - 🇰🇷 Jumao-韩国-B1
+  - 🇯🇵 Jumao-日本-B1
+  - 🇲🇾 Jumao-马来西亚-A1
+  - 🇮🇹 Jumao-意大利-A1
+  - 🇰🇷 Jumao-韩国-C1
+  - 🇮🇱 Jumao-以色列-A1
+  - 🇬🇧 Jumao-英国-B1
+  - 🇩🇪 Jumao-德国-A1
+  - 🇯🇵 Jumao-日本-D1
+  - 🇮🇹 Jumao-意大利-B1
+  - 🇸🇬 Jumao-新加坡-C1
+  - 🇫🇷 Jumao-法国-B1
+  - 🇮🇳 Jumao-印度-C1
+  - 🇫🇷 Jumao-法国-C1
+  - 🇭🇰 Jumao-联通-高速-香港K3
   - 🇮🇳 Jumao-印度-A
   - 🇬🇧 Jumao-英国-A
   - 🇺🇸 Jumao-美国-A
@@ -80,27 +97,6 @@ proxy-groups:
   - 🇹🇭 Jumao-泰国-A
   - 🇮🇳 Jumao-印度-C
   - 🇫🇷 Jumao-法国-C
-  - 🇭🇰 Jumao-联通-高速-香港K
-  - 🇭🇰 Jumao-联通-高速-香港K2
-  - 🇭🇰 Jumao-联通-高速-香港K3
-  - 🇮🇳 Jumao-印度-A1
-  - 🇬🇧 Jumao-英国-A1
-  - 🇺🇸 Jumao-美国-A1
-  - 🇰🇷 Jumao-韩国-B1
-  - 🇯🇵 Jumao-日本-B1
-  - 🇲🇾 Jumao-马来西亚-A1
-  - 🇮🇹 Jumao-意大利-A1
-  - 🇰🇷 Jumao-韩国-C1
-  - 🇮🇱 Jumao-以色列-A1
-  - 🇬🇧 Jumao-英国-B1
-  - 🇩🇪 Jumao-德国-A1
-  - 🇯🇵 Jumao-日本-D1
-  - 🇮🇹 Jumao-意大利-B1
-  - 🇸🇬 Jumao-新加坡-C1
-  - 🇫🇷 Jumao-法国-B1
-  - 🇮🇳 Jumao-印度-C1
-  - 🇫🇷 Jumao-法国-C1
-  - 🇭🇰 Jumao-联通-高速-香港K4
   - 🇭🇰 Jumao-三线-高速-香港-M
   - 🇭🇰 Jumao-三线-高速-香港-M2
   - 🇭🇰 Jumao-三线-高速-香港-M3
@@ -109,6 +105,25 @@ proxy-groups:
 - name: ♻️ 自动选择
   type: url-test
   proxies:
+  - 🇭🇰 Jumao-联通-高速-香港K2
+  - 🇮🇳 Jumao-印度-A1
+  - 🇬🇧 Jumao-英国-A1
+  - 🇺🇸 Jumao-美国-A1
+  - 🇰🇷 Jumao-韩国-B1
+  - 🇯🇵 Jumao-日本-B1
+  - 🇲🇾 Jumao-马来西亚-A1
+  - 🇮🇹 Jumao-意大利-A1
+  - 🇰🇷 Jumao-韩国-C1
+  - 🇮🇱 Jumao-以色列-A1
+  - 🇬🇧 Jumao-英国-B1
+  - 🇩🇪 Jumao-德国-A1
+  - 🇯🇵 Jumao-日本-D1
+  - 🇮🇹 Jumao-意大利-B1
+  - 🇸🇬 Jumao-新加坡-C1
+  - 🇫🇷 Jumao-法国-B1
+  - 🇮🇳 Jumao-印度-C1
+  - 🇫🇷 Jumao-法国-C1
+  - 🇭🇰 Jumao-联通-高速-香港K3
   - 🇮🇳 Jumao-印度-A
   - 🇬🇧 Jumao-英国-A
   - 🇺🇸 Jumao-美国-A
@@ -130,27 +145,6 @@ proxy-groups:
   - 🇹🇭 Jumao-泰国-A
   - 🇮🇳 Jumao-印度-C
   - 🇫🇷 Jumao-法国-C
-  - 🇭🇰 Jumao-联通-高速-香港K
-  - 🇭🇰 Jumao-联通-高速-香港K2
-  - 🇭🇰 Jumao-联通-高速-香港K3
-  - 🇮🇳 Jumao-印度-A1
-  - 🇬🇧 Jumao-英国-A1
-  - 🇺🇸 Jumao-美国-A1
-  - 🇰🇷 Jumao-韩国-B1
-  - 🇯🇵 Jumao-日本-B1
-  - 🇲🇾 Jumao-马来西亚-A1
-  - 🇮🇹 Jumao-意大利-A1
-  - 🇰🇷 Jumao-韩国-C1
-  - 🇮🇱 Jumao-以色列-A1
-  - 🇬🇧 Jumao-英国-B1
-  - 🇩🇪 Jumao-德国-A1
-  - 🇯🇵 Jumao-日本-D1
-  - 🇮🇹 Jumao-意大利-B1
-  - 🇸🇬 Jumao-新加坡-C1
-  - 🇫🇷 Jumao-法国-B1
-  - 🇮🇳 Jumao-印度-C1
-  - 🇫🇷 Jumao-法国-C1
-  - 🇭🇰 Jumao-联通-高速-香港K4
   - 🇭🇰 Jumao-三线-高速-香港-M
   - 🇭🇰 Jumao-三线-高速-香港-M2
   - 🇭🇰 Jumao-三线-高速-香港-M3
