@@ -7,32 +7,32 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-- {name: '自动选择（Ins,YouTube,ChatGPT等）', server: 163.128.98.89, port: 443, type: vless, uuid: 47b0288d-c176-42c6-8586-6e1be1d297da, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: 1ueeGQUregviszuiaEHU0prMvhh8j0bIHqSVp0VRe3c, short-id: c7f190be088a3b5f}, servername: www.apple.com, client-fingerprint: chrome, network: tcp}
-- {name: '🇺🇸 美国专线(大带宽,低延时)', server: 38.77.133.202, port: 443, type: vless, uuid: 4a215f09-e1f1-46a6-8e2f-7fb096fa6b1f, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: GjzyBnCFWt9D3gtFsMKpvqcmUUYqPA3zNP0o3aNcNSg, short-id: e70046c27dae6aa7}, servername: www.apple.com, client-fingerprint: chrome, network: tcp}
-- {name: '🇺🇸 美国超速(大带宽,低延时)', server: 38.244.20.25, port: 443, type: vless, uuid: 5272cd9f-a028-4452-ad8a-9bc21f87bb19, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: 0dIyov95G3A1ySANsJzdYY9DGLvaIFU8ofJf3Jtv1Ds, short-id: befa80d97af98b74}, servername: www.apple.com, client-fingerprint: chrome, network: tcp}
-- {name: '🇯🇵 日本东京(YouTube,ChatGPT等)', server: 116.206.93.101, port: 443, type: vless, uuid: 6a1f6c94-7785-42e2-9203-381d1f4db37e, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: 1xIu8ESLs4JviWXp8XaOceWAEVHqWLzNIiojA_uf8Ug, short-id: 83feb7aa267e9ddf}, servername: www.apple.com, client-fingerprint: chrome, network: tcp}
-- {name: '🇸🇬 新加坡优质(移动,电信优选)', server: 163.128.98.201, port: 443, type: vless, uuid: 957e935b-7f90-4986-8754-8b31d791e2da, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: jkzeN7lu6GW_LtPXz6rKcTdaajAiLg57wJTrft-b3hQ, short-id: 6bccbfa14c1eb0a0}, servername: www.apple.com, client-fingerprint: chrome, network: tcp}
+- {name: '🇺🇸 美国专线(大带宽,低延时)', server: 38.244.21.64, port: 443, type: vless, uuid: 1cf66df0-10a4-4f1c-bf40-42b6155ad4c7, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: 14KJ1DdfPZVU2XrwdH5o4gzStWMfrrfJaj-TXKohgRI, short-id: 3e7332c982f97423}, servername: www.apple.com, client-fingerprint: chrome, network: tcp}
+- {name: '🇯🇵 日本东京(YouTube,ChatGPT等)', server: 103.76.85.213, port: 443, type: vless, uuid: 1fb60770-fc92-480f-801f-4e4e05af88b3, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: Me7Ii42ZwYdhuQUAGUimaTeOUQVSAaoxRat8KnZFDTk, short-id: ee8f9024bee24cac}, servername: www.apple.com, client-fingerprint: chrome, network: tcp}
+- {name: '🇺🇸 美国超速(大带宽,低延时)', server: 38.77.133.194, port: 443, type: vless, uuid: 33312eae-359e-4770-8259-09ba797cb8b5, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: 9rORSUGz2WsiGaFKzMgOWkLrCMOc2lJwl-fsO87dbzs, short-id: 1361b6f577aa8bb7}, servername: www.apple.com, client-fingerprint: chrome, network: tcp}
+- {name: '自动选择（Ins,YouTube,ChatGPT等）', server: 38.125.120.177, port: 443, type: vless, uuid: 59de8295-2a71-4d54-bf03-9b29b238af16, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: MEp512fV5aGNKiiyZFwp6DFKp3GUs00waILa7lTiCxA, short-id: 70bfd5e733c6320b}, servername: www.apple.com, client-fingerprint: chrome, network: tcp}
 - {name: '🇸🇬 新加坡高速(YouTube,ChatGPT等)', server: 163.128.99.45, port: 443, type: vless, uuid: c478762b-ed3c-4d56-8280-840dad0d0fde, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: JdElVMz3G6PwHg9ve2KhRJrxxlxKqJCE5rRBCovIUzU, short-id: 7b94b8365e124d83}, servername: www.apple.com, client-fingerprint: chrome, network: tcp}
+- {name: '🇸🇬 新加坡优质(移动,电信优选)', server: 163.128.99.2, port: 443, type: vless, uuid: f04e0769-91f9-447f-9c88-71e3f004ce87, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: 6us83yF7C-acsnMkvu_Cs8hkDv8R0zsO_j-0y2eaT1U, short-id: 5bbf5ea7c71168f4}, servername: www.apple.com, client-fingerprint: chrome, network: tcp}
 proxy-groups:
 - name: 🚀 节点选择
   type: select
   proxies:
   - ♻️ 自动选择
-  - 自动选择（Ins,YouTube,ChatGPT等）
   - 🇺🇸 美国专线(大带宽,低延时)
-  - 🇺🇸 美国超速(大带宽,低延时)
   - 🇯🇵 日本东京(YouTube,ChatGPT等)
-  - 🇸🇬 新加坡优质(移动,电信优选)
+  - 🇺🇸 美国超速(大带宽,低延时)
+  - 自动选择（Ins,YouTube,ChatGPT等）
   - 🇸🇬 新加坡高速(YouTube,ChatGPT等)
+  - 🇸🇬 新加坡优质(移动,电信优选)
 - name: ♻️ 自动选择
   type: url-test
   proxies:
-  - 自动选择（Ins,YouTube,ChatGPT等）
   - 🇺🇸 美国专线(大带宽,低延时)
-  - 🇺🇸 美国超速(大带宽,低延时)
   - 🇯🇵 日本东京(YouTube,ChatGPT等)
-  - 🇸🇬 新加坡优质(移动,电信优选)
+  - 🇺🇸 美国超速(大带宽,低延时)
+  - 自动选择（Ins,YouTube,ChatGPT等）
   - 🇸🇬 新加坡高速(YouTube,ChatGPT等)
+  - 🇸🇬 新加坡优质(移动,电信优选)
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 🐟 漏网之鱼
