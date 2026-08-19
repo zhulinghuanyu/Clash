@@ -7,131 +7,131 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-- {name: xingyun-成都-1, server: 1.14.67.114, port: 55779, type: hysteria2, password: '%2BbU5%40%28R3kgs9eho53%5EzY', auth: '%2BbU5%40%28R3kgs9eho53%5EzY', sni: cd-tc-1.astralvpn.com, skip-cert-verify: true, obfs: salamander, obfs-password: MsdLVf9iZ0YNYONs}
+- {name: xingyun-成都-1, server: 1.14.67.114, port: 59108, type: hysteria2, password: '%2BbU5%40%28R3kgs9eho53%5EzY', auth: '%2BbU5%40%28R3kgs9eho53%5EzY', sni: cd-tc-1.astralvpn.com, skip-cert-verify: true, obfs: salamander, obfs-password: MsdLVf9iZ0YNYONs}
 - {name: 🇨🇦 xingyun-加拿大-通用1, server: 15.223.189.161, port: 26001, type: hysteria2, password: 0ttxqcvJAqiwk7yT, auth: 0ttxqcvJAqiwk7yT, sni: ca-ls-a-3.lihmxssuqleitqcxpssa.uk, skip-cert-verify: true}
+- {name: 🇯🇵 xingyun-日本 通用 自动, server: 13.158.36.20, port: 56001, type: hysteria2, password: 18MPeBuuRPOTWQ8i, auth: 18MPeBuuRPOTWQ8i, sni: jp-ls-b2.nebulacloud.win, skip-cert-verify: true}
+- {name: 🇯🇵 xingyun-日本-通用1, server: 13.158.36.20, port: 56001, type: hysteria2, password: 18MPeBuuRPOTWQ8i, auth: 18MPeBuuRPOTWQ8i, sni: jp-ls-b2.nebulacloud.win, skip-cert-verify: true}
 - {name: 🇯🇵 xingyun-日本 解锁 自动, server: 151.242.164.204, port: 36001, type: hysteria2, password: 1aoxNl1TliutlpLv, auth: 1aoxNl1TliutlpLv, sni: jp-akile-6.nebulacloud.win, skip-cert-verify: true}
-- {name: 🇯🇵 xingyun-日本-解锁2, server: 151.242.164.204, port: 36001, type: hysteria2, password: 1aoxNl1TliutlpLv, auth: 1aoxNl1TliutlpLv, sni: jp-akile-6.nebulacloud.win, skip-cert-verify: true}
-- {name: 🇭🇰 xingyun-香港 通用 自动, server: 18.167.36.246, port: 16001, type: hysteria2, password: 2lysL9X4QlNKYhTD, auth: 2lysL9X4QlNKYhTD, sni: hk-ls-j-16.apcwjtnmuwembbfzmxqx.cc, skip-cert-verify: true}
-- {name: 🇭🇰 xingyun-香港-通用1, server: 18.167.36.246, port: 16001, type: hysteria2, password: 2lysL9X4QlNKYhTD, auth: 2lysL9X4QlNKYhTD, sni: hk-ls-j-16.apcwjtnmuwembbfzmxqx.cc, skip-cert-verify: true}
+- {name: 🇯🇵 xingyun-日本-解锁3, server: 151.242.164.204, port: 36001, type: hysteria2, password: 1aoxNl1TliutlpLv, auth: 1aoxNl1TliutlpLv, sni: jp-akile-6.nebulacloud.win, skip-cert-verify: true}
 - {name: 🇺🇸 xingyun-美国 解锁 自动, server: 23.158.136.54, port: 36001, type: hysteria2, password: 4ZxqXl4mtNw7U27x, auth: 4ZxqXl4mtNw7U27x, sni: us-akile-a9.nebulacloud.win, skip-cert-verify: true}
-- {name: 🇺🇸 xingyun-美国-解锁2, server: 23.158.136.54, port: 36001, type: hysteria2, password: 4ZxqXl4mtNw7U27x, auth: 4ZxqXl4mtNw7U27x, sni: us-akile-a9.nebulacloud.win, skip-cert-verify: true}
-- {name: 🇯🇵 xingyun-日本 通用 自动, server: 35.72.182.75, port: 46001, type: hysteria2, password: 6EXglNjYiHX4j24t, auth: 6EXglNjYiHX4j24t, sni: jp-ls-g-4.nebulacloud.win, skip-cert-verify: true}
+- {name: 🇺🇸 xingyun-美国-解锁4, server: 23.158.136.54, port: 36001, type: hysteria2, password: 4ZxqXl4mtNw7U27x, auth: 4ZxqXl4mtNw7U27x, sni: us-akile-a9.nebulacloud.win, skip-cert-verify: true}
+- {name: 🇯🇵 xingyun-日本 通用 自动 2, server: 35.72.182.75, port: 46001, type: hysteria2, password: 6EXglNjYiHX4j24t, auth: 6EXglNjYiHX4j24t, sni: jp-ls-g-4.nebulacloud.win, skip-cert-verify: true}
 - {name: 🇯🇵 xingyun-日本-通用3, server: 35.72.182.75, port: 46001, type: hysteria2, password: 6EXglNjYiHX4j24t, auth: 6EXglNjYiHX4j24t, sni: jp-ls-g-4.nebulacloud.win, skip-cert-verify: true}
 - {name: 🇰🇷 xingyun-韩国 通用 自动, server: 3.39.246.101, port: 36001, type: hysteria2, password: 6hadG8vXJr2RV6AQ, auth: 6hadG8vXJr2RV6AQ, sni: kor-ls-d-3.nebulacloud.win, skip-cert-verify: true}
-- {name: 🇰🇷 xingyun-韩国-通用1, server: 3.39.246.101, port: 36001, type: hysteria2, password: 6hadG8vXJr2RV6AQ, auth: 6hadG8vXJr2RV6AQ, sni: kor-ls-d-3.nebulacloud.win, skip-cert-verify: true}
-- {name: 🇭🇰 xingyun-香港 通用 自动 2, server: 16.162.23.204, port: 16001, type: hysteria2, password: 7rbjPWl2XhW5wRxq, auth: 7rbjPWl2XhW5wRxq, sni: hk-ls-i-2.apcwjtnmuwembbfzmxqx.cc, skip-cert-verify: true}
-- {name: 🇭🇰 xingyun-香港-通用3, server: 16.162.23.204, port: 16001, type: hysteria2, password: 7rbjPWl2XhW5wRxq, auth: 7rbjPWl2XhW5wRxq, sni: hk-ls-i-2.apcwjtnmuwembbfzmxqx.cc, skip-cert-verify: true}
+- {name: 🇰🇷 xingyun-韩国-通用3, server: 3.39.246.101, port: 36001, type: hysteria2, password: 6hadG8vXJr2RV6AQ, auth: 6hadG8vXJr2RV6AQ, sni: kor-ls-d-3.nebulacloud.win, skip-cert-verify: true}
 - {name: 🇬🇧 xingyun-英国-通用2, server: 212.135.39.217, port: 56001, type: hysteria2, password: 8PTjACZjlvKEwWsa, auth: 8PTjACZjlvKEwWsa, sni: uk-akile-1.nebulacloud.win, skip-cert-verify: true}
 - {name: 🇦🇷 xingyun-阿根廷-通用1, server: 38.54.45.100, port: 55001, type: hysteria2, password: 8XF1jaQks32LSLxu, auth: 8XF1jaQks32LSLxu, sni: ar2.nebulacloud.win, skip-cert-verify: true}
 - {name: 🇦🇪 xingyun-迪拜（阿联酋）-通用1, server: 38.60.202.43, port: 45001, type: hysteria2, password: AIlQ9rgshRQ8Y225, auth: AIlQ9rgshRQ8Y225, sni: ae-1-d.nebulacloud.win, skip-cert-verify: true}
 - {name: 🇺🇸 xingyun-美国 解锁 自动 2, server: 166.0.188.67, port: 36001, type: hysteria2, password: CtWe5NXOxYGZnJoT, auth: CtWe5NXOxYGZnJoT, sni: us-akile-ax.nebulacloud.win, skip-cert-verify: true}
-- {name: 🇺🇸 xingyun-美国-解锁4, server: 166.0.188.67, port: 36001, type: hysteria2, password: CtWe5NXOxYGZnJoT, auth: CtWe5NXOxYGZnJoT, sni: us-akile-ax.nebulacloud.win, skip-cert-verify: true}
+- {name: 🇺🇸 xingyun-美国-解锁1, server: 166.0.188.67, port: 36001, type: hysteria2, password: CtWe5NXOxYGZnJoT, auth: CtWe5NXOxYGZnJoT, sni: us-akile-ax.nebulacloud.win, skip-cert-verify: true}
+- {name: 🇸🇬 xingyun-新加坡 通用 自动, server: 18.143.103.231, port: 56001, type: hysteria2, password: Cy6FNYZvtQ9tKJcX, auth: Cy6FNYZvtQ9tKJcX, sni: sg-ls-y-7.czzhkractqqakfzdmrgd.cc, skip-cert-verify: true}
+- {name: 🇸🇬 xingyun-新加坡-通用3, server: 18.143.103.231, port: 56001, type: hysteria2, password: Cy6FNYZvtQ9tKJcX, auth: Cy6FNYZvtQ9tKJcX, sni: sg-ls-y-7.czzhkractqqakfzdmrgd.cc, skip-cert-verify: true}
 - {name: 🇰🇷 xingyun-韩国 解锁 自动, server: 61.111.247.245, port: 56001, type: hysteria2, password: DbPkAExflZrIelY4, auth: DbPkAExflZrIelY4, sni: kor-akile-9.nebulacloud.win, skip-cert-verify: true}
-- {name: 🇰🇷 xingyun-韩国-解锁1, server: 61.111.247.245, port: 56001, type: hysteria2, password: DbPkAExflZrIelY4, auth: DbPkAExflZrIelY4, sni: kor-akile-9.nebulacloud.win, skip-cert-verify: true}
-- {name: 🇯🇵 xingyun-日本 通用 自动 2, server: 57.183.22.114, port: 46001, type: hysteria2, password: FMVusDU8skMPS67P, auth: FMVusDU8skMPS67P, sni: jp-ls-d-4.nebulacloud.win, skip-cert-verify: true}
-- {name: 🇯🇵 xingyun-日本-通用4, server: 57.183.22.114, port: 46001, type: hysteria2, password: FMVusDU8skMPS67P, auth: FMVusDU8skMPS67P, sni: jp-ls-d-4.nebulacloud.win, skip-cert-verify: true}
-- {name: 🇸🇬 xingyun-新加坡 通用 自动, server: 54.179.149.46, port: 36001, type: hysteria2, password: GDSK5q2YhGTmxSTY, auth: GDSK5q2YhGTmxSTY, sni: sg-ls-x-15.czzhkractqqakfzdmrgd.cc, skip-cert-verify: true}
-- {name: 🇸🇬 xingyun-新加坡-通用4, server: 54.179.149.46, port: 36001, type: hysteria2, password: GDSK5q2YhGTmxSTY, auth: GDSK5q2YhGTmxSTY, sni: sg-ls-x-15.czzhkractqqakfzdmrgd.cc, skip-cert-verify: true}
+- {name: 🇰🇷 xingyun-韩国-解锁2, server: 61.111.247.245, port: 56001, type: hysteria2, password: DbPkAExflZrIelY4, auth: DbPkAExflZrIelY4, sni: kor-akile-9.nebulacloud.win, skip-cert-verify: true}
+- {name: 🇸🇬 xingyun-新加坡 通用 自动 2, server: 47.129.160.214, port: 26001, type: hysteria2, password: FVxuhv4W9lWIEUGd, auth: FVxuhv4W9lWIEUGd, sni: sg-ls-z-2.lihmxssuqleitqcxpssa.uk, skip-cert-verify: true}
+- {name: 🇸🇬 xingyun-新加坡-通用1, server: 47.129.160.214, port: 26001, type: hysteria2, password: FVxuhv4W9lWIEUGd, auth: FVxuhv4W9lWIEUGd, sni: sg-ls-z-2.lihmxssuqleitqcxpssa.uk, skip-cert-verify: true}
 - {name: 🇰🇭 xingyun-柬埔寨-通用1, server: 38.54.4.64, port: 55001, type: hysteria2, password: HoskEfRSo4TVKVLo, auth: HoskEfRSo4TVKVLo, sni: kh3.nebulacloud.win, skip-cert-verify: true}
-- {name: 🇺🇸 xingyun-美国 通用 自动, server: 54.189.251.93, port: 36001, type: hysteria2, password: IFwMOOnAnmL1AfNI, auth: IFwMOOnAnmL1AfNI, sni: us-ls-l-9.czzhkractqqakfzdmrgd.cc, skip-cert-verify: true}
-- {name: 🇺🇸 xingyun-美国-通用2, server: 54.189.251.93, port: 36001, type: hysteria2, password: IFwMOOnAnmL1AfNI, auth: IFwMOOnAnmL1AfNI, sni: us-ls-l-9.czzhkractqqakfzdmrgd.cc, skip-cert-verify: true}
-- {name: 🇸🇬 xingyun-新加坡 通用 自动 2, server: 13.229.155.244, port: 26001, type: hysteria2, password: IZlPxsu8YrG8VIbX, auth: IZlPxsu8YrG8VIbX, sni: sg-ls-k-5.nebulacloud.win, skip-cert-verify: true}
-- {name: 🇸🇬 xingyun-新加坡-通用2, server: 13.229.155.244, port: 26001, type: hysteria2, password: IZlPxsu8YrG8VIbX, auth: IZlPxsu8YrG8VIbX, sni: sg-ls-k-5.nebulacloud.win, skip-cert-verify: true}
-- {name: 🇭🇰 xingyun-香港 通用 自动 3, server: 18.166.54.81, port: 46001, type: hysteria2, password: Igl5XVbNiEciPXrH, auth: Igl5XVbNiEciPXrH, sni: hk-ls-a-3.nebulacloud.win, skip-cert-verify: true}
-- {name: 🇭🇰 xingyun-香港-通用4, server: 18.166.54.81, port: 46001, type: hysteria2, password: Igl5XVbNiEciPXrH, auth: Igl5XVbNiEciPXrH, sni: hk-ls-a-3.nebulacloud.win, skip-cert-verify: true}
-- {name: 🇲🇾 xingyun-马来西亚 通用 自动, server: 43.216.210.188, port: 56001, type: hysteria2, password: J8VsLw3ySU6145WV, auth: J8VsLw3ySU6145WV, sni: my-ls-m-8.apcwjtnmuwembbfzmxqx.cc, skip-cert-verify: true}
-- {name: 🇲🇾 xingyun-马来西亚-通用3, server: 43.216.210.188, port: 56001, type: hysteria2, password: J8VsLw3ySU6145WV, auth: J8VsLw3ySU6145WV, sni: my-ls-m-8.apcwjtnmuwembbfzmxqx.cc, skip-cert-verify: true}
-- {name: 🇯🇵 xingyun-日本 通用 自动 3, server: 52.198.37.46, port: 36001, type: hysteria2, password: KsycMacvxZhmVYWW, auth: KsycMacvxZhmVYWW, sni: jp-ls-i-10.czzhkractqqakfzdmrgd.cc, skip-cert-verify: true}
-- {name: 🇯🇵 xingyun-日本-通用2, server: 52.198.37.46, port: 36001, type: hysteria2, password: KsycMacvxZhmVYWW, auth: KsycMacvxZhmVYWW, sni: jp-ls-i-10.czzhkractqqakfzdmrgd.cc, skip-cert-verify: true}
+- {name: 🇭🇰 xingyun-香港 通用 自动, server: 95.40.79.14, port: 46001, type: hysteria2, password: IhbDjlPE3C9coEZY, auth: IhbDjlPE3C9coEZY, sni: hk-ls-r-12.czzhkractqqakfzdmrgd.cc, skip-cert-verify: true}
+- {name: 🇭🇰 xingyun-香港-通用3, server: 95.40.79.14, port: 46001, type: hysteria2, password: IhbDjlPE3C9coEZY, auth: IhbDjlPE3C9coEZY, sni: hk-ls-r-12.czzhkractqqakfzdmrgd.cc, skip-cert-verify: true}
 - {name: 🇷🇺 xingyun-俄罗斯-通用1, server: 38.60.221.131, port: 25001, type: hysteria2, password: M4gOi8JS9UEBZl9R, auth: M4gOi8JS9UEBZl9R, sni: ru2.nebulacloud.win, skip-cert-verify: true}
+- {name: 🇲🇾 xingyun-马来西亚 通用 自动, server: 43.216.252.131, port: 46001, type: hysteria2, password: MUqqLSQJ9oEv2rgl, auth: MUqqLSQJ9oEv2rgl, sni: my-ls-n-4.orwnaubrzcrbhrdgpdtu.org, skip-cert-verify: true}
+- {name: 🇲🇾 xingyun-马来西亚-通用3, server: 43.216.252.131, port: 46001, type: hysteria2, password: MUqqLSQJ9oEv2rgl, auth: MUqqLSQJ9oEv2rgl, sni: my-ls-n-4.orwnaubrzcrbhrdgpdtu.org, skip-cert-verify: true}
 - {name: 🇹🇼 xingyun-台湾-解锁1, server: 82.152.90.46, port: 46001, type: hysteria2, password: MjatUiWvvE7FjAMM, auth: MjatUiWvvE7FjAMM, sni: tw-akile-2.apcwjtnmuwembbfzmxqx.cc, skip-cert-verify: true}
-- {name: 🇲🇾 xingyun-马来西亚 通用 自动 2, server: 43.216.2.5, port: 26001, type: hysteria2, password: Nu4RBKJNcQz6Bmye, auth: Nu4RBKJNcQz6Bmye, sni: my-ls-j-5.nebulacloud.win, skip-cert-verify: true}
-- {name: 🇲🇾 xingyun-马来西亚-通用2, server: 43.216.2.5, port: 26001, type: hysteria2, password: Nu4RBKJNcQz6Bmye, auth: Nu4RBKJNcQz6Bmye, sni: my-ls-j-5.nebulacloud.win, skip-cert-verify: true}
-- {name: 🇰🇷 xingyun-韩国 通用 自动 2, server: 13.124.252.207, port: 16001, type: hysteria2, password: O4cUexKBlLT9dikR, auth: O4cUexKBlLT9dikR, sni: kor-ls-5.nebulacloud.win, skip-cert-verify: true}
-- {name: 🇰🇷 xingyun-韩国-通用3, server: 13.124.252.207, port: 16001, type: hysteria2, password: O4cUexKBlLT9dikR, auth: O4cUexKBlLT9dikR, sni: kor-ls-5.nebulacloud.win, skip-cert-verify: true}
-- {name: 🇸🇬 xingyun-新加坡 通用 自动 3, server: 13.212.111.19, port: 26001, type: hysteria2, password: PC9W31hyS7Jouvya, auth: PC9W31hyS7Jouvya, sni: sg-ls-k-3.nebulacloud.win, skip-cert-verify: true}
-- {name: 🇸🇬 xingyun-新加坡-通用1, server: 13.212.111.19, port: 26001, type: hysteria2, password: PC9W31hyS7Jouvya, auth: PC9W31hyS7Jouvya, sni: sg-ls-k-3.nebulacloud.win, skip-cert-verify: true}
+- {name: 🇮🇩 xingyun-印尼-通用1, server: 16.79.116.126, port: 16001, type: hysteria2, password: NtcZSaz6L6R4os41, auth: NtcZSaz6L6R4os41, sni: id-ls-b-2.nebulacloud.win, skip-cert-verify: true}
+- {name: 🇰🇷 xingyun-韩国 通用 自动 2, server: 3.34.202.206, port: 16001, type: hysteria2, password: Omh7pzzoduDsyTwP, auth: Omh7pzzoduDsyTwP, sni: kor-ls-b-3.nebulacloud.win, skip-cert-verify: true}
+- {name: 🇰🇷 xingyun-韩国-通用4, server: 3.34.202.206, port: 16001, type: hysteria2, password: Omh7pzzoduDsyTwP, auth: Omh7pzzoduDsyTwP, sni: kor-ls-b-3.nebulacloud.win, skip-cert-verify: true}
+- {name: 🇺🇸 xingyun-美国 通用 自动, server: 34.222.206.153, port: 26001, type: hysteria2, password: P6VETMF2vrmbWoxg, auth: P6VETMF2vrmbWoxg, sni: us-ls-f-4.nebulacloud.win, skip-cert-verify: true}
+- {name: 🇺🇸 xingyun-美国-通用1, server: 34.222.206.153, port: 26001, type: hysteria2, password: P6VETMF2vrmbWoxg, auth: P6VETMF2vrmbWoxg, sni: us-ls-f-4.nebulacloud.win, skip-cert-verify: true}
 - {name: 🇬🇧 xingyun-英国-通用1, server: 13.135.93.199, port: 46001, type: hysteria2, password: R1sjUqc2ZcuLfMX4, auth: R1sjUqc2ZcuLfMX4, sni: uk-ls-1.nebulacloud.win, skip-cert-verify: true}
 - {name: 🇰🇷 xingyun-韩国 解锁 自动 2, server: 61.111.247.91, port: 56001, type: hysteria2, password: R8qdx6P48IpE4eUE, auth: R8qdx6P48IpE4eUE, sni: kor-akile-8.nebulacloud.win, skip-cert-verify: true}
 - {name: 🇰🇷 xingyun-韩国-解锁4, server: 61.111.247.91, port: 56001, type: hysteria2, password: R8qdx6P48IpE4eUE, auth: R8qdx6P48IpE4eUE, sni: kor-akile-8.nebulacloud.win, skip-cert-verify: true}
 - {name: 🇺🇸 xingyun-美国 解锁 自动 3, server: 23.158.136.231, port: 46001, type: hysteria2, password: S6TzF9FezbmKpACf, auth: S6TzF9FezbmKpACf, sni: us-akile-a8.nebulacloud.win, skip-cert-verify: true}
-- {name: 🇺🇸 xingyun-美国-解锁3, server: 23.158.136.231, port: 46001, type: hysteria2, password: S6TzF9FezbmKpACf, auth: S6TzF9FezbmKpACf, sni: us-akile-a8.nebulacloud.win, skip-cert-verify: true}
-- {name: 🇰🇷 xingyun-韩国 通用 自动 3, server: 54.116.41.191, port: 16001, type: hysteria2, password: SODC8y5QS1cqF7zX, auth: SODC8y5QS1cqF7zX, sni: kor-ls-b-2.nebulacloud.win, skip-cert-verify: true}
-- {name: 🇰🇷 xingyun-韩国-通用2, server: 54.116.41.191, port: 16001, type: hysteria2, password: SODC8y5QS1cqF7zX, auth: SODC8y5QS1cqF7zX, sni: kor-ls-b-2.nebulacloud.win, skip-cert-verify: true}
+- {name: 🇺🇸 xingyun-美国-解锁2, server: 23.158.136.231, port: 46001, type: hysteria2, password: S6TzF9FezbmKpACf, auth: S6TzF9FezbmKpACf, sni: us-akile-a8.nebulacloud.win, skip-cert-verify: true}
 - {name: 🇰🇷 xingyun-韩国 解锁 自动 3, server: 210.216.173.110, port: 16001, type: hysteria2, password: TLiiPUn7vWpCTpPe, auth: TLiiPUn7vWpCTpPe, sni: kor-akile-a3.nebulacloud.win, skip-cert-verify: true}
 - {name: 🇰🇷 xingyun-韩国-解锁3, server: 210.216.173.110, port: 16001, type: hysteria2, password: TLiiPUn7vWpCTpPe, auth: TLiiPUn7vWpCTpPe, sni: kor-akile-a3.nebulacloud.win, skip-cert-verify: true}
+- {name: 🇸🇬 xingyun-新加坡 通用 自动 3, server: 47.129.183.210, port: 56001, type: hysteria2, password: TZU2h59yQgOsCKY8, auth: TZU2h59yQgOsCKY8, sni: sg-ls-u-3.nebulacloud.win, skip-cert-verify: true}
+- {name: 🇸🇬 xingyun-新加坡-通用4, server: 47.129.183.210, port: 56001, type: hysteria2, password: TZU2h59yQgOsCKY8, auth: TZU2h59yQgOsCKY8, sni: sg-ls-u-3.nebulacloud.win, skip-cert-verify: true}
 - {name: 🇯🇵 xingyun-日本 解锁 自动 2, server: 151.242.164.80, port: 26001, type: hysteria2, password: TxX1AySaKPW7aTrw, auth: TxX1AySaKPW7aTrw, sni: jp-akile-1.nebulacloud.win, skip-cert-verify: true}
 - {name: 🇯🇵 xingyun-日本-解锁1, server: 151.242.164.80, port: 26001, type: hysteria2, password: TxX1AySaKPW7aTrw, auth: TxX1AySaKPW7aTrw, sni: jp-akile-1.nebulacloud.win, skip-cert-verify: true}
-- {name: 🇸🇬 xingyun-新加坡 通用 自动 4, server: 47.130.4.74, port: 36001, type: hysteria2, password: Ug6t2tRAojv6udNd, auth: Ug6t2tRAojv6udNd, sni: sg-ls-g-3.nebulacloud.win, skip-cert-verify: true}
-- {name: 🇸🇬 xingyun-新加坡-通用3, server: 47.130.4.74, port: 36001, type: hysteria2, password: Ug6t2tRAojv6udNd, auth: Ug6t2tRAojv6udNd, sni: sg-ls-g-3.nebulacloud.win, skip-cert-verify: true}
+- {name: 🇲🇾 xingyun-马来西亚 通用 自动 2, server: 13.229.59.115, port: 46001, type: hysteria2, password: UhuiIchwYycBDD5w, auth: UhuiIchwYycBDD5w, sni: sg-ls-f-2.apcwjtnmuwembbfzmxqx.cc, skip-cert-verify: true}
+- {name: 🇲🇾 xingyun-马来西亚-通用1, server: 13.229.59.115, port: 46001, type: hysteria2, password: UhuiIchwYycBDD5w, auth: UhuiIchwYycBDD5w, sni: sg-ls-f-2.apcwjtnmuwembbfzmxqx.cc, skip-cert-verify: true}
 - {name: 🇫🇷 xingyun-法国-通用1, server: 13.38.251.73, port: 46001, type: hysteria2, password: Uyh27l46qWSi3wxH, auth: Uyh27l46qWSi3wxH, sni: fr-ls-1.nebulacloud.win, skip-cert-verify: true}
 - {name: 🇩🇪 xingyun-德国-通用1, server: 18.185.220.171, port: 46001, type: hysteria2, password: V5BG0fkiZIviuquK, auth: V5BG0fkiZIviuquK, sni: de-ls-1.nebulacloud.win, skip-cert-verify: true}
-- {name: 🇺🇸 xingyun-美国 通用 自动 2, server: 34.221.254.108, port: 16001, type: hysteria2, password: XI187zbuPmW1bsKE, auth: XI187zbuPmW1bsKE, sni: us-ls-4.lihmxssuqleitqcxpssa.uk, skip-cert-verify: true}
-- {name: 🇺🇸 xingyun-美国-通用4, server: 34.221.254.108, port: 16001, type: hysteria2, password: XI187zbuPmW1bsKE, auth: XI187zbuPmW1bsKE, sni: us-ls-4.lihmxssuqleitqcxpssa.uk, skip-cert-verify: true}
+- {name: 🇭🇰 xingyun-香港 通用 自动 2, server: 18.166.213.115, port: 36001, type: hysteria2, password: WMnBw4LxfLGbEmxs, auth: WMnBw4LxfLGbEmxs, sni: hk-ls-d-7.nebulacloud.win, skip-cert-verify: true}
+- {name: 🇭🇰 xingyun-香港-通用1, server: 18.166.213.115, port: 36001, type: hysteria2, password: WMnBw4LxfLGbEmxs, auth: WMnBw4LxfLGbEmxs, sni: hk-ls-d-7.nebulacloud.win, skip-cert-verify: true}
 - {name: 🇺🇸 xingyun-美国 解锁 自动 4, server: 23.158.136.73, port: 56001, type: hysteria2, password: YH6dLZ8hSrHROuLA, auth: YH6dLZ8hSrHROuLA, sni: us-akile-b1.nebulacloud.win, skip-cert-verify: true}
-- {name: 🇺🇸 xingyun-美国-解锁1, server: 23.158.136.73, port: 56001, type: hysteria2, password: YH6dLZ8hSrHROuLA, auth: YH6dLZ8hSrHROuLA, sni: us-akile-b1.nebulacloud.win, skip-cert-verify: true}
-- {name: 🇭🇰 xingyun-香港 通用 自动 4, server: 95.40.7.156, port: 36001, type: hysteria2, password: YMpOiEYJ03xzyOjg, auth: YMpOiEYJ03xzyOjg, sni: hk-ls-o-13.orwnaubrzcrbhrdgpdtu.org, skip-cert-verify: true}
-- {name: 🇭🇰 xingyun-香港-通用2, server: 95.40.7.156, port: 36001, type: hysteria2, password: YMpOiEYJ03xzyOjg, auth: YMpOiEYJ03xzyOjg, sni: hk-ls-o-13.orwnaubrzcrbhrdgpdtu.org, skip-cert-verify: true}
-- {name: 🇯🇵 xingyun-日本 通用 自动 4, server: 35.76.117.232, port: 16001, type: hysteria2, password: a626uDCfkg6FcWr6, auth: a626uDCfkg6FcWr6, sni: jp-ls-j-12.hogbvdxheortndkhdgws.uk, skip-cert-verify: true}
-- {name: 🇯🇵 xingyun-日本-通用1, server: 35.76.117.232, port: 16001, type: hysteria2, password: a626uDCfkg6FcWr6, auth: a626uDCfkg6FcWr6, sni: jp-ls-j-12.hogbvdxheortndkhdgws.uk, skip-cert-verify: true}
-- {name: 🇭🇰 xingyun-香港 通用 自动 5, server: 18.162.44.244, port: 36001, type: hysteria2, password: c9pUwwurRabQqgJF, auth: c9pUwwurRabQqgJF, sni: hk-ls-d-4.nebulacloud.win, skip-cert-verify: true}
-- {name: 🇭🇰 xingyun-香港-通用5, server: 18.162.44.244, port: 36001, type: hysteria2, password: c9pUwwurRabQqgJF, auth: c9pUwwurRabQqgJF, sni: hk-ls-d-4.nebulacloud.win, skip-cert-verify: true}
-- {name: xingyun-上海-1, server: 124.222.193.5, port: 57348, type: hysteria2, password: dy%26m9VVUpQxubB3DNzBj, auth: dy%26m9VVUpQxubB3DNzBj, sni: sh-tc-1.astralvpn.com, skip-cert-verify: true, obfs: salamander, obfs-password: 4QiDTI6wNMyAnkND}
-- {name: 🇰🇷 xingyun-韩国 通用 自动 4, server: 52.78.241.64, port: 46001, type: hysteria2, password: fb5ZrkwDdXlt4ISq, auth: fb5ZrkwDdXlt4ISq, sni: kor-ls-a5.nebulacloud.win, skip-cert-verify: true}
-- {name: 🇰🇷 xingyun-韩国-通用4, server: 52.78.241.64, port: 46001, type: hysteria2, password: fb5ZrkwDdXlt4ISq, auth: fb5ZrkwDdXlt4ISq, sni: kor-ls-a5.nebulacloud.win, skip-cert-verify: true}
-- {name: 🇺🇸 xingyun-美国 通用 自动 3, server: 35.87.113.104, port: 56001, type: hysteria2, password: gWKgR8lfBn86XHI9, auth: gWKgR8lfBn86XHI9, sni: us-ls-ax.nebulacloud.win, skip-cert-verify: true}
-- {name: 🇺🇸 xingyun-美国-通用3, server: 35.87.113.104, port: 56001, type: hysteria2, password: gWKgR8lfBn86XHI9, auth: gWKgR8lfBn86XHI9, sni: us-ls-ax.nebulacloud.win, skip-cert-verify: true}
+- {name: 🇺🇸 xingyun-美国-解锁3, server: 23.158.136.73, port: 56001, type: hysteria2, password: YH6dLZ8hSrHROuLA, auth: YH6dLZ8hSrHROuLA, sni: us-akile-b1.nebulacloud.win, skip-cert-verify: true}
+- {name: 🇭🇰 xingyun-香港 通用 自动 3, server: 18.163.2.132, port: 46001, type: hysteria2, password: amuzOg8ktqaZltOg, auth: amuzOg8ktqaZltOg, sni: hk-ls-r-5.czzhkractqqakfzdmrgd.cc, skip-cert-verify: true}
+- {name: 🇭🇰 xingyun-香港-通用4, server: 18.163.2.132, port: 46001, type: hysteria2, password: amuzOg8ktqaZltOg, auth: amuzOg8ktqaZltOg, sni: hk-ls-r-5.czzhkractqqakfzdmrgd.cc, skip-cert-verify: true}
+- {name: 🇯🇵 xingyun-日本 通用 自动 3, server: 43.206.127.161, port: 26001, type: hysteria2, password: b4HIJJ2SA18qCQJu, auth: b4HIJJ2SA18qCQJu, sni: jp-ls-d-1.nebulacloud.win, skip-cert-verify: true}
+- {name: 🇯🇵 xingyun-日本-通用4, server: 43.206.127.161, port: 26001, type: hysteria2, password: b4HIJJ2SA18qCQJu, auth: b4HIJJ2SA18qCQJu, sni: jp-ls-d-1.nebulacloud.win, skip-cert-verify: true}
+- {name: 🇭🇰 xingyun-香港 通用 自动 4, server: 16.162.89.69, port: 26001, type: hysteria2, password: bQ8mi1JHUjOZNwyz, auth: bQ8mi1JHUjOZNwyz, sni: hk-ls-l-19.lihmxssuqleitqcxpssa.uk, skip-cert-verify: true}
+- {name: 🇭🇰 xingyun-香港-通用2, server: 16.162.89.69, port: 26001, type: hysteria2, password: bQ8mi1JHUjOZNwyz, auth: bQ8mi1JHUjOZNwyz, sni: hk-ls-l-19.lihmxssuqleitqcxpssa.uk, skip-cert-verify: true}
+- {name: 🇲🇾 xingyun-马来西亚 通用 自动 3, server: 43.216.234.238, port: 46001, type: hysteria2, password: dm3J62eJzo8cVfL8, auth: dm3J62eJzo8cVfL8, sni: my-ls-n-2.orwnaubrzcrbhrdgpdtu.org, skip-cert-verify: true}
+- {name: 🇲🇾 xingyun-马来西亚-通用4, server: 43.216.234.238, port: 46001, type: hysteria2, password: dm3J62eJzo8cVfL8, auth: dm3J62eJzo8cVfL8, sni: my-ls-n-2.orwnaubrzcrbhrdgpdtu.org, skip-cert-verify: true}
+- {name: 🇸🇬 xingyun-新加坡 通用 自动 4, server: 13.228.79.50, port: 26001, type: hysteria2, password: drqlA6GkSuLTtVLB, auth: drqlA6GkSuLTtVLB, sni: sg-ls-z-15.lihmxssuqleitqcxpssa.uk, skip-cert-verify: true}
+- {name: 🇸🇬 xingyun-新加坡-通用2, server: 13.228.79.50, port: 26001, type: hysteria2, password: drqlA6GkSuLTtVLB, auth: drqlA6GkSuLTtVLB, sni: sg-ls-z-15.lihmxssuqleitqcxpssa.uk, skip-cert-verify: true}
+- {name: xingyun-上海-1, server: 124.222.193.5, port: 58148, type: hysteria2, password: dy%26m9VVUpQxubB3DNzBj, auth: dy%26m9VVUpQxubB3DNzBj, sni: sh-tc-1.astralvpn.com, skip-cert-verify: true, obfs: salamander, obfs-password: 4QiDTI6wNMyAnkND}
 - {name: 🇯🇵 xingyun-日本 解锁 自动 3, server: 154.16.248.120, port: 26001, type: hysteria2, password: kWjs6cJV3un36crf, auth: kWjs6cJV3un36crf, sni: jp-akile-5.nebulacloud.win, skip-cert-verify: true}
-- {name: 🇯🇵 xingyun-日本-解锁4, server: 154.16.248.120, port: 26001, type: hysteria2, password: kWjs6cJV3un36crf, auth: kWjs6cJV3un36crf, sni: jp-akile-5.nebulacloud.win, skip-cert-verify: true}
+- {name: 🇯🇵 xingyun-日本-解锁2, server: 154.16.248.120, port: 26001, type: hysteria2, password: kWjs6cJV3un36crf, auth: kWjs6cJV3un36crf, sni: jp-akile-5.nebulacloud.win, skip-cert-verify: true}
 - {name: 🇿🇦 xingyun-南非-通用1, server: 38.54.63.125, port: 56001, type: hysteria2, password: km52TuxzRRDVQOKL, auth: km52TuxzRRDVQOKL, sni: rsa-1.nebulacloud.win, skip-cert-verify: true}
-- {name: 🇮🇩 xingyun-印尼-通用1, server: 16.79.28.237, port: 26001, type: hysteria2, password: l25nJa8z0D5pT6jl, auth: l25nJa8z0D5pT6jl, sni: id-ls-c-4.nebulacloud.win, skip-cert-verify: true}
-- {name: 🇲🇾 xingyun-马来西亚 通用 自动 3, server: 43.217.83.77, port: 56001, type: hysteria2, password: lb1SjwJA3hhK4IqD, auth: lb1SjwJA3hhK4IqD, sni: my-ls-k-1.nebulacloud.win, skip-cert-verify: true}
-- {name: 🇲🇾 xingyun-马来西亚-通用1, server: 43.217.83.77, port: 56001, type: hysteria2, password: lb1SjwJA3hhK4IqD, auth: lb1SjwJA3hhK4IqD, sni: my-ls-k-1.nebulacloud.win, skip-cert-verify: true}
-- {name: xingyun-广州-1, server: 175.178.1.65, port: 57646, type: hysteria2, password: rabr6SRdabz3Atb%23ijM%23, auth: rabr6SRdabz3Atb%23ijM%23, sni: gz-tc-1.astralvpn.com, skip-cert-verify: true, obfs: salamander, obfs-password: xMJiN097Okj24mnk}
-- {name: xingyun-南京-1, server: 119.45.207.122, port: 57327, type: hysteria2, password: s%23A%40rhm%26_BSkE7htqDTm, auth: s%23A%40rhm%26_BSkE7htqDTm, sni: nj-tc-1.astralvpn.com, skip-cert-verify: true, obfs: salamander, obfs-password: KhFuNqaL1QKQ1YIj}
-- {name: 🇺🇸 xingyun-美国 通用 自动 4, server: 44.249.224.44, port: 26001, type: hysteria2, password: sbAmYEUJcHPbm4zh, auth: sbAmYEUJcHPbm4zh, sni: us-ls-c-2.nebulacloud.win, skip-cert-verify: true}
-- {name: 🇺🇸 xingyun-美国-通用1, server: 44.249.224.44, port: 26001, type: hysteria2, password: sbAmYEUJcHPbm4zh, auth: sbAmYEUJcHPbm4zh, sni: us-ls-c-2.nebulacloud.win, skip-cert-verify: true}
+- {name: 🇰🇷 xingyun-韩国 通用 自动 3, server: 3.37.174.54, port: 26001, type: hysteria2, password: kvOM5tGEnATFZ9LM, auth: kvOM5tGEnATFZ9LM, sni: kor-ls-d-5.nebulacloud.win, skip-cert-verify: true}
+- {name: 🇰🇷 xingyun-韩国-通用1, server: 3.37.174.54, port: 26001, type: hysteria2, password: kvOM5tGEnATFZ9LM, auth: kvOM5tGEnATFZ9LM, sni: kor-ls-d-5.nebulacloud.win, skip-cert-verify: true}
+- {name: 🇰🇷 xingyun-韩国 通用 自动 4, server: 3.38.109.234, port: 26001, type: hysteria2, password: oClUdg02yXtkqoqp, auth: oClUdg02yXtkqoqp, sni: kor-ls-d-2.nebulacloud.win, skip-cert-verify: true}
+- {name: 🇰🇷 xingyun-韩国-通用2, server: 3.38.109.234, port: 26001, type: hysteria2, password: oClUdg02yXtkqoqp, auth: oClUdg02yXtkqoqp, sni: kor-ls-d-2.nebulacloud.win, skip-cert-verify: true}
+- {name: xingyun-广州-1, server: 175.178.1.65, port: 59142, type: hysteria2, password: rabr6SRdabz3Atb%23ijM%23, auth: rabr6SRdabz3Atb%23ijM%23, sni: gz-tc-1.astralvpn.com, skip-cert-verify: true, obfs: salamander, obfs-password: xMJiN097Okj24mnk}
+- {name: xingyun-南京-1, server: 119.45.207.122, port: 59954, type: hysteria2, password: s%23A%40rhm%26_BSkE7htqDTm, auth: s%23A%40rhm%26_BSkE7htqDTm, sni: nj-tc-1.astralvpn.com, skip-cert-verify: true, obfs: salamander, obfs-password: KhFuNqaL1QKQ1YIj}
+- {name: 🇺🇸 xingyun-美国 通用 自动 2, server: 44.249.224.44, port: 26001, type: hysteria2, password: sbAmYEUJcHPbm4zh, auth: sbAmYEUJcHPbm4zh, sni: us-ls-c-2.nebulacloud.win, skip-cert-verify: true}
+- {name: 🇺🇸 xingyun-美国-通用2, server: 44.249.224.44, port: 26001, type: hysteria2, password: sbAmYEUJcHPbm4zh, auth: sbAmYEUJcHPbm4zh, sni: us-ls-c-2.nebulacloud.win, skip-cert-verify: true}
 - {name: 🇦🇺 xingyun-澳洲-通用1, server: 16.176.144.246, port: 36001, type: hysteria2, password: tcx5blj04PH5plcA, auth: tcx5blj04PH5plcA, sni: aus-ls-a-1.nebulacloud.win, skip-cert-verify: true}
+- {name: 🇺🇸 xingyun-美国 通用 自动 3, server: 34.221.113.209, port: 16001, type: hysteria2, password: u5cg5AS0cVPMrTif, auth: u5cg5AS0cVPMrTif, sni: us-ls-m-18.grcymnpgpwmhtfjfeelz.work, skip-cert-verify: true}
+- {name: 🇺🇸 xingyun-美国-通用3, server: 34.221.113.209, port: 16001, type: hysteria2, password: u5cg5AS0cVPMrTif, auth: u5cg5AS0cVPMrTif, sni: us-ls-m-18.grcymnpgpwmhtfjfeelz.work, skip-cert-verify: true}
 - {name: xingyun-免费节点, server: 172.105.20.71, port: 35001, type: hysteria2, password: usfV8e8bxC8fIjpI, auth: usfV8e8bxC8fIjpI, sni: ca-linode-1-d-free.nebulacloud.win, skip-cert-verify: true}
 - {name: 🇯🇵 xingyun-日本 解锁 自动 4, server: 38.207.130.119, port: 16001, type: hysteria2, password: vik7pgPgqnWuAngj, auth: vik7pgPgqnWuAngj, sni: jp-akile-2.nebulacloud.win, skip-cert-verify: true}
-- {name: 🇯🇵 xingyun-日本-解锁3, server: 38.207.130.119, port: 16001, type: hysteria2, password: vik7pgPgqnWuAngj, auth: vik7pgPgqnWuAngj, sni: jp-akile-2.nebulacloud.win, skip-cert-verify: true}
+- {name: 🇯🇵 xingyun-日本-解锁4, server: 38.207.130.119, port: 16001, type: hysteria2, password: vik7pgPgqnWuAngj, auth: vik7pgPgqnWuAngj, sni: jp-akile-2.nebulacloud.win, skip-cert-verify: true}
+- {name: 🇲🇾 xingyun-马来西亚 通用 自动 4, server: 56.68.98.246, port: 26001, type: hysteria2, password: vqD0eXByPe2Gw1Oh, auth: vqD0eXByPe2Gw1Oh, sni: my-ls-e-10.nebulacloud.win, skip-cert-verify: true}
+- {name: 🇲🇾 xingyun-马来西亚-通用2, server: 56.68.98.246, port: 26001, type: hysteria2, password: vqD0eXByPe2Gw1Oh, auth: vqD0eXByPe2Gw1Oh, sni: my-ls-e-10.nebulacloud.win, skip-cert-verify: true}
+- {name: 🇺🇸 xingyun-美国 通用 自动 4, server: 35.94.89.200, port: 16001, type: hysteria2, password: vqcR2DaWd4VbXnI5, auth: vqcR2DaWd4VbXnI5, sni: us-ls-j-1.nebulacloud.win, skip-cert-verify: true}
+- {name: 🇺🇸 xingyun-美国-通用4, server: 35.94.89.200, port: 16001, type: hysteria2, password: vqcR2DaWd4VbXnI5, auth: vqcR2DaWd4VbXnI5, sni: us-ls-j-1.nebulacloud.win, skip-cert-verify: true}
+- {name: 🇯🇵 xingyun-日本 通用 自动 4, server: 35.77.111.209, port: 56001, type: hysteria2, password: wKnhPzFqkKgMuMyp, auth: wKnhPzFqkKgMuMyp, sni: jp-ls-b3.nebulacloud.win, skip-cert-verify: true}
+- {name: 🇯🇵 xingyun-日本-通用2, server: 35.77.111.209, port: 56001, type: hysteria2, password: wKnhPzFqkKgMuMyp, auth: wKnhPzFqkKgMuMyp, sni: jp-ls-b3.nebulacloud.win, skip-cert-verify: true}
 - {name: 🇰🇷 xingyun-韩国 解锁 自动 4, server: 61.111.247.79, port: 36001, type: hysteria2, password: wNXbwWIexgFyt4uY, auth: wNXbwWIexgFyt4uY, sni: kor-akile-a2.nebulacloud.win, skip-cert-verify: true}
-- {name: 🇰🇷 xingyun-韩国-解锁2, server: 61.111.247.79, port: 36001, type: hysteria2, password: wNXbwWIexgFyt4uY, auth: wNXbwWIexgFyt4uY, sni: kor-akile-a2.nebulacloud.win, skip-cert-verify: true}
-- {name: 🇲🇾 xingyun-马来西亚 通用 自动 4, server: 43.216.210.43, port: 56001, type: hysteria2, password: yd470B9JVu0ukJ4P, auth: yd470B9JVu0ukJ4P, sni: my-ls-m-6.apcwjtnmuwembbfzmxqx.cc, skip-cert-verify: true}
-- {name: 🇲🇾 xingyun-马来西亚-通用4, server: 43.216.210.43, port: 56001, type: hysteria2, password: yd470B9JVu0ukJ4P, auth: yd470B9JVu0ukJ4P, sni: my-ls-m-6.apcwjtnmuwembbfzmxqx.cc, skip-cert-verify: true}
+- {name: 🇰🇷 xingyun-韩国-解锁1, server: 61.111.247.79, port: 36001, type: hysteria2, password: wNXbwWIexgFyt4uY, auth: wNXbwWIexgFyt4uY, sni: kor-akile-a2.nebulacloud.win, skip-cert-verify: true}
+- {name: 🇭🇰 xingyun-香港 通用 自动 5, server: 16.163.94.85, port: 16001, type: hysteria2, password: xw2DLPB3O5QKgUhi, auth: xw2DLPB3O5QKgUhi, sni: hk-ls-i-12.apcwjtnmuwembbfzmxqx.cc, skip-cert-verify: true}
+- {name: 🇭🇰 xingyun-香港-通用5, server: 16.163.94.85, port: 16001, type: hysteria2, password: xw2DLPB3O5QKgUhi, auth: xw2DLPB3O5QKgUhi, sni: hk-ls-i-12.apcwjtnmuwembbfzmxqx.cc, skip-cert-verify: true}
 - {name: 🇹🇷 xingyun-土耳其-通用1, server: 38.60.255.241, port: 36001, type: hysteria2, password: yvDia1INZokk02wZ, auth: yvDia1INZokk02wZ, sni: tk4.czzhkractqqakfzdmrgd.cc, skip-cert-verify: true}
-- {name: 🇩🇰 xingyun-丹麦-住宅1, server: 13.212.120.35, port: 21898, type: vmess, uuid: 8d61739a-6605-41a9-9fca-9a600a20487a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg-transit-2.nebulacloud.win, network: ws, ws-opts: {path: /getData/dk, headers: {Host: sg-transit-2.nebulacloud.win}}}
-- {name: 🇨🇦 xingyun-加拿大-住宅1, server: 18.140.249.254, port: 48198, type: vmess, uuid: dfa9f875-3805-49d9-8636-46b6899be24e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg-transit-3.nebulacloud.win, network: ws, ws-opts: {path: /ca/getData, headers: {Host: sg-transit-3.nebulacloud.win}}}
-- {name: 🇹🇼 xingyun-台湾-住宅1, server: 47.128.242.193, port: 30493, type: vmess, uuid: c685dd34-b84e-484d-b3f5-efd0a27ad2d5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg-transit-1.nebulacloud.win, network: ws, ws-opts: {path: /getData/tw, headers: {Host: sg-transit-1.nebulacloud.win}}}
-- {name: 🇹🇼 xingyun-台湾-住宅2, server: 18.140.249.254, port: 13325, type: vmess, uuid: dfa9f875-3805-49d9-8636-46b6899be24e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg-transit-3.nebulacloud.win, network: ws, ws-opts: {path: /getData/tw, headers: {Host: sg-transit-3.nebulacloud.win}}}
-- {name: 🇹🇼 xingyun-台湾-住宅3, server: 13.212.120.35, port: 44924, type: vmess, uuid: 8d61739a-6605-41a9-9fca-9a600a20487a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg-transit-2.nebulacloud.win, network: ws, ws-opts: {path: /getData/tw, headers: {Host: sg-transit-2.nebulacloud.win}}}
-- {name: 🇹🇷 xingyun-土耳其-住宅1, server: 18.140.249.254, port: 37643, type: vmess, uuid: dfa9f875-3805-49d9-8636-46b6899be24e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg-transit-3.nebulacloud.win, network: ws, ws-opts: {path: /getData/tk, headers: {Host: sg-transit-3.nebulacloud.win}}}
-- {name: 🇩🇪 xingyun-德国-住宅1, server: 13.212.120.35, port: 31848, type: vmess, uuid: 8d61739a-6605-41a9-9fca-9a600a20487a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg-transit-2.nebulacloud.win, network: ws, ws-opts: {path: /getData/de, headers: {Host: sg-transit-2.nebulacloud.win}}}
-- {name: 🇮🇹 xingyun-意大利-住宅1, server: 18.140.249.254, port: 10996, type: vmess, uuid: dfa9f875-3805-49d9-8636-46b6899be24e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg-transit-3.nebulacloud.win, network: ws, ws-opts: {path: /getData/it, headers: {Host: sg-transit-3.nebulacloud.win}}}
-- {name: 🇯🇵 xingyun-日本-住宅1, server: 47.128.242.193, port: 35237, type: vmess, uuid: c685dd34-b84e-484d-b3f5-efd0a27ad2d5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg-transit-1.nebulacloud.win, network: ws, ws-opts: {path: /getData/jp, headers: {Host: sg-transit-1.nebulacloud.win}}}
-- {name: 🇯🇵 xingyun-日本-住宅2, server: 18.140.249.254, port: 12767, type: vmess, uuid: dfa9f875-3805-49d9-8636-46b6899be24e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg-transit-3.nebulacloud.win, network: ws, ws-opts: {path: /getData/jp, headers: {Host: sg-transit-3.nebulacloud.win}}}
-- {name: 🇯🇵 xingyun-日本-住宅3, server: 13.212.120.35, port: 25169, type: vmess, uuid: 8d61739a-6605-41a9-9fca-9a600a20487a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg-transit-2.nebulacloud.win, network: ws, ws-opts: {path: /getData/jp, headers: {Host: sg-transit-2.nebulacloud.win}}}
-- {name: 🇸🇬 xingyun-新加坡-住宅1, server: 47.128.242.193, port: 13201, type: vmess, uuid: c685dd34-b84e-484d-b3f5-efd0a27ad2d5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg-transit-1.nebulacloud.win, network: ws, ws-opts: {path: /getData/sg, headers: {Host: sg-transit-1.nebulacloud.win}}}
-- {name: 🇸🇬 xingyun-新加坡-住宅2, server: 18.140.249.254, port: 33985, type: vmess, uuid: dfa9f875-3805-49d9-8636-46b6899be24e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg-transit-3.nebulacloud.win, network: ws, ws-opts: {path: /getData/sg, headers: {Host: sg-transit-3.nebulacloud.win}}}
-- {name: 🇸🇬 xingyun-新加坡-住宅3, server: 13.212.120.35, port: 57747, type: vmess, uuid: 8d61739a-6605-41a9-9fca-9a600a20487a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg-transit-2.nebulacloud.win, network: ws, ws-opts: {path: /getData/sg, headers: {Host: sg-transit-2.nebulacloud.win}}}
-- {name: 🇫🇷 xingyun-法国-住宅1, server: 47.128.242.193, port: 32651, type: vmess, uuid: c685dd34-b84e-484d-b3f5-efd0a27ad2d5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg-transit-1.nebulacloud.win, network: ws, ws-opts: {path: /getData/fr, headers: {Host: sg-transit-1.nebulacloud.win}}}
-- {name: 🇹🇭 xingyun-泰国-住宅1, server: 47.128.242.193, port: 42392, type: vmess, uuid: c685dd34-b84e-484d-b3f5-efd0a27ad2d5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg-transit-1.nebulacloud.win, network: ws, ws-opts: {path: /getData/th, headers: {Host: sg-transit-1.nebulacloud.win}}}
-- {name: 🇦🇺 xingyun-澳洲-住宅1, server: 18.140.249.254, port: 31795, type: vmess, uuid: dfa9f875-3805-49d9-8636-46b6899be24e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg-transit-3.nebulacloud.win, network: ws, ws-opts: {path: /getData/aus, headers: {Host: sg-transit-3.nebulacloud.win}}}
-- {name: 🇨🇭 xingyun-瑞士-住宅1, server: 13.212.120.35, port: 15812, type: vmess, uuid: 8d61739a-6605-41a9-9fca-9a600a20487a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg-transit-2.nebulacloud.win, network: ws, ws-opts: {path: /getData/ch, headers: {Host: sg-transit-2.nebulacloud.win}}}
-- {name: 🇺🇸 xingyun-美国-住宅1, server: 47.128.242.193, port: 59555, type: vmess, uuid: c685dd34-b84e-484d-b3f5-efd0a27ad2d5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg-transit-1.nebulacloud.win, network: ws, ws-opts: {path: /getData/us, headers: {Host: sg-transit-1.nebulacloud.win}}}
-- {name: 🇺🇸 xingyun-美国-住宅2, server: 18.140.249.254, port: 49732, type: vmess, uuid: dfa9f875-3805-49d9-8636-46b6899be24e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg-transit-3.nebulacloud.win, network: ws, ws-opts: {path: /getData/us, headers: {Host: sg-transit-3.nebulacloud.win}}}
-- {name: 🇺🇸 xingyun-美国-住宅3, server: 13.212.120.35, port: 23851, type: vmess, uuid: 8d61739a-6605-41a9-9fca-9a600a20487a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg-transit-2.nebulacloud.win, network: ws, ws-opts: {path: /getData/us, headers: {Host: sg-transit-2.nebulacloud.win}}}
-- {name: 🇭🇰 xingyun-香港 解锁 自动, server: 103.255.208.14, port: 31577, type: vmess, uuid: c6ebafc3-1de4-41e9-85fd-1a9af03a10c3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk-akile-b-3.orwnaubrzcrbhrdgpdtu.org, network: ws, ws-opts: {path: /hk-akile-b-3/getData, headers: {Host: hk-akile-b-3.orwnaubrzcrbhrdgpdtu.org}}}
-- {name: 🇭🇰 xingyun-香港 解锁 自动 2, server: 103.255.208.18, port: 52550, type: vmess, uuid: a3d3fdfa-75ab-405d-8304-7cb99589bf05, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk-akile-a4.nebulacloud.win, network: ws, ws-opts: {path: /hk-akile-a4/getData, headers: {Host: hk-akile-a4.nebulacloud.win}}}
-- {name: 🇭🇰 xingyun-香港 解锁 自动 3, server: 103.255.209.100, port: 32968, type: vmess, uuid: 3f41f234-5685-4a01-a504-61fdbb1f7702, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk-akile-b-1.orwnaubrzcrbhrdgpdtu.org, network: ws, ws-opts: {path: /hk-akile-b-1/getData, headers: {Host: hk-akile-b-1.orwnaubrzcrbhrdgpdtu.org}}}
-- {name: 🇭🇰 xingyun-香港 解锁 自动 4, server: 103.255.209.76, port: 30304, type: vmess, uuid: 89e76f20-c085-4c74-9592-6d67013a592d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk-akile-b-2.orwnaubrzcrbhrdgpdtu.org, network: ws, ws-opts: {path: /hk-akile-b-2/getData, headers: {Host: hk-akile-b-2.orwnaubrzcrbhrdgpdtu.org}}}
-- {name: 🇭🇰 xingyun-香港-住宅1, server: 47.128.242.193, port: 22617, type: vmess, uuid: c685dd34-b84e-484d-b3f5-efd0a27ad2d5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg-transit-1.nebulacloud.win, network: ws, ws-opts: {path: /getData/hk, headers: {Host: sg-transit-1.nebulacloud.win}}}
-- {name: 🇭🇰 xingyun-香港-住宅2, server: 18.140.249.254, port: 56671, type: vmess, uuid: dfa9f875-3805-49d9-8636-46b6899be24e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg-transit-3.nebulacloud.win, network: ws, ws-opts: {path: /getData/hk, headers: {Host: sg-transit-3.nebulacloud.win}}}
-- {name: 🇭🇰 xingyun-香港-住宅3, server: 13.212.120.35, port: 19005, type: vmess, uuid: 8d61739a-6605-41a9-9fca-9a600a20487a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg-transit-2.nebulacloud.win, network: ws, ws-opts: {path: /getData/hk, headers: {Host: sg-transit-2.nebulacloud.win}}}
-- {name: 🇭🇰 xingyun-香港-解锁1, server: 103.255.209.100, port: 31385, type: vmess, uuid: 3f41f234-5685-4a01-a504-61fdbb1f7702, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk-akile-b-1.orwnaubrzcrbhrdgpdtu.org, network: ws, ws-opts: {path: /hk-akile-b-1/getData, headers: {Host: hk-akile-b-1.orwnaubrzcrbhrdgpdtu.org}}}
-- {name: 🇭🇰 xingyun-香港-解锁2, server: 103.255.209.76, port: 31119, type: vmess, uuid: 89e76f20-c085-4c74-9592-6d67013a592d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk-akile-b-2.orwnaubrzcrbhrdgpdtu.org, network: ws, ws-opts: {path: /hk-akile-b-2/getData, headers: {Host: hk-akile-b-2.orwnaubrzcrbhrdgpdtu.org}}}
-- {name: 🇭🇰 xingyun-香港-解锁3, server: 103.255.208.14, port: 30483, type: vmess, uuid: c6ebafc3-1de4-41e9-85fd-1a9af03a10c3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk-akile-b-3.orwnaubrzcrbhrdgpdtu.org, network: ws, ws-opts: {path: /hk-akile-b-3/getData, headers: {Host: hk-akile-b-3.orwnaubrzcrbhrdgpdtu.org}}}
-- {name: 🇭🇰 xingyun-香港-解锁4, server: 103.255.208.18, port: 52082, type: vmess, uuid: a3d3fdfa-75ab-405d-8304-7cb99589bf05, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk-akile-a4.nebulacloud.win, network: ws, ws-opts: {path: /hk-akile-a4/getData, headers: {Host: hk-akile-a4.nebulacloud.win}}}
+- {name: 🇩🇰 xingyun-丹麦-住宅1, server: 47.128.242.193, port: 56898, type: vmess, uuid: c685dd34-b84e-484d-b3f5-efd0a27ad2d5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg-transit-1.nebulacloud.win, network: ws, ws-opts: {path: /getData/dk, headers: {Host: sg-transit-1.nebulacloud.win}}}
+- {name: 🇨🇦 xingyun-加拿大-住宅1, server: 18.140.249.254, port: 24993, type: vmess, uuid: dfa9f875-3805-49d9-8636-46b6899be24e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg-transit-3.nebulacloud.win, network: ws, ws-opts: {path: /ca/getData, headers: {Host: sg-transit-3.nebulacloud.win}}}
+- {name: 🇹🇼 xingyun-台湾-住宅1, server: 47.128.242.193, port: 31842, type: vmess, uuid: c685dd34-b84e-484d-b3f5-efd0a27ad2d5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg-transit-1.nebulacloud.win, network: ws, ws-opts: {path: /getData/tw, headers: {Host: sg-transit-1.nebulacloud.win}}}
+- {name: 🇹🇼 xingyun-台湾-住宅2, server: 18.140.249.254, port: 42194, type: vmess, uuid: dfa9f875-3805-49d9-8636-46b6899be24e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg-transit-3.nebulacloud.win, network: ws, ws-opts: {path: /getData/tw, headers: {Host: sg-transit-3.nebulacloud.win}}}
+- {name: 🇹🇼 xingyun-台湾-住宅3, server: 13.212.120.35, port: 18239, type: vmess, uuid: 8d61739a-6605-41a9-9fca-9a600a20487a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg-transit-2.nebulacloud.win, network: ws, ws-opts: {path: /getData/tw, headers: {Host: sg-transit-2.nebulacloud.win}}}
+- {name: 🇹🇷 xingyun-土耳其-住宅1, server: 47.128.242.193, port: 38940, type: vmess, uuid: c685dd34-b84e-484d-b3f5-efd0a27ad2d5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg-transit-1.nebulacloud.win, network: ws, ws-opts: {path: /getData/tk, headers: {Host: sg-transit-1.nebulacloud.win}}}
+- {name: 🇩🇪 xingyun-德国-住宅1, server: 18.140.249.254, port: 20209, type: vmess, uuid: dfa9f875-3805-49d9-8636-46b6899be24e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg-transit-3.nebulacloud.win, network: ws, ws-opts: {path: /getData/de, headers: {Host: sg-transit-3.nebulacloud.win}}}
+- {name: 🇮🇹 xingyun-意大利-住宅1, server: 18.140.249.254, port: 41586, type: vmess, uuid: dfa9f875-3805-49d9-8636-46b6899be24e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg-transit-3.nebulacloud.win, network: ws, ws-opts: {path: /getData/it, headers: {Host: sg-transit-3.nebulacloud.win}}}
+- {name: 🇯🇵 xingyun-日本-住宅1, server: 47.128.242.193, port: 19051, type: vmess, uuid: c685dd34-b84e-484d-b3f5-efd0a27ad2d5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg-transit-1.nebulacloud.win, network: ws, ws-opts: {path: /getData/jp, headers: {Host: sg-transit-1.nebulacloud.win}}}
+- {name: 🇯🇵 xingyun-日本-住宅2, server: 18.140.249.254, port: 25500, type: vmess, uuid: dfa9f875-3805-49d9-8636-46b6899be24e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg-transit-3.nebulacloud.win, network: ws, ws-opts: {path: /getData/jp, headers: {Host: sg-transit-3.nebulacloud.win}}}
+- {name: 🇯🇵 xingyun-日本-住宅3, server: 13.212.120.35, port: 36896, type: vmess, uuid: 8d61739a-6605-41a9-9fca-9a600a20487a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg-transit-2.nebulacloud.win, network: ws, ws-opts: {path: /getData/jp, headers: {Host: sg-transit-2.nebulacloud.win}}}
+- {name: 🇸🇬 xingyun-新加坡-住宅1, server: 47.128.242.193, port: 11709, type: vmess, uuid: c685dd34-b84e-484d-b3f5-efd0a27ad2d5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg-transit-1.nebulacloud.win, network: ws, ws-opts: {path: /getData/sg, headers: {Host: sg-transit-1.nebulacloud.win}}}
+- {name: 🇸🇬 xingyun-新加坡-住宅2, server: 18.140.249.254, port: 40634, type: vmess, uuid: dfa9f875-3805-49d9-8636-46b6899be24e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg-transit-3.nebulacloud.win, network: ws, ws-opts: {path: /getData/sg, headers: {Host: sg-transit-3.nebulacloud.win}}}
+- {name: 🇸🇬 xingyun-新加坡-住宅3, server: 13.212.120.35, port: 58539, type: vmess, uuid: 8d61739a-6605-41a9-9fca-9a600a20487a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg-transit-2.nebulacloud.win, network: ws, ws-opts: {path: /getData/sg, headers: {Host: sg-transit-2.nebulacloud.win}}}
+- {name: 🇫🇷 xingyun-法国-住宅1, server: 47.128.242.193, port: 44327, type: vmess, uuid: c685dd34-b84e-484d-b3f5-efd0a27ad2d5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg-transit-1.nebulacloud.win, network: ws, ws-opts: {path: /getData/fr, headers: {Host: sg-transit-1.nebulacloud.win}}}
+- {name: 🇹🇭 xingyun-泰国-住宅1, server: 47.128.242.193, port: 36322, type: vmess, uuid: c685dd34-b84e-484d-b3f5-efd0a27ad2d5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg-transit-1.nebulacloud.win, network: ws, ws-opts: {path: /getData/th, headers: {Host: sg-transit-1.nebulacloud.win}}}
+- {name: 🇦🇺 xingyun-澳洲-住宅1, server: 13.212.120.35, port: 11553, type: vmess, uuid: 8d61739a-6605-41a9-9fca-9a600a20487a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg-transit-2.nebulacloud.win, network: ws, ws-opts: {path: /getData/aus, headers: {Host: sg-transit-2.nebulacloud.win}}}
+- {name: 🇨🇭 xingyun-瑞士-住宅1, server: 47.128.242.193, port: 26050, type: vmess, uuid: c685dd34-b84e-484d-b3f5-efd0a27ad2d5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg-transit-1.nebulacloud.win, network: ws, ws-opts: {path: /getData/ch, headers: {Host: sg-transit-1.nebulacloud.win}}}
+- {name: 🇺🇸 xingyun-美国-住宅1, server: 47.128.242.193, port: 34879, type: vmess, uuid: c685dd34-b84e-484d-b3f5-efd0a27ad2d5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg-transit-1.nebulacloud.win, network: ws, ws-opts: {path: /getData/us, headers: {Host: sg-transit-1.nebulacloud.win}}}
+- {name: 🇺🇸 xingyun-美国-住宅2, server: 18.140.249.254, port: 53129, type: vmess, uuid: dfa9f875-3805-49d9-8636-46b6899be24e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg-transit-3.nebulacloud.win, network: ws, ws-opts: {path: /getData/us, headers: {Host: sg-transit-3.nebulacloud.win}}}
+- {name: 🇺🇸 xingyun-美国-住宅3, server: 13.212.120.35, port: 23063, type: vmess, uuid: 8d61739a-6605-41a9-9fca-9a600a20487a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg-transit-2.nebulacloud.win, network: ws, ws-opts: {path: /getData/us, headers: {Host: sg-transit-2.nebulacloud.win}}}
+- {name: 🇭🇰 xingyun-香港 解锁 自动, server: 103.255.208.14, port: 32283, type: vmess, uuid: c6ebafc3-1de4-41e9-85fd-1a9af03a10c3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk-akile-b-3.orwnaubrzcrbhrdgpdtu.org, network: ws, ws-opts: {path: /hk-akile-b-3/getData, headers: {Host: hk-akile-b-3.orwnaubrzcrbhrdgpdtu.org}}}
+- {name: 🇭🇰 xingyun-香港 解锁 自动 2, server: 103.255.208.18, port: 52241, type: vmess, uuid: a3d3fdfa-75ab-405d-8304-7cb99589bf05, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk-akile-a4.nebulacloud.win, network: ws, ws-opts: {path: /hk-akile-a4/getData, headers: {Host: hk-akile-a4.nebulacloud.win}}}
+- {name: 🇭🇰 xingyun-香港 解锁 自动 3, server: 103.255.209.100, port: 31752, type: vmess, uuid: 3f41f234-5685-4a01-a504-61fdbb1f7702, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk-akile-b-1.orwnaubrzcrbhrdgpdtu.org, network: ws, ws-opts: {path: /hk-akile-b-1/getData, headers: {Host: hk-akile-b-1.orwnaubrzcrbhrdgpdtu.org}}}
+- {name: 🇭🇰 xingyun-香港 解锁 自动 4, server: 103.255.209.76, port: 32707, type: vmess, uuid: 89e76f20-c085-4c74-9592-6d67013a592d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk-akile-b-2.orwnaubrzcrbhrdgpdtu.org, network: ws, ws-opts: {path: /hk-akile-b-2/getData, headers: {Host: hk-akile-b-2.orwnaubrzcrbhrdgpdtu.org}}}
+- {name: 🇭🇰 xingyun-香港-住宅1, server: 47.128.242.193, port: 30911, type: vmess, uuid: c685dd34-b84e-484d-b3f5-efd0a27ad2d5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg-transit-1.nebulacloud.win, network: ws, ws-opts: {path: /getData/hk, headers: {Host: sg-transit-1.nebulacloud.win}}}
+- {name: 🇭🇰 xingyun-香港-住宅2, server: 18.140.249.254, port: 29315, type: vmess, uuid: dfa9f875-3805-49d9-8636-46b6899be24e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg-transit-3.nebulacloud.win, network: ws, ws-opts: {path: /getData/hk, headers: {Host: sg-transit-3.nebulacloud.win}}}
+- {name: 🇭🇰 xingyun-香港-住宅3, server: 13.212.120.35, port: 58479, type: vmess, uuid: 8d61739a-6605-41a9-9fca-9a600a20487a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg-transit-2.nebulacloud.win, network: ws, ws-opts: {path: /getData/hk, headers: {Host: sg-transit-2.nebulacloud.win}}}
+- {name: 🇭🇰 xingyun-香港-解锁1, server: 103.255.208.14, port: 30006, type: vmess, uuid: c6ebafc3-1de4-41e9-85fd-1a9af03a10c3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk-akile-b-3.orwnaubrzcrbhrdgpdtu.org, network: ws, ws-opts: {path: /hk-akile-b-3/getData, headers: {Host: hk-akile-b-3.orwnaubrzcrbhrdgpdtu.org}}}
+- {name: 🇭🇰 xingyun-香港-解锁2, server: 103.255.209.100, port: 30432, type: vmess, uuid: 3f41f234-5685-4a01-a504-61fdbb1f7702, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk-akile-b-1.orwnaubrzcrbhrdgpdtu.org, network: ws, ws-opts: {path: /hk-akile-b-1/getData, headers: {Host: hk-akile-b-1.orwnaubrzcrbhrdgpdtu.org}}}
+- {name: 🇭🇰 xingyun-香港-解锁3, server: 103.255.209.76, port: 32583, type: vmess, uuid: 89e76f20-c085-4c74-9592-6d67013a592d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk-akile-b-2.orwnaubrzcrbhrdgpdtu.org, network: ws, ws-opts: {path: /hk-akile-b-2/getData, headers: {Host: hk-akile-b-2.orwnaubrzcrbhrdgpdtu.org}}}
+- {name: 🇭🇰 xingyun-香港-解锁4, server: 103.255.208.18, port: 51219, type: vmess, uuid: a3d3fdfa-75ab-405d-8304-7cb99589bf05, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk-akile-a4.nebulacloud.win, network: ws, ws-opts: {path: /hk-akile-a4/getData, headers: {Host: hk-akile-a4.nebulacloud.win}}}
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -139,96 +139,96 @@ proxy-groups:
   - ♻️ 自动选择
   - xingyun-成都-1
   - 🇨🇦 xingyun-加拿大-通用1
-  - 🇯🇵 xingyun-日本 解锁 自动
-  - 🇯🇵 xingyun-日本-解锁2
-  - 🇭🇰 xingyun-香港 通用 自动
-  - 🇭🇰 xingyun-香港-通用1
-  - 🇺🇸 xingyun-美国 解锁 自动
-  - 🇺🇸 xingyun-美国-解锁2
   - 🇯🇵 xingyun-日本 通用 自动
+  - 🇯🇵 xingyun-日本-通用1
+  - 🇯🇵 xingyun-日本 解锁 自动
+  - 🇯🇵 xingyun-日本-解锁3
+  - 🇺🇸 xingyun-美国 解锁 自动
+  - 🇺🇸 xingyun-美国-解锁4
+  - 🇯🇵 xingyun-日本 通用 自动 2
   - 🇯🇵 xingyun-日本-通用3
   - 🇰🇷 xingyun-韩国 通用 自动
-  - 🇰🇷 xingyun-韩国-通用1
-  - 🇭🇰 xingyun-香港 通用 自动 2
-  - 🇭🇰 xingyun-香港-通用3
+  - 🇰🇷 xingyun-韩国-通用3
   - 🇬🇧 xingyun-英国-通用2
   - 🇦🇷 xingyun-阿根廷-通用1
   - 🇦🇪 xingyun-迪拜（阿联酋）-通用1
   - 🇺🇸 xingyun-美国 解锁 自动 2
-  - 🇺🇸 xingyun-美国-解锁4
-  - 🇰🇷 xingyun-韩国 解锁 自动
-  - 🇰🇷 xingyun-韩国-解锁1
-  - 🇯🇵 xingyun-日本 通用 自动 2
-  - 🇯🇵 xingyun-日本-通用4
+  - 🇺🇸 xingyun-美国-解锁1
   - 🇸🇬 xingyun-新加坡 通用 自动
-  - 🇸🇬 xingyun-新加坡-通用4
-  - 🇰🇭 xingyun-柬埔寨-通用1
-  - 🇺🇸 xingyun-美国 通用 自动
-  - 🇺🇸 xingyun-美国-通用2
+  - 🇸🇬 xingyun-新加坡-通用3
+  - 🇰🇷 xingyun-韩国 解锁 自动
+  - 🇰🇷 xingyun-韩国-解锁2
   - 🇸🇬 xingyun-新加坡 通用 自动 2
-  - 🇸🇬 xingyun-新加坡-通用2
-  - 🇭🇰 xingyun-香港 通用 自动 3
-  - 🇭🇰 xingyun-香港-通用4
+  - 🇸🇬 xingyun-新加坡-通用1
+  - 🇰🇭 xingyun-柬埔寨-通用1
+  - 🇭🇰 xingyun-香港 通用 自动
+  - 🇭🇰 xingyun-香港-通用3
+  - 🇷🇺 xingyun-俄罗斯-通用1
   - 🇲🇾 xingyun-马来西亚 通用 自动
   - 🇲🇾 xingyun-马来西亚-通用3
-  - 🇯🇵 xingyun-日本 通用 自动 3
-  - 🇯🇵 xingyun-日本-通用2
-  - 🇷🇺 xingyun-俄罗斯-通用1
   - 🇹🇼 xingyun-台湾-解锁1
-  - 🇲🇾 xingyun-马来西亚 通用 自动 2
-  - 🇲🇾 xingyun-马来西亚-通用2
+  - 🇮🇩 xingyun-印尼-通用1
   - 🇰🇷 xingyun-韩国 通用 自动 2
-  - 🇰🇷 xingyun-韩国-通用3
-  - 🇸🇬 xingyun-新加坡 通用 自动 3
-  - 🇸🇬 xingyun-新加坡-通用1
+  - 🇰🇷 xingyun-韩国-通用4
+  - 🇺🇸 xingyun-美国 通用 自动
+  - 🇺🇸 xingyun-美国-通用1
   - 🇬🇧 xingyun-英国-通用1
   - 🇰🇷 xingyun-韩国 解锁 自动 2
   - 🇰🇷 xingyun-韩国-解锁4
   - 🇺🇸 xingyun-美国 解锁 自动 3
-  - 🇺🇸 xingyun-美国-解锁3
-  - 🇰🇷 xingyun-韩国 通用 自动 3
-  - 🇰🇷 xingyun-韩国-通用2
+  - 🇺🇸 xingyun-美国-解锁2
   - 🇰🇷 xingyun-韩国 解锁 自动 3
   - 🇰🇷 xingyun-韩国-解锁3
+  - 🇸🇬 xingyun-新加坡 通用 自动 3
+  - 🇸🇬 xingyun-新加坡-通用4
   - 🇯🇵 xingyun-日本 解锁 自动 2
   - 🇯🇵 xingyun-日本-解锁1
-  - 🇸🇬 xingyun-新加坡 通用 自动 4
-  - 🇸🇬 xingyun-新加坡-通用3
+  - 🇲🇾 xingyun-马来西亚 通用 自动 2
+  - 🇲🇾 xingyun-马来西亚-通用1
   - 🇫🇷 xingyun-法国-通用1
   - 🇩🇪 xingyun-德国-通用1
-  - 🇺🇸 xingyun-美国 通用 自动 2
-  - 🇺🇸 xingyun-美国-通用4
+  - 🇭🇰 xingyun-香港 通用 自动 2
+  - 🇭🇰 xingyun-香港-通用1
   - 🇺🇸 xingyun-美国 解锁 自动 4
-  - 🇺🇸 xingyun-美国-解锁1
+  - 🇺🇸 xingyun-美国-解锁3
+  - 🇭🇰 xingyun-香港 通用 自动 3
+  - 🇭🇰 xingyun-香港-通用4
+  - 🇯🇵 xingyun-日本 通用 自动 3
+  - 🇯🇵 xingyun-日本-通用4
   - 🇭🇰 xingyun-香港 通用 自动 4
   - 🇭🇰 xingyun-香港-通用2
-  - 🇯🇵 xingyun-日本 通用 自动 4
-  - 🇯🇵 xingyun-日本-通用1
-  - 🇭🇰 xingyun-香港 通用 自动 5
-  - 🇭🇰 xingyun-香港-通用5
-  - xingyun-上海-1
-  - 🇰🇷 xingyun-韩国 通用 自动 4
-  - 🇰🇷 xingyun-韩国-通用4
-  - 🇺🇸 xingyun-美国 通用 自动 3
-  - 🇺🇸 xingyun-美国-通用3
-  - 🇯🇵 xingyun-日本 解锁 自动 3
-  - 🇯🇵 xingyun-日本-解锁4
-  - 🇿🇦 xingyun-南非-通用1
-  - 🇮🇩 xingyun-印尼-通用1
   - 🇲🇾 xingyun-马来西亚 通用 自动 3
-  - 🇲🇾 xingyun-马来西亚-通用1
+  - 🇲🇾 xingyun-马来西亚-通用4
+  - 🇸🇬 xingyun-新加坡 通用 自动 4
+  - 🇸🇬 xingyun-新加坡-通用2
+  - xingyun-上海-1
+  - 🇯🇵 xingyun-日本 解锁 自动 3
+  - 🇯🇵 xingyun-日本-解锁2
+  - 🇿🇦 xingyun-南非-通用1
+  - 🇰🇷 xingyun-韩国 通用 自动 3
+  - 🇰🇷 xingyun-韩国-通用1
+  - 🇰🇷 xingyun-韩国 通用 自动 4
+  - 🇰🇷 xingyun-韩国-通用2
   - xingyun-广州-1
   - xingyun-南京-1
-  - 🇺🇸 xingyun-美国 通用 自动 4
-  - 🇺🇸 xingyun-美国-通用1
+  - 🇺🇸 xingyun-美国 通用 自动 2
+  - 🇺🇸 xingyun-美国-通用2
   - 🇦🇺 xingyun-澳洲-通用1
+  - 🇺🇸 xingyun-美国 通用 自动 3
+  - 🇺🇸 xingyun-美国-通用3
   - xingyun-免费节点
   - 🇯🇵 xingyun-日本 解锁 自动 4
-  - 🇯🇵 xingyun-日本-解锁3
-  - 🇰🇷 xingyun-韩国 解锁 自动 4
-  - 🇰🇷 xingyun-韩国-解锁2
+  - 🇯🇵 xingyun-日本-解锁4
   - 🇲🇾 xingyun-马来西亚 通用 自动 4
-  - 🇲🇾 xingyun-马来西亚-通用4
+  - 🇲🇾 xingyun-马来西亚-通用2
+  - 🇺🇸 xingyun-美国 通用 自动 4
+  - 🇺🇸 xingyun-美国-通用4
+  - 🇯🇵 xingyun-日本 通用 自动 4
+  - 🇯🇵 xingyun-日本-通用2
+  - 🇰🇷 xingyun-韩国 解锁 自动 4
+  - 🇰🇷 xingyun-韩国-解锁1
+  - 🇭🇰 xingyun-香港 通用 自动 5
+  - 🇭🇰 xingyun-香港-通用5
   - 🇹🇷 xingyun-土耳其-通用1
   - 🇩🇰 xingyun-丹麦-住宅1
   - 🇨🇦 xingyun-加拿大-住宅1
@@ -267,96 +267,96 @@ proxy-groups:
   proxies:
   - xingyun-成都-1
   - 🇨🇦 xingyun-加拿大-通用1
-  - 🇯🇵 xingyun-日本 解锁 自动
-  - 🇯🇵 xingyun-日本-解锁2
-  - 🇭🇰 xingyun-香港 通用 自动
-  - 🇭🇰 xingyun-香港-通用1
-  - 🇺🇸 xingyun-美国 解锁 自动
-  - 🇺🇸 xingyun-美国-解锁2
   - 🇯🇵 xingyun-日本 通用 自动
+  - 🇯🇵 xingyun-日本-通用1
+  - 🇯🇵 xingyun-日本 解锁 自动
+  - 🇯🇵 xingyun-日本-解锁3
+  - 🇺🇸 xingyun-美国 解锁 自动
+  - 🇺🇸 xingyun-美国-解锁4
+  - 🇯🇵 xingyun-日本 通用 自动 2
   - 🇯🇵 xingyun-日本-通用3
   - 🇰🇷 xingyun-韩国 通用 自动
-  - 🇰🇷 xingyun-韩国-通用1
-  - 🇭🇰 xingyun-香港 通用 自动 2
-  - 🇭🇰 xingyun-香港-通用3
+  - 🇰🇷 xingyun-韩国-通用3
   - 🇬🇧 xingyun-英国-通用2
   - 🇦🇷 xingyun-阿根廷-通用1
   - 🇦🇪 xingyun-迪拜（阿联酋）-通用1
   - 🇺🇸 xingyun-美国 解锁 自动 2
-  - 🇺🇸 xingyun-美国-解锁4
-  - 🇰🇷 xingyun-韩国 解锁 自动
-  - 🇰🇷 xingyun-韩国-解锁1
-  - 🇯🇵 xingyun-日本 通用 自动 2
-  - 🇯🇵 xingyun-日本-通用4
+  - 🇺🇸 xingyun-美国-解锁1
   - 🇸🇬 xingyun-新加坡 通用 自动
-  - 🇸🇬 xingyun-新加坡-通用4
-  - 🇰🇭 xingyun-柬埔寨-通用1
-  - 🇺🇸 xingyun-美国 通用 自动
-  - 🇺🇸 xingyun-美国-通用2
+  - 🇸🇬 xingyun-新加坡-通用3
+  - 🇰🇷 xingyun-韩国 解锁 自动
+  - 🇰🇷 xingyun-韩国-解锁2
   - 🇸🇬 xingyun-新加坡 通用 自动 2
-  - 🇸🇬 xingyun-新加坡-通用2
-  - 🇭🇰 xingyun-香港 通用 自动 3
-  - 🇭🇰 xingyun-香港-通用4
+  - 🇸🇬 xingyun-新加坡-通用1
+  - 🇰🇭 xingyun-柬埔寨-通用1
+  - 🇭🇰 xingyun-香港 通用 自动
+  - 🇭🇰 xingyun-香港-通用3
+  - 🇷🇺 xingyun-俄罗斯-通用1
   - 🇲🇾 xingyun-马来西亚 通用 自动
   - 🇲🇾 xingyun-马来西亚-通用3
-  - 🇯🇵 xingyun-日本 通用 自动 3
-  - 🇯🇵 xingyun-日本-通用2
-  - 🇷🇺 xingyun-俄罗斯-通用1
   - 🇹🇼 xingyun-台湾-解锁1
-  - 🇲🇾 xingyun-马来西亚 通用 自动 2
-  - 🇲🇾 xingyun-马来西亚-通用2
+  - 🇮🇩 xingyun-印尼-通用1
   - 🇰🇷 xingyun-韩国 通用 自动 2
-  - 🇰🇷 xingyun-韩国-通用3
-  - 🇸🇬 xingyun-新加坡 通用 自动 3
-  - 🇸🇬 xingyun-新加坡-通用1
+  - 🇰🇷 xingyun-韩国-通用4
+  - 🇺🇸 xingyun-美国 通用 自动
+  - 🇺🇸 xingyun-美国-通用1
   - 🇬🇧 xingyun-英国-通用1
   - 🇰🇷 xingyun-韩国 解锁 自动 2
   - 🇰🇷 xingyun-韩国-解锁4
   - 🇺🇸 xingyun-美国 解锁 自动 3
-  - 🇺🇸 xingyun-美国-解锁3
-  - 🇰🇷 xingyun-韩国 通用 自动 3
-  - 🇰🇷 xingyun-韩国-通用2
+  - 🇺🇸 xingyun-美国-解锁2
   - 🇰🇷 xingyun-韩国 解锁 自动 3
   - 🇰🇷 xingyun-韩国-解锁3
+  - 🇸🇬 xingyun-新加坡 通用 自动 3
+  - 🇸🇬 xingyun-新加坡-通用4
   - 🇯🇵 xingyun-日本 解锁 自动 2
   - 🇯🇵 xingyun-日本-解锁1
-  - 🇸🇬 xingyun-新加坡 通用 自动 4
-  - 🇸🇬 xingyun-新加坡-通用3
+  - 🇲🇾 xingyun-马来西亚 通用 自动 2
+  - 🇲🇾 xingyun-马来西亚-通用1
   - 🇫🇷 xingyun-法国-通用1
   - 🇩🇪 xingyun-德国-通用1
-  - 🇺🇸 xingyun-美国 通用 自动 2
-  - 🇺🇸 xingyun-美国-通用4
+  - 🇭🇰 xingyun-香港 通用 自动 2
+  - 🇭🇰 xingyun-香港-通用1
   - 🇺🇸 xingyun-美国 解锁 自动 4
-  - 🇺🇸 xingyun-美国-解锁1
+  - 🇺🇸 xingyun-美国-解锁3
+  - 🇭🇰 xingyun-香港 通用 自动 3
+  - 🇭🇰 xingyun-香港-通用4
+  - 🇯🇵 xingyun-日本 通用 自动 3
+  - 🇯🇵 xingyun-日本-通用4
   - 🇭🇰 xingyun-香港 通用 自动 4
   - 🇭🇰 xingyun-香港-通用2
-  - 🇯🇵 xingyun-日本 通用 自动 4
-  - 🇯🇵 xingyun-日本-通用1
-  - 🇭🇰 xingyun-香港 通用 自动 5
-  - 🇭🇰 xingyun-香港-通用5
-  - xingyun-上海-1
-  - 🇰🇷 xingyun-韩国 通用 自动 4
-  - 🇰🇷 xingyun-韩国-通用4
-  - 🇺🇸 xingyun-美国 通用 自动 3
-  - 🇺🇸 xingyun-美国-通用3
-  - 🇯🇵 xingyun-日本 解锁 自动 3
-  - 🇯🇵 xingyun-日本-解锁4
-  - 🇿🇦 xingyun-南非-通用1
-  - 🇮🇩 xingyun-印尼-通用1
   - 🇲🇾 xingyun-马来西亚 通用 自动 3
-  - 🇲🇾 xingyun-马来西亚-通用1
+  - 🇲🇾 xingyun-马来西亚-通用4
+  - 🇸🇬 xingyun-新加坡 通用 自动 4
+  - 🇸🇬 xingyun-新加坡-通用2
+  - xingyun-上海-1
+  - 🇯🇵 xingyun-日本 解锁 自动 3
+  - 🇯🇵 xingyun-日本-解锁2
+  - 🇿🇦 xingyun-南非-通用1
+  - 🇰🇷 xingyun-韩国 通用 自动 3
+  - 🇰🇷 xingyun-韩国-通用1
+  - 🇰🇷 xingyun-韩国 通用 自动 4
+  - 🇰🇷 xingyun-韩国-通用2
   - xingyun-广州-1
   - xingyun-南京-1
-  - 🇺🇸 xingyun-美国 通用 自动 4
-  - 🇺🇸 xingyun-美国-通用1
+  - 🇺🇸 xingyun-美国 通用 自动 2
+  - 🇺🇸 xingyun-美国-通用2
   - 🇦🇺 xingyun-澳洲-通用1
+  - 🇺🇸 xingyun-美国 通用 自动 3
+  - 🇺🇸 xingyun-美国-通用3
   - xingyun-免费节点
   - 🇯🇵 xingyun-日本 解锁 自动 4
-  - 🇯🇵 xingyun-日本-解锁3
-  - 🇰🇷 xingyun-韩国 解锁 自动 4
-  - 🇰🇷 xingyun-韩国-解锁2
+  - 🇯🇵 xingyun-日本-解锁4
   - 🇲🇾 xingyun-马来西亚 通用 自动 4
-  - 🇲🇾 xingyun-马来西亚-通用4
+  - 🇲🇾 xingyun-马来西亚-通用2
+  - 🇺🇸 xingyun-美国 通用 自动 4
+  - 🇺🇸 xingyun-美国-通用4
+  - 🇯🇵 xingyun-日本 通用 自动 4
+  - 🇯🇵 xingyun-日本-通用2
+  - 🇰🇷 xingyun-韩国 解锁 自动 4
+  - 🇰🇷 xingyun-韩国-解锁1
+  - 🇭🇰 xingyun-香港 通用 自动 5
+  - 🇭🇰 xingyun-香港-通用5
   - 🇹🇷 xingyun-土耳其-通用1
   - 🇩🇰 xingyun-丹麦-住宅1
   - 🇨🇦 xingyun-加拿大-住宅1
