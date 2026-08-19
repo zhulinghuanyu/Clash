@@ -11,7 +11,8 @@ proxies:
 - {name: 🇭🇰 Huaxia-HuaXiaLink-香港1（高速）, server: 154.64.246.9, port: 443, type: vless, uuid: a9ff2941-a0ba-459b-8b40-05b64e78986e, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: 97My_FMaU1UUY4BDmFwBZw80ISXlTHqY6_8zZuzn4zc, short-id: 97768a3d8641c0d0}, servername: www.apple.com, client-fingerprint: chrome, network: tcp}
 - {name: 🇭🇰 Huaxia-HuaXiaLink-香港2（高速）, server: 154.64.246.5, port: 443, type: vless, uuid: 92867026-12e2-4dae-a8f3-13234f2a1a75, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: UnAmt5Tobp-N4zsFApOuYpbhOZaHJADJpb55-qEHsTw, short-id: c8d0811f1d2e09b2}, servername: www.apple.com, client-fingerprint: chrome, network: tcp}
 - {name: 🇭🇰 Huaxia-HuaXiaLink-香港3（高速）, server: 38.175.193.73, port: 443, type: vless, uuid: faa360ca-6ec4-457a-8881-0f92989512d4, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: Y-csa54knKKd97yx50oLRBXCs0At7Ch699jUo2D7BAo, short-id: 44209ff2b9206201}, servername: www.apple.com, client-fingerprint: chrome, network: tcp}
-- {name: 🇯🇵 Huaxia-HuaXiaLink-日本(普通), server: 103.137.215.177, port: 443, type: vless, uuid: cf16297a-79ef-454b-94e3-030ae8503886, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: Vwm4rDhe5zEjYsSO9vcR0zdeansCTL6GOtXXNWlZXG0, short-id: 0123456789abcdef}, servername: www.apple.com, client-fingerprint: chrome, network: tcp}
+- {name: 🇯🇵 Huaxia-HuaXiaLink-日本(普通), server: 103.76.85.123, port: 443, type: vless, uuid: 81a865ca-3a2e-48b1-8ba4-fcdcbbed94cb, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: -FabDynhSYw-MiWTA9byBLG1qn6Ccr0X9gSuST4kpQU, short-id: 6869a2f27528a6cf}, servername: www.apple.com, client-fingerprint: chrome, network: tcp}
+- {name: 🇯🇵 Huaxia-HuaXiaLink-日本(普通) 2, server: 103.137.215.177, port: 443, type: vless, uuid: cf16297a-79ef-454b-94e3-030ae8503886, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: Vwm4rDhe5zEjYsSO9vcR0zdeansCTL6GOtXXNWlZXG0, short-id: 0123456789abcdef}, servername: www.apple.com, client-fingerprint: chrome, network: tcp}
 - {name: 🇰🇷 Huaxia-HuaXiaLink-韩国(中速), server: 203.227.191.4, port: 443, type: vless, uuid: 4c295542-8a38-453a-be12-050a21ea503e, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: E2VRV0K4M5gtCfsAQiQyDf3IYugBCBVUDXDjMPdh9g0, short-id: adf4851fc8dd8ab0}, servername: www.apple.com, client-fingerprint: chrome, network: tcp}
 - {name: 🇸🇬 Huaxia-HuaXiaLink-新加坡1, server: 163.128.98.110, port: 443, type: vless, uuid: f67e149c-e1f4-4162-876b-a34591b8349f, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: f7ysLjHXSTFqwfeUvS26zrbLmjwpvsa0xtfMYz46OjQ, short-id: 0123456789abcdef}, servername: www.apple.com, client-fingerprint: chrome, network: tcp}
 - {name: 🇺🇸 Huaxia-HuaXiaLink-美国（联通专线）, server: 172.245.55.199, port: 443, type: vless, uuid: d219e1a7-3970-4b9a-a112-2c90ec7848b5, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: SQ1-UFO_LUU_sk2b2hAT60Hc_JMGF0NXr6dQiqZATSg, short-id: 2f575a1f4efa38bf}, servername: www.apple.com, client-fingerprint: chrome, network: tcp}
@@ -25,6 +26,7 @@ proxy-groups:
   - 🇭🇰 Huaxia-HuaXiaLink-香港2（高速）
   - 🇭🇰 Huaxia-HuaXiaLink-香港3（高速）
   - 🇯🇵 Huaxia-HuaXiaLink-日本(普通)
+  - 🇯🇵 Huaxia-HuaXiaLink-日本(普通) 2
   - 🇰🇷 Huaxia-HuaXiaLink-韩国(中速)
   - 🇸🇬 Huaxia-HuaXiaLink-新加坡1
   - 🇺🇸 Huaxia-HuaXiaLink-美国（联通专线）
@@ -36,6 +38,7 @@ proxy-groups:
   - 🇭🇰 Huaxia-HuaXiaLink-香港2（高速）
   - 🇭🇰 Huaxia-HuaXiaLink-香港3（高速）
   - 🇯🇵 Huaxia-HuaXiaLink-日本(普通)
+  - 🇯🇵 Huaxia-HuaXiaLink-日本(普通) 2
   - 🇰🇷 Huaxia-HuaXiaLink-韩国(中速)
   - 🇸🇬 Huaxia-HuaXiaLink-新加坡1
   - 🇺🇸 Huaxia-HuaXiaLink-美国（联通专线）
