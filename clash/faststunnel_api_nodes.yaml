@@ -7,6 +7,8 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
+- {name: 🇮🇹 FastStunnel-意大利 米兰-trojan, server: 104.105.69.191, port: 5443, type: trojan, password: fg20mtCFHy, sni: www.bing.com, client-fingerprint: firefox, skip-cert-verify: true}
+- {name: 🇧🇷 FastStunnel-巴西-trojan, server: 104.64.32.238, port: 5443, type: trojan, password: fg20mtCFHy, sni: www.bing.com, client-fingerprint: firefox, skip-cert-verify: true}
 - {name: 🇺🇸 FastStunnel-美国 洛杉矶 7-trojan, server: 107.151.182.165, port: 5446, type: trojan, password: fg20mtCFHy, sni: kuxyas.southbyte.xyz, client-fingerprint: firefox, skip-cert-verify: true}
 - {name: 🇺🇸 FastStunnel-美国 洛杉矶 7-trojan 2, server: 128.1.247.134, port: 5555, type: trojan, password: fg20mtCFHy, sni: www.bing.com, client-fingerprint: firefox, skip-cert-verify: true}
 - {name: 🇺🇸 FastStunnel-美国 洛杉矶 8-trojan, server: 128.1.248.134, port: 5555, type: trojan, password: fg20mtCFHy, sni: www.bing.com, client-fingerprint: firefox, skip-cert-verify: true}
@@ -17,8 +19,8 @@ proxies:
 - {name: 🇺🇸 FastStunnel-美国 洛杉矶 6-trojan, server: 128.14.156.48, port: 5529, type: trojan, password: fg20mtCFHy, sni: gonets.southbyte.xyz, client-fingerprint: firefox, skip-cert-verify: true}
 - {name: 🇺🇸 FastStunnel-美国 洛杉矶 1-trojan, server: 128.14.83.34, port: 5680, type: trojan, password: fg20mtCFHy, sni: www.samsung.com, client-fingerprint: firefox, skip-cert-verify: true}
 - {name: 🇩🇪 FastStunnel-德国-trojan, server: 134.122.77.227, port: 5443, type: trojan, password: fg20mtCFHy, sni: www.bing.com, client-fingerprint: firefox, skip-cert-verify: true}
+- {name: 🇺🇸 FastStunnel-美国 加州-trojan, server: 137.184.7.121, port: 5443, type: trojan, password: fg20mtCFHy, sni: www.bing.com, client-fingerprint: firefox, skip-cert-verify: true}
 - {name: 🇯🇵 FastStunnel-日本 东京 4-trojan, server: 139.162.90.180, port: 5443, type: trojan, password: fg20mtCFHy, sni: www.bing.com, client-fingerprint: firefox, skip-cert-verify: true}
-- {name: 🇺🇸 FastStunnel-美国 加州-trojan, server: 147.182.198.83, port: 5447, type: trojan, password: fg20mtCFHy, sni: sfouctc.southbyte.xyz, client-fingerprint: firefox, skip-cert-verify: true}
 - {name: 🇸🇬 FastStunnel-新加坡-trojan, server: 152.42.229.231, port: 5443, type: trojan, password: fg20mtCFHy, sni: www.bing.com, client-fingerprint: firefox, skip-cert-verify: true}
 - {name: 🇨🇦 FastStunnel-加拿大-trojan, server: 159.203.59.220, port: 5443, type: trojan, password: fg20mtCFHy, sni: www.bing.com, client-fingerprint: firefox, skip-cert-verify: true}
 - {name: 🇳🇱 FastStunnel-荷兰-trojan, server: 165.22.198.37, port: 5443, type: trojan, password: fg20mtCFHy, sni: www.bing.com, client-fingerprint: firefox, skip-cert-verify: true}
@@ -28,14 +30,13 @@ proxies:
 - {name: 🇪🇸 FastStunnel-西班牙 马德里-trojan, server: 172.233.115.40, port: 5443, type: trojan, password: fg20mtCFHy, sni: www.bing.com, client-fingerprint: firefox, skip-cert-verify: true}
 - {name: 🇺🇸 FastStunnel-美国 迈阿密-trojan, server: 172.233.164.24, port: 11443, type: trojan, password: fg20mtCFHy, sni: www.bing.com, client-fingerprint: firefox, skip-cert-verify: true}
 - {name: 🇺🇸 FastStunnel-美国 阿什本-trojan, server: 172.233.237.139, port: 5678, type: trojan, password: fg20mtCFHy, sni: tdvnh.southbyte.xyz, client-fingerprint: firefox, skip-cert-verify: true}
-- {name: 🇸🇪 FastStunnel-瑞典-trojan, server: 172.234.100.80, port: 5615, type: trojan, password: fg20mtCFHy, sni: yugdv.southbyte.xyz, client-fingerprint: firefox, skip-cert-verify: true}
+- {name: 🇸🇪 FastStunnel-瑞典-trojan, server: 172.234.103.243, port: 5443, type: trojan, password: fg20mtCFHy, sni: www.bing.com, client-fingerprint: firefox, skip-cert-verify: true}
 - {name: FastStunnel-谷歌学术 1-trojan, server: 172.235.33.157, port: 5443, type: trojan, password: fg20mtCFHy, sni: www.bing.com, client-fingerprint: firefox, skip-cert-verify: true}
 - {name: FastStunnel-谷歌学术 2-trojan, server: 172.236.236.14, port: 5443, type: trojan, password: fg20mtCFHy, sni: www.bing.com, client-fingerprint: firefox, skip-cert-verify: true}
 - {name: 🇺🇸 FastStunnel-美国 芝加哥-trojan, server: 172.237.131.75, port: 5449, type: trojan, password: fg20mtCFHy, sni: chosucy.southbyte.xyz, client-fingerprint: firefox, skip-cert-verify: true}
 - {name: 🇯🇵 FastStunnel-日本 东京 1-trojan, server: 172.237.3.17, port: 5443, type: trojan, password: fg20mtCFHy, sni: www.bing.com, client-fingerprint: firefox, skip-cert-verify: true}
 - {name: 🇯🇵 FastStunnel-日本 东京 2-trojan, server: 172.237.3.20, port: 5443, type: trojan, password: fg20mtCFHy, sni: www.bing.com, client-fingerprint: firefox, skip-cert-verify: true}
 - {name: 🇯🇵 FastStunnel-日本 东京 3-trojan, server: 172.237.3.22, port: 5443, type: trojan, password: fg20mtCFHy, sni: www.bing.com, client-fingerprint: firefox, skip-cert-verify: true}
-- {name: 🇮🇹 FastStunnel-意大利 米兰-trojan, server: 172.238.226.26, port: 5448, type: trojan, password: fg20mtCFHy, sni: xcvge.southbyte.xyz, client-fingerprint: firefox, skip-cert-verify: true}
 - {name: 🇺🇸 FastStunnel-美国 弗里蒙特-trojan, server: 173.255.247.228, port: 5448, type: trojan, password: fg20mtCFHy, sni: frsdata.southbyte.xyz, client-fingerprint: firefox, skip-cert-verify: true}
 - {name: 🇺🇸 FastStunnel-美国 洛杉矶 2-trojan, server: 179.255.122.132, port: 5443, type: trojan, password: fg20mtCFHy, sni: www.bing.com, client-fingerprint: firefox, skip-cert-verify: true}
 - {name: 🇬🇧 FastStunnel-英国-trojan, server: 209.97.128.37, port: 5443, type: trojan, password: fg20mtCFHy, sni: www.bing.com, client-fingerprint: firefox, skip-cert-verify: true}
@@ -51,6 +52,8 @@ proxy-groups:
   type: select
   proxies:
   - ♻️ 自动选择
+  - 🇮🇹 FastStunnel-意大利 米兰-trojan
+  - 🇧🇷 FastStunnel-巴西-trojan
   - 🇺🇸 FastStunnel-美国 洛杉矶 7-trojan
   - 🇺🇸 FastStunnel-美国 洛杉矶 7-trojan 2
   - 🇺🇸 FastStunnel-美国 洛杉矶 8-trojan
@@ -61,8 +64,8 @@ proxy-groups:
   - 🇺🇸 FastStunnel-美国 洛杉矶 6-trojan
   - 🇺🇸 FastStunnel-美国 洛杉矶 1-trojan
   - 🇩🇪 FastStunnel-德国-trojan
-  - 🇯🇵 FastStunnel-日本 东京 4-trojan
   - 🇺🇸 FastStunnel-美国 加州-trojan
+  - 🇯🇵 FastStunnel-日本 东京 4-trojan
   - 🇸🇬 FastStunnel-新加坡-trojan
   - 🇨🇦 FastStunnel-加拿大-trojan
   - 🇳🇱 FastStunnel-荷兰-trojan
@@ -79,7 +82,6 @@ proxy-groups:
   - 🇯🇵 FastStunnel-日本 东京 1-trojan
   - 🇯🇵 FastStunnel-日本 东京 2-trojan
   - 🇯🇵 FastStunnel-日本 东京 3-trojan
-  - 🇮🇹 FastStunnel-意大利 米兰-trojan
   - 🇺🇸 FastStunnel-美国 弗里蒙特-trojan
   - 🇺🇸 FastStunnel-美国 洛杉矶 2-trojan
   - 🇬🇧 FastStunnel-英国-trojan
@@ -93,6 +95,8 @@ proxy-groups:
 - name: ♻️ 自动选择
   type: url-test
   proxies:
+  - 🇮🇹 FastStunnel-意大利 米兰-trojan
+  - 🇧🇷 FastStunnel-巴西-trojan
   - 🇺🇸 FastStunnel-美国 洛杉矶 7-trojan
   - 🇺🇸 FastStunnel-美国 洛杉矶 7-trojan 2
   - 🇺🇸 FastStunnel-美国 洛杉矶 8-trojan
@@ -103,8 +107,8 @@ proxy-groups:
   - 🇺🇸 FastStunnel-美国 洛杉矶 6-trojan
   - 🇺🇸 FastStunnel-美国 洛杉矶 1-trojan
   - 🇩🇪 FastStunnel-德国-trojan
-  - 🇯🇵 FastStunnel-日本 东京 4-trojan
   - 🇺🇸 FastStunnel-美国 加州-trojan
+  - 🇯🇵 FastStunnel-日本 东京 4-trojan
   - 🇸🇬 FastStunnel-新加坡-trojan
   - 🇨🇦 FastStunnel-加拿大-trojan
   - 🇳🇱 FastStunnel-荷兰-trojan
@@ -121,7 +125,6 @@ proxy-groups:
   - 🇯🇵 FastStunnel-日本 东京 1-trojan
   - 🇯🇵 FastStunnel-日本 东京 2-trojan
   - 🇯🇵 FastStunnel-日本 东京 3-trojan
-  - 🇮🇹 FastStunnel-意大利 米兰-trojan
   - 🇺🇸 FastStunnel-美国 弗里蒙特-trojan
   - 🇺🇸 FastStunnel-美国 洛杉矶 2-trojan
   - 🇬🇧 FastStunnel-英国-trojan
