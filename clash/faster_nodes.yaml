@@ -7,50 +7,50 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-- {name: 🇬🇧 Faster-英国-朴次茅斯-10, server: 149.102.132.184, port: 80, type: ss, cipher: aes-256-gcm, password: g5h5jleTRSyO3Rk4}
+- {name: 🇩🇪 Faster-德国-卡尔斯鲁厄-07, server: 2.58.81.221, port: 80, type: ss, cipher: aes-256-gcm, password: kKEd0rBrd56Furjz}
 - {name: 🇺🇸 Faster-美国-纽约-04, server: 134.122.117.27, port: 443, type: ss, cipher: aes-256-gcm, password: 6Rddz4JQg0Rn0KD4}
-- {name: 🇸🇬 Faster-新加坡-09, server: 194.233.94.119, port: 80, type: ss, cipher: aes-256-gcm, password: 5QCeIKUZUEp4mR9Z}
-- {name: 🇺🇸 Faster-美国-西雅图 C-02, server: 154.12.240.141, port: 443, type: ss, cipher: aes-256-gcm, password: 0A1XMqChmURuRChe}
-- {name: 🇺🇸 Faster-美国-西雅图-01, server: 94.72.127.58, port: 443, type: ss, cipher: aes-256-gcm, password: goRz8CTFE6zPZXIA}
-- {name: 🇬🇧 Faster-英国-朴次茅斯-11, server: 149.102.132.180, port: 443, type: ss, cipher: aes-256-gcm, password: CzDWICt1DOi8F5jq}
-- {name: 🇩🇪 Faster-德国-卡尔斯鲁厄-07, server: 2.58.81.221, port: 443, type: ss, cipher: aes-256-gcm, password: kKEd0rBrd56Furjz}
-- {name: 🇬🇧 Faster-英国-朴次茅斯-08, server: 149.102.149.207, port: 443, type: ss, cipher: aes-256-gcm, password: LXchLsIwtCeUAUgu}
-- {name: 🇺🇸 Faster-美国-西雅图 C-03, server: 94.72.127.55, port: 80, type: ss, cipher: aes-256-gcm, password: kRKZE3ZhECwawy1N}
+- {name: 🇸🇬 Faster-新加坡-09, server: 194.233.94.119, port: 443, type: ss, cipher: aes-256-gcm, password: 5QCeIKUZUEp4mR9Z}
+- {name: 🇺🇸 Faster-美国-西雅图 C-02, server: 94.72.127.55, port: 443, type: ss, cipher: aes-256-gcm, password: kRKZE3ZhECwawy1N}
+- {name: 🇬🇧 Faster-英国-朴次茅斯-10, server: 149.102.132.184, port: 80, type: ss, cipher: aes-256-gcm, password: g5h5jleTRSyO3Rk4}
 - {name: 🇺🇸 Faster-美国-San Francisco-05, server: 206.189.74.210, port: 443, type: ss, cipher: aes-256-gcm, password: mb1yvIpceTYlc8M7}
-- {name: 🇨🇦 Faster-加拿大-多伦多-06, server: 159.203.0.172, port: 443, type: ss, cipher: aes-256-gcm, password: HOXBg1MWeWtwl00X}
 - {name: 🇬🇧 Faster-英国-朴次茅斯-12, server: 149.102.152.25, port: 443, type: ss, cipher: aes-256-gcm, password: XrpA8hNjQ67ODdau}
+- {name: 🇨🇦 Faster-加拿大-多伦多-06, server: 159.89.112.218, port: 443, type: ss, cipher: aes-256-gcm, password: fc0heeXAqzNX86aP}
+- {name: 🇬🇧 Faster-英国-朴次茅斯-11, server: 149.102.132.180, port: 443, type: ss, cipher: aes-256-gcm, password: CzDWICt1DOi8F5jq}
+- {name: 🇬🇧 Faster-英国-朴次茅斯-08, server: 149.102.149.207, port: 443, type: ss, cipher: aes-256-gcm, password: LXchLsIwtCeUAUgu}
+- {name: 🇺🇸 Faster-美国-西雅图-01, server: 94.72.127.58, port: 443, type: ss, cipher: aes-256-gcm, password: goRz8CTFE6zPZXIA}
+- {name: 🇺🇸 Faster-美国-西雅图 C-03, server: 154.12.240.141, port: 443, type: ss, cipher: aes-256-gcm, password: 0A1XMqChmURuRChe}
 proxy-groups:
 - name: 🚀 节点选择
   type: select
   proxies:
   - ♻️ 自动选择
-  - 🇬🇧 Faster-英国-朴次茅斯-10
+  - 🇩🇪 Faster-德国-卡尔斯鲁厄-07
   - 🇺🇸 Faster-美国-纽约-04
   - 🇸🇬 Faster-新加坡-09
   - 🇺🇸 Faster-美国-西雅图 C-02
-  - 🇺🇸 Faster-美国-西雅图-01
-  - 🇬🇧 Faster-英国-朴次茅斯-11
-  - 🇩🇪 Faster-德国-卡尔斯鲁厄-07
-  - 🇬🇧 Faster-英国-朴次茅斯-08
-  - 🇺🇸 Faster-美国-西雅图 C-03
+  - 🇬🇧 Faster-英国-朴次茅斯-10
   - 🇺🇸 Faster-美国-San Francisco-05
-  - 🇨🇦 Faster-加拿大-多伦多-06
   - 🇬🇧 Faster-英国-朴次茅斯-12
+  - 🇨🇦 Faster-加拿大-多伦多-06
+  - 🇬🇧 Faster-英国-朴次茅斯-11
+  - 🇬🇧 Faster-英国-朴次茅斯-08
+  - 🇺🇸 Faster-美国-西雅图-01
+  - 🇺🇸 Faster-美国-西雅图 C-03
 - name: ♻️ 自动选择
   type: url-test
   proxies:
-  - 🇬🇧 Faster-英国-朴次茅斯-10
+  - 🇩🇪 Faster-德国-卡尔斯鲁厄-07
   - 🇺🇸 Faster-美国-纽约-04
   - 🇸🇬 Faster-新加坡-09
   - 🇺🇸 Faster-美国-西雅图 C-02
-  - 🇺🇸 Faster-美国-西雅图-01
-  - 🇬🇧 Faster-英国-朴次茅斯-11
-  - 🇩🇪 Faster-德国-卡尔斯鲁厄-07
-  - 🇬🇧 Faster-英国-朴次茅斯-08
-  - 🇺🇸 Faster-美国-西雅图 C-03
+  - 🇬🇧 Faster-英国-朴次茅斯-10
   - 🇺🇸 Faster-美国-San Francisco-05
-  - 🇨🇦 Faster-加拿大-多伦多-06
   - 🇬🇧 Faster-英国-朴次茅斯-12
+  - 🇨🇦 Faster-加拿大-多伦多-06
+  - 🇬🇧 Faster-英国-朴次茅斯-11
+  - 🇬🇧 Faster-英国-朴次茅斯-08
+  - 🇺🇸 Faster-美国-西雅图-01
+  - 🇺🇸 Faster-美国-西雅图 C-03
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 🐟 漏网之鱼

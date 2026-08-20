@@ -8,7 +8,6 @@ log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
 - {name: 🇮🇹 FastStunnel-意大利 米兰-trojan, server: 104.105.69.191, port: 5443, type: trojan, password: fg20mtCFHy, sni: www.bing.com, client-fingerprint: firefox, skip-cert-verify: true}
-- {name: 🇧🇷 FastStunnel-巴西-trojan, server: 104.64.32.238, port: 5443, type: trojan, password: fg20mtCFHy, sni: www.bing.com, client-fingerprint: firefox, skip-cert-verify: true}
 - {name: 🇺🇸 FastStunnel-美国 洛杉矶 7-trojan, server: 107.151.182.165, port: 5446, type: trojan, password: fg20mtCFHy, sni: kuxyas.southbyte.xyz, client-fingerprint: firefox, skip-cert-verify: true}
 - {name: 🇺🇸 FastStunnel-美国 洛杉矶 7-trojan 2, server: 128.1.247.134, port: 5555, type: trojan, password: fg20mtCFHy, sni: www.bing.com, client-fingerprint: firefox, skip-cert-verify: true}
 - {name: 🇺🇸 FastStunnel-美国 洛杉矶 3-trojan, server: 128.1.248.10, port: 5692, type: trojan, password: fg20mtCFHy, sni: uxyshag.southbyte.xyz, client-fingerprint: firefox, skip-cert-verify: true}
@@ -37,11 +36,10 @@ proxies:
 - {name: 🇯🇵 FastStunnel-日本 东京 1-trojan, server: 172.237.3.17, port: 5443, type: trojan, password: fg20mtCFHy, sni: www.bing.com, client-fingerprint: firefox, skip-cert-verify: true}
 - {name: 🇯🇵 FastStunnel-日本 东京 2-trojan, server: 172.237.3.20, port: 5443, type: trojan, password: fg20mtCFHy, sni: www.bing.com, client-fingerprint: firefox, skip-cert-verify: true}
 - {name: 🇯🇵 FastStunnel-日本 东京 3-trojan, server: 172.237.3.22, port: 5443, type: trojan, password: fg20mtCFHy, sni: www.bing.com, client-fingerprint: firefox, skip-cert-verify: true}
-- {name: 🇺🇸 FastStunnel-美国 弗里蒙特-trojan, server: 173.255.247.228, port: 5449, type: trojan, password: fg20mtCFHy, sni: frsdata.southbyte.xyz, client-fingerprint: firefox, skip-cert-verify: true}
 - {name: 🇺🇸 FastStunnel-美国 洛杉矶 2-trojan, server: 179.255.122.132, port: 5443, type: trojan, password: fg20mtCFHy, sni: www.bing.com, client-fingerprint: firefox, skip-cert-verify: true}
 - {name: 🇬🇧 FastStunnel-英国-trojan, server: 209.97.128.37, port: 5443, type: trojan, password: fg20mtCFHy, sni: www.bing.com, client-fingerprint: firefox, skip-cert-verify: true}
 - {name: 🇺🇸 FastStunnel-美国 圣何塞 1-trojan, server: 23.251.98.102, port: 5443, type: trojan, password: fg20mtCFHy, sni: www.bing.com, client-fingerprint: firefox, skip-cert-verify: true}
-- {name: 🇺🇸 FastStunnel-美国 亚特兰大-trojan, server: 45.79.214.194, port: 5833, type: trojan, password: fg20mtCFHy, sni: gctsa.southbyte.xyz, client-fingerprint: firefox, skip-cert-verify: true}
+- {name: 🇺🇸 FastStunnel-美国 弗里蒙特-trojan, server: 45.33.62.127, port: 5443, type: trojan, password: fg20mtCFHy, sni: www.bing.com, client-fingerprint: firefox, skip-cert-verify: true}
 - {name: 🇭🇰 FastStunnel-香港 2-trojan, server: 47.86.107.20, port: 5443, type: trojan, password: fg20mtCFHy, sni: hytfes.southbyte.xyz, client-fingerprint: firefox, skip-cert-verify: true}
 - {name: 🇭🇰 FastStunnel-香港 3-trojan, server: 47.86.107.20, port: 5443, type: trojan, password: fg20mtCFHy, sni: hytfes.southbyte.xyz, client-fingerprint: firefox, skip-cert-verify: true}
 - {name: 🇭🇰 FastStunnel-香港 1-trojan, server: 8.217.167.229, port: 5496, type: trojan, password: fg20mtCFHy, sni: hyctx.southbyte.xyz, client-fingerprint: firefox, skip-cert-verify: true}
@@ -53,7 +51,6 @@ proxy-groups:
   proxies:
   - ♻️ 自动选择
   - 🇮🇹 FastStunnel-意大利 米兰-trojan
-  - 🇧🇷 FastStunnel-巴西-trojan
   - 🇺🇸 FastStunnel-美国 洛杉矶 7-trojan
   - 🇺🇸 FastStunnel-美国 洛杉矶 7-trojan 2
   - 🇺🇸 FastStunnel-美国 洛杉矶 3-trojan
@@ -82,11 +79,10 @@ proxy-groups:
   - 🇯🇵 FastStunnel-日本 东京 1-trojan
   - 🇯🇵 FastStunnel-日本 东京 2-trojan
   - 🇯🇵 FastStunnel-日本 东京 3-trojan
-  - 🇺🇸 FastStunnel-美国 弗里蒙特-trojan
   - 🇺🇸 FastStunnel-美国 洛杉矶 2-trojan
   - 🇬🇧 FastStunnel-英国-trojan
   - 🇺🇸 FastStunnel-美国 圣何塞 1-trojan
-  - 🇺🇸 FastStunnel-美国 亚特兰大-trojan
+  - 🇺🇸 FastStunnel-美国 弗里蒙特-trojan
   - 🇭🇰 FastStunnel-香港 2-trojan
   - 🇭🇰 FastStunnel-香港 3-trojan
   - 🇭🇰 FastStunnel-香港 1-trojan
@@ -96,7 +92,6 @@ proxy-groups:
   type: url-test
   proxies:
   - 🇮🇹 FastStunnel-意大利 米兰-trojan
-  - 🇧🇷 FastStunnel-巴西-trojan
   - 🇺🇸 FastStunnel-美国 洛杉矶 7-trojan
   - 🇺🇸 FastStunnel-美国 洛杉矶 7-trojan 2
   - 🇺🇸 FastStunnel-美国 洛杉矶 3-trojan
@@ -125,11 +120,10 @@ proxy-groups:
   - 🇯🇵 FastStunnel-日本 东京 1-trojan
   - 🇯🇵 FastStunnel-日本 东京 2-trojan
   - 🇯🇵 FastStunnel-日本 东京 3-trojan
-  - 🇺🇸 FastStunnel-美国 弗里蒙特-trojan
   - 🇺🇸 FastStunnel-美国 洛杉矶 2-trojan
   - 🇬🇧 FastStunnel-英国-trojan
   - 🇺🇸 FastStunnel-美国 圣何塞 1-trojan
-  - 🇺🇸 FastStunnel-美国 亚特兰大-trojan
+  - 🇺🇸 FastStunnel-美国 弗里蒙特-trojan
   - 🇭🇰 FastStunnel-香港 2-trojan
   - 🇭🇰 FastStunnel-香港 3-trojan
   - 🇭🇰 FastStunnel-香港 1-trojan
