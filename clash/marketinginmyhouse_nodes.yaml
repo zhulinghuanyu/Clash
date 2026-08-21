@@ -7,11 +7,11 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-- {name: 🇱🇻 拉脱维亚, server: 185.135.86.175, port: 9021, type: ss, cipher: aes-256-cfb, password: SKjzKvSCupJsRRHJ}
-- {name: Lithuania, server: 195.238.126.20, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt}
-- {name: 🇵🇱 波兰, server: 217.30.10.44, port: 9072, type: ss, cipher: aes-256-cfb, password: 2cdH4pvLBw7CQPse}
-- {name: 🇧🇬 保加利亚, server: 213.183.63.60, port: 9016, type: ss, cipher: aes-256-cfb, password: 6QKhJxSYExLHkUqn}
-- {name: 🇮🇹 意大利, server: 91.201.65.122, port: 9024, type: ss, cipher: aes-256-cfb, password: BejrQvtu9sqUeNuZ}
+- {name: 🇱🇻 拉脱维亚, server: 185.135.86.175, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm}
+- {name: Lithuania, server: 195.238.126.20, port: 9068, type: ss, cipher: aes-256-cfb, password: mwgRg9hRq3b4Qnwb}
+- {name: 🇵🇱 波兰, server: 217.30.10.44, port: 9063, type: ss, cipher: aes-256-cfb, password: aQqJbtwFGcCCaeL3}
+- {name: 🇧🇬 保加利亚, server: 213.183.63.60, port: 9049, type: ss, cipher: aes-256-cfb, password: PRBf4BS2HvJqtWxY}
+- {name: 🇮🇹 意大利, server: 91.201.65.122, port: 9053, type: ss, cipher: aes-256-cfb, password: SBM7R883jBmnqe6C}
 proxy-groups:
 - name: 🚀 节点选择
   type: select

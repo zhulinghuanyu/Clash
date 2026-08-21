@@ -7,164 +7,23 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-- {name: 西南-01, server: 118.24.78.159, port: 21572, type: trojan, password: 80213cb284c2c834635f4ea5fade7143, sni: cm.g.doubleclick.net, skip-cert-verify: true}
-- {name: 华东-01, server: 175.24.202.227, port: 22103, type: trojan, password: 80213cb284c2c834635f4ea5fade7143, sni: cm.g.doubleclick.net, skip-cert-verify: true}
-- {name: 华东-02, server: 175.27.171.241, port: 57374, type: trojan, password: 80213cb284c2c834635f4ea5fade7143, sni: cm.g.doubleclick.net, skip-cert-verify: true}
-- {name: 华南-01, server: 43.136.50.236, port: 23095, type: trojan, password: 80213cb284c2c834635f4ea5fade7143, sni: cm.g.doubleclick.net, skip-cert-verify: true}
-- {name: 华北-01, server: 82.156.17.181, port: 55618, type: trojan, password: 80213cb284c2c834635f4ea5fade7143, sni: cm.g.doubleclick.net, skip-cert-verify: true}
-- {name: 🇻🇳 越南, server: ench-snet-app.w-ctrip.cn, port: 11295, type: trojan, password: 80213cb284c2c834635f4ea5fade7143, sni: cm.g.doubleclick.net, skip-cert-verify: true}
-- {name: 🇰🇷 韩国, server: ench-snet-app.w-ctrip.cn, port: 12071, type: trojan, password: 80213cb284c2c834635f4ea5fade7143, sni: cm.g.doubleclick.net, skip-cert-verify: true}
-- {name: 🇲🇴 澳门-家宽, server: ench-snet-app.w-ctrip.cn, port: 12167, type: trojan, password: 80213cb284c2c834635f4ea5fade7143, sni: cm.g.doubleclick.net, skip-cert-verify: true}
-- {name: 🇺🇸 美国-01, server: ench-snet-app.w-ctrip.cn, port: 12249, type: trojan, password: 80213cb284c2c834635f4ea5fade7143, sni: cm.g.doubleclick.net, skip-cert-verify: true}
-- {name: 🇸🇬 新加坡-O-01, server: ench-snet-app.w-ctrip.cn, port: 15173, type: trojan, password: 80213cb284c2c834635f4ea5fade7143, sni: cm.g.doubleclick.net, skip-cert-verify: true}
-- {name: 🇭🇰 香港-02, server: ench-snet-app.w-ctrip.cn, port: 17347, type: trojan, password: 80213cb284c2c834635f4ea5fade7143, sni: cm.g.doubleclick.net, skip-cert-verify: true}
-- {name: 🇹🇷 土耳其, server: ench-snet-app.w-ctrip.cn, port: 20227, type: trojan, password: 80213cb284c2c834635f4ea5fade7143, sni: wximg.qq.com, skip-cert-verify: true}
-- {name: 🇦🇹 奥地利, server: ench-snet-app.w-ctrip.cn, port: 20309, type: trojan, password: 80213cb284c2c834635f4ea5fade7143, sni: cm.g.doubleclick.net, skip-cert-verify: true}
-- {name: 🇫🇷 法国, server: ench-snet-app.w-ctrip.cn, port: 20731, type: trojan, password: 80213cb284c2c834635f4ea5fade7143, sni: cm.g.doubleclick.net, skip-cert-verify: true}
-- {name: 🇸🇬 新加坡-01, server: ench-snet-app.w-ctrip.cn, port: 21203, type: trojan, password: 80213cb284c2c834635f4ea5fade7143, sni: cm.g.doubleclick.net, skip-cert-verify: true}
-- {name: 🇭🇰 香港-优化, server: ench-snet-app.w-ctrip.cn, port: 22791, type: trojan, password: 80213cb284c2c834635f4ea5fade7143, sni: wximg.qq.com, skip-cert-verify: true}
-- {name: 🇹🇼 台湾-8, server: ench-snet-app.w-ctrip.cn, port: 25011, type: trojan, password: 80213cb284c2c834635f4ea5fade7143, sni: cm.g.doubleclick.net, skip-cert-verify: true}
-- {name: 🇭🇰 香港-01, server: ench-snet-app.w-ctrip.cn, port: 26182, type: trojan, password: 80213cb284c2c834635f4ea5fade7143, sni: cm.g.doubleclick.net, skip-cert-verify: true}
-- {name: 🇸🇰 斯洛伐克, server: ench-snet-app.w-ctrip.cn, port: 26577, type: trojan, password: 80213cb284c2c834635f4ea5fade7143, sni: cm.g.doubleclick.net, skip-cert-verify: true}
-- {name: 🇺🇸 美国-ISP, server: ench-snet-app.w-ctrip.cn, port: 28912, type: trojan, password: 80213cb284c2c834635f4ea5fade7143, sni: cm.g.doubleclick.net, skip-cert-verify: true}
-- {name: 🇯🇵 日本-家宽, server: ench-snet-app.w-ctrip.cn, port: 29059, type: trojan, password: 80213cb284c2c834635f4ea5fade7143, sni: wximg.qq.com, skip-cert-verify: true}
-- {name: 🇫🇮 芬兰, server: ench-snet-app.w-ctrip.cn, port: 30244, type: trojan, password: 80213cb284c2c834635f4ea5fade7143, sni: cm.g.doubleclick.net, skip-cert-verify: true}
-- {name: 🇯🇵 日本-02, server: ench-snet-app.w-ctrip.cn, port: 31960, type: trojan, password: 80213cb284c2c834635f4ea5fade7143, sni: cm.g.doubleclick.net, skip-cert-verify: true}
-- {name: 🇷🇺 俄罗斯, server: ench-snet-app.w-ctrip.cn, port: 33308, type: trojan, password: 80213cb284c2c834635f4ea5fade7143, sni: cm.g.doubleclick.net, skip-cert-verify: true}
-- {name: 🇯🇵 日本-03, server: ench-snet-app.w-ctrip.cn, port: 33667, type: trojan, password: 80213cb284c2c834635f4ea5fade7143, sni: cm.g.doubleclick.net, skip-cert-verify: true}
-- {name: 🇦🇺 澳大利亚, server: ench-snet-app.w-ctrip.cn, port: 34703, type: trojan, password: 80213cb284c2c834635f4ea5fade7143, sni: cm.g.doubleclick.net, skip-cert-verify: true}
-- {name: 🇺🇸 美国-04, server: ench-snet-app.w-ctrip.cn, port: 37936, type: trojan, password: 80213cb284c2c834635f4ea5fade7143, sni: cm.g.doubleclick.net, skip-cert-verify: true}
-- {name: 🇲🇾 马来西亚, server: ench-snet-app.w-ctrip.cn, port: 38422, type: trojan, password: 80213cb284c2c834635f4ea5fade7143, sni: cm.g.doubleclick.net, skip-cert-verify: true}
-- {name: 🇲🇳 蒙古, server: ench-snet-app.w-ctrip.cn, port: 38488, type: trojan, password: 80213cb284c2c834635f4ea5fade7143, sni: cm.g.doubleclick.net, skip-cert-verify: true}
-- {name: 🇰🇷 韩国-03, server: ench-snet-app.w-ctrip.cn, port: 39206, type: trojan, password: 80213cb284c2c834635f4ea5fade7143, sni: cm.g.doubleclick.net, skip-cert-verify: true}
-- {name: 🇺🇸 美国, server: ench-snet-app.w-ctrip.cn, port: 40325, type: trojan, password: 80213cb284c2c834635f4ea5fade7143, sni: cm.g.doubleclick.net, skip-cert-verify: true}
-- {name: 🇸🇦 沙特-O-01, server: ench-snet-app.w-ctrip.cn, port: 43775, type: trojan, password: 80213cb284c2c834635f4ea5fade7143, sni: cm.g.doubleclick.net, skip-cert-verify: true}
-- {name: 🇺🇸 美国-02, server: ench-snet-app.w-ctrip.cn, port: 44585, type: trojan, password: 80213cb284c2c834635f4ea5fade7143, sni: cm.g.doubleclick.net, skip-cert-verify: true}
-- {name: 🇨🇦 加拿大, server: ench-snet-app.w-ctrip.cn, port: 44658, type: trojan, password: 80213cb284c2c834635f4ea5fade7143, sni: wximg.qq.com, skip-cert-verify: true}
-- {name: 🇸🇬 新加坡-02, server: ench-snet-app.w-ctrip.cn, port: 44867, type: trojan, password: 80213cb284c2c834635f4ea5fade7143, sni: cm.g.doubleclick.net, skip-cert-verify: true}
-- {name: 🇸🇬 新加坡-优化, server: ench-snet-app.w-ctrip.cn, port: 45239, type: trojan, password: 80213cb284c2c834635f4ea5fade7143, sni: cm.g.doubleclick.net, skip-cert-verify: true}
-- {name: 🇬🇧 伦敦, server: ench-snet-app.w-ctrip.cn, port: 45574, type: trojan, password: 80213cb284c2c834635f4ea5fade7143, sni: cm.g.doubleclick.net, skip-cert-verify: true}
-- {name: 🇵🇰 巴基斯坦, server: ench-snet-app.w-ctrip.cn, port: 46110, type: trojan, password: 80213cb284c2c834635f4ea5fade7143, sni: wximg.qq.com, skip-cert-verify: true}
-- {name: 🇯🇵 日本, server: ench-snet-app.w-ctrip.cn, port: 46795, type: trojan, password: 80213cb284c2c834635f4ea5fade7143, sni: cm.g.doubleclick.net, skip-cert-verify: true}
-- {name: 🇭🇰 香港-家宽-02, server: ench-snet-app.w-ctrip.cn, port: 47629, type: trojan, password: 80213cb284c2c834635f4ea5fade7143, sni: cm.g.doubleclick.net, skip-cert-verify: true}
-- {name: 🇭🇰 香港-03, server: ench-snet-app.w-ctrip.cn, port: 47665, type: trojan, password: 80213cb284c2c834635f4ea5fade7143, sni: cm.g.doubleclick.net, skip-cert-verify: true}
-- {name: 🇸🇬 新加坡-ISP, server: ench-snet-app.w-ctrip.cn, port: 47765, type: trojan, password: 80213cb284c2c834635f4ea5fade7143, sni: cm.g.doubleclick.net, skip-cert-verify: true}
-- {name: 🇺🇸 美国-03, server: ench-snet-app.w-ctrip.cn, port: 49861, type: trojan, password: 80213cb284c2c834635f4ea5fade7143, sni: cm.g.doubleclick.net, skip-cert-verify: true}
-- {name: 🇸🇬 新加坡-ISP-02, server: ench-snet-app.w-ctrip.cn, port: 53110, type: trojan, password: 80213cb284c2c834635f4ea5fade7143, sni: cm.g.doubleclick.net, skip-cert-verify: true}
-- {name: 🇭🇰 香港-05, server: ench-snet-app.w-ctrip.cn, port: 54539, type: trojan, password: 80213cb284c2c834635f4ea5fade7143, sni: cm.g.doubleclick.net, skip-cert-verify: true}
-- {name: 🇸🇬 新加坡-03, server: ench-snet-app.w-ctrip.cn, port: 55462, type: trojan, password: 80213cb284c2c834635f4ea5fade7143, sni: cm.g.doubleclick.net, skip-cert-verify: true}
-- {name: 🇧🇷 巴西, server: ench-snet-app.w-ctrip.cn, port: 56706, type: trojan, password: 80213cb284c2c834635f4ea5fade7143, sni: cm.g.doubleclick.net, skip-cert-verify: true}
-- {name: 🇮🇳 印度, server: ench-snet-app.w-ctrip.cn, port: 57910, type: trojan, password: 80213cb284c2c834635f4ea5fade7143, sni: wximg.qq.com, skip-cert-verify: true}
-- {name: 🇭🇰 香港-流媒体, server: ench-snet-app.w-ctrip.cn, port: 59082, type: trojan, password: 80213cb284c2c834635f4ea5fade7143, sni: cm.g.doubleclick.net, skip-cert-verify: true}
-- {name: 🇪🇸 西班牙, server: ench-snet-app.w-ctrip.cn, port: 59663, type: trojan, password: 80213cb284c2c834635f4ea5fade7143, sni: cm.g.doubleclick.net, skip-cert-verify: true}
+- {name: 傻比玩意，有本事继续偷_3, server: 134.195.101.122, port: 443, type: vless, uuid: 0ee718a6-4e01-41d5-824a-fd38bf477cc3, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: ptYLYuVba16lu-OtadiE8Wd-cGHHVZh0XkxVUqrhmDE, short-id: 2546d239}, servername: www.mi.com, client-fingerprint: ios, network: tcp}
+- {name: 傻比玩意，有本事继续偷 2_3, server: 134.195.101.122, port: 443, type: vless, uuid: 0ee718a6-4e01-41d5-824a-fd38bf477cc3, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: ptYLYuVba16lu-OtadiE8Wd-cGHHVZh0XkxVUqrhmDE, short-id: 2546d239}, servername: www.mi.com, client-fingerprint: ios, network: tcp}
+- {name: 傻比玩意，有本事继续偷 3_3, server: 134.195.101.122, port: 443, type: vless, uuid: 0ee718a6-4e01-41d5-824a-fd38bf477cc3, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: ptYLYuVba16lu-OtadiE8Wd-cGHHVZh0XkxVUqrhmDE, short-id: 2546d239}, servername: www.mi.com, client-fingerprint: ios, network: tcp}
 proxy-groups:
 - name: 🚀 节点选择
   type: select
   proxies:
   - ♻️ 自动选择
-  - 西南-01
-  - 华东-01
-  - 华东-02
-  - 华南-01
-  - 华北-01
-  - 🇻🇳 越南
-  - 🇰🇷 韩国
-  - 🇲🇴 澳门-家宽
-  - 🇺🇸 美国-01
-  - 🇸🇬 新加坡-O-01
-  - 🇭🇰 香港-02
-  - 🇹🇷 土耳其
-  - 🇦🇹 奥地利
-  - 🇫🇷 法国
-  - 🇸🇬 新加坡-01
-  - 🇭🇰 香港-优化
-  - 🇹🇼 台湾-8
-  - 🇭🇰 香港-01
-  - 🇸🇰 斯洛伐克
-  - 🇺🇸 美国-ISP
-  - 🇯🇵 日本-家宽
-  - 🇫🇮 芬兰
-  - 🇯🇵 日本-02
-  - 🇷🇺 俄罗斯
-  - 🇯🇵 日本-03
-  - 🇦🇺 澳大利亚
-  - 🇺🇸 美国-04
-  - 🇲🇾 马来西亚
-  - 🇲🇳 蒙古
-  - 🇰🇷 韩国-03
-  - 🇺🇸 美国
-  - 🇸🇦 沙特-O-01
-  - 🇺🇸 美国-02
-  - 🇨🇦 加拿大
-  - 🇸🇬 新加坡-02
-  - 🇸🇬 新加坡-优化
-  - 🇬🇧 伦敦
-  - 🇵🇰 巴基斯坦
-  - 🇯🇵 日本
-  - 🇭🇰 香港-家宽-02
-  - 🇭🇰 香港-03
-  - 🇸🇬 新加坡-ISP
-  - 🇺🇸 美国-03
-  - 🇸🇬 新加坡-ISP-02
-  - 🇭🇰 香港-05
-  - 🇸🇬 新加坡-03
-  - 🇧🇷 巴西
-  - 🇮🇳 印度
-  - 🇭🇰 香港-流媒体
-  - 🇪🇸 西班牙
+  - 傻比玩意，有本事继续偷_3
+  - 傻比玩意，有本事继续偷 2_3
+  - 傻比玩意，有本事继续偷 3_3
 - name: ♻️ 自动选择
   type: url-test
   proxies:
-  - 西南-01
-  - 华东-01
-  - 华东-02
-  - 华南-01
-  - 华北-01
-  - 🇻🇳 越南
-  - 🇰🇷 韩国
-  - 🇲🇴 澳门-家宽
-  - 🇺🇸 美国-01
-  - 🇸🇬 新加坡-O-01
-  - 🇭🇰 香港-02
-  - 🇹🇷 土耳其
-  - 🇦🇹 奥地利
-  - 🇫🇷 法国
-  - 🇸🇬 新加坡-01
-  - 🇭🇰 香港-优化
-  - 🇹🇼 台湾-8
-  - 🇭🇰 香港-01
-  - 🇸🇰 斯洛伐克
-  - 🇺🇸 美国-ISP
-  - 🇯🇵 日本-家宽
-  - 🇫🇮 芬兰
-  - 🇯🇵 日本-02
-  - 🇷🇺 俄罗斯
-  - 🇯🇵 日本-03
-  - 🇦🇺 澳大利亚
-  - 🇺🇸 美国-04
-  - 🇲🇾 马来西亚
-  - 🇲🇳 蒙古
-  - 🇰🇷 韩国-03
-  - 🇺🇸 美国
-  - 🇸🇦 沙特-O-01
-  - 🇺🇸 美国-02
-  - 🇨🇦 加拿大
-  - 🇸🇬 新加坡-02
-  - 🇸🇬 新加坡-优化
-  - 🇬🇧 伦敦
-  - 🇵🇰 巴基斯坦
-  - 🇯🇵 日本
-  - 🇭🇰 香港-家宽-02
-  - 🇭🇰 香港-03
-  - 🇸🇬 新加坡-ISP
-  - 🇺🇸 美国-03
-  - 🇸🇬 新加坡-ISP-02
-  - 🇭🇰 香港-05
-  - 🇸🇬 新加坡-03
-  - 🇧🇷 巴西
-  - 🇮🇳 印度
-  - 🇭🇰 香港-流媒体
-  - 🇪🇸 西班牙
+  - 傻比玩意，有本事继续偷_3
+  - 傻比玩意，有本事继续偷 2_3
+  - 傻比玩意，有本事继续偷 3_3
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 🐟 漏网之鱼
