@@ -7,29 +7,23 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-- {name: 🇺🇸 GotoVPN-美国, server: 185.95.231.156, port: 443, type: vless, uuid: 1f8cf47a-b66a-4916-979f-26edfcf44eea, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: 8eXftARun6KH38UZhuqIfPR1VF2DLS9RMBZEnF5k6To, short-id: a3a578ab}, servername: www.apple.com, client-fingerprint: chrome, network: tcp}
-- {name: 🇺🇸 GotoVPN-美国 2, server: 138.124.180.137, port: 443, type: vless, uuid: 5234b2b7-5e07-422c-8159-d62a676c00c6, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: GBdkyDLfr0LIZo_94Xv8ycAKOmkjArYzwJAEMhuXX2c, short-id: 33acba1b}, servername: www.apple.com, client-fingerprint: chrome, network: tcp}
-- {name: 🇬🇧 GotoVPN-英国, server: 138.124.125.211, port: 443, type: vless, uuid: 1996007c-e7bc-464b-999b-cac28cec6c3e, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: RVj8E6YuWeOq9XzIVLQCKM39qa-Cknp-GYvVAA1UPFo, short-id: 72cceb78}, servername: www.apple.com, client-fingerprint: chrome, network: tcp}
-- {name: 🇸🇪 GotoVPN-瑞典, server: 193.148.59.178, port: 443, type: vless, uuid: 20d7c485-5d24-49b5-a5cc-bb7a7daf9908, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: -GMpCber8qtrKzJbwvpLcwlIhOy-5zS66u_x9lLvIjE, short-id: e3daad69}, servername: www.apple.com, client-fingerprint: chrome, network: tcp}
-- {name: 🇪🇪 GotoVPN-爱沙尼亚, server: 138.124.4.128, port: 443, type: vless, uuid: 553de958-b515-4e0d-b39c-943b5f8d86c2, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: q6kGq9xjd1-dpAYhM3UNUQ_H424z2ZFLF-3txqvpaQ4, short-id: 5edc2176}, servername: www.apple.com, client-fingerprint: chrome, network: tcp}
+- {name: 傻比玩意，有本事继续偷_18, server: 134.195.101.122, port: 443, type: vless, uuid: 0ee718a6-4e01-41d5-824a-fd38bf477cc3, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: ptYLYuVba16lu-OtadiE8Wd-cGHHVZh0XkxVUqrhmDE, short-id: 2546d239}, servername: www.mi.com, client-fingerprint: ios, network: tcp}
+- {name: 傻比玩意，有本事继续偷 2_18, server: 134.195.101.122, port: 443, type: vless, uuid: 0ee718a6-4e01-41d5-824a-fd38bf477cc3, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: ptYLYuVba16lu-OtadiE8Wd-cGHHVZh0XkxVUqrhmDE, short-id: 2546d239}, servername: www.mi.com, client-fingerprint: ios, network: tcp}
+- {name: 傻比玩意，有本事继续偷 3_18, server: 134.195.101.122, port: 443, type: vless, uuid: 0ee718a6-4e01-41d5-824a-fd38bf477cc3, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: ptYLYuVba16lu-OtadiE8Wd-cGHHVZh0XkxVUqrhmDE, short-id: 2546d239}, servername: www.mi.com, client-fingerprint: ios, network: tcp}
 proxy-groups:
 - name: 🚀 节点选择
   type: select
   proxies:
   - ♻️ 自动选择
-  - 🇺🇸 GotoVPN-美国
-  - 🇺🇸 GotoVPN-美国 2
-  - 🇬🇧 GotoVPN-英国
-  - 🇸🇪 GotoVPN-瑞典
-  - 🇪🇪 GotoVPN-爱沙尼亚
+  - 傻比玩意，有本事继续偷_18
+  - 傻比玩意，有本事继续偷 2_18
+  - 傻比玩意，有本事继续偷 3_18
 - name: ♻️ 自动选择
   type: url-test
   proxies:
-  - 🇺🇸 GotoVPN-美国
-  - 🇺🇸 GotoVPN-美国 2
-  - 🇬🇧 GotoVPN-英国
-  - 🇸🇪 GotoVPN-瑞典
-  - 🇪🇪 GotoVPN-爱沙尼亚
+  - 傻比玩意，有本事继续偷_18
+  - 傻比玩意，有本事继续偷 2_18
+  - 傻比玩意，有本事继续偷 3_18
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 🐟 漏网之鱼

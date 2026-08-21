@@ -7,74 +7,23 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-- {name: 🇺🇸 来连-美国-1, server: 106.75.143.18, port: 4002, type: vless, uuid: ecbbd28a-2fb0-4c9e-ae3b-cc398e64475c, tls: true, skip-cert-verify: true, reality-opts: {public-key: Pemzhn3yxNs8HT_mYP8jxvXlQ2FWfT7hL8op4aEocX8, short-id: b18375d24c80e577}, servername: buylite.tv.apple.com, client-fingerprint: chrome, network: tcp}
-- {name: 🇺🇸 来连-美国-2, server: 106.75.143.18, port: 4003, type: vless, uuid: ecbbd28a-2fb0-4c9e-ae3b-cc398e64475c, tls: true, skip-cert-verify: true, reality-opts: {public-key: Pemzhn3yxNs8HT_mYP8jxvXlQ2FWfT7hL8op4aEocX8, short-id: b18375d24c80e577}, servername: buylite.tv.apple.com, client-fingerprint: chrome, network: tcp}
-- {name: 🇺🇸 来连-美国-3, server: 106.75.143.18, port: 4004, type: vless, uuid: ecbbd28a-2fb0-4c9e-ae3b-cc398e64475c, tls: true, skip-cert-verify: true, reality-opts: {public-key: Pemzhn3yxNs8HT_mYP8jxvXlQ2FWfT7hL8op4aEocX8, short-id: b18375d24c80e577}, servername: buylite.tv.apple.com, client-fingerprint: chrome, network: tcp}
-- {name: 🇺🇸 来连-美国-4, server: 106.75.143.18, port: 4005, type: vless, uuid: ecbbd28a-2fb0-4c9e-ae3b-cc398e64475c, tls: true, skip-cert-verify: true, reality-opts: {public-key: Pemzhn3yxNs8HT_mYP8jxvXlQ2FWfT7hL8op4aEocX8, short-id: b18375d24c80e577}, servername: buylite.tv.apple.com, client-fingerprint: chrome, network: tcp}
-- {name: 🇯🇵 来连-日本-1, server: 106.75.143.18, port: 4006, type: vless, uuid: ecbbd28a-2fb0-4c9e-ae3b-cc398e64475c, tls: true, skip-cert-verify: true, reality-opts: {public-key: Pemzhn3yxNs8HT_mYP8jxvXlQ2FWfT7hL8op4aEocX8, short-id: b18375d24c80e577}, servername: buylite.tv.apple.com, client-fingerprint: chrome, network: tcp}
-- {name: 🇯🇵 来连-日本-2, server: 106.75.143.18, port: 4007, type: vless, uuid: ecbbd28a-2fb0-4c9e-ae3b-cc398e64475c, tls: true, skip-cert-verify: true, reality-opts: {public-key: Pemzhn3yxNs8HT_mYP8jxvXlQ2FWfT7hL8op4aEocX8, short-id: b18375d24c80e577}, servername: buylite.tv.apple.com, client-fingerprint: chrome, network: tcp}
-- {name: 🇯🇵 来连-日本-3, server: 106.75.143.18, port: 4008, type: vless, uuid: ecbbd28a-2fb0-4c9e-ae3b-cc398e64475c, tls: true, skip-cert-verify: true, reality-opts: {public-key: Pemzhn3yxNs8HT_mYP8jxvXlQ2FWfT7hL8op4aEocX8, short-id: b18375d24c80e577}, servername: buylite.tv.apple.com, client-fingerprint: chrome, network: tcp}
-- {name: 🇯🇵 来连-日本-4, server: 106.75.143.18, port: 4009, type: vless, uuid: ecbbd28a-2fb0-4c9e-ae3b-cc398e64475c, tls: true, skip-cert-verify: true, reality-opts: {public-key: Pemzhn3yxNs8HT_mYP8jxvXlQ2FWfT7hL8op4aEocX8, short-id: b18375d24c80e577}, servername: buylite.tv.apple.com, client-fingerprint: chrome, network: tcp}
-- {name: 🇯🇵 来连-日本-5, server: 106.75.143.18, port: 4010, type: vless, uuid: ecbbd28a-2fb0-4c9e-ae3b-cc398e64475c, tls: true, skip-cert-verify: true, reality-opts: {public-key: Pemzhn3yxNs8HT_mYP8jxvXlQ2FWfT7hL8op4aEocX8, short-id: b18375d24c80e577}, servername: buylite.tv.apple.com, client-fingerprint: chrome, network: tcp}
-- {name: 🇬🇧 来连-英国-1, server: 106.75.143.18, port: 4011, type: vless, uuid: ecbbd28a-2fb0-4c9e-ae3b-cc398e64475c, tls: true, skip-cert-verify: true, reality-opts: {public-key: Pemzhn3yxNs8HT_mYP8jxvXlQ2FWfT7hL8op4aEocX8, short-id: b18375d24c80e577}, servername: buylite.tv.apple.com, client-fingerprint: chrome, network: tcp}
-- {name: 🇬🇧 来连-英国-2, server: 106.75.143.18, port: 4012, type: vless, uuid: ecbbd28a-2fb0-4c9e-ae3b-cc398e64475c, tls: true, skip-cert-verify: true, reality-opts: {public-key: Pemzhn3yxNs8HT_mYP8jxvXlQ2FWfT7hL8op4aEocX8, short-id: b18375d24c80e577}, servername: buylite.tv.apple.com, client-fingerprint: chrome, network: tcp}
-- {name: 🇬🇧 来连-英国-3, server: 106.75.143.18, port: 4013, type: vless, uuid: ecbbd28a-2fb0-4c9e-ae3b-cc398e64475c, tls: true, skip-cert-verify: true, reality-opts: {public-key: Pemzhn3yxNs8HT_mYP8jxvXlQ2FWfT7hL8op4aEocX8, short-id: b18375d24c80e577}, servername: buylite.tv.apple.com, client-fingerprint: chrome, network: tcp}
-- {name: 🇹🇼 来连-台湾-1, server: 106.75.143.18, port: 4014, type: vless, uuid: ecbbd28a-2fb0-4c9e-ae3b-cc398e64475c, tls: true, skip-cert-verify: true, reality-opts: {public-key: Pemzhn3yxNs8HT_mYP8jxvXlQ2FWfT7hL8op4aEocX8, short-id: b18375d24c80e577}, servername: buylite.tv.apple.com, client-fingerprint: chrome, network: tcp}
-- {name: 🇹🇼 来连-台湾-2, server: 106.75.143.18, port: 4015, type: vless, uuid: ecbbd28a-2fb0-4c9e-ae3b-cc398e64475c, tls: true, skip-cert-verify: true, reality-opts: {public-key: Pemzhn3yxNs8HT_mYP8jxvXlQ2FWfT7hL8op4aEocX8, short-id: b18375d24c80e577}, servername: buylite.tv.apple.com, client-fingerprint: chrome, network: tcp}
-- {name: 🇹🇼 来连-台湾-3, server: 106.75.143.18, port: 4016, type: vless, uuid: ecbbd28a-2fb0-4c9e-ae3b-cc398e64475c, tls: true, skip-cert-verify: true, reality-opts: {public-key: Pemzhn3yxNs8HT_mYP8jxvXlQ2FWfT7hL8op4aEocX8, short-id: b18375d24c80e577}, servername: buylite.tv.apple.com, client-fingerprint: chrome, network: tcp}
-- {name: 🇭🇰 来连-香港-1, server: 106.75.143.18, port: 443, type: vless, uuid: ecbbd28a-2fb0-4c9e-ae3b-cc398e64475c, tls: true, skip-cert-verify: true, reality-opts: {public-key: Pemzhn3yxNs8HT_mYP8jxvXlQ2FWfT7hL8op4aEocX8, short-id: b18375d24c80e577}, servername: buylite.tv.apple.com, client-fingerprint: chrome, network: tcp}
-- {name: 🇺🇸 来连-美国-5, server: 106.75.143.18, port: 4001, type: vless, uuid: ecbbd28a-2fb0-4c9e-ae3b-cc398e64475c, tls: true, skip-cert-verify: true, reality-opts: {public-key: Pemzhn3yxNs8HT_mYP8jxvXlQ2FWfT7hL8op4aEocX8, short-id: b18375d24c80e577}, servername: buylite.tv.apple.com, client-fingerprint: chrome, network: tcp}
-- {name: 🇰🇷 来连-韩国-1, server: 106.75.143.18, port: 4017, type: vless, uuid: ecbbd28a-2fb0-4c9e-ae3b-cc398e64475c, tls: true, skip-cert-verify: true, reality-opts: {public-key: Pemzhn3yxNs8HT_mYP8jxvXlQ2FWfT7hL8op4aEocX8, short-id: b18375d24c80e577}, servername: buylite.tv.apple.com, client-fingerprint: chrome, network: tcp}
-- {name: 🇰🇷 来连-韩国-2, server: 106.75.143.18, port: 4018, type: vless, uuid: ecbbd28a-2fb0-4c9e-ae3b-cc398e64475c, tls: true, skip-cert-verify: true, reality-opts: {public-key: Pemzhn3yxNs8HT_mYP8jxvXlQ2FWfT7hL8op4aEocX8, short-id: b18375d24c80e577}, servername: buylite.tv.apple.com, client-fingerprint: chrome, network: tcp}
-- {name: 🇰🇷 来连-韩国-3, server: 106.75.143.18, port: 4019, type: vless, uuid: ecbbd28a-2fb0-4c9e-ae3b-cc398e64475c, tls: true, skip-cert-verify: true, reality-opts: {public-key: Pemzhn3yxNs8HT_mYP8jxvXlQ2FWfT7hL8op4aEocX8, short-id: b18375d24c80e577}, servername: buylite.tv.apple.com, client-fingerprint: chrome, network: tcp}
+- {name: 傻比玩意，有本事继续偷_25, server: 134.195.101.122, port: 443, type: vless, uuid: 0ee718a6-4e01-41d5-824a-fd38bf477cc3, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: ptYLYuVba16lu-OtadiE8Wd-cGHHVZh0XkxVUqrhmDE, short-id: 2546d239}, servername: www.mi.com, client-fingerprint: ios, network: tcp}
+- {name: 傻比玩意，有本事继续偷 2_25, server: 134.195.101.122, port: 443, type: vless, uuid: 0ee718a6-4e01-41d5-824a-fd38bf477cc3, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: ptYLYuVba16lu-OtadiE8Wd-cGHHVZh0XkxVUqrhmDE, short-id: 2546d239}, servername: www.mi.com, client-fingerprint: ios, network: tcp}
+- {name: 傻比玩意，有本事继续偷 3_25, server: 134.195.101.122, port: 443, type: vless, uuid: 0ee718a6-4e01-41d5-824a-fd38bf477cc3, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: ptYLYuVba16lu-OtadiE8Wd-cGHHVZh0XkxVUqrhmDE, short-id: 2546d239}, servername: www.mi.com, client-fingerprint: ios, network: tcp}
 proxy-groups:
 - name: 🚀 节点选择
   type: select
   proxies:
   - ♻️ 自动选择
-  - 🇺🇸 来连-美国-1
-  - 🇺🇸 来连-美国-2
-  - 🇺🇸 来连-美国-3
-  - 🇺🇸 来连-美国-4
-  - 🇯🇵 来连-日本-1
-  - 🇯🇵 来连-日本-2
-  - 🇯🇵 来连-日本-3
-  - 🇯🇵 来连-日本-4
-  - 🇯🇵 来连-日本-5
-  - 🇬🇧 来连-英国-1
-  - 🇬🇧 来连-英国-2
-  - 🇬🇧 来连-英国-3
-  - 🇹🇼 来连-台湾-1
-  - 🇹🇼 来连-台湾-2
-  - 🇹🇼 来连-台湾-3
-  - 🇭🇰 来连-香港-1
-  - 🇺🇸 来连-美国-5
-  - 🇰🇷 来连-韩国-1
-  - 🇰🇷 来连-韩国-2
-  - 🇰🇷 来连-韩国-3
+  - 傻比玩意，有本事继续偷_25
+  - 傻比玩意，有本事继续偷 2_25
+  - 傻比玩意，有本事继续偷 3_25
 - name: ♻️ 自动选择
   type: url-test
   proxies:
-  - 🇺🇸 来连-美国-1
-  - 🇺🇸 来连-美国-2
-  - 🇺🇸 来连-美国-3
-  - 🇺🇸 来连-美国-4
-  - 🇯🇵 来连-日本-1
-  - 🇯🇵 来连-日本-2
-  - 🇯🇵 来连-日本-3
-  - 🇯🇵 来连-日本-4
-  - 🇯🇵 来连-日本-5
-  - 🇬🇧 来连-英国-1
-  - 🇬🇧 来连-英国-2
-  - 🇬🇧 来连-英国-3
-  - 🇹🇼 来连-台湾-1
-  - 🇹🇼 来连-台湾-2
-  - 🇹🇼 来连-台湾-3
-  - 🇭🇰 来连-香港-1
-  - 🇺🇸 来连-美国-5
-  - 🇰🇷 来连-韩国-1
-  - 🇰🇷 来连-韩国-2
-  - 🇰🇷 来连-韩国-3
+  - 傻比玩意，有本事继续偷_25
+  - 傻比玩意，有本事继续偷 2_25
+  - 傻比玩意，有本事继续偷 3_25
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 🐟 漏网之鱼

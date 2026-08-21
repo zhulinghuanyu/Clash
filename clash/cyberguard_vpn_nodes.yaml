@@ -7,20 +7,23 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-- {name: CyberGuard-VPN-SS, server: v2ray.cool, port: 10086, type: ss, cipher: chacha20, password: 123456}
-- {name: CyberGuard-VPN-v2ray.cool, server: v2ray.cool, port: 10086, type: vmess, uuid: a3482e88-686a-4a58-8126-99c9df64b7bf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
+- {name: 傻比玩意，有本事继续偷_8, server: 134.195.101.122, port: 443, type: vless, uuid: 0ee718a6-4e01-41d5-824a-fd38bf477cc3, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: ptYLYuVba16lu-OtadiE8Wd-cGHHVZh0XkxVUqrhmDE, short-id: 2546d239}, servername: www.mi.com, client-fingerprint: ios, network: tcp}
+- {name: 傻比玩意，有本事继续偷 2_8, server: 134.195.101.122, port: 443, type: vless, uuid: 0ee718a6-4e01-41d5-824a-fd38bf477cc3, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: ptYLYuVba16lu-OtadiE8Wd-cGHHVZh0XkxVUqrhmDE, short-id: 2546d239}, servername: www.mi.com, client-fingerprint: ios, network: tcp}
+- {name: 傻比玩意，有本事继续偷 3_8, server: 134.195.101.122, port: 443, type: vless, uuid: 0ee718a6-4e01-41d5-824a-fd38bf477cc3, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: ptYLYuVba16lu-OtadiE8Wd-cGHHVZh0XkxVUqrhmDE, short-id: 2546d239}, servername: www.mi.com, client-fingerprint: ios, network: tcp}
 proxy-groups:
 - name: 🚀 节点选择
   type: select
   proxies:
   - ♻️ 自动选择
-  - CyberGuard-VPN-SS
-  - CyberGuard-VPN-v2ray.cool
+  - 傻比玩意，有本事继续偷_8
+  - 傻比玩意，有本事继续偷 2_8
+  - 傻比玩意，有本事继续偷 3_8
 - name: ♻️ 自动选择
   type: url-test
   proxies:
-  - CyberGuard-VPN-SS
-  - CyberGuard-VPN-v2ray.cool
+  - 傻比玩意，有本事继续偷_8
+  - 傻比玩意，有本事继续偷 2_8
+  - 傻比玩意，有本事继续偷 3_8
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 🐟 漏网之鱼

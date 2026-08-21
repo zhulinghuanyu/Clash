@@ -7,71 +7,23 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-- {name: 🇺🇸 Ratatosk-美国-SS-ua261-1, server: ua261.tiri-viri.com, port: 24981, type: ss, cipher: 2022-blake3-aes-256-gcm, password: '8e+k01xR2IypN0KzTky6+b1be4NjyXrkhh6AYoixzEE=:aqDrCiD7aN4Lem07US1qn08LOkXKvDMXsw7DH1/o74o='}
-- {name: 🇬🇧 Ratatosk-英国-SS-uli022-1, server: uli022.tiri-viri.com, port: 50105, type: ss, cipher: 2022-blake3-aes-256-gcm, password: 'KjNxnZeL1Wz+dVXyilX76UaU6u2Mbbhj/gHL7q9chtY=:lN+bxhB/BtvmlyoJPSCEYuui/BeRmmKDCrIyy75jgZ0='}
-- {name: 🇨🇦 Ratatosk-加拿大-SS-cti888-1, server: cti888.tiri-viri.com, port: 13188, type: ss, cipher: 2022-blake3-aes-256-gcm, password: 'k2mLtv2Dc5wWxtO5CQ2zxzfTNfOTq39jWt0V9gBBS4Q=:Ynv655BBPIFilRGrkhgjtvv4/6NfOk5us0th3S0L8Xk='}
-- {name: 🇬🇧 Ratatosk-英国-VLESS-195-3, server: 195.54.161.91, port: 48523, type: vless, uuid: 1f3158a7-516c-43e8-9e5a-9d769db3a8fe, tls: true, alpn: [h2%2Chttp%2F1.1], skip-cert-verify: true, servername: uli022.tiri-viri.com, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: uli022.tiri-viri.com}}}
-- {name: 🇨🇦 Ratatosk-加拿大-VLESS-51-2, server: 51.222.96.119, port: 30943, type: vless, uuid: 567cf0b6-d3e5-43c8-8d5f-dfffc9a05614, tls: true, alpn: [h2%2Chttp%2F1.1], skip-cert-verify: true, servername: cti888.tiri-viri.com, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: cti888.tiri-viri.com}}}
-- {name: 🇨🇭 Ratatosk-瑞士-VLESS-188-1, server: 188.244.117.100, port: 4443, type: vless, uuid: 595572cd-0a7b-40f9-a57b-c9eb6adfaf26, tls: true, skip-cert-verify: true, reality-opts: {public-key: pV8fkq9bk3b5Q83jqCekBAPR2CqIjY-nU6YIfLWDvXI, short-id: a84f33e67d20b4bf}, servername: google.com, client-fingerprint: chrome, network: tcp}
-- {name: 🇨🇦 Ratatosk-加拿大-VLESS-51-1, server: 51.222.96.119, port: 10551, type: vless, uuid: 7141771a-99e5-4cbc-9cd4-60770a865106, tls: true, skip-cert-verify: true, reality-opts: {public-key: HxRJbZUxWaVAvFnsVPOJ1S8-Hss05tEwobm7R6lhhHw, short-id: '64'}, servername: google.com, client-fingerprint: chrome, network: tcp}
-- {name: 🇪🇪 Ratatosk-爱沙尼亚-VLESS-193-2, server: 193.109.120.141, port: 21763, type: vless, uuid: 77498994-5683-46a6-b235-b385259d09e3, tls: true, skip-cert-verify: true, reality-opts: {public-key: H7qJsp9ZxPp8pw-c1wArs-nd4bPELzlpHOxm97bxLjo, short-id: 8c}, servername: yahoo.com, client-fingerprint: chrome, network: tcp}
-- {name: 🇺🇸 Ratatosk-美国-VLESS-146-2, server: 146.19.49.172, port: 31697, type: vless, uuid: 9455c166-fc8e-440c-9c50-2276a9ed32b8, tls: true, alpn: [h2%2Chttp%2F1.1], skip-cert-verify: true, servername: ua261.tiri-viri.com, client-fingerprint: chrome, network: tcp}
-- {name: 🇭🇰 Ratatosk-香港-VLESS-45-1, server: 45.125.64.216, port: 8443, type: vless, uuid: 960f4016-6afc-4b03-86c5-05b29e2020fd, tls: true, skip-cert-verify: true, reality-opts: {public-key: m3bQXVTprx_HpE71kD4yQAO7h-y036ovCPDj61Ojpj4, short-id: a2b9}, servername: google.com, client-fingerprint: chrome, network: tcp}
-- {name: 🇺🇸 Ratatosk-美国-VLESS-146-1, server: 146.19.49.172, port: 22799, type: vless, uuid: 9a36db85-437f-4b8a-9dd5-d0be66e40ece, tls: true, skip-cert-verify: true, reality-opts: {public-key: 7cx4RzJX4IKM7vyitXArl5CQgyye728XlihZPsS10VY, short-id: 7e0554bb056e38b9}, servername: google.com, client-fingerprint: chrome, network: tcp}
-- {name: 🇯🇵 Ratatosk-日本-VLESS-jt264-1, server: jt264.tiri-viri.com, port: 41562, type: vless, uuid: ae6a6c9a-1e3a-4555-839b-45ba0a8b379b, tls: false, skip-cert-verify: true, network: tcp}
-- {name: 🇬🇧 Ratatosk-英国-VLESS-195-1, server: 195.54.161.91, port: 35928, type: vless, uuid: d0f690d9-413d-46e3-9048-49d2fef5890e, tls: true, skip-cert-verify: true, reality-opts: {public-key: GjuIAiL91sSR52GBiwBRwcDcQ6cxbZd_llgc2TICnhM, short-id: 81cf5ac515142952}, servername: google.com, client-fingerprint: chrome, network: tcp}
-- {name: 🇸🇪 Ratatosk-瑞典-VLESS-176-1, server: 176.126.70.96, port: 4443, type: vless, uuid: e66bdd75-4193-473e-bb40-d512f0defff7, tls: true, skip-cert-verify: true, reality-opts: {public-key: z7uWh8qCOvvnSevKDE9HfPOshe9n280XBRw2a6cAYF8, short-id: 3e249fd28f0be6cd}, servername: google.com, client-fingerprint: chrome, network: tcp}
-- {name: 🇬🇧 Ratatosk-英国-VLESS-uli022-2, server: uli022.tiri-viri.com, port: 13093, type: vless, uuid: e867b9fd-69cb-4447-807b-ef5fdd46889b, tls: true, alpn: [h2%2Chttp%2F1.1], skip-cert-verify: true, servername: uli022.tiri-viri.com, client-fingerprint: chrome, network: tcp}
-- {name: 🇪🇪 Ratatosk-爱沙尼亚-VLESS-193-1, server: 193.109.120.141, port: 54195, type: vless, uuid: f6432d56-490a-414d-86fb-2549ed19ba4e, tls: true, alpn: [h3%2Ch2%2Chttp%2F1.1], skip-cert-verify: true, servername: e-t215.tiri-viri.com, client-fingerprint: chrome, network: ws, ws-opts: {path: /dasdf, headers: {Host: e-t215.tiri-viri.com}}}
-- {name: 🇺🇸 Ratatosk-美国-VLESS-ua261-3, server: ua261.tiri-viri.com, port: 35168, type: vless, uuid: f69f7fdc-c277-4cda-b891-e03dc07c0702, tls: true, alpn: [h2%2Chttp%2F1.1], skip-cert-verify: true, servername: ua261.tiri-viri.com, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: ua261.tiri-viri.com}}}
-- {name: Ratatosk-8dusaic7, server: cti888.tiri-viri.com, port: 13053, type: vmess, uuid: df02be0a-e8b5-4fc6-8f6b-5e2815683bc7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: cti888.tiri-viri.com}
-- {name: Ratatosk-d2lpoxzi, server: uli022.tiri-viri.com, port: 39421, type: vmess, uuid: 6c665050-2f5f-4211-ab87-8af715a077b9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: uli022.tiri-viri.com}
+- {name: 傻比玩意，有本事继续偷_34, server: 134.195.101.122, port: 443, type: vless, uuid: 0ee718a6-4e01-41d5-824a-fd38bf477cc3, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: ptYLYuVba16lu-OtadiE8Wd-cGHHVZh0XkxVUqrhmDE, short-id: 2546d239}, servername: www.mi.com, client-fingerprint: ios, network: tcp}
+- {name: 傻比玩意，有本事继续偷 2_34, server: 134.195.101.122, port: 443, type: vless, uuid: 0ee718a6-4e01-41d5-824a-fd38bf477cc3, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: ptYLYuVba16lu-OtadiE8Wd-cGHHVZh0XkxVUqrhmDE, short-id: 2546d239}, servername: www.mi.com, client-fingerprint: ios, network: tcp}
+- {name: 傻比玩意，有本事继续偷 3_34, server: 134.195.101.122, port: 443, type: vless, uuid: 0ee718a6-4e01-41d5-824a-fd38bf477cc3, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: ptYLYuVba16lu-OtadiE8Wd-cGHHVZh0XkxVUqrhmDE, short-id: 2546d239}, servername: www.mi.com, client-fingerprint: ios, network: tcp}
 proxy-groups:
 - name: 🚀 节点选择
   type: select
   proxies:
   - ♻️ 自动选择
-  - 🇺🇸 Ratatosk-美国-SS-ua261-1
-  - 🇬🇧 Ratatosk-英国-SS-uli022-1
-  - 🇨🇦 Ratatosk-加拿大-SS-cti888-1
-  - 🇬🇧 Ratatosk-英国-VLESS-195-3
-  - 🇨🇦 Ratatosk-加拿大-VLESS-51-2
-  - 🇨🇭 Ratatosk-瑞士-VLESS-188-1
-  - 🇨🇦 Ratatosk-加拿大-VLESS-51-1
-  - 🇪🇪 Ratatosk-爱沙尼亚-VLESS-193-2
-  - 🇺🇸 Ratatosk-美国-VLESS-146-2
-  - 🇭🇰 Ratatosk-香港-VLESS-45-1
-  - 🇺🇸 Ratatosk-美国-VLESS-146-1
-  - 🇯🇵 Ratatosk-日本-VLESS-jt264-1
-  - 🇬🇧 Ratatosk-英国-VLESS-195-1
-  - 🇸🇪 Ratatosk-瑞典-VLESS-176-1
-  - 🇬🇧 Ratatosk-英国-VLESS-uli022-2
-  - 🇪🇪 Ratatosk-爱沙尼亚-VLESS-193-1
-  - 🇺🇸 Ratatosk-美国-VLESS-ua261-3
-  - Ratatosk-8dusaic7
-  - Ratatosk-d2lpoxzi
+  - 傻比玩意，有本事继续偷_34
+  - 傻比玩意，有本事继续偷 2_34
+  - 傻比玩意，有本事继续偷 3_34
 - name: ♻️ 自动选择
   type: url-test
   proxies:
-  - 🇺🇸 Ratatosk-美国-SS-ua261-1
-  - 🇬🇧 Ratatosk-英国-SS-uli022-1
-  - 🇨🇦 Ratatosk-加拿大-SS-cti888-1
-  - 🇬🇧 Ratatosk-英国-VLESS-195-3
-  - 🇨🇦 Ratatosk-加拿大-VLESS-51-2
-  - 🇨🇭 Ratatosk-瑞士-VLESS-188-1
-  - 🇨🇦 Ratatosk-加拿大-VLESS-51-1
-  - 🇪🇪 Ratatosk-爱沙尼亚-VLESS-193-2
-  - 🇺🇸 Ratatosk-美国-VLESS-146-2
-  - 🇭🇰 Ratatosk-香港-VLESS-45-1
-  - 🇺🇸 Ratatosk-美国-VLESS-146-1
-  - 🇯🇵 Ratatosk-日本-VLESS-jt264-1
-  - 🇬🇧 Ratatosk-英国-VLESS-195-1
-  - 🇸🇪 Ratatosk-瑞典-VLESS-176-1
-  - 🇬🇧 Ratatosk-英国-VLESS-uli022-2
-  - 🇪🇪 Ratatosk-爱沙尼亚-VLESS-193-1
-  - 🇺🇸 Ratatosk-美国-VLESS-ua261-3
-  - Ratatosk-8dusaic7
-  - Ratatosk-d2lpoxzi
+  - 傻比玩意，有本事继续偷_34
+  - 傻比玩意，有本事继续偷 2_34
+  - 傻比玩意，有本事继续偷 3_34
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 🐟 漏网之鱼
